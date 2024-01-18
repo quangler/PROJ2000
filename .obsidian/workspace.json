@@ -169,7 +169,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,7 +184,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "fb2a88ce38467cb8",
+  "active": "78f363064096bc02",
   "lastOpenFiles": [
     "!Images/test files-20240118155039084.webp",
     "!Images/test files-20240118154646722.webp",

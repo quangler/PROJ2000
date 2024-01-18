@@ -1,10 +1,10 @@
 # Scope Statement (Version 1.0)
 
-**Date:** Jan. 18, 2024   
+**Date:** January 18, 2024   
 **Project Title:** UltraSol Energy Solutions Migration
-**Project Managers:** 
-**Project Start Date:**  
-**Projected Finish Date:**
+**Project Managers:** Aidan Cadieux, Jamie Lewis, Matthew Telford, Taqi Zaidi
+**Project Start Date:** January 15th, 2024 
+**Projected Finish Date:** April 27th, 2024
 
 ## Project Justification:
 

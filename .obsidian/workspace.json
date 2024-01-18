@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "fb2a88ce38467cb8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Given Documentation/test files.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -166,12 +179,17 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "78f363064096bc02",
+  "active": "fb2a88ce38467cb8",
   "lastOpenFiles": [
+    "!Images/test files-20240118154646722.webp",
+    "!Images/test files-20240118154547255.webp",
+    "conflict-files-obsidian-git.md",
     "Given Documentation/test files.md",
+    "!Images/Magic-01.webp",
     "!Images/test files-20240118152956006.webp",
     "!Images"
   ]

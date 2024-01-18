@@ -66,6 +66,28 @@
             }
           }
         ]
+      },
+      {
+        "id": "a947500a96bc7893",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "78f363064096bc02",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "59d31a3fcab194f1",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -129,12 +151,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -147,8 +169,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "038ebae32c2e80d4",
+  "active": "78f363064096bc02",
   "lastOpenFiles": [
+    "Given Documentation/test files.md",
     "!Images/test files-20240118152956006.webp",
     "!Images"
   ]

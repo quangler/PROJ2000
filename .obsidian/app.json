@@ -2,5 +2,5 @@
   "readableLineLength": false,
   "attachmentFolderPath": "/!Images",
   "useMarkdownLinks": true,
-  "newLinkFormat": "absolute"
+  "newLinkFormat": "relative"
 }

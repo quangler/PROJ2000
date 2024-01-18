@@ -8,7 +8,7 @@
 
 ## Project Justification:
 
-[Provide a brief overview of why the project is necessary and its importance.]
+NetEng Technical Solutions (NTS) is leading a project to integrate UltraSol Energy Solutions (UES) with recently acquired Solar-Tec. The aim is to establish a Proof of Concept (PoC) demonstrating the feasibility of a technology solution for the merged entities. With Solar-Tec's outdated IT infrastructure, the project is crucial for overhauling and securing UES's operations. The goal of the project is to demonstrate a seamless merger of companies and IT systems. 
 
 ## Product Requirements:
 1.  

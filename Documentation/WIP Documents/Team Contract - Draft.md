@@ -3,12 +3,12 @@
 
 ## **Project Team Members Names and Sign-off:**
 | **Name** | **Role** | **Sign-off on Team Contract** |
-| ---- | ---- | ---- |
-| Quinn |  | quinn approves |
-| Matt |  | **matt** *approves* |
-| Aidan |  | "Yes" - Aidan |
-| Taqi |  | tz |
-| Jamie |  | Jamie Man |
+| -------- | -------- | ----------------------------- |
+| Quinn    |          | quinn approves                |
+| Matt     |          | **matt** *approves*           |
+| Aidan    |          | "Yes" - Aidan                 |
+| Taqi     |          | tz                            |
+| Jamie    |          | Jamie Man                     |
 #### **Code of Conduct:**  As a project team, we will:
 - We will work hard, and get things done.
 - We will show up on time.

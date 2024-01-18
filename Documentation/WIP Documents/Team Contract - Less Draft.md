@@ -3,12 +3,12 @@
 ## Project Name: Team5 - Placeholder, Internal
 ### Project Team Members Names and Sign-off:
 | **Name** | **Role** | **Sign-off on Team Contract** |
-| ---- | ---- | ---- |
-| Quinn |  | ![[1 quinn.png]] |
-| Matt |  | ![[1 matt.png]] |
-| Aidan |  | ![[1 aidan.png]] |
-| Taqi |  | ![[1 taqi.png]] |
-| Jamie |  | ![[1 jamie.png]] |
+| -------- | -------- | ----------------------------- |
+| Quinn    |          | ![[1 quinn.png]]              |
+| Matt     |          | ![[1 matt.png]]               |
+| Aidan    |          | ![[1 aidan.png]]              |
+| Taqi     |          | ![[1 taqi.png]]               |
+| Jamie    |          | ![[1 jamie.png]]              |
 
 ## Code of Conduct:
 As a project team, we commit to:

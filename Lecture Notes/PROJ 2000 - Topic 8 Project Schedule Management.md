@@ -1,0 +1,32 @@
+#### Importance of Project Schedules
+- having different cultures mean you can have different holidays - that means no work for one group  
+- project managers complain about delivering projects on time  
+**Project Time Management Processes:**
+- **planning schedule management**  
+- **defining activities**
+	- identifying specific actions that will produce the project deliverables in enough detail to determine resource and schedule estimates
+		- activity list: (activity name, activity identifier or number, brief description)
+		- **milestones** - significant event that normally has no duration - an instant thing
+			- typically a collection of many smaller things
+			- useful for setting schedule goals and monitoring progress
+- **sequencing activities**
+	- evaluating the reasons for dependencies and the different types of dependencies
+	- **network diagrams** are the preferred technique for showing activity sequencing (flowchart-esque)
+		- can help form the 'critical path' - the fastest path to the end
+	- **activity on arrow diagram** - activities represented by arrows, only show finish-to-start dependencies
+		- have estimated dates for each task completion
+	- Types of dependencies:
+		- finish-to-start (**B** can't start until **A** finishes)
+		- start-to-start (**B** can't start until **A** starts)
+		- finish-to-finish (**B** can't finish until **A** finishes)
+		- start-to-finish (**B** can't finish until **A** starts)
+- **estimating activity resources**
+- **estimating activity durations** - guessing how long something is going to take
+	- 3 point estimate is an estimate that has optimistic, most likely, pessimistic estimate
+- **developing the schedule** - goal is to create a realistic project schedule that provides a basis for monitoring project progress for the duration of the project
+	- Gantt charts - black diamond: milestone | thick black bars: summary tasks | light gray horizontal bars: durations of tasks | arrows: dependencies between tasks
+		- **SMART**: **S**pecific **M**easurable **A**ssignable **R**ealistic **T**ime-framed
+	- critical path analysis - fastest path to the end, this is the end all - if all else goes wrong, make sure this is doable in the time you have
+		- crashing: shortening the time by less effort
+		- fast tracking: doing things in parallel / overlapping
+- **controlling the schedule** - knowing schedule, getting things on track, influence factors that caused schedule changes

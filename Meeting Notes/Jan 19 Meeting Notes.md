@@ -24,3 +24,5 @@ Outcomes - decisions we made
 - [ ] GitHub will be used for formal/final documentation -> allows us to host documentation
   
 TLDR - notes summed up:
+proof hub is the new discord!?!
+github still the OG for the formal documentation?!

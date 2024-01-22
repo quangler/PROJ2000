@@ -1,14 +1,14 @@
 # Team Contract
 
-## Project Name: Team5 - Placeholder, Internal
+## Project Name: UltraSol Energy Solutions Migration
 ### Project Team Members Names and Sign-off:
 | **Name** | **Role** | **Sign-off on Team Contract** |
 | -------- | -------- | ----------------------------- |
-| Quinn    |          | ![[1 quinn.png]]              |
-| Matt     |          | ![[1 matt.png]]               |
-| Aidan    |          | ![[1 aidan.png]]              |
-| Taqi     |          | ![[1 taqi.png]]               |
-| Jamie    |          | ![[1 jamie.png]]              |
+| Quinn    |          | ![](../../!Images/Team%20Contract%20-%20Less%20Draft-20240122110354484.webp)              |
+| Matt     |          | ![](../../!Images/Team%20Contract%20-%20Less%20Draft-20240122110354434.webp)               |
+| Aidan    |          | ![](../../!Images/Team%20Contract%20-%20Less%20Draft-20240122110354368.webp)              |
+| Taqi     |          | ![](../../!Images/Team%20Contract%20-%20Less%20Draft-20240122110354548.webp)               |
+| Jamie    |          | ![](../../!Images/Team%20Contract%20-%20Less%20Draft-20240122110354378.webp)              |
 
 ## Code of Conduct:
 As a project team, we commit to:
@@ -39,6 +39,6 @@ We will:
 - Appoint a note-taker to document meeting discussions.
     - Summarize daily notes into an easily understandable TLDR.
 - Limit meetings to a maximum of 5-10 minutes, extendable by team vote.
-- 
-**Note: This document is subject to change.** Last updated: 1/11/24.
+
+**Note: This document is subject to change.** Last updated: 1/22/24.
 (This document was modified using ChatGPT for clarity purposes.)

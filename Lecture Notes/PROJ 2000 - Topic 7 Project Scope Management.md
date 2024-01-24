@@ -84,4 +84,4 @@ PROJECT SCOPE STATEMENT
 - network infrastructure
 - cloud and ??
 - security
-- documentation  
+- documentation

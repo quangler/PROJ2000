@@ -30,3 +30,5 @@
 		- crashing: shortening the time by less effort
 		- fast tracking: doing things in parallel / overlapping
 - **controlling the schedule** - knowing schedule, getting things on track, influence factors that caused schedule changes
+
+

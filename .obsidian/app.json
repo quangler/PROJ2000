@@ -2,5 +2,8 @@
   "readableLineLength": false,
   "attachmentFolderPath": "/!Images",
   "useMarkdownLinks": true,
-  "newLinkFormat": "relative"
+  "newLinkFormat": "relative",
+  "strictLineBreaks": true,
+  "showLineNumber": true,
+  "showInlineTitle": false
 }

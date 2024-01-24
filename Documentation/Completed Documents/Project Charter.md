@@ -1,6 +1,8 @@
-# Project Charter
-
-## Project Name: UltraSol Energy Solutions Infrastructure Merger
+# Project Management Plan - MAJTeQ
+## Project Name: UltraSol Energy Solutions Merger
+**Assigned Members:** Aidan Cadieux, Jamie Lewis, Matthew Telford, Quinn Parent, Taqi Zaidi  
+**Date Last Modified:** January 24, 2024  
+**Version:** 1.00  
 
 **Brief Project Summary:**
 Full scale merger of existing Solar-Tec infrastructure into UltraSol environment.
@@ -99,6 +101,4 @@ Seamlessly integrate and deploy a new IT infrastructure for UltraSol Energy Solu
 | IT Hardware Deployment Specialist            | Jamie | Hardware Deployment Specialist |          |
 | Network Architect and Innovations Specialist | Taqi  | Network Innovation Specialist  |          |
 
-
-Version 1.0 - 01/24/2024
-(This document was modified using ChatGPT for clarity purposes.)
+<sup>This document was modified using ChatGPT for clarity purposes.</sup>

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Documentation/Completed Documents/Project Charter.md",
+                "file": "Documentation/WIP Documents/Project Management Plan - MAJTeQ.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Documentation/Completed Documents/Project Charter.md",
+                "file": "Documentation/WIP Documents/Project Management Plan - MAJTeQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Documentation/Completed Documents/Project Charter.md",
+                "file": "Documentation/WIP Documents/Project Management Plan - MAJTeQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Documentation/Completed Documents/Project Charter.md"
+                "file": "Documentation/WIP Documents/Project Management Plan - MAJTeQ.md"
               }
             }
           }
@@ -173,11 +173,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "8ce7ea8abb47c70e",
+  "active": "fb2a88ce38467cb8",
   "lastOpenFiles": [
+    "Documentation/Completed Documents/Project Charter.md",
     "Documentation/Completed Documents/PDF/Project Charter.pdf",
     "Documentation/Completed Documents/PDF",
-    "Documentation/Completed Documents/Project Charter.md",
     "Documentation/WIP Documents/Project Management Plan - MAJTeQ.md",
     "Documentation/WIP Documents/Scope Statement.md",
     "Documentation/WIP Documents/Project Charter.md",

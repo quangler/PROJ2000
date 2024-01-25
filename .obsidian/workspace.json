@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Documentation/WIP Documents/Project Management Plan - MAJTeQ.md",
+                "file": "Documentation/Completed Documents/Change Request Form Template - MAJTeQ.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Documentation/WIP Documents/Project Management Plan - MAJTeQ.md",
+                "file": "Documentation/Completed Documents/Change Request Form Template - MAJTeQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Documentation/WIP Documents/Project Management Plan - MAJTeQ.md",
+                "file": "Documentation/Completed Documents/Change Request Form Template - MAJTeQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Documentation/WIP Documents/Project Management Plan - MAJTeQ.md"
+                "file": "Documentation/Completed Documents/Change Request Form Template - MAJTeQ.md"
               }
             }
           }
@@ -173,16 +173,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "fb2a88ce38467cb8",
+  "active": "78f363064096bc02",
   "lastOpenFiles": [
     "Documentation/Completed Documents/Project Charter.md",
+    "Documentation/Completed Documents/Team Contract - MAJTeQ.md",
+    "Documentation/Completed Documents/Project Management Plan - MAJTeQ.md",
+    "Documentation/Completed Documents/Change Request Form Template - MAJTeQ.md",
     "Documentation/Completed Documents/PDF/Project Charter.pdf",
     "Documentation/Completed Documents/PDF",
     "Documentation/WIP Documents/Project Management Plan - MAJTeQ.md",
     "Documentation/WIP Documents/Scope Statement.md",
     "Documentation/WIP Documents/Project Charter.md",
-    "Documentation/Completed Documents/Team Contract - MAJTeQ.md",
-    "Documentation/Completed Documents/Change Request Form Template - MAJTeQ.md",
     "Documentation/WIP Documents/Team Contract/Team Contract - Draft.md",
     "Documentation/WIP Documents/Team Contract/Team Contract - Less Draft.md",
     "Documentation/WIP Documents/Team Contract",

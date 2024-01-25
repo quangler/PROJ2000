@@ -4,6 +4,7 @@
 **Date Last Modified:** January 24, 2024  
 **Version:** 1.00  
 
+---
 **Brief Project Summary:**
 Full scale merger of existing Solar-Tec infrastructure into UltraSol environment.
 **Project Approval Date:**

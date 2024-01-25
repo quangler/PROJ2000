@@ -40,5 +40,5 @@ We will:
     - Summarize daily notes into an easily understandable TLDR.
 - Limit meetings to a maximum of 5-10 minutes, extendable by team vote.
 
-**Note: This document is subject to change.** Last updated: 1/22/24.
+**Note: This document is subject to change.** Last updated: 1/24/24.
 (This document was modified using ChatGPT for clarity purposes.)

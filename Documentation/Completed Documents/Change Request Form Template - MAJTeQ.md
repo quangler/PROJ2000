@@ -1,22 +1,23 @@
-Date Request Submitted: `<MON. DD, YEAR>`  
-Title of Change Request: `<quick description>`  
-Requestee: `<name>`  
-Change Category:
+# Change Request Form Template - MAJTeQ
+## Project Name: UltraSol Energy Solutions Merger
+**Assigned Members:** Aidan Cadieux, Jamie Lewis, Matthew Telford, Quinn Parent, Taqi Zaidi  
+**Date Last Modified:** January 24, 2024  
+**Version:** 1.00  
+
+---
+**Date Request Submitted:** `<MON. DD, YEAR>`
+**Title of Change Request:** `<At-a-glance description.>` 
+**Description of change requested:** `<What is going to change?>`  
+**Impact of change:** `<what will the change affect? - ex. push a date back for a task>`
+**Reason for change:** `<What is the issue that brings this change to light?>`  
+**Justification for change:** `<Why is this the change that should be made?>`  
+**Change Category:**
 - [ ] Scope
 - [ ] Schedule
 - [ ] Technology
 - [ ] Other  
 
-Description of change requested: `<what is the change going to change>`  
-Reason for change: `<what is going wrong right now>`  
-Justification for change: `<why its a good idea, and why it won't mess anything else up>`  
-
----
-**Impact of change:** `<what will the change affect? - ex. push a date back for a task>`
-
-
-
-
+--- 
 **Note:** at least three members of the team must agree for the change to go through.
 **Member Votes**:
 

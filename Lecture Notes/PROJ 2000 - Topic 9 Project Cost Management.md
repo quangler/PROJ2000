@@ -38,7 +38,7 @@ Reasons for inaccuracies:
 - human beings are biased toward underestimation
 - management desires accuracy - if you overestimate your budget repeatedly, you might build a reputation and get less budget
 ##### Developing a Cost Estimate
-need to gather as much information as possible about the project before creating an estimate - ask how to organization is going to use the cost estimate
+need to gather as much information as possible about the project before creating an estimate - ask how the organization is going to use the cost estimate
 - use subject matter experts (SMEs) - get more than one price for services and products
 ##### Determining the Budget
 - allocating the project cost estimate to individual work items over time (link to WBS)

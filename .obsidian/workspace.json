@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Documentation/Completed Documents/Change Request Form Template - MAJTeQ.md",
+                "file": "Lecture Notes/PROJ 2000 - Topic 10 Project Quality Management.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Documentation/Completed Documents/Change Request Form Template - MAJTeQ.md",
+                "file": "Lecture Notes/PROJ 2000 - Topic 10 Project Quality Management.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Documentation/Completed Documents/Change Request Form Template - MAJTeQ.md",
+                "file": "Lecture Notes/PROJ 2000 - Topic 10 Project Quality Management.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Documentation/Completed Documents/Change Request Form Template - MAJTeQ.md"
+                "file": "Lecture Notes/PROJ 2000 - Topic 10 Project Quality Management.md"
               }
             }
           }
@@ -173,12 +173,16 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "78f363064096bc02",
+  "active": "fb2a88ce38467cb8",
   "lastOpenFiles": [
+    "Lecture Notes/PROJ 2000 - Topic 9 Project Cost Management.md",
+    "Lecture Notes/PROJ 2000 - Topic 10 Project Quality Management.md",
+    "Lecture Notes/PROJ 2000 - Topic 8 Project Schedule Management.md",
+    "Lecture Notes/PROJ 2000 - Topic 7 Project Scope Management.md",
+    "Documentation/Completed Documents/Change Request Form Template - MAJTeQ.md",
     "Documentation/Completed Documents/Project Charter.md",
     "Documentation/Completed Documents/Team Contract - MAJTeQ.md",
     "Documentation/Completed Documents/Project Management Plan - MAJTeQ.md",
-    "Documentation/Completed Documents/Change Request Form Template - MAJTeQ.md",
     "Documentation/Completed Documents/PDF/Project Charter.pdf",
     "Documentation/Completed Documents/PDF",
     "Documentation/WIP Documents/Project Management Plan - MAJTeQ.md",
@@ -190,9 +194,6 @@
     "Documentation/Completed Documents/Change Request Form Template - MAJTeQ.pdf",
     "Documentation/Completed Documents/Change Request Form Template.pdf",
     "Meeting Notes/Jan 24 Meeting Notes.md",
-    "Lecture Notes/PROJ 2000 - Topic 7 Project Scope Management.md",
-    "Lecture Notes/PROJ 2000 - Topic 8 Project Schedule Management.md",
-    "Lecture Notes/PROJ 2000 - Topic 9 Project Cost Management.md",
     "Lecture Notes/PROJ 2000 - Topic 5 Project Resource Management.md",
     "Lecture Notes/PROJ 2000 - Topic 6 Project Integration Management.md",
     "!Images/Team Contract - Less Draft-20240122110354484.webp",

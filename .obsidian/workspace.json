@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lecture Notes/PROJ 2000 - Topic 10 Project Quality Management.md",
+                "file": "Meeting Notes/Jan 25 Meeting Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lecture Notes/PROJ 2000 - Topic 10 Project Quality Management.md",
+                "file": "Meeting Notes/Jan 25 Meeting Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lecture Notes/PROJ 2000 - Topic 10 Project Quality Management.md",
+                "file": "Meeting Notes/Jan 25 Meeting Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lecture Notes/PROJ 2000 - Topic 10 Project Quality Management.md"
+                "file": "Meeting Notes/Jan 25 Meeting Notes.md"
               }
             }
           }
@@ -175,8 +175,9 @@
   },
   "active": "fb2a88ce38467cb8",
   "lastOpenFiles": [
-    "Lecture Notes/PROJ 2000 - Topic 9 Project Cost Management.md",
     "Lecture Notes/PROJ 2000 - Topic 10 Project Quality Management.md",
+    "Meeting Notes/Jan 25 Meeting Notes.md",
+    "Lecture Notes/PROJ 2000 - Topic 9 Project Cost Management.md",
     "Lecture Notes/PROJ 2000 - Topic 8 Project Schedule Management.md",
     "Lecture Notes/PROJ 2000 - Topic 7 Project Scope Management.md",
     "Documentation/Completed Documents/Change Request Form Template - MAJTeQ.md",

@@ -17,7 +17,7 @@ matt idea: use the physical hardware for HQ and plant
 2. should we aim for the middle just to make sure we can get everything done before going to best?
 	- make sure we hit everything before 
 
-4. make sure everyone takes part in the network to make sure they understand - we are going to plan as a team now
+3. make sure everyone takes part in the network to make sure they understand - we are going to plan as a team now
 	- good documentation
 	- people need to read the documentation
 	

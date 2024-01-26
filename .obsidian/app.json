@@ -3,7 +3,7 @@
   "attachmentFolderPath": "/!Images",
   "useMarkdownLinks": true,
   "newLinkFormat": "relative",
-  "strictLineBreaks": true,
+  "strictLineBreaks": false,
   "showLineNumber": true,
   "showInlineTitle": false
 }

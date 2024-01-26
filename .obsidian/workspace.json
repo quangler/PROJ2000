@@ -13,20 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Documentation/WIP Documents/Communication Management Plan - MAJTeQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b1925e58016326fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Documentation/Completed Documents/Project Management Plan - MAJTeQ.md",
-                "mode": "source",
+                "file": "Documentation/Completed Documents/Change Request Form Template - MAJTeQ.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -105,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 435.5
   },
   "right": {
     "id": "816d15f20edae7a5",
@@ -121,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Documentation/WIP Documents/Communication Management Plan - MAJTeQ.md",
+                "file": "Documentation/Completed Documents/Change Request Form Template - MAJTeQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Documentation/WIP Documents/Communication Management Plan - MAJTeQ.md",
+                "file": "Documentation/Completed Documents/Change Request Form Template - MAJTeQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Documentation/WIP Documents/Communication Management Plan - MAJTeQ.md"
+                "file": "Documentation/Completed Documents/Change Request Form Template - MAJTeQ.md"
               }
             }
           }
@@ -188,21 +176,25 @@
   "active": "fb2a88ce38467cb8",
   "lastOpenFiles": [
     "Documentation/Completed Documents/Project Management Plan - MAJTeQ.md",
-    "Documentation/WIP Documents/Communication Management Plan - MAJTeQ.md",
+    "Documentation/Completed Documents/Change Request Form Template - MAJTeQ.md",
+    "Documentation/Completed Documents/Project Charter - MAJTeQ.md",
+    "Documentation/Completed Documents/PDF/Project Charter.pdf",
+    "Documentation/Completed Documents/Communication Management Plan - MAJTeQ.md",
+    "Documentation/Completed Documents/Scope Statement.md",
+    "Documentation/Completed Documents/Project Status Report Template",
+    "Documentation/Completed Documents/PDF/Scope Statement.pdf",
+    "Documentation/Completed Documents/PDF/Project Status Report Template.pdf",
     "Documentation/WIP Documents/Scope Statement.md",
     "Lecture Notes/PROJ 2000 - Topic 3 - Communications.md",
     "Meeting Notes/Jan 26 Meeting Notes.md",
     "Meeting Notes/Jan 25 Meeting Notes.md",
-    "Documentation/Completed Documents/Project Charter.md",
     "Documentation/Completed Documents/Team Contract - MAJTeQ.md",
-    "Documentation/Completed Documents/Change Request Form Template - MAJTeQ.md",
     "Meeting Notes/Jan 22 Meeting Notes.md",
     "Meeting Notes/Jan 24 Meeting Notes.md",
     "Lecture Notes/PROJ 2000 - Topic 10 Project Quality Management.md",
     "Lecture Notes/PROJ 2000 - Topic 9 Project Cost Management.md",
     "Lecture Notes/PROJ 2000 - Topic 8 Project Schedule Management.md",
     "Lecture Notes/PROJ 2000 - Topic 7 Project Scope Management.md",
-    "Documentation/Completed Documents/PDF/Project Charter.pdf",
     "Documentation/Completed Documents/PDF",
     "Documentation/WIP Documents/Project Management Plan - MAJTeQ.md",
     "Documentation/WIP Documents/Project Charter.md",
@@ -225,11 +217,8 @@
     "Meeting Notes/Jan 19 Meeting Notes.md",
     "Lecture Notes/PROJ 2000 - Topic 2 - IT context.md",
     "!Images/test files-20240118154646722.webp",
-    "Given Documentation/test files.md",
     "!Images/test files-20240118155947413.webp",
     "!Images/test files-20240118155935972.webp",
-    "conflict-files-obsidian-git.md",
-    "!Images/test files-20240118155039084.webp",
-    "!Images"
+    "!Images/test files-20240118155039084.webp"
   ]
 }

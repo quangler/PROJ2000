@@ -1,24 +1,17 @@
 # Project Charter - MAJTeQ
 ## Project Name: UltraSol Energy Solutions Merger
 **Assigned Members:** Aidan Cadieux, Jamie Lewis, Matthew Telford, Quinn Parent, Taqi Zaidi  
-**Date Last Modified:** January 24, 2024  
+**Date Last Modified:** January 26, 2024  
 **Version:** 1.00  
 
 ---
-**Brief Project Summary:**
-Full scale merger of existing Solar-Tec infrastructure into UltraSol environment.
-**Project Approval Date:**
-January 8th, 2024
-**Project Sponsor:**
-Northern Alberta Institute of Technology
-**Project Manager:**
-Chris Redford
-**Project Start Date:**
-January 15th, 2024
-**Projected Finish Date:**
-April 27th, 2024
-**Budget Estimate:**
-1 million CAD
+**Brief Project Summary:** Merger of existing Solar-Tec infrastructure into UltraSol environment.
+**Project Approval Date:** January 8th, 2024
+**Project Sponsor:** Northern Alberta Institute of Technology
+**Project Manager:** Chris Redford
+**Project Start Date:** January 15th, 2024
+**Projected Finish Date:** April 27th, 2024
+**Budget Estimate:** 1 million CAD
 
 ## Initial Scope:
 
@@ -72,18 +65,18 @@ The project involves migrating the server infrastructure from Windows 2012 to pr
 - Develop a comprehensive project plan, including timelines and resource allocation.
 - Define strategies for server environment migration, thin client implementation, and network transformation.
 
-### Network Implementation (Month 3-4):
+### Infrastructure Implementation (Month 1-2):
+- Complete server environment migration to present-day standards.
+- Successfully implement thin client solutions in industrial bays and clean rooms.
+- Achieve data security enhancements and implement cloud integration.
+  
+### Network Implementation (Month 2):
 - Finalize the upgrade of wired infrastructure to current standards.
 - Implement IP addressing schemes and subnet segregation for security and autonomy.
 - Deploy Wi-Fi infrastructure in all buildings with coverage zones.
 - Design and implement network security measures.
   
-### Infrastructure Implementation (Month 1-2):
-- Complete server environment migration to present-day standards.
-- Successfully implement thin client solutions in industrial bays and clean rooms.
-- Achieve data security enhancements and implement cloud integration.
-
-### Operational Implementation (Month 5-6):
+### Operational Implementation (Month 2-4):
 - Complete replacement of all user desktops across the organization.
 - Deploy IP-based security camera systems and dedicated storage solutions.
 - Ensure comprehensive documentation and conduct training sessions.

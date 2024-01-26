@@ -72,18 +72,18 @@ The project involves migrating the server infrastructure from Windows 2012 to pr
 - Develop a comprehensive project plan, including timelines and resource allocation.
 - Define strategies for server environment migration, thin client implementation, and network transformation.
 
-### Network Implementation (Month 3-4):
+### Infrastructure Implementation (Month 1-2):
+- Complete server environment migration to present-day standards.
+- Successfully implement thin client solutions in industrial bays and clean rooms.
+- Achieve data security enhancements and implement cloud integration.
+  
+### Network Implementation (Month 2):
 - Finalize the upgrade of wired infrastructure to current standards.
 - Implement IP addressing schemes and subnet segregation for security and autonomy.
 - Deploy Wi-Fi infrastructure in all buildings with coverage zones.
 - Design and implement network security measures.
   
-### Infrastructure Implementation (Month 1-2):
-- Complete server environment migration to present-day standards.
-- Successfully implement thin client solutions in industrial bays and clean rooms.
-- Achieve data security enhancements and implement cloud integration.
-
-### Operational Implementation (Month 5-6):
+### Operational Implementation (Month 2-4):
 - Complete replacement of all user desktops across the organization.
 - Deploy IP-based security camera systems and dedicated storage solutions.
 - Ensure comprehensive documentation and conduct training sessions.

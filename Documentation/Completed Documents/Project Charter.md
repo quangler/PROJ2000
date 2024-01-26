@@ -5,20 +5,13 @@
 **Version:** 1.00  
 
 ---
-**Brief Project Summary:**
-Full scale merger of existing Solar-Tec infrastructure into UltraSol environment.
-**Project Approval Date:**
-January 8th, 2024
-**Project Sponsor:**
-Northern Alberta Institute of Technology
-**Project Manager:**
-Chris Redford
-**Project Start Date:**
-January 15th, 2024
-**Projected Finish Date:**
-April 27th, 2024
-**Budget Estimate:**
-1 million CAD
+**Brief Project Summary:** Merger of existing Solar-Tec infrastructure into UltraSol environment.
+**Project Approval Date:** January 8th, 2024
+**Project Sponsor:** Northern Alberta Institute of Technology
+**Project Manager:** Chris Redford
+**Project Start Date:** January 15th, 2024
+**Projected Finish Date:** April 27th, 2024
+**Budget Estimate:** 1 million CAD
 
 ## Initial Scope:
 

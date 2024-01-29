@@ -23,6 +23,7 @@ Escalation shall be done when a task is falling behind and the team member that 
 ## Revision procedures for this document:
 Revisions will be made to this, or any other document, as needed. The expectation for updating a document is to reversion the document in the title block, and let the team know when it is possible - whether that be through ProofHub, in-person, or even in Discord. Any document amendments are also expected to be put committed to the GitHub with a sufficient comment mentioning that the document has been updated, and possibly a brief overview of the changes made if they could be easily overlooked.
 ## Glossary of common terminology:
-VM - Virtual Machine - a virtual computer.  
-Hypervisor - a server that is able to have other virtual computers on it.  
-HA - High Availability - being able to have one server that can go down without it being noticeable to the end users.
+This list will be updated as terminology is expanded.
+- VM - Virtual Machine - a virtual computer.  
+- Hypervisor - a server that is able to have other virtual computers on it.  
+- HA - High Availability - being able to have one server that can go down without it being noticeable to the end users.

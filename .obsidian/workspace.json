@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Meeting Notes/Jan 29 Meeting Notes.md",
+                "file": "Documentation/Completed Documents/Communication Management Plan - MAJTeQ.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Meeting Notes/Jan 29 Meeting Notes.md",
+                "file": "Documentation/Completed Documents/Communication Management Plan - MAJTeQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Meeting Notes/Jan 29 Meeting Notes.md",
+                "file": "Documentation/Completed Documents/Communication Management Plan - MAJTeQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Meeting Notes/Jan 29 Meeting Notes.md"
+                "file": "Documentation/Completed Documents/Communication Management Plan - MAJTeQ.md"
               }
             }
           }
@@ -175,17 +175,18 @@
   },
   "active": "3e6dcbe51105f7ef",
   "lastOpenFiles": [
-    "Meeting Notes/Meeting Template.md",
+    "Documentation/Completed Documents/Change Request Form Template - MAJTeQ.md",
+    "Documentation/Completed Documents/PDF/Change Request Form Template - MAJTeQ.pdf",
+    "Documentation/Completed Documents/Project Charter - MAJTeQ.md",
+    "Documentation/Completed Documents/Communication Management Plan - MAJTeQ.md",
     "Meeting Notes/Jan 29 Meeting Notes.md",
+    "Meeting Notes/Meeting Template.md",
     "Lecture Notes/PROJ 2000 - Topic 3 - Communications.md",
     "Documentation/Completed Documents/Team Contract - MAJTeQ.md",
     "Documentation/Completed Documents/Scope Statement - MAJTeQ.md",
-    "Documentation/Completed Documents/Project Charter - MAJTeQ.md",
-    "Documentation/Completed Documents/Change Request Form Template - MAJTeQ.md",
     "Documentation/Completed Documents/Project Status Report Template - MAJTeQ.md",
     "Documentation/Completed Documents/Project Management Plan - MAJTeQ.md",
     "Documentation/Completed Documents/PDF/Project Charter.pdf",
-    "Documentation/Completed Documents/Communication Management Plan - MAJTeQ.md",
     "Documentation/Completed Documents/Scope Statement.md",
     "Documentation/Completed Documents/Project Status Report Template",
     "Documentation/Completed Documents/PDF/Scope Statement.pdf",
@@ -208,7 +209,6 @@
     "Documentation/Completed Documents/Change Request Form Template - MAJTeQ.pdf",
     "Documentation/Completed Documents/Change Request Form Template.pdf",
     "Lecture Notes/PROJ 2000 - Topic 5 Project Resource Management.md",
-    "Lecture Notes/PROJ 2000 - Topic 6 Project Integration Management.md",
     "!Images/Team Contract - Less Draft-20240122110354484.webp",
     "!Images/Team Contract - Less Draft-20240122110354434.webp",
     "!Images/Team Contract - Less Draft-20240122110354548.webp",
@@ -216,7 +216,6 @@
     "!Images/Team Contract - Less Draft-20240122110354378.webp",
     "!Images/Magic-01.webp",
     "Documentation/WIP Documents/PROJ2000 Marking Guide - 2023.xlsx",
-    "Meeting Notes/Jan 15 Meeting Notes.pdf",
     "!Images/test files-20240118154646722.webp",
     "!Images/test files-20240118155947413.webp",
     "!Images/test files-20240118155935972.webp",

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Documentation/Completed Documents/Communication Management Plan - MAJTeQ.md",
+                "file": "Documentation/WIP Documents/Change Control Plan - MAJTeQ.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Documentation/Completed Documents/Communication Management Plan - MAJTeQ.md",
+                "file": "Documentation/WIP Documents/Change Control Plan - MAJTeQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Documentation/Completed Documents/Communication Management Plan - MAJTeQ.md",
+                "file": "Documentation/WIP Documents/Change Control Plan - MAJTeQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Documentation/Completed Documents/Communication Management Plan - MAJTeQ.md"
+                "file": "Documentation/WIP Documents/Change Control Plan - MAJTeQ.md"
               }
             }
           }
@@ -173,24 +173,31 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "3e6dcbe51105f7ef",
+  "active": "8ce7ea8abb47c70e",
   "lastOpenFiles": [
-    "Documentation/Completed Documents/Change Request Form Template - MAJTeQ.md",
-    "Documentation/Completed Documents/PDF/Change Request Form Template - MAJTeQ.pdf",
-    "Documentation/Completed Documents/Project Charter - MAJTeQ.md",
+    "Given Documentation/Templates/10 - Milestone Report - Sample Template.docx",
+    "Given Documentation/Templates/09 - Quality Management Plan.docx",
+    "Given Documentation/Templates/08 - Comm Management Plan.docx",
+    "Given Documentation/Templates/07 - Project Management Plan - Sample Template.docx",
+    "Given Documentation/Templates/06 - Project Budget Esitmate - Sample Template.xlsx",
+    "Given Documentation/Templates/05 - Project Work Breakdown - Structure Sample Template.mpp",
+    "Given Documentation/Templates/05 - Project Work Breakdown - Structure Sample Template.docx",
+    "Given Documentation/Templates/04 - Project Scope Statement (Initial) - Sample Template.docx",
+    "Given Documentation/Templates/03 - Project Team Contract - Sample Template.docx",
+    "Given Documentation/Templates/02 - Project Charter - Sample Template.docx",
+    "Given Documentation/Templates/01 - Business Case - Sample Template.docx",
+    "Documentation/Completed Documents/Team Contract - MAJTeQ.md",
+    "Documentation/WIP Documents/Change Control Plan - MAJTeQ.md",
+    "Documentation/Completed Documents/Project Management Plan - MAJTeQ.md",
     "Documentation/Completed Documents/Communication Management Plan - MAJTeQ.md",
+    "Documentation/Completed Documents/Change Request Form Template - MAJTeQ.md",
+    "Documentation/Completed Documents/Project Charter - MAJTeQ.md",
     "Meeting Notes/Jan 29 Meeting Notes.md",
     "Meeting Notes/Meeting Template.md",
     "Lecture Notes/PROJ 2000 - Topic 3 - Communications.md",
-    "Documentation/Completed Documents/Team Contract - MAJTeQ.md",
     "Documentation/Completed Documents/Scope Statement - MAJTeQ.md",
     "Documentation/Completed Documents/Project Status Report Template - MAJTeQ.md",
-    "Documentation/Completed Documents/Project Management Plan - MAJTeQ.md",
-    "Documentation/Completed Documents/PDF/Project Charter.pdf",
     "Documentation/Completed Documents/Scope Statement.md",
-    "Documentation/Completed Documents/Project Status Report Template",
-    "Documentation/Completed Documents/PDF/Scope Statement.pdf",
-    "Documentation/Completed Documents/PDF/Project Status Report Template.pdf",
     "Documentation/WIP Documents/Scope Statement.md",
     "Meeting Notes/Jan 26 Meeting Notes.md",
     "Meeting Notes/Jan 25 Meeting Notes.md",
@@ -200,22 +207,16 @@
     "Lecture Notes/PROJ 2000 - Topic 9 Project Cost Management.md",
     "Lecture Notes/PROJ 2000 - Topic 8 Project Schedule Management.md",
     "Lecture Notes/PROJ 2000 - Topic 7 Project Scope Management.md",
-    "Documentation/Completed Documents/PDF",
     "Documentation/WIP Documents/Project Management Plan - MAJTeQ.md",
     "Documentation/WIP Documents/Project Charter.md",
     "Documentation/WIP Documents/Team Contract/Team Contract - Draft.md",
     "Documentation/WIP Documents/Team Contract/Team Contract - Less Draft.md",
-    "Documentation/WIP Documents/Team Contract",
-    "Documentation/Completed Documents/Change Request Form Template - MAJTeQ.pdf",
-    "Documentation/Completed Documents/Change Request Form Template.pdf",
-    "Lecture Notes/PROJ 2000 - Topic 5 Project Resource Management.md",
     "!Images/Team Contract - Less Draft-20240122110354484.webp",
     "!Images/Team Contract - Less Draft-20240122110354434.webp",
     "!Images/Team Contract - Less Draft-20240122110354548.webp",
     "!Images/Team Contract - Less Draft-20240122110354368.webp",
     "!Images/Team Contract - Less Draft-20240122110354378.webp",
     "!Images/Magic-01.webp",
-    "Documentation/WIP Documents/PROJ2000 Marking Guide - 2023.xlsx",
     "!Images/test files-20240118154646722.webp",
     "!Images/test files-20240118155947413.webp",
     "!Images/test files-20240118155935972.webp",

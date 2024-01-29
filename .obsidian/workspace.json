@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e7885cf3e924ac8d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Documentation/Completed Documents/Communication Management Plan - MAJTeQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 435.5
+    "width": 309.5
   },
   "right": {
     "id": "816d15f20edae7a5",
@@ -109,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Documentation/WIP Documents/Change Control Plan - MAJTeQ.md",
+                "file": "Documentation/Completed Documents/Communication Management Plan - MAJTeQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Documentation/WIP Documents/Change Control Plan - MAJTeQ.md",
+                "file": "Documentation/Completed Documents/Communication Management Plan - MAJTeQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Documentation/WIP Documents/Change Control Plan - MAJTeQ.md"
+                "file": "Documentation/Completed Documents/Communication Management Plan - MAJTeQ.md"
               }
             }
           }
@@ -173,8 +186,16 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "8ce7ea8abb47c70e",
+  "active": "e7885cf3e924ac8d",
   "lastOpenFiles": [
+    "Documentation/Completed Documents/Project Charter - MAJTeQ.md",
+    "Documentation/Completed Documents/Project Management Plan - MAJTeQ.md",
+    "Documentation/Completed Documents/Team Contract - MAJTeQ.md",
+    "Documentation/Completed Documents/Project Status Report Template - MAJTeQ.md",
+    "Documentation/Completed Documents/Scope Statement - MAJTeQ.md",
+    "Documentation/Completed Documents/Communication Management Plan - MAJTeQ.md",
+    "Documentation/WIP Documents/Change Control Plan - MAJTeQ.md",
+    "Documentation/Completed Documents/Change Request Form Template - MAJTeQ.md",
     "Given Documentation/Templates/10 - Milestone Report - Sample Template.docx",
     "Given Documentation/Templates/09 - Quality Management Plan.docx",
     "Given Documentation/Templates/08 - Comm Management Plan.docx",
@@ -185,18 +206,9 @@
     "Given Documentation/Templates/04 - Project Scope Statement (Initial) - Sample Template.docx",
     "Given Documentation/Templates/03 - Project Team Contract - Sample Template.docx",
     "Given Documentation/Templates/02 - Project Charter - Sample Template.docx",
-    "Given Documentation/Templates/01 - Business Case - Sample Template.docx",
-    "Documentation/Completed Documents/Team Contract - MAJTeQ.md",
-    "Documentation/WIP Documents/Change Control Plan - MAJTeQ.md",
-    "Documentation/Completed Documents/Project Management Plan - MAJTeQ.md",
-    "Documentation/Completed Documents/Communication Management Plan - MAJTeQ.md",
-    "Documentation/Completed Documents/Change Request Form Template - MAJTeQ.md",
-    "Documentation/Completed Documents/Project Charter - MAJTeQ.md",
     "Meeting Notes/Jan 29 Meeting Notes.md",
     "Meeting Notes/Meeting Template.md",
     "Lecture Notes/PROJ 2000 - Topic 3 - Communications.md",
-    "Documentation/Completed Documents/Scope Statement - MAJTeQ.md",
-    "Documentation/Completed Documents/Project Status Report Template - MAJTeQ.md",
     "Documentation/Completed Documents/Scope Statement.md",
     "Documentation/WIP Documents/Scope Statement.md",
     "Meeting Notes/Jan 26 Meeting Notes.md",

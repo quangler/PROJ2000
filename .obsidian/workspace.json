@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Documentation/Completed Documents/Milestone Report Template - MAJTeQ.md",
+                "file": "Documentation/Completed Documents/Business Case - MAJTeQ.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Documentation/Completed Documents/Milestone Report Template - MAJTeQ.md",
+                "file": "Documentation/Completed Documents/Business Case - MAJTeQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Documentation/Completed Documents/Milestone Report Template - MAJTeQ.md",
+                "file": "Documentation/Completed Documents/Business Case - MAJTeQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Documentation/Completed Documents/Milestone Report Template - MAJTeQ.md"
+                "file": "Documentation/Completed Documents/Business Case - MAJTeQ.md"
               }
             }
           }
@@ -158,8 +158,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -175,8 +174,20 @@
   },
   "active": "78f363064096bc02",
   "lastOpenFiles": [
-    "Documentation/Completed Documents/Milestone Report-Template - MAJTeQ copy.md",
+    "Documentation/Completed Documents/PDF/Quality Management Plan - MAJTeQ.pdf",
+    "Documentation/Completed Documents/Business Case - MAJTeQ.md",
+    "Documentation/Completed Documents/Project Management Plan - MAJTeQ.md",
+    "Documentation/Completed Documents/Project Status Report Template - MAJTeQ.md",
+    "Documentation/Completed Documents/Quality Management Plan - MAJTeQ.md",
+    "Documentation/Completed Documents/Scope Statement - MAJTeQ.md",
+    "Documentation/Completed Documents/Team Contract - MAJTeQ.md",
+    "Documentation/Completed Documents/Client Accceptance Form - MAJTeQ.md",
+    "Documentation/Completed Documents/Project Charter - MAJTeQ.md",
     "Documentation/Completed Documents/Milestone Report Template - MAJTeQ.md",
+    "Documentation/Completed Documents/Communication Management Plan - MAJTeQ.md",
+    "Documentation/Completed Documents/Change Request Form Template - MAJTeQ.md",
+    "Documentation/Completed Documents/Change Control Plan - MAJTeQ.md",
+    "Documentation/Completed Documents/Milestone Report-Template - MAJTeQ copy.md",
     "Meeting Notes/Milestone Report Jan 31 - MAJTeQ.md",
     "Documentation/Completed Documents/PDF/Team Contract - MAJTeQ.pdf",
     "Documentation/Completed Documents/PDF/Scope Statement - MAJTeQ.pdf",
@@ -187,16 +198,6 @@
     "Documentation/Completed Documents/PDF/Communication Management Plan - MAJTeQ.pdf",
     "Documentation/Completed Documents/PDF/Client Accceptance Form - MAJTeQ.pdf",
     "Documentation/Completed Documents/PDF/Change Request Form Template - MAJTeQ.pdf",
-    "Documentation/Completed Documents/PDF/Change Control Plan - MAJTeQ.pdf",
-    "Documentation/Completed Documents/Team Contract - MAJTeQ.md",
-    "Documentation/Completed Documents/Scope Statement - MAJTeQ.md",
-    "Documentation/Completed Documents/Project Status Report Template - MAJTeQ.md",
-    "Documentation/Completed Documents/Project Management Plan - MAJTeQ.md",
-    "Documentation/Completed Documents/Project Charter - MAJTeQ.md",
-    "Documentation/Completed Documents/Communication Management Plan - MAJTeQ.md",
-    "Documentation/Completed Documents/Client Accceptance Form - MAJTeQ.md",
-    "Documentation/Completed Documents/Change Request Form Template - MAJTeQ.md",
-    "Documentation/Completed Documents/Change Control Plan - MAJTeQ.md",
     "conflict-files-obsidian-git.md",
     "!Images/jamie_initials.webp",
     "!Images/matt_initials.webp",
@@ -217,8 +218,6 @@
     "Documentation/WIP Documents/Scope Statement.md",
     "Meeting Notes/Jan 26 Meeting Notes.md",
     "Meeting Notes/Jan 25 Meeting Notes.md",
-    "Meeting Notes/Jan 22 Meeting Notes.md",
-    "Meeting Notes/Jan 24 Meeting Notes.md",
     "!Images/test files-20240118154646722.webp"
   ]
 }

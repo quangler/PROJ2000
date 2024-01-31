@@ -8,9 +8,9 @@
 
 # Client Acceptance/Project Completion Form
 
-**Project Name:**		_______________________________
+**Project Name:** UltraSol Energy Solutions Merger
 
-**Project Manager:**		_______________________________
+**Project Manager:** Quinn Parent
 
 MAJTeQ acknowledge and accept delivery of the work completed for this project on behalf of our organization. Our signatures attest to the agreement that this project has been completed. No further work should be done regarding this project.
 

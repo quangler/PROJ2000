@@ -33,7 +33,7 @@ line vty 0 15
 !
 interface vlan 1
  no ip address
- no shutdown
+ shutdown
 !
 vlan 10
  name DataCenter

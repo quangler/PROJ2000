@@ -16,11 +16,11 @@ MAJTeQ acknowledge and accept delivery of the work completed for this project on
 
 | Name | Role | Signature | Date |
 | ---- | ----- | --------- | ---- |
-|Taqi Zaidi|Network Architect and Innovations Specialist|![](../../!Images/Team%20Contract%20-%20Less%20Draft-20240122110354548.webp)|      |
-|Quinn Parent|Project Manager|![](../../!Images/Team%20Contract%20-%20Less%20Draft-20240122110354484.webp)|      |
-|Matthew Telford|Security Analyst|![](../../!Images/Team%20Contract%20-%20Less%20Draft-20240122110354434.webp)|      |
-|Jamie Lewis|IT Hardware Deployment Specialist|![](../../!Images/Team%20Contract%20-%20Less%20Draft-20240122110354378.webp)|      |
-|Aidan Cadieux|IT Infrastructure Specialist|![](../../!Images/Team%20Contract%20-%20Less%20Draft-20240122110354368.webp)|      |
+|Taqi Zaidi|Network Architect and Innovations Specialist|![](../../!Images/taqi_initials.webp)|      |
+|Quinn Parent|Project Manager|![](../../!Images/quinn_initials.webp)|      |
+|Matthew Telford|Security Analyst|![](../../!Images/matt_initials.webp)|      |
+|Jamie Lewis|IT Hardware Deployment Specialist|![](../../!Images/jamie_initials.webp)|      |
+|Aidan Cadieux|IT Infrastructure Specialist|![](../../!Images/aidan_initials.webp)|      |
 
 
 

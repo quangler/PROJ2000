@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Documentation/Completed Documents/Change Control Plan - MAJTeQ.md",
+                "file": "Documentation/WIP Documents/Client Accceptance Form - MAJTeQ.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Documentation/Completed Documents/Change Control Plan - MAJTeQ.md",
+                "file": "Documentation/WIP Documents/Client Accceptance Form - MAJTeQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Documentation/Completed Documents/Change Control Plan - MAJTeQ.md",
+                "file": "Documentation/WIP Documents/Client Accceptance Form - MAJTeQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Documentation/Completed Documents/Change Control Plan - MAJTeQ.md"
+                "file": "Documentation/WIP Documents/Client Accceptance Form - MAJTeQ.md"
               }
             }
           }
@@ -175,31 +175,39 @@
   },
   "active": "e7885cf3e924ac8d",
   "lastOpenFiles": [
-    "Documentation/Completed Documents/Change Request Form Template - MAJTeQ.md",
     "Documentation/Completed Documents/Communication Management Plan - MAJTeQ.md",
+    "Documentation/Completed Documents/PDF/Communication Management Plan - MAJTeQ.pdf",
     "Documentation/Completed Documents/Project Management Plan - MAJTeQ.md",
-    "Documentation/WIP Documents/Client Accceptance Form - MAJTeQ.md",
-    "Meeting Notes/Jan 31 Meeting Notes.md",
-    "Meeting Notes/Jan 31 Meeting Notes.md",
-    "Documentation/WIP Documents/Change Control Plan - MAJTeQ.md",
-    "Documentation/Completed Documents/Change Control Plan - MAJTeQ.md",
-    "Documentation/Completed Documents/PDF/Milestone Report-Template - MAJTeQ.pdf",
-    "Documentation/Completed Documents/Milestone Report-Template - MAJTeQ.md",
-    "Lecture Notes/PROJ 2000 - Topic 4 Process Groups.md",
+    "Documentation/Completed Documents/PDF/Project Management Plan - MAJTeQ.pdf",
+    "Documentation/Completed Documents/Milestone Report Template - MAJTeQ.md",
+    "Documentation/Completed Documents/PDF/Milestone Report Template - MAJTeQ.pdf",
     "Documentation/Completed Documents/Project Charter - MAJTeQ.md",
-    "Documentation/Completed Documents/Team Contract - MAJTeQ.md",
+    "Documentation/Completed Documents/PDF/Project Charter - MAJTeQ.pdf",
     "Documentation/Completed Documents/Scope Statement - MAJTeQ.md",
+    "!Images/jamie_initials.webp",
+    "!Images/matt_initials.webp",
+    "!Images/Magic-01.webp",
+    "!Images/quinn_initials.webp",
+    "!Images/taqi_initials.webp",
+    "!Images/aidan_initials.webp",
+    "!Images/test files-20240118155039084.webp",
+    "!Images/test files-20240118154547255.webp",
+    "!Images/test files-20240118152956006.webp",
+    "Meeting Notes/Jan 31 Meeting Notes.md",
+    "Documentation/Completed Documents/PDF/Scope Statement - MAJTeQ.pdf",
     "Documentation/Completed Documents/Project Status Report Template - MAJTeQ.md",
+    "Documentation/Completed Documents/PDF/Project Status Report Template - MAJTeQ.pdf",
+    "Documentation/Completed Documents/Team Contract - MAJTeQ.md",
+    "Documentation/Completed Documents/PDF/Team Contract - MAJTeQ.pdf",
+    "Documentation/Completed Documents/PDF/Milestone Report-Template - MAJTeQ.pdf",
+    "Documentation/Completed Documents/PDF/Change Request Form Template - MAJTeQ.pdf",
+    "Documentation/Completed Documents/PDF/Project Status Report Template.pdf",
+    "Documentation/Completed Documents/Change Control Plan - MAJTeQ.md",
+    "Documentation/Completed Documents/Change Request Form Template - MAJTeQ.md",
+    "Documentation/WIP Documents/Client Accceptance Form - MAJTeQ.md",
+    "Documentation/WIP Documents/Change Control Plan - MAJTeQ.md",
+    "Lecture Notes/PROJ 2000 - Topic 4 Process Groups.md",
     "Lecture Notes/PROJ 2000 - Topic 3 - Communications.md",
-    "Given Documentation/Templates/10 - Milestone Report - Sample Template.docx",
-    "Given Documentation/Templates/09 - Quality Management Plan.docx",
-    "Given Documentation/Templates/08 - Comm Management Plan.docx",
-    "Given Documentation/Templates/07 - Project Management Plan - Sample Template.docx",
-    "Given Documentation/Templates/06 - Project Budget Esitmate - Sample Template.xlsx",
-    "Given Documentation/Templates/05 - Project Work Breakdown - Structure Sample Template.mpp",
-    "Given Documentation/Templates/05 - Project Work Breakdown - Structure Sample Template.docx",
-    "Given Documentation/Templates/04 - Project Scope Statement (Initial) - Sample Template.docx",
-    "Given Documentation/Templates/03 - Project Team Contract - Sample Template.docx",
     "Meeting Notes/Jan 29 Meeting Notes.md",
     "Meeting Notes/Meeting Template.md",
     "Documentation/Completed Documents/Scope Statement.md",
@@ -210,16 +218,6 @@
     "Meeting Notes/Jan 24 Meeting Notes.md",
     "Lecture Notes/PROJ 2000 - Topic 10 Project Quality Management.md",
     "Lecture Notes/PROJ 2000 - Topic 9 Project Cost Management.md",
-    "Lecture Notes/PROJ 2000 - Topic 8 Project Schedule Management.md",
-    "!Images/Team Contract - Less Draft-20240122110354484.webp",
-    "!Images/Team Contract - Less Draft-20240122110354434.webp",
-    "!Images/Team Contract - Less Draft-20240122110354548.webp",
-    "!Images/Team Contract - Less Draft-20240122110354368.webp",
-    "!Images/Team Contract - Less Draft-20240122110354378.webp",
-    "!Images/Magic-01.webp",
-    "!Images/test files-20240118154646722.webp",
-    "!Images/test files-20240118155947413.webp",
-    "!Images/test files-20240118155935972.webp",
-    "!Images/test files-20240118155039084.webp"
+    "!Images/test files-20240118154646722.webp"
   ]
 }

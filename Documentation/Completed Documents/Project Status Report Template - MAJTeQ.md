@@ -1,4 +1,4 @@
-# Project Status Report - MAJTeQ
+# Project Status Report Template - MAJTeQ
 ## Project Name: UltraSol Energy Solutions Merger
 **Assigned Members:** Aidan Cadieux, Jamie Lewis, Matthew Telford, Quinn Parent, Taqi Zaidi  
 **Date Last Modified:** January 26, 2024  

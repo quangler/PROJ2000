@@ -37,10 +37,10 @@ We will:
 ## Project Team Members Names and Sign-off:
 | **Name** | **Role** | **Sign-off on Team Contract** |
 | -------- | -------- | ----------------------------- |
-| Quinn    |          | ![](../../!Images/Team%20Contract%20-%20Less%20Draft-20240122110354484.webp)              |
-| Matt     |          | ![](../../!Images/Team%20Contract%20-%20Less%20Draft-20240122110354434.webp)               |
-| Aidan    |          | ![](../../!Images/Team%20Contract%20-%20Less%20Draft-20240122110354368.webp)              |
-| Taqi     |          | ![](../../!Images/Team%20Contract%20-%20Less%20Draft-20240122110354548.webp)               |
-| Jamie    |          | ![](../../!Images/Team%20Contract%20-%20Less%20Draft-20240122110354378.webp)              |
+| Quinn    |          | ![](../../!Images/quinn_initials.webp)              |
+| Matt     |          | ![](../../!Images/matt_initials.webp)               |
+| Aidan    |          | ![](../../!Images/aidan_initials.webp)              |
+| Taqi     |          | ![](../../!Images/taqi_initials.webp)               |
+| Jamie    |          | ![](../../!Images/jamie_initials.webp)              |
 **Note: This document is subject to change.**
 <sup>(This document was modified using ChatGPT for clarity purposes.)</sup>

@@ -89,10 +89,10 @@ Seamlessly integrate and deploy a new IT infrastructure for UltraSol Energy Solu
 
 | Role                                         | Name  | Position                       | Sign-Off |
 | -------------------------------------------- | ----- | ------------------------------ | -------- |
-| Project Manager                              | Quinn | Project Supervision            |          |
-| IT Infrastructure Specialist                 | Aidan | Technical Project Management   |          |
-| Security Analyst                             | Matt  | Cybersecurity Implementation   |          |
-| IT Hardware Deployment Specialist            | Jamie | Hardware Deployment Specialist |          |
-| Network Architect and Innovations Specialist | Taqi  | Network Innovation Specialist  |          |
+| Project Manager                              | Quinn | Project Supervision            | ![quinn_initials](../../!Images/quinn_initials.webp)         |
+| IT Infrastructure Specialist                 | Aidan | Technical Project Management   | ![aidan_initials](../../!Images/aidan_initials.webp)         |
+| Security Analyst                             | Matt  | Cybersecurity Implementation   | ![matt_initials](../../!Images/matt_initials.webp)         |
+| IT Hardware Deployment Specialist            | Jamie | Hardware Deployment Specialist | ![jamie_initials](../../!Images/jamie_initials.webp)         |
+| Network Architect and Innovations Specialist | Taqi  | Network Innovation Specialist  | ![taqi_initials](../../!Images/taqi_initials.webp)         |
 
 <sup>This document was modified using ChatGPT for clarity purposes.</sup>

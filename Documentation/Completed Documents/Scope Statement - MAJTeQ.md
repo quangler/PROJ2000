@@ -25,7 +25,7 @@ NetEng Technical Solutions (NTS) is leading a project to integrate UltraSol Ener
 - Management Plan
 - Communication Plan
 - Status report Template
-- Milestore report Template
+- Milestone report Template
 - Change Control Plan
 - Change Request Template
 - Risk Management Plan
@@ -34,13 +34,13 @@ NetEng Technical Solutions (NTS) is leading a project to integrate UltraSol Ener
 - Final project report
 - Lessons-learned report
 
-## Technical-related Deliverables:
+## Technical-Related Deliverables:
 - Technical research reports
 - Design and planning documents
 - Configuration data 
 - Hardware Specifications
 
 ## Project Success Criteria:
- The key to success for this project would be a seamless merger of the two companies and their IT systems, minimizing disruption to ongoing operations. Demonstration of a Proof of Concept providing clear and concise implementation of a updated and effcient IT system, including maintanince and disaster recovery plans.
+ The key to success for this project would be a seamless merger of the two companies and their IT systems, minimizing disruption to ongoing operations. Demonstration of a Proof of Concept providing clear and concise implementation of a updated and efficient IT system, including maintenance and disaster recovery plans.
 
 <sup>This document was modified using ChatGPT for clarity purposes.</sup>

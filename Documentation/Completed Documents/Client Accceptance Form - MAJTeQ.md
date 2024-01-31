@@ -22,6 +22,7 @@ MAJTeQ acknowledge and accept delivery of the work completed for this project on
 |Jamie Lewis|IT Hardware Deployment Specialist|![](../../!Images/jamie_initials.webp)|      |
 |Aidan Cadieux|IT Infrastructure Specialist|![](../../!Images/aidan_initials.webp)|      |
 
+<br><br>
 
 
 Does this project meet the requirements for a completed success as outlined by the Project Charter and any certified Change Process documentation?

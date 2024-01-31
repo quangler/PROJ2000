@@ -38,11 +38,11 @@ Changes that are considered large enough to be accepted are:
 - A member of the project team will be assigned to any approved change for overseeing its progress. 
 
 #### Step 4 - Implementation of Change
-- The member assinged to manage the change, will implement the change and document the progress on the Change Request Form.
-- A sub-task will be assinged in ProofHub to facilitate the change and its progress.
+- The member assigned to manage the change, will implement the change and document the progress on the Change Request Form.
+- A sub-task will be assigned in ProofHub to facilitate the change and its progress.
 - The managing assigned member will ensure that the change is implemented as planned and that it achieves the desired outcome.
 
 #### Step 5 - Monitor and Control
-- The member assinged to manage the change, will monitor the impact of the change on the project and take any needed action if necessary.
+- The member assigned to manage the change, will monitor the impact of the change on the project and take any needed action if necessary.
 - This could involve additional changes or adjustments to the project plan.
 

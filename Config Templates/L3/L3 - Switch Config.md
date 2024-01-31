@@ -17,7 +17,7 @@ crypto key generate rsa modulus 1024
 ip ssh version 2
 !
 ip access-list standard ForSSH
- permit 10.100.10.0 255.255.255.0 ! CHANGE THIS TO EACH SITE
+ permit 10.100.10.0 255.255.255.0 ! CHANGE THIS FOR EACH SITE
 !
 line vty 0 15
  login local
@@ -29,9 +29,19 @@ interface vlan 1
  shutdown
 !
 !VLANS NEED TO UPDATE NAMES AND NUMBERS
+!THAT MEANS THIS IS ALL TEMPORARY
+!
+ip routing
+!
 !
 !vlan 2
 ! name CORP WiFi
+!int vlan 2
+! ip address 10.100.3.254 255.255.255.0 !PLACEHOLDER CHANGE IP
+! ip helper-address 10.100.10.25 !PLACEHOLDER CHANGE IP
+! no shut
+!
+!
 !vlan 3
 ! name GUEST WiFi
 !vlan 4

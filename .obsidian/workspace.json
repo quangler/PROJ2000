@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Documentation/Completed Documents/Business Case - MAJTeQ.md",
+                "file": "Config Templates/L3/L3 - Switch Config.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Documentation/Completed Documents/Business Case - MAJTeQ.md",
+                "file": "Config Templates/L3/L3 - Switch Config.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Documentation/Completed Documents/Business Case - MAJTeQ.md",
+                "file": "Config Templates/L3/L3 - Switch Config.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Documentation/Completed Documents/Business Case - MAJTeQ.md"
+                "file": "Config Templates/L3/L3 - Switch Config.md"
               }
             }
           }
@@ -158,7 +158,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -172,10 +173,16 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "78f363064096bc02",
+  "active": "e7885cf3e924ac8d",
   "lastOpenFiles": [
-    "Documentation/Completed Documents/PDF/Quality Management Plan - MAJTeQ.pdf",
     "Documentation/Completed Documents/Business Case - MAJTeQ.md",
+    "Config Templates/L3/L3 - Switch Config.md",
+    "Config Templates/L3",
+    "Config Templates/L2",
+    "Config Templates/Untitled.md",
+    "Config Templates",
+    "Documentation/Completed Documents/PDF/Business Case - MAJTeQ.pdf",
+    "Documentation/Completed Documents/PDF/Quality Management Plan - MAJTeQ.pdf",
     "Documentation/Completed Documents/Project Management Plan - MAJTeQ.md",
     "Documentation/Completed Documents/Project Status Report Template - MAJTeQ.md",
     "Documentation/Completed Documents/Quality Management Plan - MAJTeQ.md",
@@ -194,10 +201,6 @@
     "Documentation/Completed Documents/PDF/Project Status Report Template - MAJTeQ.pdf",
     "Documentation/Completed Documents/PDF/Project Management Plan - MAJTeQ.pdf",
     "Documentation/Completed Documents/PDF/Project Charter - MAJTeQ.pdf",
-    "Documentation/Completed Documents/PDF/Milestone Report Template - MAJTeQ.pdf",
-    "Documentation/Completed Documents/PDF/Communication Management Plan - MAJTeQ.pdf",
-    "Documentation/Completed Documents/PDF/Client Accceptance Form - MAJTeQ.pdf",
-    "Documentation/Completed Documents/PDF/Change Request Form Template - MAJTeQ.pdf",
     "conflict-files-obsidian-git.md",
     "!Images/jamie_initials.webp",
     "!Images/matt_initials.webp",
@@ -217,7 +220,6 @@
     "Documentation/Completed Documents/Scope Statement.md",
     "Documentation/WIP Documents/Scope Statement.md",
     "Meeting Notes/Jan 26 Meeting Notes.md",
-    "Meeting Notes/Jan 25 Meeting Notes.md",
     "!Images/test files-20240118154646722.webp"
   ]
 }

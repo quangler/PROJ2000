@@ -1,0 +1,3 @@
+Server 2 (RACK10) 
+2x - 500GB SSD - RAID1 - `BootRAID` (465.250GB) 
+4x - 1.8TB HDD - RAID5 - `StorageRAID` (4.910TB)

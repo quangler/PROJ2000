@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Config Templates/L3/L3 - Switch Config.md",
+                "file": "Documentation/WIP Documents/Documentation - MAJTeQ.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Config Templates/L3/L3 - Switch Config.md",
+                "file": "Documentation/WIP Documents/Documentation - MAJTeQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Config Templates/L3/L3 - Switch Config.md",
+                "file": "Documentation/WIP Documents/Documentation - MAJTeQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Config Templates/L3/L3 - Switch Config.md"
+                "file": "Documentation/WIP Documents/Documentation - MAJTeQ.md"
               }
             }
           }
@@ -175,8 +175,13 @@
   },
   "active": "9ba246b6012fb7bf",
   "lastOpenFiles": [
-    "Documentation/Completed Documents/Change Control Plan - MAJTeQ.md",
+    "Documentation/WIP Documents/Device Name Scheme - MAJTeQ.md",
+    "Documentation/WIP Documents/Documentation - MAJTeQ.md",
+    "Documentation/WIP Documents/Server Quick Notes.md",
     "Config Templates/L3/L3 - Switch Config.md",
+    "Meeting Notes/Feb 1 Meeting Notes.md",
+    "Documentation/Completed Documents/Project Risk Management Plan - MAJTeQ.md",
+    "Documentation/Completed Documents/Change Control Plan - MAJTeQ.md",
     "Config Templates/basicHousekeeping.md",
     "Documentation/Completed Documents/Business Case - MAJTeQ.md",
     "Config Templates/L3",
@@ -215,11 +220,6 @@
     "Meeting Notes/Jan 31 Meeting Notes.md",
     "Documentation/WIP Documents/Change Control Plan - MAJTeQ.md",
     "Lecture Notes/PROJ 2000 - Topic 4 Process Groups.md",
-    "Lecture Notes/PROJ 2000 - Topic 3 - Communications.md",
-    "Meeting Notes/Jan 29 Meeting Notes.md",
-    "Meeting Notes/Meeting Template.md",
-    "Documentation/Completed Documents/Scope Statement.md",
-    "Documentation/WIP Documents/Scope Statement.md",
     "!Images/test files-20240118154646722.webp"
   ]
 }

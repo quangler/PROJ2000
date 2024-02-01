@@ -1,4 +1,10 @@
-# Device Name Scheme - MAJTeQ
+# Device Name Scheme - MAJTeQ  
+## Project Name: UltraSol Energy Solutions Merger  
+**Assigned Members:** Aidan Cadieux, Jamie Lewis, Matthew Telford, Quinn Parent, Taqi Zaidi    
+**Date Last Modified:** February 1, 2024    
+**Version:** 1.00
+
+--- 
 For the name scheme, the format will be the following:
 **Location - Short Name - Number**
 ex. `HQ-L3SW-01`

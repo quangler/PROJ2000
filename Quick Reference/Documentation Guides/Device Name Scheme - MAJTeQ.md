@@ -14,7 +14,7 @@ The table below will be how the location name scheme will follow:
 | Name | Purpose | Notes |
 | ---- | ---- | ---- |
 | **HQ** | Headquarters |  |
-| HQI | Headquarters Internal WiFi | Only used on WAP and clients |
+| HQI | Headquarters Secure WiFi | Only used on WAP and clients |
 | HQG | Headquarters Guest WiFi | Only used on WAP and clients |
 |  |  |  |
 | **MP** | Manufacturing Plant |  |

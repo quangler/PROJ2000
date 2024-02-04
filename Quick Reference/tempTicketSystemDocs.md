@@ -8,6 +8,7 @@
 - MariaDB credentials> User: rt_user Pass: Majteq5
     - secured using sudo mysql_secure_installation
 - RT credentials> User: Root Pass: Majteq5
+  - Matt:Quinn:Jamie:Aidan:Taqi::P@ssw0rd
  
 
 ### TroubleShot

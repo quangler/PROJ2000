@@ -27,11 +27,11 @@
 - How to remove the “Possible cross-site request forgery” RT message when creating tickets or making changes via the WUI etc. 
   - Solution:
       ```
-      sudo vi /opt/rt5/etc/RT_SiteConfig.pm 
+      sudo nano /opt/rt5/etc/RT_SiteConfig.pm 
 
       Set( $WebDomain, 'your-servers-ip' );
 
-      Restart Apache
+      # Restart Apache
 
       sudo systemctl restart apache2
       ```

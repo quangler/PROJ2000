@@ -60,4 +60,8 @@ The next table will be the short name scheme for infrastructure devices:
 This is by no means a comprehensive list for names of client or infrastructure devices.<br>This list will be updated as definitions expand.
 ## Number
 The number used will be a two digit number starting with 0 (or a higher number if there are tens of devices of the same type.)
-#
+## User Logons
+This is the general scheme of what we will follow for MAJTeQ usernames and passwords - this is purely internal documentation, and would be secured better in a legitimate deployment.
+
+### Passwords
+Default login password will be `M@jteq5`.

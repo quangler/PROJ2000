@@ -8,7 +8,7 @@
 For the name scheme, the format will be the following:
 **Location - Short Name - Number**
 ex. `HQ-L3SW-01`
-### Locations
+## Locations
 The table below will be how the location name scheme will follow:
 
 | Name | Purpose | Notes |
@@ -27,7 +27,7 @@ The table below will be how the location name scheme will follow:
 | OWG | Outbound Warehouse Guest WiFi | Only used on WAP and clients |
 |  |  |  |
 | **MW** | Materials Warehouse |  |
-### Short Names
+## Short Names
 The short name that is used depends on if the name is being applied to a user device or an infrastructure device.<br>The table below will be the short name scheme for client devices:
 
 | Name | Department |
@@ -58,5 +58,10 @@ The next table will be the short name scheme for infrastructure devices:
 | **SRV** | Generic Server |
 **A virtual device will have a V before the name.** (ex. `HQ-VFW-01`)
 This is by no means a comprehensive list for names of client or infrastructure devices.<br>This list will be updated as definitions expand.
-### Number
+## Number
 The number used will be a two digit number starting with 0 (or a higher number if there are tens of devices of the same type.)
+## User Logons
+This is the general scheme of what we will follow for MAJTeQ usernames and passwords - this is purely internal documentation, and would be secured better in a legitimate deployment.
+
+### Passwords
+Default login password will be `M@jteq5`.

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Quick Reference/Documentation Guides/Device Name Scheme - MAJTeQ.md",
+                "file": "Quick Reference/tempTicketSystemDocs.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Quick Reference/Documentation Guides/Device Name Scheme - MAJTeQ.md",
+                "file": "Quick Reference/tempTicketSystemDocs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Quick Reference/Documentation Guides/Device Name Scheme - MAJTeQ.md",
+                "file": "Quick Reference/tempTicketSystemDocs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Quick Reference/Documentation Guides/Device Name Scheme - MAJTeQ.md"
+                "file": "Quick Reference/tempTicketSystemDocs.md"
               }
             }
           }
@@ -175,14 +175,16 @@
   },
   "active": "9ba246b6012fb7bf",
   "lastOpenFiles": [
+    "Beeeg.jpg",
+    "Quick Reference/Housekeeping/L3/L3 - Switch Config.md",
     "Quick Reference/Documentation Guides/Documentation Scheme - MAJTeQ.md",
     "Quick Reference/Documentation Guides/Device Name Scheme - MAJTeQ.md",
+    "Quick Reference/tempTicketSystemDocs.md",
     "Quick Reference/Documentation Guides",
     "Quick Reference/Untitled.md",
     "Quick Reference/Housekeeping",
     "Untitled.md",
     "Documentation/WIP Documents/Server Quick Notes.md",
-    "Quick Reference/Housekeeping/L3/L3 - Switch Config.md",
     "Meeting Notes/Feb 1 Meeting Notes.md",
     "Documentation/Completed Documents/Project Risk Management Plan - MAJTeQ.md",
     "Documentation/Completed Documents/Change Control Plan - MAJTeQ.md",
@@ -209,7 +211,6 @@
     "Documentation/Completed Documents/PDF/Team Contract - MAJTeQ.pdf",
     "Documentation/Completed Documents/PDF/Scope Statement - MAJTeQ.pdf",
     "Documentation/Completed Documents/PDF/Project Status Report Template - MAJTeQ.pdf",
-    "conflict-files-obsidian-git.md",
     "!Images/jamie_initials.webp",
     "!Images/matt_initials.webp",
     "!Images/Magic-01.webp",

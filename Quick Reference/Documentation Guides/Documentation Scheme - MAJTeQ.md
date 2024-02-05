@@ -5,7 +5,7 @@
 **Version:** 1.00  
 
 --- 
-# Introduction:
+## Introduction:
 This document is relating to how we will make all of our documents look when in relation to MAJTeQ.
 We will be using Markdown for text editing, but we need to have a method that we all follow to make our documents have the same formatting.
 Here is the solution:

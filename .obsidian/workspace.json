@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Quick Reference/tempTicketSystemDocs.md",
+                "file": "Documentation/WIP Documents/Server Quick Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Quick Reference/tempTicketSystemDocs.md",
+                "file": "Documentation/WIP Documents/Server Quick Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Quick Reference/tempTicketSystemDocs.md",
+                "file": "Documentation/WIP Documents/Server Quick Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Quick Reference/tempTicketSystemDocs.md"
+                "file": "Documentation/WIP Documents/Server Quick Notes.md"
               }
             }
           }
@@ -175,11 +175,13 @@
   },
   "active": "9ba246b6012fb7bf",
   "lastOpenFiles": [
+    "Documentation/Completed Documents/Team Contract - MAJTeQ.md",
+    "Quick Reference/Housekeeping/basicHousekeeping.md",
+    "Quick Reference/tempTicketSystemDocs.md",
     "Beeeg.jpg",
     "Quick Reference/Housekeeping/L3/L3 - Switch Config.md",
     "Quick Reference/Documentation Guides/Documentation Scheme - MAJTeQ.md",
     "Quick Reference/Documentation Guides/Device Name Scheme - MAJTeQ.md",
-    "Quick Reference/tempTicketSystemDocs.md",
     "Quick Reference/Documentation Guides",
     "Quick Reference/Untitled.md",
     "Quick Reference/Housekeeping",
@@ -188,7 +190,6 @@
     "Meeting Notes/Feb 1 Meeting Notes.md",
     "Documentation/Completed Documents/Project Risk Management Plan - MAJTeQ.md",
     "Documentation/Completed Documents/Change Control Plan - MAJTeQ.md",
-    "Quick Reference/Housekeeping/basicHousekeeping.md",
     "Documentation/Completed Documents/Business Case - MAJTeQ.md",
     "Quick Reference/Housekeeping/L3",
     "Quick Reference/Housekeeping/L2",
@@ -200,7 +201,6 @@
     "Documentation/Completed Documents/Project Status Report Template - MAJTeQ.md",
     "Documentation/Completed Documents/Quality Management Plan - MAJTeQ.md",
     "Documentation/Completed Documents/Scope Statement - MAJTeQ.md",
-    "Documentation/Completed Documents/Team Contract - MAJTeQ.md",
     "Documentation/Completed Documents/Client Accceptance Form - MAJTeQ.md",
     "Documentation/Completed Documents/Project Charter - MAJTeQ.md",
     "Documentation/Completed Documents/Milestone Report Template - MAJTeQ.md",
@@ -219,7 +219,6 @@
     "!Images/aidan_initials.webp",
     "!Images/test files-20240118155039084.webp",
     "!Images/test files-20240118154547255.webp",
-    "!Images/test files-20240118152956006.webp",
-    "!Images/test files-20240118154646722.webp"
+    "!Images/test files-20240118152956006.webp"
   ]
 }

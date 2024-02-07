@@ -42,39 +42,40 @@ interface vlan 1
 ip routing
 !
 !
-!vlan 2
+!vlan 10
 ! name CORP WiFi
-!int vlan 2
+!int vlan 10
 ! ip address 10.100.3.254 255.255.255.0 !PLACEHOLDER CHANGE IP
 ! ip helper-address 10.100.10.25 !PLACEHOLDER CHANGE IP
 ! no shut
 !
 !
-!vlan 3
-! name GUEST WiFi
-!vlan 4
-! name General VoIP
-!vlan 10
-! name Management
-!vlan 20
-! name Administration
-!vlan 30
-! name HR
-!vlan 40
-! name Engineering
-!vlan 50
-! name Finance
-!vlan 60
-! name Sales
-!vlan 70
-! name Operations
-!vlan 80
-! name Industrial
-!vlan 99
-! name NATIVE
-!vlan 110
-! name MANUSecure
-!vlan 999
-! name BLACK HOLE
-!
+vlan 10
+ name CORP-WIFI
+vlan 20
+ name GUEST-WIFI
+vlan 30
+ name General VoIP
+vlan 40
+ name Management
+vlan 50
+ name Administration
+vlan 60
+ name HR
+vlan 70
+ name Engineering
+vlan 80
+ name Finance
+vlan 90
+ name Sales
+vlan 100
+ name Operations
+vlan 110
+ name Industrial
+vlan 120
+ name MANUSecure
+vlan 666
+ name BLACK HOLE
+vlan 999
+ name NATIVE
 ```

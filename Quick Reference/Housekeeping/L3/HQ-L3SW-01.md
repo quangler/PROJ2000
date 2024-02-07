@@ -1,13 +1,13 @@
 # L3 Switch Config - MAJTeQ
 ## Project Name: UltraSol Energy Solutions Merger
-**Assigned Members:** Quinn Parent
+**Assigned Members:** Quinn Parent, Matt Telford
 **Date Last Modified:** Feb 7, 2024  
 **Version:** 1.01  
 
 ---
 This is a temporary file for the time being, I will continue to update it as I continue working on it.
 ```L3-Switch-Config
-hostname !!FILL IN HERE
+hostname HQ-L3SW-02 !!FILL IN HERE
 !
 enable secret majteq
 username admin password majteq !! this will be changed later with RADIUS
@@ -39,46 +39,41 @@ interface vlan 1
 !VLANS NEED TO UPDATE NAMES AND NUMBERS
 !THAT MEANS THIS IS ALL TEMPORARY
 !
-no ip routing
+ip routing
 !
 !
 !vlan 40
 ! name Management
-!int vlan 40
-! ip address 10.100.40.1 255.255.255.0 !PLACEHOLDER CHANGE IP
+int vlan 40
+ ip address 10.100.40.1 255.255.255.0 !PLACEHOLDER CHANGE IP
 ! ip helper-address 10.100.10.25 !PLACEHOLDER CHANGE IP
-! no shut
+ no shut
+!
 !
 vlan 10
- name Servers
-vlan 20
  name CORP-WIFI
-vlan 30
+vlan 20
  name GUEST-WIFI
+vlan 30
+ name General VoIP
 vlan 40
- name VoIP
+ name Management
 vlan 50
- name NetworkManagement
+ name Administration
 vlan 60
- name Accounting
+ name HR
 vlan 70
  name Engineering
 vlan 80
- name IT
+ name Finance
 vlan 90
- name Logistics
+ name Sales
 vlan 100
- name ManagementTeam
+ name Operations
 vlan 110
- name Manufacturing
+ name Industrial
 vlan 120
  name MANUSecure
-vlan 130
- name QA
-vlan 140
- name Sales
-vlan 150
- name Students
 vlan 666
  name BLACK HOLE
 vlan 999
@@ -92,5 +87,4 @@ int range g1/0/1-24
  shut
 int range g1/1/1-24
  shut
-!
 ```

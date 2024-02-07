@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Documentation/WIP Documents/Server Quick Notes.md",
+                "file": "Meeting Notes/Feb 7 Meeting Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Documentation/WIP Documents/Server Quick Notes.md",
+                "file": "Meeting Notes/Feb 7 Meeting Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Documentation/WIP Documents/Server Quick Notes.md",
+                "file": "Meeting Notes/Feb 7 Meeting Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Documentation/WIP Documents/Server Quick Notes.md"
+                "file": "Meeting Notes/Feb 7 Meeting Notes.md"
               }
             }
           }
@@ -175,6 +175,8 @@
   },
   "active": "9ba246b6012fb7bf",
   "lastOpenFiles": [
+    "Documentation/WIP Documents/Server Quick Notes.md",
+    "Meeting Notes/Feb 7 Meeting Notes.md",
     "Documentation/Completed Documents/Team Contract - MAJTeQ.md",
     "Quick Reference/Housekeeping/basicHousekeeping.md",
     "Quick Reference/tempTicketSystemDocs.md",
@@ -186,7 +188,6 @@
     "Quick Reference/Untitled.md",
     "Quick Reference/Housekeeping",
     "Untitled.md",
-    "Documentation/WIP Documents/Server Quick Notes.md",
     "Meeting Notes/Feb 1 Meeting Notes.md",
     "Documentation/Completed Documents/Project Risk Management Plan - MAJTeQ.md",
     "Documentation/Completed Documents/Change Control Plan - MAJTeQ.md",

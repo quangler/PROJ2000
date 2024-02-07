@@ -79,12 +79,8 @@ vlan 666
 vlan 999
  name NATIVE
 !
-int range f0/1-24
- shut
-int range g0/1-24
- shut
 int range g1/0/1-24
  shut
-int range g1/1/1-24
+int range g1/1/1-4
  shut
 ```

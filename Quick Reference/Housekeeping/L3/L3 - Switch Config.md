@@ -1,8 +1,8 @@
 # L3 Switch Config - MAJTeQ
 ## Project Name: UltraSol Energy Solutions Merger
 **Assigned Members:** Quinn Parent
-**Date Last Modified:** January 31, 2024  
-**Version:** 1.00  
+**Date Last Modified:** Feb 7, 2024  
+**Version:** 1.01  
 
 ---
 This is a temporary file for the time being, I will continue to update it as I continue working on it.

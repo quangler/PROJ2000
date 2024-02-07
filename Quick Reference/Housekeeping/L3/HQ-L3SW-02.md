@@ -1,13 +1,13 @@
 # L3 Switch Config - MAJTeQ
 ## Project Name: UltraSol Energy Solutions Merger
-**Assigned Members:** Quinn Parent
+**Assigned Members:** Quinn Parent, Matt Telford
 **Date Last Modified:** Feb 7, 2024  
 **Version:** 1.01  
 
 ---
 This is a temporary file for the time being, I will continue to update it as I continue working on it.
 ```L3-Switch-Config
-hostname !!FILL IN HERE
+hostname HQ-L3SW-02 !!FILL IN HERE
 !
 enable secret majteq
 username admin password majteq !! this will be changed later with RADIUS
@@ -44,10 +44,10 @@ ip routing
 !
 !vlan 40
 ! name Management
-!int vlan 40
-! ip address 10.100.40.1 255.255.255.0 !PLACEHOLDER CHANGE IP
+int vlan 40
+ ip address 10.100.40.1 255.255.255.0 !PLACEHOLDER CHANGE IP
 ! ip helper-address 10.100.10.25 !PLACEHOLDER CHANGE IP
-! no shut
+ no shut
 !
 !
 vlan 10
@@ -87,5 +87,4 @@ int range g1/0/1-24
  shut
 int range g1/1/1-24
  shut
-!
 ```

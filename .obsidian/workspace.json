@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Meeting Notes/Feb 7 Meeting Notes.md",
+                "file": "Quick Reference/Housekeeping/L3/L3 - Switch Config.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Meeting Notes/Feb 7 Meeting Notes.md",
+                "file": "Quick Reference/Housekeeping/L3/L3 - Switch Config.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Meeting Notes/Feb 7 Meeting Notes.md",
+                "file": "Quick Reference/Housekeeping/L3/L3 - Switch Config.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Meeting Notes/Feb 7 Meeting Notes.md"
+                "file": "Quick Reference/Housekeeping/L3/L3 - Switch Config.md"
               }
             }
           }
@@ -175,8 +175,11 @@
   },
   "active": "9ba246b6012fb7bf",
   "lastOpenFiles": [
+    "Meeting Notes/January Meeting Notes/Jan 15 Meeting Notes.md",
+    "Meeting Notes/February Meeting Notes",
+    "Meeting Notes/February Meeting Notes/Feb 7 Meeting Notes.md",
+    "Meeting Notes/January Meeting Notes",
     "Documentation/WIP Documents/Server Quick Notes.md",
-    "Meeting Notes/Feb 7 Meeting Notes.md",
     "Documentation/Completed Documents/Team Contract - MAJTeQ.md",
     "Quick Reference/Housekeeping/basicHousekeeping.md",
     "Quick Reference/tempTicketSystemDocs.md",
@@ -208,10 +211,7 @@
     "Documentation/Completed Documents/Communication Management Plan - MAJTeQ.md",
     "Documentation/Completed Documents/Change Request Form Template - MAJTeQ.md",
     "Documentation/Completed Documents/Milestone Report-Template - MAJTeQ copy.md",
-    "Meeting Notes/Milestone Report Jan 31 - MAJTeQ.md",
     "Documentation/Completed Documents/PDF/Team Contract - MAJTeQ.pdf",
-    "Documentation/Completed Documents/PDF/Scope Statement - MAJTeQ.pdf",
-    "Documentation/Completed Documents/PDF/Project Status Report Template - MAJTeQ.pdf",
     "!Images/jamie_initials.webp",
     "!Images/matt_initials.webp",
     "!Images/Magic-01.webp",

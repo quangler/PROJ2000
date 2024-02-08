@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md.md"
+                "file": "README.md"
               }
             }
           }
@@ -173,10 +173,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "8ce7ea8abb47c70e",
+  "active": "78f363064096bc02",
   "lastOpenFiles": [
     "Documentation/WIP Documents/ProjectPlan.md",
-    "README.md.md",
+    "README.md",
     "Documentation/WIP Documents/ProjectPlan.pdf",
     "Quick Reference/Housekeeping/L2/L2 - Switch Config.md",
     "Quick Reference/Housekeeping/L3/HQ-L3SW-02.md",

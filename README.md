@@ -4,7 +4,7 @@
     - [Project Objectives](#project-objectives)
     - [Technical Objectives](#technical-objectives)
   - [Current Situation and Problem/Opportunity Statement](#current-situation-and-problemopportunity-statement)
-    - [Current /Problems](#current-problems)
+    - [Current Problems](#current-problems)
     - [Opportunity](#opportunity)
   - [Critical Assumption and Constraints](#critical-assumption-and-constraints)
   - [Analysis of Option and Recommendation](#analysis-of-option-and-recommendation)
@@ -26,7 +26,7 @@
 - [Team Contract - MAJTeQ](#team-contract---majteq)
   - [Code of Conduct](#code-of-conduct)
   - [Participation](#participation)
-  - [Communication \& Feedback](#communication--feedback)
+  - [Communication & Feedback](#communication--feedback)
   - [Problem Solving](#problem-solving)
   - [Meeting Guidelines](#meeting-guidelines)
   - [Project Team Members Names and Sign-off](#project-team-members-names-and-sign-off)
@@ -122,7 +122,7 @@ Technical objective is meant to show us how to translate our ideas into realisti
 
 ## Current Situation and Problem/Opportunity Statement
 
-### Current /Problems
+### Current Problems
 
 - We are tasked with Interconnecting 4 different sites.
 - The current system infrastructure is dilapidated & in need of overhaul.

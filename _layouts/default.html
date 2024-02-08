@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
 <head>
@@ -18,9 +22,9 @@
         <h2>Table of Contents</h2>
         <nav>
             <ul>
-                <li><a href="#section1">Section 1</a></li>
-                <li><a href="#section2">Section 2</a></li>
-                <!-- Add more links as needed -->
+                {% for section in page.sections %}
+                <li><a href="#{{ section.id }}">{{ section.title }}</a></li>
+                {% endfor %}
             </ul>
         </nav>
     </aside>
@@ -50,15 +54,12 @@
                 </ul>
             {% endif %}
         </header>
-        <section id="section1">
-            <h2>Section 1</h2>
-            <p>Content of Section 1 goes here.</p>
+        {% for section in page.sections %}
+        <section id="{{ section.id }}">
+            <h2>{{ section.title }}</h2>
+            {{ section.content | markdownify }}
         </section>
-        <section id="section2">
-            <h2>Section 2</h2>
-            <p>Content of Section 2 goes here.</p>
-        </section>
-        <!-- Add more sections as needed -->
+        {% endfor %}
     </div>
 </div>
 <footer>

@@ -1,14 +1,14 @@
 # Change Request Form Template - MAJTeQ
 ## Project Name: UltraSol Energy Solutions Merger
 **Assigned Members:** Aidan Cadieux, Jamie Lewis, Matthew Telford, Quinn Parent, Taqi Zaidi  
-**Date Last Modified:** January 24, 2024  
-**Version:** 1.00  
+**Date Last Modified:** February 8, 2024  
+**Version:** 1.01  
 
 ---
 **Date Request Submitted:** `<MON. DD, YEAR>`
 **Title of Change Request:** `<At-a-glance description.>` 
 **Description of change requested:** `<What is going to change?>`  
-**Impact of change:** `<what will the change affect? - ex. push a date back for a task>`
+**Impact of change:** `<What will the change affect? - ex. push a date back for a task>`
 **Reason for change:** `<What is the issue that brings this change to light?>`  
 **Justification for change:** `<Why is this the change that should be made?>`  
 **Change Category:**

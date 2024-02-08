@@ -361,6 +361,9 @@ We will:
 - Limit meetings to a maximum of 5-10 minutes, extendable by team vote.
 - Publish the meetings on Proof Hub in the "Discussions" category.
 ## Project Team Members Names and Sign-off
+<div style="page-break-after: always; visibility: hidden"> 
+\pagebreak 
+</div>
 
 | Name            | Role                                         | Signature                              | Date          |
 | --------------- | -------------------------------------------- | -------------------------------------- | ------------- |

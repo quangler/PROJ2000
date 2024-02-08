@@ -85,6 +85,8 @@ vlan 140
  name Sales
 vlan 150
  name Students
+vlan 200
+ name Routing
 vlan 400
  name CCTV
 vlan 666
@@ -102,10 +104,8 @@ int range g1/1/1-24
  shut
 int g1/0/1
  description HQ-L3SW-01 / G1/0/1 to <DEVICE TO> / <PORT TO> - <purpose for>
-! switchport mode <trunk>/<access>
-! switchport trunk  encapsulation dot1q
-! switchport trunk native vlan 999
-! switchport access <vlan #>
-! ip address 10.100.50.1 255.255.255.0 !PLACEHOLDER CHANGE IP
+ switchport mode trunk
+ switchport trunk  encapsulation dot1q
+ switchport trunk native vlan 999
 !
 ```

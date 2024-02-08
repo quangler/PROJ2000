@@ -1,4 +1,4 @@
-`theme: jekyll-theme-minimal`
+theme: jekyll-theme-minimal
 - [Business Case – MAJTeQ](#business-case--majteq)
   - [Introduction / Background](#introduction--background)
   - [Business Objectives](#business-objectives)

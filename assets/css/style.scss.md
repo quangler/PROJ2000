@@ -1,6 +1,0 @@
-```scss
----
----
-
-@import "{{ site.theme }}";
-```

@@ -465,12 +465,16 @@ Conflict resolution will be handled via the members involved with the conflict t
 ## Stakeholder Communications Requirements
 Communications to stakeholders will be through formal documents with a standardized structure. This structure will contain a uniform title block, text sizing, font, and general text style - paragraph or bullet form. Communications to stakeholders shall be on time as requested by the stakeholder, completed to the fullest ability of the team.
 ## Communications Summary
-Throughout the course of this project communication will be focused upon in order to maintain a collective understanding of the general project, as opposed to an individual only having knowledge of their own sections. The following schedule will be used to ensure this:  
+Throughout the course of this project communication will be focused upon in order to maintain a collective understanding of the general project, as opposed to an individual only having knowledge of their own sections. The following schedule will be used to ensure this:   
+<div style="page-break-after: always; visibility: hidden"> 
+\pagebreak 
+</div>
 
 | **Stakeholder**           | **Communications Name** | **Delivery Method/Format**                                                | **Producer**    | **Due/Frequency**                              |
 | ------------------------- | ----------------------- | ------------------------------------------------------------------------- | --------------- | ---------------------------------------------- |
 | Project Team              | Daily Meeting           | Short meeting with digital copy of notes, uploaded in GitHub and ProofHub | Quinn Parent    | Start of free time during PROJ class as needed |
 | Project Managers and Team | Weekly Status Report    | Pre-Filled in document brought up during a meeting.                       | Project Manager | Alternating Wednesday and Thursdays            |
+
 During the daily meeting, notes will be taken and uploaded to the discussion section of the ProofHub with the title of that "day's date meeting notes". The notes will also be pushed to the GitHub repository that the team maintains for formal and general PROJ2000 documents.
 ## Comments/Guidelines
 Communication between the team members will be mostly informal with general project related communications taking place in person or through ProofHub discussions. Other non-project relating communications will take place on discord, examples of these would be alerting the team of an absence or late arrival. Meeting notes have a general template that should be followed for clarity sake; changes may be made in the future. Other documents that may be needed will follow their own general template as well, this will streamline the documentation process. Communications with stakeholders, as mentioned, will be in a more formal setting, following the title block, text sizing, and general text style structure that has been pre-set.

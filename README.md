@@ -429,7 +429,7 @@ NetEng Technical Solutions (NTS) is leading a project to integrate UltraSol Ener
 </div>
 
 # Work Breakdown Structure / Gantt Chart
-![6 Gantt Chart (Schedule)](../../!Images/6%20Gantt%20Chart%20(Schedule).png)
+![6 Gantt Chart](!Images/6%20Gantt%20Chart.png)
 # Budget (Preliminary)
 ![7 Budget](../../!Images/7%20Budget.png)
 

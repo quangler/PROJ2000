@@ -361,6 +361,7 @@ We will:
 - Limit meetings to a maximum of 5-10 minutes, extendable by team vote.
 - Publish the meetings on Proof Hub in the "Discussions" category.
 ## Project Team Members Names and Sign-off
+
 | Name            | Role                                         | Signature                              | Date          |
 | --------------- | -------------------------------------------- | -------------------------------------- | ------------- |
 | Taqi Zaidi      | Network Architect and Innovations Specialist | ![](../../!Images/taqi_initials.webp)  | Feb. 09. 2024 |

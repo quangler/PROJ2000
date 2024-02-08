@@ -42,38 +42,43 @@ interface vlan 1
 ip routing
 !
 !
-!vlan 40
-! name Management
-int vlan 40
- ip address 10.100.40.1 255.255.255.0 !PLACEHOLDER CHANGE IP
+int vlan 50
+ ip address 10.100.50.1 255.255.255.0 !PLACEHOLDER CHANGE IP
 ! ip helper-address 10.100.10.25 !PLACEHOLDER CHANGE IP
  no shut
 !
 !
 vlan 10
- name CORP-WIFI
+ name Servers
 vlan 20
- name GUEST-WIFI
+ name CORP-WIFI
 vlan 30
- name General VoIP
+ name GUEST-WIFI
 vlan 40
- name Management
+ name VoIP
 vlan 50
- name Administration
+ name NetworkManagement
 vlan 60
- name HR
+ name Accounting
 vlan 70
  name Engineering
 vlan 80
- name Finance
+ name IT
 vlan 90
- name Sales
+ name Logistics
 vlan 100
- name Operations
+ name ManagementTeam
 vlan 110
- name Industrial
-vlan 120
  name MANUSecure
+vlan 120
+ name Operations
+vlan 130
+ name QA
+vlan 140
+ name Sales
+vlan 150
+ name Students
+ 
 vlan 666
  name BLACK HOLE
 vlan 999

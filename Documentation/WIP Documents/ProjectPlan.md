@@ -425,13 +425,9 @@ NetEng Technical Solutions (NTS) is leading a project to integrate UltraSol Ener
 </div>
 
 # Work Breakdown Structure / Gantt Chart
-<div>
-<img src="../Completed Documents/6 Gantt Chart (Schedule).png" style="width:75%; display: block; margin: auto;">
-</div>
-
+![6 Gantt Chart (Schedule)](../../!Images/6%20Gantt%20Chart%20(Schedule).png)
 # Budget (Preliminary)
-<img src="../Completed Documents/7 Budget.png" style="width:97%; display: block; margin: auto;">
-
+![7 Budget](../../!Images/7%20Budget.png)
 
 # Project Management Plan - MAJTeQ
 **Project Name: UltraSol Energy Solutions Merger**
@@ -637,12 +633,12 @@ Changes that are considered large enough to be accepted are:
 **Version:** 1.00  
 
 ---
-**Date Request Submitted:** `<MON. DD, YEAR>`
-**Title of Change Request:** `<At-a-glance description.>` 
-**Description of change requested:** `<What is going to change?>`  
-**Impact of change:** `<what will the change affect? - ex. push a date back for a task>`
-**Reason for change:** `<What is the issue that brings this change to light?>`  
-**Justification for change:** `<Why is this the change that should be made?>`  
+**Date Request Submitted:**
+**Title of Change Request:**
+**Description of change requested:**
+**Impact of change:** 
+**Reason for change:** 
+**Justification for change:** 
 **Change Category:**
 - [ ] Scope
 - [ ] Schedule

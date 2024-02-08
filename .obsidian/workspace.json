@@ -11,14 +11,11 @@
             "id": "9ba246b6012fb7bf",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Documentation/Completed Documents/Untitled.canvas",
-                "viewState": {
-                  "x": 56.4577568919492,
-                  "y": 177.75320709112282,
-                  "zoom": -0.3333333333333334
-                }
+                "file": "Documentation/WIP Documents/ProjectPlan.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -112,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Documentation/Completed Documents/Untitled.canvas",
+                "file": "Documentation/WIP Documents/ProjectPlan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Documentation/Completed Documents/Untitled.canvas",
+                "file": "Documentation/WIP Documents/ProjectPlan.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Documentation/Completed Documents/Untitled.canvas"
+                "file": "Documentation/WIP Documents/ProjectPlan.md"
               }
             }
           }
@@ -178,6 +175,7 @@
   },
   "active": "9ba246b6012fb7bf",
   "lastOpenFiles": [
+    "Documentation/WIP Documents/Server Quick Notes.md",
     "Documentation/WIP Documents/ProjectPlan.md",
     "Documentation/Completed Documents/Untitled.canvas",
     "Documentation/WIP Documents/ProjectPlanQ.pdf",
@@ -206,7 +204,6 @@
     "Meeting Notes/February Meeting Notes",
     "Meeting Notes/February Meeting Notes/Feb 7 Meeting Notes.md",
     "Meeting Notes/January Meeting Notes",
-    "Documentation/WIP Documents/Server Quick Notes.md",
     "Documentation/Completed Documents/Team Contract - MAJTeQ.md",
     "Quick Reference/Housekeeping/basicHousekeeping.md",
     "Quick Reference/tempTicketSystemDocs.md",

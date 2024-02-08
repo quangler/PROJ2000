@@ -1,9 +1,0 @@
-{
-	"nodes":[
-		{"id":"1d343b0949ec6650","x":-460,"y":-180,"width":400,"height":400,"color":"5","type":"file","file":"Documentation/Completed Documents/16 Client Accceptance Form - MAJTeQ.md"},
-		{"id":"8184c04cb5e4ece9","x":-40,"y":-180,"width":860,"height":640,"color":"3","type":"file","file":"Documentation/Completed Documents/15 Project Risk Management Plan - MAJTeQ.md"}
-	],
-	"edges":[
-		{"id":"ee46c5e42b35bf48","fromNode":"8184c04cb5e4ece9","fromSide":"top","toNode":"1d343b0949ec6650","toSide":"top","color":"4","label":"title"}
-	]
-}

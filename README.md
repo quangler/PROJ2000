@@ -461,7 +461,7 @@ Conflict resolution will be handled via the members involved with the conflict t
 ## Stakeholder Communications Requirements
 Communications to stakeholders will be through formal documents with a standardized structure. This structure will contain a uniform title block, text sizing, font, and general text style - paragraph or bullet form. Communications to stakeholders shall be on time as requested by the stakeholder, completed to the fullest ability of the team.
 ## Communications Summary
-Throughout the course of this project communication will be focused upon in order to maintain a collective understanding of the general project, as opposed to an individual only having knowledge of their own sections. The following schedule will be used to ensure this: 
+Throughout the course of this project communication will be focused upon in order to maintain a collective understanding of the general project, as opposed to an individual only having knowledge of their own sections. The following schedule will be used to ensure this:  
 
 | **Stakeholder**           | **Communications Name** | **Delivery Method/Format**                                                | **Producer**    | **Due/Frequency**                              |
 | ------------------------- | ----------------------- | ------------------------------------------------------------------------- | --------------- | ---------------------------------------------- |

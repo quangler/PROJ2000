@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5d6c2d79e502bf49",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -173,10 +186,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "88876244b673448e",
+  "active": "5d6c2d79e502bf49",
   "lastOpenFiles": [
-    "assets/css/style.scss.md",
+    "conflict-files-obsidian-git.md",
     "README.md",
+    "assets/css/style.scss.md",
     "assets/css",
     "assets",
     "_includes/toc.html",
@@ -217,7 +231,6 @@
     "Meeting Notes/January Meeting Notes",
     "Documentation/Completed Documents/Team Contract - MAJTeQ.md",
     "Quick Reference/Housekeeping/basicHousekeeping.md",
-    "Quick Reference/tempTicketSystemDocs.md",
     "Quick Reference/Documentation Guides",
     "!Images/jamie_initials.webp",
     "!Images/matt_initials.webp",

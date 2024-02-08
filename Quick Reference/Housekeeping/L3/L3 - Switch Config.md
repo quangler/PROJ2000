@@ -19,6 +19,11 @@ ip domain-name team5.ca
 line console 0
  logging synchronous
 !
+!
+banner motd @ Welcome to the <deviceName>, lets make the MAJTeQ happen! @
+!
+banner login @ WARNING: Unauthorized access prohibited! @
+!
 !SSH Section
 !
 crypto key generate rsa modulus 1024
@@ -41,11 +46,9 @@ interface vlan 1
 !
 no ip routing
 !
-!
-!vlan 40
-! name Management
-!int vlan 40
-! ip address 10.100.40.1 255.255.255.0 !PLACEHOLDER CHANGE IP
+!int vlan 50
+! description Network Management Interface
+! ip address 10.100.50.1 255.255.255.0 !PLACEHOLDER CHANGE IP
 ! ip helper-address 10.100.10.25 !PLACEHOLDER CHANGE IP
 ! no shut
 !
@@ -79,6 +82,8 @@ vlan 140
  name Sales
 vlan 150
  name Students
+vlan 400
+ name CCTV
 vlan 666
  name BLACK HOLE
 vlan 999

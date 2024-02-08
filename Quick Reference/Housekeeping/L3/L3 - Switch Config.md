@@ -73,15 +73,17 @@ vlan 90
 vlan 100
  name ManagementTeam
 vlan 110
- name Manufacturing
-vlan 120
  name MANUSecure
+vlan 120
+ name Operations
 vlan 130
  name QA
 vlan 140
  name Sales
 vlan 150
  name Students
+vlan 200
+ name Routing
 vlan 400
  name CCTV
 vlan 666

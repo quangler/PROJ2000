@@ -30,7 +30,7 @@ crypto key generate rsa modulus 1024
 ip ssh version 2
 !
 ip access-list standard ForSSH
- permit 10.100.40.0 255.255.255.0 ! CHANGE THIS FOR EACH SITE
+ permit 10.100.50.0 255.255.255.0 ! CHANGE THIS FOR EACH SITE
 !
 line vty 0 15
  login local
@@ -106,7 +106,7 @@ int range g1/1/1-24
 int g1/0/1
  description HQ-L3SW-01 / G1/0/1 to HQ-FW-01 / Int1 - Routing
  switchport mode trunk
- switchport trunk  encapsulation dot1q
+ switchport trunk encapsulation dot1q
  switchport trunk native vlan 200
  no shut
 !

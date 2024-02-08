@@ -14,58 +14,55 @@
   - [Potential Risks](#potential-risks)
   - [Conclusion](#conclusion)
 - [Project Charter - MAJTeQ](#project-charter---majteq)
-  - [Initial Scope:](#initial-scope)
-  - [Project Deliverables:](#project-deliverables)
-  - [Milestones:](#milestones)
-    - [Planning and Strategy (Month 0-1):](#planning-and-strategy-month-0-1)
-    - [Infrastructure Implementation (Month 1-2):](#infrastructure-implementation-month-1-2)
-    - [Network Implementation (Month 2):](#network-implementation-month-2)
-    - [Operational Implementation (Month 2-4):](#operational-implementation-month-2-4)
-  - [Main Project Success Criteria:](#main-project-success-criteria)
+  - [Initial Scope](#initial-scope)
+  - [Project Deliverables](#project-deliverables)
+  - [Milestones](#milestones)
+    - [Planning and Strategy (Month 0-1)](#planning-and-strategy-month-0-1)
+    - [Infrastructure Implementation (Month 1-2)](#infrastructure-implementation-month-1-2)
+    - [Network Implementation (Month 2)](#network-implementation-month-2)
+    - [Operational Implementation (Month 2-4)](#operational-implementation-month-2-4)
+  - [Main Project Success Criteria](#main-project-success-criteria)
   - [Team Roles and Responsibilities](#team-roles-and-responsibilities)
 - [Team Contract - MAJTeQ](#team-contract---majteq)
-  - [Code of Conduct:](#code-of-conduct)
-  - [Participation:](#participation)
-  - [Communication \& Feedback:](#communication--feedback)
-  - [Problem Solving:](#problem-solving)
-  - [Meeting Guidelines:](#meeting-guidelines)
-  - [Project Team Members Names and Sign-off:](#project-team-members-names-and-sign-off)
+  - [Code of Conduct](#code-of-conduct)
+  - [Participation](#participation)
+  - [Communication \& Feedback](#communication--feedback)
+  - [Problem Solving](#problem-solving)
+  - [Meeting Guidelines](#meeting-guidelines)
+  - [Project Team Members Names and Sign-off](#project-team-members-names-and-sign-off)
 - [Scope Statement - MAJTeQ](#scope-statement---majteq)
-  - [Project Justification:](#project-justification)
-  - [Product Requirements:](#product-requirements)
-  - [Project Management-related Deliverables:](#project-management-related-deliverables)
-  - [Technical-Related Deliverables:](#technical-related-deliverables)
-  - [Project Success Criteria:](#project-success-criteria)
-- [Work Breakdown Structure](#work-breakdown-structure)
-- [Gantt Chart](#gantt-chart)
+  - [Project Justification](#project-justification)
+  - [Product Requirements](#product-requirements)
+  - [Project Management-related Deliverables](#project-management-related-deliverables)
+  - [Technical-Related Deliverables](#technical-related-deliverables)
+  - [Project Success Criteria](#project-success-criteria)
+- [Work Breakdown Structure / Gantt Chart](#work-breakdown-structure--gantt-chart)
 - [Budget (Preliminary)](#budget-preliminary)
 - [Project Management Plan - MAJTeQ](#project-management-plan---majteq)
-  - [Project Overview:](#project-overview)
-  - [Project Team Organization:](#project-team-organization)
-    - [Team Roles and Responsibilities:](#team-roles-and-responsibilities-1)
-    - [Monitoring and Controlling Plans:](#monitoring-and-controlling-plans)
-  - [Decision Making:](#decision-making)
-  - [Conflict Resolution:](#conflict-resolution)
+  - [Project Overview](#project-overview)
+  - [Project Team Organization](#project-team-organization)
+    - [Team Roles and Responsibilities](#team-roles-and-responsibilities-1)
+    - [Monitoring and Controlling Plans](#monitoring-and-controlling-plans)
+  - [Decision Making](#decision-making)
+  - [Conflict Resolution](#conflict-resolution)
 - [Communication Management Plan - MAJTeQ](#communication-management-plan---majteq)
-  - [Stakeholder Communications Requirements:](#stakeholder-communications-requirements)
-  - [Communications Summary:](#communications-summary)
-  - [Comments/Guidelines:](#commentsguidelines)
-  - [Escalation Procedures for Resolving Issues:](#escalation-procedures-for-resolving-issues)
-  - [Revision Procedures for this Document:](#revision-procedures-for-this-document)
-  - [Glossary of Common Terminology:](#glossary-of-common-terminology)
+  - [Stakeholder Communications Requirements](#stakeholder-communications-requirements)
+  - [Communications Summary](#communications-summary)
+  - [Comments/Guidelines](#commentsguidelines)
+  - [Escalation Procedures for Resolving Issues](#escalation-procedures-for-resolving-issues)
+  - [Revision Procedures for this Document](#revision-procedures-for-this-document)
+  - [Glossary of Common Terminology](#glossary-of-common-terminology)
 - [Quality Management Plan – MAJTeQ](#quality-management-plan--majteq)
   - [Introduction](#introduction)
   - [Quality Standards](#quality-standards)
   - [Problem Reporting and Corrective Action Process](#problem-reporting-and-corrective-action-process)
-    - [Issue Reporting Levels:](#issue-reporting-levels)
-    - [Corrective Action Process:](#corrective-action-process)
+    - [Issue Reporting Levels](#issue-reporting-levels)
+    - [Corrective Action Process](#corrective-action-process)
 - [Project Milestone Report Template - MAJTeQ](#project-milestone-report-template---majteq)
-  - [Date:](#date)
-  - [Summary](#summary)
 - [Project Status Report Template - MAJTeQ](#project-status-report-template---majteq)
 - [Change Control Plan - MAJTeQ](#change-control-plan---majteq)
-  - [Purpose:](#purpose)
-  - [How to use this Document:](#how-to-use-this-document)
+  - [Purpose](#purpose)
+  - [How to use this Document](#how-to-use-this-document)
     - [Documentation](#documentation)
     - [Project Infrastructure](#project-infrastructure)
       - [Step 1 - Identify Needed Changes](#step-1---identify-needed-changes)
@@ -82,7 +79,10 @@
 - [Client Acceptance Form - MAJTeQ](#client-acceptance-form---majteq)
 - [Client Acceptance/Project Completion Form](#client-acceptanceproject-completion-form)
 - [Glossary of Terms](#glossary-of-terms)
-
+  
+<div style="page-break-after always; visibility: hidden"> 
+\pagebreak 
+</div>
 
 # Business Case – MAJTeQ
 **Project Name: UltraSol Energy Solutions Merger**
@@ -141,7 +141,7 @@ Technical objective is meant to show us how to translate our ideas into realisti
 
 **The critical constraints we faced with this project are as follow:**
 
-- We are optimistic that the clients, together with their collaborators, will successfully complete their assigned tasks and deliver the project to us within the agreed timeframe. which will allow us to start work on our phase of the upgrade.
+- We are optimistic that the clients, together with their collaborators, will successfully complete their assigned tasks and deliver the project to us within the agreed time frame. which will allow us to start work on our phase of the upgrade.
 - We are assuming that MAJTeQ would have ALL required and proper physical access to all building areas, that is essential for us complementing the jobs.
 - We are hoping to have minimal impact on the overall production of the organization, where having a temporary/ backup system in place so workers can still execute their tasks.
 - Ensure from a Budget perspective the solution cannot cost over $500k.
@@ -153,16 +153,16 @@ The purpose of options analysis is Identifying that the current business environ
 It would be a system that first *identifies the Options*:
 
 **Where is the change needed?**
-  - Network system, Server system & Application.
+- Network system, Server system & Application.
 **What approach should we take?**
-  - Should we adopt a do-nothing approach?
-  - Should we adopt a do-minimum approach?
-  - Should we adopt a do-something approach?
+- Should we adopt a do-nothing approach?
+- Should we adopt a do-minimum approach?
+- Should we adopt a do-something approach?
 
 **Would the system be valuable to the Project?**
 
-  - Would the solution generate money or profit the business.
-  - Would the solution offer short-term or long-term opportunities.
+- Would the solution generate money or profit the business.
+- Would the solution offer short-term or long-term opportunities.
 
 **Would the solution be Feasibility with the scope of work?**
 
@@ -204,7 +204,7 @@ Our group is dedicated to sticking to this timetable, and we have faith in our c
 
 **Operational Disruption During Transition:** The project aims to minimize impact on UES's production during the upgrade. However, there's always a risk of operational disruption, which could affect UES's business operations and revenue.
 
-**Compliance and Regulatory Risks:** Upgrading IT infrastructure could involve compliance with various regulations, especially concerning data security and privacy. Non-compliance could lead to legal issues and reputational damage.
+**Compliance and Regulatory Risks:** Upgrading IT infrastructure could involve compliance with various regulations, especially concerning data security and privacy. Non-compliance could lead to legal issues and reputation damage.
 
 **Data Migration and Integrity:** The project involves migrating data to new systems. There's a risk of data loss or corruption during this process, which could have severe consequences for UES's business operations.
 
@@ -216,14 +216,16 @@ As we reach the culmination of the business case for the transformational IT inf
 
 This project, aligning with the strategic objectives of UES, is not just an IT overhaul but a crucial step towards positioning the company at the forefront of modern, efficient, and secure business operations. The comprehensive plan encompasses the integration of cutting-edge network infrastructure, cloud systems, and data governance across multiple sites, thereby laying a robust foundation for UES's future growth and innovation.
 
-The detailed budget and schedule estimates reflect a well-thought-out strategy, ensuring that the project remains financially feasible and on track. The proactive approach in addressing potential risks and challenges signifies a commitment to diligence and excellence. This foresight is essential in navigating the complexities of such a transformative project.
+The detailed budget and schedule estimates reflect a well-thought-out strategy, ensuring that the project remains financially feasible and on track. The proactive approach in addressing potential risks and challenges signifies a commitment to diligence and excellence. This foresight is essential in navigating the complexities of such a transformable project.
 
 Moreover, the focus on change management and stakeholder involvement is commendable. By emphasizing training, collaboration, and communication, MAJTeQ ensures that the transition is not just a technical upgrade but also a cultural shift towards greater efficiency and teamwork within UES.
 
+<div style="page-break-after: always; visibility: hidden"> 
+\pagebreak 
+</div>
 
 # Project Charter - MAJTeQ
 **Project Name: UltraSol Energy Solutions Merger**
-**Assigned Members:** Aidan Cadieux, Jamie Lewis, Matthew Telford, Quinn Parent, Taqi Zaidi  
 **Date Last Modified:** January 26, 2024  
 **Version:** 1.00  
 
@@ -236,11 +238,11 @@ Moreover, the focus on change management and stakeholder involvement is commenda
 **Projected Finish Date:** April 27th, 2024
 **Budget Estimate:** 1 million CAD
 
-## Initial Scope:
+## Initial Scope
 
 The project involves migrating the server infrastructure from Windows 2012 to present-day standards, preserving Active Directory for business continuity. Server migration to a virtualized platform, data security enhancements, and potential cloud integration are key components. Network infrastructure upgrades, IP addressing schemes, and security measures are outlined for wired and wireless networks. Specific requirements for each building, telecommunications/data rooms, power, cooling, and secured/public Wi-Fi considerations are addressed, especially segregated hazardous environments that are hostile to computer systems.
 
-## Project Deliverables:
+## Project Deliverables
 
 1. **Server Environment:**
    - Migrate from Windows 2012 to present-day standards.
@@ -282,73 +284,75 @@ The project involves migrating the server infrastructure from Windows 2012 to pr
     - Plan and deploy IP-based security cameras in all buildings.
     - Address infrastructure, IP, and security needs.
 
-## Milestones:
+## Milestones
 
-### Planning and Strategy (Month 0-1):
+### Planning and Strategy (Month 0-1)
 - Develop a comprehensive project plan, including timelines and resource allocation.
 - Define strategies for server environment migration, thin client implementation, and network transformation.
 
-### Infrastructure Implementation (Month 1-2):
+### Infrastructure Implementation (Month 1-2)
 - Complete server environment migration to present-day standards.
 - Successfully implement thin client solutions in industrial bays and clean rooms.
 - Achieve data security enhancements and implement cloud integration.
   
-### Network Implementation (Month 2):
+### Network Implementation (Month 2)
 - Finalize the upgrade of wired infrastructure to current standards.
 - Implement IP addressing schemes and subnet segregation for security and autonomy.
 - Deploy Wi-Fi infrastructure in all buildings with coverage zones.
 - Design and implement network security measures.
   
-### Operational Implementation (Month 2-4):
+### Operational Implementation (Month 2-4)
 - Complete replacement of all user desktops across the organization.
 - Deploy IP-based security camera systems and dedicated storage solutions.
 - Ensure comprehensive documentation and conduct training sessions.
 - Validate and test disaster recovery plans for data rooms and critical infrastructure.
 
-## Main Project Success Criteria:
+## Main Project Success Criteria
 Seamlessly integrate and deploy a new IT infrastructure for UltraSol Energy Solutions.
 
 ## Team Roles and Responsibilities
 
-| Role                                         | Name  | Position                       | Sign-Off |
-| -------------------------------------------- | ----- | ------------------------------ | -------- |
-| Project Manager                              | Quinn | Project Supervision            | ![quinn_initials](../../!Images/quinn_initials.webp)         |
-| IT Infrastructure Specialist                 | Aidan | Technical Project Management   | ![aidan_initials](../../!Images/aidan_initials.webp)         |
-| Security Analyst                             | Matt  | Cybersecurity Implementation   | ![matt_initials](../../!Images/matt_initials.webp)         |
-| IT Hardware Deployment Specialist            | Jamie | Hardware Deployment Specialist | ![jamie_initials](../../!Images/jamie_initials.webp)         |
-| Network Architect and Innovations Specialist | Taqi  | Network Innovation Specialist  | ![taqi_initials](../../!Images/taqi_initials.webp)         |
+| Role                                         | Name  | Position                       | Sign-Off                                             |
+| -------------------------------------------- | ----- | ------------------------------ | ---------------------------------------------------- |
+| Project Manager                              | Quinn | Project Supervision            | ![quinn_initials](../../!Images/quinn_initials.webp) |
+| IT Infrastructure Specialist                 | Aidan | Technical Project Management   | ![aidan_initials](../../!Images/aidan_initials.webp) |
+| Security Analyst                             | Matt  | Cybersecurity Implementation   | ![matt_initials](../../!Images/matt_initials.webp)   |
+| IT Hardware Deployment Specialist            | Jamie | Hardware Deployment Specialist | ![jamie_initials](../../!Images/jamie_initials.webp) |
+| Network Architect and Innovations Specialist | Taqi  | Network Innovation Specialist  | ![taqi_initials](../../!Images/taqi_initials.webp)   |
 
 <sup>This document was modified using ChatGPT for clarity purposes.</sup>
+<div style="page-break-after: always; visibility: hidden"> 
+\pagebreak 
+</div>
 
 # Team Contract - MAJTeQ
 **Project Name: UltraSol Energy Solutions Merger**
-**Assigned Members:** Aidan Cadieux, Jamie Lewis, Matthew Telford, Quinn Parent, Taqi Zaidi  
 **Date Last Modified:** January 24, 2024  
 **Version:** 1.00  
 
 --- 
-## Code of Conduct:
+## Code of Conduct
 As a project team, we commit to:
 - Work diligently to accomplish project goals.
 - Punctuality in all team-related activities.
 - Foster a respectful and inclusive environment, refraining from any form of bullying.
 - Adhere to the rubric provided by the instructors.
-## Participation:
+## Participation
 We agree to:
 - Conduct regular meetings to discuss daily plans and updates from the previous day.
 - Notify the team in advance when unable to attend a meeting.
-## Communication & Feedback:
+## Communication & Feedback
 We pledge to:
 - Maintain a daily progress log on Proof Hub, ensuring readability.
     - Explore Proof Hub plugins for automated workload reports.
 - Adhere to the Gantt chart, addressing any deviations promptly through discussion and action.
-## Problem Solving:
+## Problem Solving
 We commit to:
 - Collaboratively finding solutions to challenges.
 - Documenting problems in our ticketing system.
 - Resolving conflicts with the assistance of a mediator if necessary.
     - In cases where no resolution is achieved, involve an instructor.
-## Meeting Guidelines:
+## Meeting Guidelines
 We will:
 - Develop and follow a meeting agenda.
     - Discuss schedules and gather team input on topics.
@@ -356,36 +360,37 @@ We will:
     - Summarize daily notes into an easily understandable TLDR.
 - Limit meetings to a maximum of 5-10 minutes, extendable by team vote.
 - Publish the meetings on Proof Hub in the "Discussions" category.
-## Project Team Members Names and Sign-off:
-| **Name** | **Role** | **Sign-off on Team Contract** |
-| -------- | -------- | ----------------------------- |
-| Quinn    |          | ![](../../!Images/quinn_initials.webp)              |
-| Matt     |          | ![](../../!Images/matt_initials.webp)               |
-| Aidan    |          | ![](../../!Images/aidan_initials.webp)              |
-| Taqi     |          | ![](../../!Images/taqi_initials.webp)               |
-| Jamie    |          | ![](../../!Images/jamie_initials.webp)              |
-**Note: This document is subject to change.**
+## Project Team Members Names and Sign-off
+| Name            | Role                                         | Signature                              | Date          |
+| --------------- | -------------------------------------------- | -------------------------------------- | ------------- |
+| Taqi Zaidi      | Network Architect and Innovations Specialist | ![](../../!Images/taqi_initials.webp)  | Feb. 09. 2024 |
+| Quinn Parent    | Project Manager                              | ![](../../!Images/quinn_initials.webp) | Feb. 09. 2024 |
+| Matthew Telford | Security Analyst                             | ![](../../!Images/matt_initials.webp)  | Feb. 09. 2024 |
+| Jamie Lewis     | IT Hardware Deployment Specialist            | ![](../../!Images/jamie_initials.webp) | Feb. 09. 2024 |
+| Aidan Cadieux   | IT Infrastructure Specialist                 | ![](../../!Images/aidan_initials.webp) | Feb. 09. 2024 |
 
 <sup>(This document was modified using ChatGPT for clarity purposes.)</sup>
 
+<div style="page-break-after: always; visibility: hidden"> 
+\pagebreak 
+</div>
+
 # Scope Statement - MAJTeQ
 **Project Name: UltraSol Energy Solutions Merger**
-**Assigned Members:** Aidan Cadieux, Jamie Lewis, Matthew Telford, Quinn Parent, Taqi Zaidi  
 **Date Last Modified:** January 26, 2024  
 **Version:** 1.00  
 
 ---
-## Project Justification:
+## Project Justification
 
 NetEng Technical Solutions (NTS) is leading a project to integrate UltraSol Energy Solutions (UES) with recently acquired Solar-Tec. The aim is to establish a Proof of Concept (PoC) demonstrating the feasibility of a technology solution for the merged entities. With Solar-Tec's outdated IT infrastructure, the project is crucial for overhauling and securing UES's operations. The goal of the project is to demonstrate a seamless merger of companies and IT systems. 
 
-## Product Requirements:
+## Product Requirements
 1.  Integration of IT Infrastructure: Merge the IT systems of UES and Solar-Tec.
 2.  Proof of Concept: Develop and demonstrate a PoC that showcases the feasibility of the technology solution for the merged entities.
 3. Infrastructure Overhaul: Update and secure the outdated IT infrastructure of Solar-Tec.
 
-
-## Project Management-related Deliverables:
+## Project Management-related Deliverables
 - Business case
 - Project Charter
 - Team contract, 
@@ -404,77 +409,89 @@ NetEng Technical Solutions (NTS) is leading a project to integrate UltraSol Ener
 - Final project report
 - Lessons-learned report
 
-## Technical-Related Deliverables:
+## Technical-Related Deliverables
 - Technical research reports
 - Design and planning documents
 - Configuration data 
 - Hardware Specifications
 
-## Project Success Criteria:
+## Project Success Criteria
  The key to success for this project would be a seamless merger of the two companies and their IT systems, minimizing disruption to ongoing operations. Demonstration of a Proof of Concept providing clear and concise implementation of a updated and efficient IT system, including maintenance and disaster recovery plans.
 
 <sup>This document was modified using ChatGPT for clarity purposes.</sup>
 
-# Work Breakdown Structure
+<div style="page-break-after: always; visibility: hidden"> 
+\pagebreak 
+</div>
 
-# Gantt Chart
-![Alt text](<../Completed Documents/6 Gantt Chart (Schedule).png>)
+# Work Breakdown Structure / Gantt Chart
+<div>
+<img src="../Completed Documents/6 Gantt Chart (Schedule).png" style="width:75%; display: block; margin: auto;">
+</div>
 
 # Budget (Preliminary)
+<img src="../Completed Documents/7 Budget.png" style="width:97%; display: block; margin: auto;">
+
 
 # Project Management Plan - MAJTeQ
 **Project Name: UltraSol Energy Solutions Merger**
-**Assigned Members:** Aidan Cadieux, Jamie Lewis, Matthew Telford, Quinn Parent, Taqi Zaidi  
 **Date Last Modified:** January 24, 2024  
 **Version:** 1.00  
 
 --- 
-## Project Overview:
+## Project Overview
 Throughout this project, management will be handled as a shared effort. Each member is encouraged to express their thoughts and ideas whenever they believe it to be important. All members shall be open-minded and willing to work with each other.
-## Project Team Organization:
+## Project Team Organization
 MAJTeQ is comprised of five members which can be found in the header under the section "Assigned Members". The team will create and follow standards for organizing tasks, documentation, and other items such as diagrams or demonstrations.
-### Team Roles and Responsibilities:
+### Team Roles and Responsibilities
 Each member of MAJTeQ is considered an equal and shall be treated accordingly. As it currently stands, there are general sections of the project that will be spearheaded by each member of the team. More information on this can be found within the Work Breakdown Sheet document. The sections have thus far been broken into: storage, network backbone, network front facing, security, cloud, and monitoring.
-### Monitoring and Controlling Plans:
+### Monitoring and Controlling Plans
 Team meetings are held at the start of each work period to ensure the tasks that must be completed are at the forethought of the team. Tasks in the Work Breakdown Sheet will be given a general schedule timeline for the time being, and will be updated as the project progresses. If a task is considered behind, that will be focused on by the assignee. If the task is still not able to be completed, the task will be assigned to another member with less tasks or who is waiting for the first task to be completed.
-## Decision Making:
+## Decision Making
 Decisions will be a team effort with a three-vote system put into place. Official change requests will follow the MAJTeQ change request form template, needing three members of the team to agree in order for the change to go through. 
-## Conflict Resolution:
+## Conflict Resolution
 Conflict resolution will be handled via the members involved with the conflict through communication. If communicating does not lead to resolution within a reasonable time period, a member of the team will attempt conflict resolution via communication. If the conflict persists, an instructor will be involved.
+
+<div style="page-break-after: always; visibility: hidden"> 
+\pagebreak 
+</div>
 
 # Communication Management Plan - MAJTeQ
 **Project Name: UltraSol Energy Solutions Merger**
-**Assigned Members:** Aidan Cadieux, Jamie Lewis, Matthew Telford, Quinn Parent, Taqi Zaidi  
 **Date Last Modified:** January 29, 2024  
 **Version:** 1.03  
 
 ---
-## Stakeholder Communications Requirements:
+## Stakeholder Communications Requirements
 Communications to stakeholders will be through formal documents with a standardized structure. This structure will contain a uniform title block, text sizing, font, and general text style - paragraph or bullet form. Communications to stakeholders shall be on time as requested by the stakeholder, completed to the fullest ability of the team.
-## Communications Summary:
+## Communications Summary
 Throughout the course of this project communication will be focused upon in order to maintain a collective understanding of the general project, as opposed to an individual only having knowledge of their own sections. The following schedule will be used to ensure this: 
 
-| **Stakeholder** | **Communications Name** | **Delivery Method/Format** | **Producer** | **Due/Frequency** |  
-| ---- | ---- | ---- | ---- | ---- |  
-| Project Team | Daily Meeting | Short meeting with digital copy of notes, uploaded in GitHub and ProofHub | Quinn Parent | Start of free time during PROJ class as needed |  
-| Project Managers and Team | Weekly Status Report | Pre-Filled in document brought up during a meeting. | Project Manager | Alternating Wednesday and Thursdays |
+| **Stakeholder**           | **Communications Name** | **Delivery Method/Format**                                                | **Producer**    | **Due/Frequency**                              |
+| ------------------------- | ----------------------- | ------------------------------------------------------------------------- | --------------- | ---------------------------------------------- |
+| Project Team              | Daily Meeting           | Short meeting with digital copy of notes, uploaded in GitHub and ProofHub | Quinn Parent    | Start of free time during PROJ class as needed |
+| Project Managers and Team | Weekly Status Report    | Pre-Filled in document brought up during a meeting.                       | Project Manager | Alternating Wednesday and Thursdays            |
 During the daily meeting, notes will be taken and uploaded to the discussion section of the ProofHub with the title of that "day's date meeting notes". The notes will also be pushed to the GitHub repository that the team maintains for formal and general PROJ2000 documents.
-## Comments/Guidelines:
+## Comments/Guidelines
 Communication between the team members will be mostly informal with general project related communications taking place in person or through ProofHub discussions. Other non-project relating communications will take place on discord, examples of these would be alerting the team of an absence or late arrival. Meeting notes have a general template that should be followed for clarity sake; changes may be made in the future. Other documents that may be needed will follow their own general template as well, this will streamline the documentation process. Communications with stakeholders, as mentioned, will be in a more formal setting, following the title block, text sizing, and general text style structure that has been pre-set.
 when reporting to team members vs. stakeholders
-## Escalation Procedures for Resolving Issues:
+## Escalation Procedures for Resolving Issues
 Escalation shall be done when a task is falling behind and the team member that is assigned to said task is unable to complete it in a timely manner. The expectation is for the team member to let the other members know during the daily meetings that they will be working on the task, or if they are unable to, let the team know so another member can help out. Depending on the task, it can be fully transferred over to another team member, or just have a second team member to help streamline the process. If a team member is falling behind on a task and does not let anyone know, inspection of the WBS progress in the Gantt chart will notify the team and allow for intervention if needed.
-## Revision Procedures for this Document:
+## Revision Procedures for this Document
 Revisions will be made to this, or any other document, as needed. The expectation for updating a document is to reversion the document in the title block, and let the team know when it is possible - whether that be through ProofHub, in-person, or even in Discord. Any document amendments are also expected to be put committed to the GitHub with a sufficient comment mentioning that the document has been updated, and possibly a brief overview of the changes made if they could be easily overlooked.
-## Glossary of Common Terminology:
+## Glossary of Common Terminology
 This list will be updated as terminology is expanded.
 - VM - Virtual Machine - a virtual computer.  
 - Hypervisor - a server that is able to have other virtual computers on it.  
 - HA - High Availability - being able to have one server that can go down without it being noticeable to the end users.
 
+<div style="page-break-after: always; visibility: hidden"> 
+\pagebreak 
+</div>
+
 # Quality Management Plan – MAJTeQ
 **Project Name: UltraSol Energy Solutions Merger**
-**Assigned Members:** Aidan Cadieux, Jamie Lewis, Matthew Telford, Quinn Parent, Taqi Zaidi  
+
 **Date Last Modified:** January 24, 2024  
 **Version:** 1.00  
 
@@ -492,26 +509,29 @@ Responsibility for Quality Certification: Quality assurance responsibilities are
 	- Implementation Phase Testing: Conducted in a live environment, this includes real-time monitoring, load testing, and security testing.
 	- Post-Implementation Review: Includes user feedback analysis, system performance evaluation, and security audits. 
 ## Problem Reporting and Corrective Action Process
-### Issue Reporting Levels:
+### Issue Reporting Levels
 - Level 1 (Minor Issues): Handled internally within the respective technical teams. Includes minor software bugs or hardware compatibility issues.
 - Level 2 (Moderate Issues): Requires reporting to the Project Quality Manager. These are issues that may impact project timelines or minor security concerns.
 - Level 3 (Major Issues): Any major disruptions, security breaches, or significant delays must be escalated to the Project Steering Committee and UES senior management.
-### Corrective Action Process:
+### Corrective Action Process
 - Immediate Assessment: Rapid evaluation of the issue to determine the impact and urgency.
 - Containment Actions: Immediate actions to contain and limit the impact of the issue.
 - Root Cause Analysis: Conducted to identify the underlying causes of the issue.
 - Corrective Actions: Development and implementation of a plan to rectify the issue and prevent recurrence.
 - Reporting and Documentation: Comprehensive documentation of the issue, the analysis, and the corrective actions taken.
 
+<div style="page-break-after: always; visibility: hidden"> 
+\pagebreak 
+</div>
+
 # Project Milestone Report Template - MAJTeQ
 **Project Name: UltraSol Energy Solutions Merger**
-**Assigned Members:** Aidan Cadieux, Jamie Lewis, Matthew Telford, Quinn Parent, Taqi Zaidi  
 **Date Last Modified:** January 29, 2024  
 **Version:** 1.00  
 
 --- 
 
-## Date: 
+**Date:**
 
 |  Milestone  | Milestone Description | Milestone Owner | Expected Completion Date | Actual Completion Date | Status | Notes |
 | :---------: | :-------------------: | :-------------: | :----------------------: | :--------------------: | :----: | :---: |
@@ -520,7 +540,7 @@ Responsibility for Quality Certification: Quality assurance responsibilities are
 | Milestone 3 |                       |                 |                          |                        |        |       |
 
 
-## Summary 
+**Summary** 
 
 **Overall Project Status:** <br>
 
@@ -530,10 +550,13 @@ Responsibility for Quality Certification: Quality assurance responsibilities are
 
 **Future Milestones:** <br>
 
+<div style="page-break-after: always; visibility: hidden"> 
+\pagebreak 
+</div>
 
 # Project Status Report Template - MAJTeQ
 **Project Name: UltraSol Energy Solutions Merger**
-**Assigned Members:** Aidan Cadieux, Jamie Lewis, Matthew Telford, Quinn Parent, Taqi Zaidi  
+
 **Date Last Modified:** January 26, 2024  
 **Version:** 1.00  
 
@@ -552,18 +575,21 @@ Responsibility for Quality Certification: Quality assurance responsibilities are
 
 **Suggestions/Issues:**<br><br><br><br>
 
+<div style="page-break-after: always; visibility: hidden"> 
+\pagebreak 
+</div>
 
 # Change Control Plan - MAJTeQ
 **Project Name: UltraSol Energy Solutions Merger**
-**Assigned Members:** Aidan Cadieux, Jamie Lewis, Matthew Telford, Quinn Parent, Taqi Zaidi  
+
 **Date Last Modified:** January 29, 2024  
 **Version:** 1.00  
 
 ---
-## Purpose:
+## Purpose
 This document is to describe how documents and infrastructure changes can be made and the process of said changes. This is due to the active project at hand, meaning things will change as progression continues.
 
-## How to use this Document:
+## How to use this Document
 The Change Control Plan will be used to track committed changes and follow-through with confirmed changes from change request forms.
 
 ### Documentation
@@ -601,9 +627,12 @@ Changes that are considered large enough to be accepted are:
 - The member assigned to manage the change, will monitor the impact of the change on the project and take any needed action if necessary.
 - This could involve additional changes or adjustments to the project plan.
 
+<div style="page-break-after: always; visibility: hidden"> 
+\pagebreak 
+</div>
+
 # Change Request Form Template - MAJTeQ
 **Project Name: UltraSol Energy Solutions Merger**
-**Assigned Members:** Aidan Cadieux, Jamie Lewis, Matthew Telford, Quinn Parent, Taqi Zaidi  
 **Date Last Modified:** January 24, 2024  
 **Version:** 1.00  
 
@@ -625,19 +654,21 @@ Changes that are considered large enough to be accepted are:
 **Member Votes**:
 
 | Name | Date | Verdict |
-| ---- | ---- | ---- |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| ---- | ---- | ------- |
+|      |      |         |
+|      |      |         |
+|      |      |         |
+|      |      |         |
 
 ---
 **STATUS OF REQUEST: `_____________________________`**
 
+<div style="page-break-after: always; visibility: hidden"> 
+\pagebreak 
+</div>
 
 # Project Risk Management Plan - MAJTeQ
 **Project Name: UltraSol Energy Solutions Merger**
-**Assigned Members:** Aidan Cadieux, Jamie Lewis, Matthew Telford, Quinn Parent, Taqi Zaidi  
 **Date Last Modified:** January 31, 2024  
 **Version:** 1.00  
 
@@ -667,9 +698,12 @@ Risk Response Planning is the process of selecting the appropriate response stra
 
 <sup>This document was modified using ChatGPT for clarity purposes.</sup>
 
+<div style="page-break-after: always; visibility: hidden"> 
+\pagebreak 
+</div>
+
 # Client Acceptance Form - MAJTeQ
 **Project Name: UltraSol Energy Solutions Merger**
-**Assigned Members:** Aidan Cadieux, Jamie Lewis, Matthew Telford, Quinn Parent, Taqi Zaidi  
 **Date Last Modified:** January 31st, 2024  
 **Version:** 1.00  
 
@@ -683,13 +717,13 @@ Risk Response Planning is the process of selecting the appropriate response stra
 
 MAJTeQ acknowledge and accept delivery of the work completed for this project on behalf of our organization. Our signatures attest to the agreement that this project has been completed. No further work should be done regarding this project.
 
-| Name | Role | Signature | Date |
-| ---- | ----- | --------- | ---- |
-|Taqi Zaidi|Network Architect and Innovations Specialist|![](../../!Images/taqi_initials.webp)|      |
-|Quinn Parent|Project Manager|![](../../!Images/quinn_initials.webp)|      |
-|Matthew Telford|Security Analyst|![](../../!Images/matt_initials.webp)|      |
-|Jamie Lewis|IT Hardware Deployment Specialist|![](../../!Images/jamie_initials.webp)|      |
-|Aidan Cadieux|IT Infrastructure Specialist|![](../../!Images/aidan_initials.webp)|      |
+| Name            | Role                                         | Signature                              | Date          |
+| --------------- | -------------------------------------------- | -------------------------------------- | ------------- |
+| Taqi Zaidi      | Network Architect and Innovations Specialist | ![](../../!Images/taqi_initials.webp)  | Feb. 09. 2024 |
+| Quinn Parent    | Project Manager                              | ![](../../!Images/quinn_initials.webp) | Feb. 09. 2024 |
+| Matthew Telford | Security Analyst                             | ![](../../!Images/matt_initials.webp)  | Feb. 09. 2024 |
+| Jamie Lewis     | IT Hardware Deployment Specialist            | ![](../../!Images/jamie_initials.webp) | Feb. 09. 2024 |
+| Aidan Cadieux   | IT Infrastructure Specialist                 | ![](../../!Images/aidan_initials.webp) | Feb. 09. 2024 |
 
 <br><br>
 
@@ -700,4 +734,67 @@ Does this project meet the requirements for a completed success as outlined by t
  
 Please provide suggestions on how our organization could improve its project delivery capability in the future along with the main reasons for your satisfaction or dissatisfaction with this project below:
 
+<div style="page-break-after: always; visibility: hidden"> 
+\pagebreak 
+</div>
+
 # Glossary of Terms
+
+- **Budget Estimate:** A preliminary calculation of the financial resources required for the project.
+- **Business Case:** A detailed justification for a proposed project, outlining its objectives, benefits, costs, and risks.
+- **Change Request:** Formal proposal to modify project aspects.
+- **Code of Conduct:** Guidelines outlining expected behavior and principles for team members to follow.
+- **Communications Summary:** Overview of communication methods and schedule for the project.
+- **Corrective Action:** Steps taken to resolve project issues.
+- **Daily Meeting:** Regular team meeting held daily to discuss project updates and tasks.
+- **Decision Making:** Process for making project-related choices.
+- **Deliverables:** Tangible outcomes or results expected from a project upon completion.
+- **Documentation:** Records detailing project issues and actions.
+- **Financial Analysis:** Examination of the financial implications and feasibility of the project.
+- **High Availability (HA):** A system design approach ensuring uninterrupted service by minimizing downtime.
+- **Hypervisor:** A server software that enables the creation and management of virtual machines.
+- **Infrastructure Changes:** Alterations to project infrastructure with stricter controls.
+- **Instructor:** Person providing guidance to the project team.
+- **Integration:** Combining different components or systems to function together as a whole.
+- **Issue Reporting:** Process for identifying project problems.
+- **Manager:** An individual responsible for overseeing the planning, execution, and closure of a project.
+- **Meeting Guidelines:** Rules and procedures governing the conduct and organization of team meetings.
+- **Merger:** The combining of two or more organizations into a single entity.
+- **Milestones:** Significant points or events in a project timeline used to track progress and measure achievement.
+- **Options Analysis:** A systematic evaluation of different alternatives available for addressing a problem or achieving a goal.
+- **Participation:** Agreement to actively engage and contribute to team activities and discussions.
+- **Planning:** Selecting response strategies for identified risks.
+- **Problem Solving:** Commitment to collaboratively addressing challenges and conflicts that arise during the project.
+- **Project Charter:** A formal document that authorizes the start of a project, outlining its objectives, scope, stakeholders, and responsibilities.
+- **Project Management Plan:** Document outlining project execution and control.
+- **Project Overview:** Summary of project goals and management approach.
+- **Project Team Members:** Individuals assigned to work on the project.
+- **Proof of Concept (PoC):** A demonstration to verify the feasibility of a concept or technology.
+- **Quality Management Plan:** Document outlining quality strategies.
+- **Quality Standards:** Benchmarks for measuring project quality.
+- **Recommendation:** A proposed course of action or solution based on the analysis of available options.
+- **Register:** Document detailing identified risks.
+- **Reporting:** Process of communicating project progress, issues, and other relevant information.
+- **Requirements:** Specifications or conditions that must be fulfilled by the project deliverables.
+- **Revision Procedures:** Guidelines for updating and revising project documents, including version control and communication methods.
+- **Risk Identification:** Process of identifying potential risks.
+- **Risk Management Plan:** Outline of risk management approach.
+- **Risk Mitigation:** Reducing probability or impact of risk.
+- **Risk Register:** Document detailing identified risks.
+- **Risk Response Planning:** Selecting response strategies for identified risks.
+- **Risk Transfer:** Shifting responsibility for risk to third party.
+- **Risks:** Potential events or circumstances that may have adverse effects on the project's objectives or outcomes.
+- **Roles:** Assignments and responsibilities of individuals involved in a project.
+- **Schedule Estimate:** Projected timeline for completing the project's phases and milestones.
+- **Scope:** The defined boundaries and objectives of a project.
+- **Stakeholder Communications Requirements:** Formal guidelines for communicating with stakeholders, including document structure and delivery timing.
+- **Technical Objectives:** Specific goals focused on implementing technological solutions to achieve business objectives.
+- **Team Organization:** Structure and roles within the project team.
+- **Testing Process:** Procedures for evaluating project elements.
+- **Transfer:** Shifting responsibility for risk to third party.
+- **VM (Virtual Machine):** A virtual computer used for running software applications.
+<sup>(This document was modified using ChatGPT for clarity purposes.)</sup>
+
+
+
+

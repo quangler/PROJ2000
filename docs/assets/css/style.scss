@@ -38,8 +38,13 @@
   max-width: 75% !important;
 }
 
-.zip_download_link,
-.tar_download_link {
-  font-size: 14px; /* Adjust as needed */
-  /* Other styling properties */
+#header_wrap {
+  position: relative;
+}
+
+#header_wrap a[href$=".pdf"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 14px; /* Adjust font size as needed */
 }

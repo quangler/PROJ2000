@@ -151,12 +151,19 @@ Moreover, the focus on change management and stakeholder involvement is commenda
 **Version:** 1.00  
 
 ---
+
 **Brief Project Summary:** Merger of existing Solar-Tec infrastructure into UltraSol environment.
+
 **Project Approval Date:** January 8th, 2024
+
 **Project Sponsor:** Northern Alberta Institute of Technology
+
 **Project Manager:** Chris Redford
+
 **Project Start Date:** January 15th, 2024
+
 **Projected Finish Date:** April 27th, 2024
+
 **Budget Estimate:** 1 million CAD
 
 ## Initial Scope
@@ -242,6 +249,7 @@ Seamlessly integrate and deploy a new IT infrastructure for UltraSol Energy Solu
 | Network Architect and Innovations Specialist | Taqi  | Network Innovation Specialist  | ![taqi_initials](!Images/taqi_initials.webp)   |
 
 <sup>This document was modified using ChatGPT for clarity purposes.</sup>
+
 <div style="page-break-after: always; visibility: hidden"> 
 \pagebreak 
 </div>
@@ -258,21 +266,25 @@ As a project team, we commit to:
 - Punctuality in all team-related activities.
 - Foster a respectful and inclusive environment, refraining from any form of bullying.
 - Adhere to the rubric provided by the instructors.
+
 ## Participation
 We agree to:
 - Conduct regular meetings to discuss daily plans and updates from the previous day.
 - Notify the team in advance when unable to attend a meeting.
+
 ## Communication & Feedback
 We pledge to:
 - Maintain a daily progress log on Proof Hub, ensuring readability.
     - Explore Proof Hub plugins for automated workload reports.
 - Adhere to the Gantt chart, addressing any deviations promptly through discussion and action.
+
 ## Problem Solving
 We commit to:
 - Collaboratively finding solutions to challenges.
 - Documenting problems in our ticketing system.
 - Resolving conflicts with the assistance of a mediator if necessary.
     - In cases where no resolution is achieved, involve an instructor.
+
 ## Meeting Guidelines
 We will:
 - Develop and follow a meeting agenda.
@@ -281,6 +293,7 @@ We will:
     - Summarize daily notes into an easily understandable TLDR.
 - Limit meetings to a maximum of 5-10 minutes, extendable by team vote.
 - Publish the meetings on Proof Hub in the "Discussions" category.
+
 ## Project Team Members Names and Sign-off
 
 | Role                                         | Name  | Position                       | Sign-Off                                       |
@@ -391,14 +404,22 @@ Throughout the course of this project communication will be focused upon in orde
 | Project Managers and Team | Weekly Status Report | Pre-Filled in document brought up during a meeting.                       | Project Manager | Alternating Wednesday and Thursdays            |
 
 During the daily meeting, notes will be taken and uploaded to the discussion section of the ProofHub with the title of that "day's date meeting notes". The notes will also be pushed to the GitHub repository that the team maintains for formal and general PROJ2000 documents.
+
 ## Comments/Guidelines
+
 Communication between the team members will be mostly informal with general project related communications taking place in person or through ProofHub discussions. Other non-project relating communications will take place on discord, examples of these would be alerting the team of an absence or late arrival. Meeting notes have a general template that should be followed for clarity sake; changes may be made in the future. Other documents that may be needed will follow their own general template as well, this will streamline the documentation process. Communications with stakeholders, as mentioned, will be in a more formal setting, following the title block, text sizing, and general text style structure that has been pre-set.
 when reporting to team members vs. stakeholders
+
 ## Escalation Procedures for Resolving Issues
+
 Escalation shall be done when a task is falling behind and the team member that is assigned to said task is unable to complete it in a timely manner. The expectation is for the team member to let the other members know during the daily meetings that they will be working on the task, or if they are unable to, let the team know so another member can help out. Depending on the task, it can be fully transferred over to another team member, or just have a second team member to help streamline the process. If a team member is falling behind on a task and does not let anyone know, inspection of the WBS progress in the Gantt chart will notify the team and allow for intervention if needed.
+
 ## Revision Procedures for this Document
+
 Revisions will be made to this, or any other document, as needed. The expectation for updating a document is to reversion the document in the title block, and let the team know when it is possible - whether that be through ProofHub, in-person, or even in Discord. Any document amendments are also expected to be put committed to the GitHub with a sufficient comment mentioning that the document has been updated, and possibly a brief overview of the changes made if they could be easily overlooked.
+
 ## Glossary of Common Terminology
+
 This list will be updated as terminology is expanded.
 - VM - Virtual Machine - a virtual computer.  
 - Hypervisor - a server that is able to have other virtual computers on it.  
@@ -416,6 +437,7 @@ This list will be updated as terminology is expanded.
 --- 
 ## Introduction
 The approach to Quality Management for the UltraSol Energy Solutions IT infrastructure project is centered on ensuring the highest standards of efficiency, functionality, and security in all aspects of the project. Our methodology involves comprehensive testing, validation, and verification processes at every stage of the project lifecycle, from planning to execution and post-implementation review. We are committed to ensuring that every component of the IT infrastructure aligns with both industry best practices and the specific needs of UES.
+
 ## Quality Standards
 Responsibility for Quality Certification: Quality assurance responsibilities are assigned to specialized teams within the MAJTEQ Consulting Group. This includes a dedicated IT Quality Assurance team for technology components and a Project Quality Manager for overall project quality certification. 
 - Quality Benchmarks for Project Elements:
@@ -426,11 +448,14 @@ Responsibility for Quality Certification: Quality assurance responsibilities are
 	- Pre-Implementation Testing: Involves simulation environments to assess the performance of network setups, server configurations, and application deployments.
 	- Implementation Phase Testing: Conducted in a live environment, this includes real-time monitoring, load testing, and security testing.
 	- Post-Implementation Review: Includes user feedback analysis, system performance evaluation, and security audits. 
+
 ## Problem Reporting and Corrective Action Process
+
 ### Issue Reporting Levels
 - Level 1 (Minor Issues): Handled internally within the respective technical teams. Includes minor software bugs or hardware compatibility issues.
 - Level 2 (Moderate Issues): Requires reporting to the Project Quality Manager. These are issues that may impact project timelines or minor security concerns.
 - Level 3 (Major Issues): Any major disruptions, security breaches, or significant delays must be escalated to the Project Steering Committee and UES senior management.
+
 ### Corrective Action Process
 - Immediate Assessment: Rapid evaluation of the issue to determine the impact and urgency.
 - Containment Actions: Immediate actions to contain and limit the impact of the issue.
@@ -709,6 +734,7 @@ Please provide suggestions on how our organization could improve its project del
 - **Testing Process:** Procedures for evaluating project elements.
 - **Transfer:** Shifting responsibility for risk to third party.
 - **VM (Virtual Machine):** A virtual computer used for running software applications.
+  
 <sup>(This document was modified using ChatGPT for clarity purposes.)</sup>
 
 

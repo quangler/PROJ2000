@@ -1,0 +1,10 @@
+.toc {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 200px;  /* adjust as needed */
+  height: 100vh; /* viewport height */
+  overflow: auto;
+  padding: 1rem;
+  border-left: 1px solid #ccc;
+}

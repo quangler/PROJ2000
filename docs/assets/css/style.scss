@@ -1,0 +1,39 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.outer {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+  .outer {
+    flex-direction: column;
+  }
+}
+
+.toc {
+  flex: 1; /* Adjust as needed */
+  position: sticky;
+  top: 0;
+  max-height: 100vh;
+  overflow-y: auto;
+}
+
+.content {
+  flex: 2; /* Adjust as needed */
+  margin-left: 20px; /* Adjust as needed */
+}
+
+@media screen and (max-width: 600px) {
+  .content {
+    margin-left: 0;
+  }
+}
+
+.content-container {
+  padding: 0 !important;
+  max-width: 75% !important;
+}

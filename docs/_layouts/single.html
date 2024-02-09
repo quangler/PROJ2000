@@ -17,13 +17,11 @@
     <div id="header_wrap" class="outer">
       <header class="inner">
         {% if site.github.is_project_page %}
-          <div style="display: flex; justify-content: space-between; align-items: center;">
-            <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
-            <a href="/_pdfs/Team_5_-_Network_Diagram.pdf" download>
-              <div style="display: flex; align-items: center;">
-                <img class="pdf-icon" src="https://projectplan.team5.ca/!Images/pdf-icon.png" alt="Download PDF">
-                <span>Network Diagram</span>
-              </div>
+          <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
+          <div class="pdf-container">
+            <a href="https://projectplan.team5.ca/pdfs/Team_5_-_Network_Diagram.pdf" download>
+              <img class="pdf-icon" src="https://projectplan.team5.ca/!Images/pdf-icon.png" alt="Download PDF">
+              <span>Network Diagram</span>
             </a>
           </div>
         {% endif %}
@@ -31,7 +29,6 @@
         <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
       </header>
     </div>
-
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">

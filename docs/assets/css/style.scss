@@ -49,5 +49,14 @@
 }
 
 .pdf-container {
-  margin-left: auto;
+  margin-right: auto;
+}
+
+.pdf-icon-container {
+  display: flex;
+  justify-content: center;
+}
+
+.pdf-label {
+  text-align: center;
 }

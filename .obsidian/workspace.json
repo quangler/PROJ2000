@@ -11,23 +11,21 @@
             "id": "5d6c2d79e502bf49",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Quick Reference/Firewall Changes.md",
+                "mode": "source",
+                "source": false
+              }
             }
-          }
-        ]
-      },
-      {
-        "id": "a31925211dae7233",
-        "type": "tabs",
-        "children": [
+          },
           {
             "id": "eaf30c33f81fc13e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Quick Reference/Housekeeping/L3/HQ-L3SW-02.md",
+                "file": "Quick Reference/Housekeeping/L3/HQ-L3SW-01.md",
                 "mode": "source",
                 "source": false
               }
@@ -123,6 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Quick Reference/Firewall Changes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,6 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Quick Reference/Firewall Changes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +160,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Quick Reference/Firewall Changes.md"
+              }
             }
           }
         ],
@@ -180,37 +182,43 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "5d6c2d79e502bf49",
   "lastOpenFiles": [
+    "Quick Reference/Housekeeping/L3/HQ-L3SW-01.md",
+    "Quick Reference/Housekeeping/L3/HQ-L3SW-02.md",
+    "Excalidraw/Drawing 2024-02-09 12.58.53.excalidraw.md",
+    "Excalidraw/Drawing 2024-02-09 12.42.13.excalidraw.md",
+    "Excalidraw",
+    "docs/pdfs/Team_5_-_Network_Diagram.pdf",
+    "docs/pdfs",
+    "README.md",
+    "Documentation/Completed Documents/ProjectPlan.pdf",
+    "Documentation/Completed Documents/ProjectPlan.md",
+    "!Images/LOGO.png",
+    "Excalidraw/THICCCBOI-Thin.ttf",
+    "Excalidraw/THICCCBOI-ThicccAF.ttf",
+    "Excalidraw/THICCCBOI-SemiBold.ttf",
+    "Excalidraw/THICCCBOI-Regular.ttf",
+    "Excalidraw/THICCCBOI-Medium.ttf",
+    "Excalidraw/THICCCBOI-Light.ttf",
+    "Quick Reference/Firewall Changes.md",
+    "Quick Reference/Housekeeping/L3/Untitled.canvas",
+    "docs/!Images/pdf-icon.png",
+    "Documentation/WIP Documents/ProjectPlanV2.md",
+    "Documentation/WIP Documents/ProjectPlanV1.md",
     "!Images/test files-20240118152956006.webp",
     "!Images/test files-20240118155947413.webp",
     "!Images/test files-20240118155935972.webp",
     "!Images/test files-20240118155039084.webp",
     "!Images/test files-20240118154646722.webp",
     "!Images/test files-20240118154547255.webp",
-    "Quick Reference/Firewall Changes.md",
-    "Quick Reference/Housekeeping/L3/HQ-L3SW-02.md",
     "!Images/HQ-FW-02 - Management.png",
     "!Images/HQ-FW-02 - Servers.png",
-    "!Images/Pasted image 20240209084539.png",
-    "Quick Reference/Housekeeping/L3/HQ-L3SW-01.md",
     "docs/index.md",
-    "docs/assets/css/style.scss",
-    "docs/assets/css/main.css",
-    "docs/assets/css",
-    "docs/assets",
-    "docs/about.markdown",
-    "docs/_posts/2024-02-08-welcome-to-jekyll.markdown",
-    "docs/_posts",
-    "docs/_config.yml",
-    "docs/Gemfile.lock",
-    "docs/Gemfile",
-    "docs/!Images/test files-20240118155947413.webp",
-    "docs/!Images/test files-20240118155935972.webp",
-    "README.md",
     "_layouts/default.html.md",
     "conflict-files-obsidian-git.md",
     "assets/css/style.scss.md",
@@ -227,10 +235,6 @@
     "Documentation/Completed Documents/15 Project Risk Management Plan - MAJTeQ.md",
     "Documentation/Completed Documents/16 Client Accceptance Form - MAJTeQ.md",
     "Documentation/Completed Documents/3 Team Contract - MAJTeQ.md",
-    "Documentation/Completed Documents/4 Scope Statement - MAJTeQ.md",
-    "Documentation/Completed Documents/8 Project Management Plan - MAJTeQ.md",
-    "Documentation/Completed Documents/9 Communication Management Plan - MAJTeQ.md",
-    "Documentation/Completed Documents/Untitled.canvas",
-    "Quick Reference/Housekeeping/L3/L3 - Switch Config.md"
+    "Documentation/Completed Documents/Untitled.canvas"
   ]
 }

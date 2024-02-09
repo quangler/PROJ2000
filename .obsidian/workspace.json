@@ -11,9 +11,23 @@
             "id": "5d6c2d79e502bf49",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "a31925211dae7233",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eaf30c33f81fc13e",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Quick Reference/Housekeeping/L3/HQ-L3SW-01.md",
+                "file": "Quick Reference/Housekeeping/L3/HQ-L3SW-02.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +123,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Quick Reference/Housekeeping/L3/HQ-L3SW-01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +139,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Quick Reference/Housekeeping/L3/HQ-L3SW-01.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,9 +160,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Quick Reference/Housekeeping/L3/HQ-L3SW-01.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -175,28 +185,36 @@
   },
   "active": "5d6c2d79e502bf49",
   "lastOpenFiles": [
-    "README.md",
-    "Quick Reference/Housekeeping/L3/HQ-L3SW-01.md",
+    "!Images/test files-20240118152956006.webp",
+    "!Images/test files-20240118155947413.webp",
+    "!Images/test files-20240118155935972.webp",
+    "!Images/test files-20240118155039084.webp",
+    "!Images/test files-20240118154646722.webp",
+    "!Images/test files-20240118154547255.webp",
+    "Quick Reference/Firewall Changes.md",
     "Quick Reference/Housekeeping/L3/HQ-L3SW-02.md",
-    "assets/css/style.scss",
+    "!Images/HQ-FW-02 - Management.png",
+    "!Images/HQ-FW-02 - Servers.png",
+    "!Images/Pasted image 20240209084539.png",
+    "Quick Reference/Housekeeping/L3/HQ-L3SW-01.md",
+    "docs/index.md",
+    "docs/assets/css/style.scss",
+    "docs/assets/css/main.css",
+    "docs/assets/css",
+    "docs/assets",
+    "docs/about.markdown",
+    "docs/_posts/2024-02-08-welcome-to-jekyll.markdown",
+    "docs/_posts",
+    "docs/_config.yml",
+    "docs/Gemfile.lock",
+    "docs/Gemfile",
+    "docs/!Images/test files-20240118155947413.webp",
+    "docs/!Images/test files-20240118155935972.webp",
+    "README.md",
     "_layouts/default.html.md",
-    "_layouts/default.html",
-    "_layouts",
     "conflict-files-obsidian-git.md",
     "assets/css/style.scss.md",
-    "assets/css",
-    "assets",
-    "_includes/toc.html",
-    "_includes",
     "Documentation/WIP Documents/ProjectPlan.md",
-    "!Images/7 Budget.png",
-    "!Images/6 Gantt Chart.png",
-    "!Images/aidan_initials.webp",
-    "!Images/6 Gantt Chart (Schedule).png",
-    "!Images/README-20240208145454198.webp",
-    "!Images/README-20240208145417855.webp",
-    "CNAME",
-    "Documentation/WIP Documents/ProjectPlan.pdf",
     "Quick Reference/Housekeeping/L2/L2 - Switch Config.md",
     "Documentation/WIP Documents/Server Quick Notes.md",
     "Documentation/Completed Documents/14 Change Request Form Template - MAJTeQ.md",
@@ -213,13 +231,6 @@
     "Documentation/Completed Documents/8 Project Management Plan - MAJTeQ.md",
     "Documentation/Completed Documents/9 Communication Management Plan - MAJTeQ.md",
     "Documentation/Completed Documents/Untitled.canvas",
-    "Documentation/WIP Documents/ProjectPlanQ.pdf",
-    "Beeeg.jpg",
-    "Quick Reference/Housekeeping/L3/L3 - Switch Config.md",
-    "Meeting Notes/January Meeting Notes/Jan 15 Meeting Notes.md",
-    "Meeting Notes/February Meeting Notes/Feb 7 Meeting Notes.md",
-    "!Images/jamie_initials.webp",
-    "!Images/matt_initials.webp",
-    "!Images/Magic-01.webp"
+    "Quick Reference/Housekeeping/L3/L3 - Switch Config.md"
   ]
 }

@@ -38,13 +38,10 @@
   max-width: 75% !important;
 }
 
-#header_wrap {
-  position: relative;
-}
-
-#header_wrap a[href$=".pdf"] {
+.pdf-icon {
+  width: 50px; /* Adjust as needed */
+  height: 50px; /* Adjust as needed */
   position: absolute;
-  top: 0;
   right: 0;
-  font-size: 14px; /* Adjust font size as needed */
+  top: 0;
 }

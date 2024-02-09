@@ -35,11 +35,12 @@
 @media screen and (max-width: 600px) {
   .content {
     margin-left: 0;
+    font-size: 16px; /* Increase font size for better readability on mobile */
   }
 }
 
 .content-container {
-  padding: 20 !important;
+  padding: 20px !important; /* Adjust as needed */
   max-width: 75% !important;
 }
 
@@ -49,7 +50,7 @@
 }
 
 .pdf-container {
-  margin-top: 20px; /* Adjust this value to your needs */
+  margin-top: 20px; /* Adjust as needed */
   margin-left: auto;
   margin-right: 20px;
 }
@@ -61,4 +62,11 @@
 
 .pdf-label {
   text-align: center;
+  font-size: 18px; /* Increase font size for better visibility */
+}
+
+@media screen and (max-width: 600px) {
+  .pdf-label {
+    font-size: 16px; /* Adjust font size for mobile */
+  }
 }

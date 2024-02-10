@@ -15,9 +15,9 @@
               "state": {
                 "file": "Quick Reference/Housekeeping/Network Diagram and Cutsheet.canvas",
                 "viewState": {
-                  "x": 728.8731604585944,
-                  "y": 413.2479674869026,
-                  "zoom": -0.9721502378071527
+                  "x": 1167.7767502202294,
+                  "y": 333.36645014098457,
+                  "zoom": -1.5321426813479355
                 }
               }
             }
@@ -177,10 +177,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e9bf1f6f062e7aad",
+  "active": "78f363064096bc02",
   "lastOpenFiles": [
-    "Quick Reference/Firewall Changes.md",
+    "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-02.md",
     "Quick Reference/Housekeeping/Network Diagram and Cutsheet.canvas",
+    "Quick Reference/Housekeeping/L3/HQ-L3SW-02.md",
+    "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-01.md",
+    "Quick Reference/Housekeeping/L3/HQ-L3SW-01.md",
+    "Quick Reference/Housekeeping/L3/L3 - Switch Config.md",
+    "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-02.txt",
+    "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-01.txt",
+    "Quick Reference/Housekeeping/L3/Configs",
+    "Quick Reference/Firewall Changes.md",
     "Excalidraw/Drawing 2024-02-10 11.35.15.excalidraw.md",
     "README.md",
     "Untitled.md",
@@ -189,8 +197,6 @@
     "Quick Reference/tempTicketSystemDocs.md",
     "to R9-CX.md",
     "Untitled 1.md",
-    "Quick Reference/Housekeeping/L3/HQ-L3SW-01.md",
-    "Quick Reference/Housekeeping/L3/HQ-L3SW-02.md",
     "Excalidraw/Drawing 2024-02-09 12.58.53.excalidraw.md",
     "Excalidraw/Drawing 2024-02-09 12.42.13.excalidraw.md",
     "Excalidraw",
@@ -202,9 +208,6 @@
     "Excalidraw/THICCCBOI-Thin.ttf",
     "Excalidraw/THICCCBOI-ThicccAF.ttf",
     "Excalidraw/THICCCBOI-SemiBold.ttf",
-    "Excalidraw/THICCCBOI-Regular.ttf",
-    "Excalidraw/THICCCBOI-Medium.ttf",
-    "Excalidraw/THICCCBOI-Light.ttf",
     "Quick Reference/Housekeeping/L3/Untitled.canvas",
     "docs/!Images/pdf-icon.png",
     "Documentation/WIP Documents/ProjectPlanV2.md",
@@ -223,9 +226,6 @@
     "assets/css/style.scss.md",
     "Documentation/WIP Documents/ProjectPlan.md",
     "Quick Reference/Housekeeping/L2/L2 - Switch Config.md",
-    "Documentation/WIP Documents/Server Quick Notes.md",
-    "Documentation/Completed Documents/14 Change Request Form Template - MAJTeQ.md",
-    "Documentation/Completed Documents/2 Project Charter - MAJTeQ.md",
     "Documentation/Completed Documents/Untitled.canvas"
   ]
 }

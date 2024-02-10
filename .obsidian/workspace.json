@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Quick Reference/Network Diagram and Cutsheet.canvas",
+                "file": "Quick Reference/Housekeeping/Network Diagram and Cutsheet.canvas",
                 "viewState": {
-                  "x": 322.3427739119826,
-                  "y": 347.55516734162524,
-                  "zoom": -1.288171022897245
+                  "x": 728.8731604585944,
+                  "y": 413.2479674869026,
+                  "zoom": -0.9721502378071527
                 }
               }
             }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Quick Reference/Network Diagram and Cutsheet.canvas",
+                "file": "Quick Reference/Housekeeping/Network Diagram and Cutsheet.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Quick Reference/Network Diagram and Cutsheet.canvas",
+                "file": "Quick Reference/Housekeeping/Network Diagram and Cutsheet.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Quick Reference/Network Diagram and Cutsheet.canvas"
+                "file": "Quick Reference/Housekeeping/Network Diagram and Cutsheet.canvas"
               }
             }
           }
@@ -177,18 +177,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "78f363064096bc02",
+  "active": "e9bf1f6f062e7aad",
   "lastOpenFiles": [
+    "Quick Reference/Firewall Changes.md",
+    "Quick Reference/Housekeeping/Network Diagram and Cutsheet.canvas",
+    "Excalidraw/Drawing 2024-02-10 11.35.15.excalidraw.md",
     "README.md",
     "Untitled.md",
     "Rack 9 Patch Panel.md",
-    "Quick Reference/Network Diagram and Cutsheet.canvas",
     "HQ-FW-01.md",
     "Quick Reference/tempTicketSystemDocs.md",
-    "Excalidraw/Drawing 2024-02-10 11.35.15.excalidraw.md",
     "to R9-CX.md",
     "Untitled 1.md",
-    "Quick Reference/Firewall Changes.md",
     "Quick Reference/Housekeeping/L3/HQ-L3SW-01.md",
     "Quick Reference/Housekeeping/L3/HQ-L3SW-02.md",
     "Excalidraw/Drawing 2024-02-09 12.58.53.excalidraw.md",

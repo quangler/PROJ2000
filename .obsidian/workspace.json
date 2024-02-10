@@ -15,9 +15,9 @@
               "state": {
                 "file": "Quick Reference/Housekeeping/Network Diagram and Cutsheet.canvas",
                 "viewState": {
-                  "x": 1167.7767502202294,
-                  "y": 333.36645014098457,
-                  "zoom": -1.5321426813479355
+                  "x": 994.817502805334,
+                  "y": 92.7616271548522,
+                  "zoom": -1.312840105702585
                 }
               }
             }
@@ -177,10 +177,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "78f363064096bc02",
+  "active": "e9bf1f6f062e7aad",
   "lastOpenFiles": [
-    "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-02.md",
+    "Quick Reference/Housekeeping/basicHousekeeping.md",
     "Quick Reference/Housekeeping/Network Diagram and Cutsheet.canvas",
+    "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-02.md",
     "Quick Reference/Housekeeping/L3/HQ-L3SW-02.md",
     "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-01.md",
     "Quick Reference/Housekeeping/L3/HQ-L3SW-01.md",

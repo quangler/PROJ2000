@@ -4,18 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "e8832aea5ed73c3d",
+        "id": "81dcdd5c73a89eb5",
         "type": "tabs",
         "children": [
           {
-            "id": "e9bf1f6f062e7aad",
+            "id": "3db151ba6769a4e4",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
-              "state": {
-                "file": ".gitignore",
-                "staged": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -169,10 +166,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e9bf1f6f062e7aad",
+  "active": "8ce7ea8abb47c70e",
   "lastOpenFiles": [
+    "Untitled.md",
     "Quick Reference/Housekeeping/Network Diagram and Cutsheet.canvas",
-    "New Text Document.txt",
+    "-WB216-20.gitignore",
+    "New folder",
     "Quick Reference/Documentation Guides/Device Name Scheme - MAJTeQ.md",
     "Quick Reference/Documentation Guides/Documentation Scheme - MAJTeQ.md",
     "Lecture Notes/Ethics in IT.md",
@@ -190,7 +189,6 @@
     "Quick Reference/Firewall Changes.md",
     "Excalidraw/Drawing 2024-02-10 11.35.15.excalidraw.md",
     "README.md",
-    "Untitled.md",
     "Rack 9 Patch Panel.md",
     "HQ-FW-01.md",
     "Quick Reference/tempTicketSystemDocs.md",
@@ -205,7 +203,6 @@
     "Documentation/Completed Documents/ProjectPlan.md",
     "!Images/LOGO.png",
     "Excalidraw/THICCCBOI-Thin.ttf",
-    "Excalidraw/THICCCBOI-ThicccAF.ttf",
     "Quick Reference/Housekeeping/L3/Untitled.canvas",
     "docs/!Images/pdf-icon.png",
     "Documentation/WIP Documents/ProjectPlanV2.md",

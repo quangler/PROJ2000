@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"f716a7c0e2747b5d","x":-660,"y":-40,"width":340,"height":200,"color":"4","type":"text","text":"Achievement\nBrilliance\nIntuition\nKnowledge\nCleverness\nWisdom"},
+		{"id":"d748e90827ce6b77","x":-660,"y":220,"width":340,"height":100,"color":"4","type":"text","text":"The ability to learn and be excellent at the things you do"},
+		{"id":"ed1937e8db0f860d","x":-300,"y":-140,"width":250,"height":300,"color":"1","type":"text","text":"Resourcefulness\nPerformance\nUsefulness\nContribution\nVersatility\nDependability\nReliability\nStability\nQuality\n"},
+		{"id":"286a93bd77be4df5","x":-300,"y":220,"width":250,"height":100,"color":"1","type":"text","text":"multitool - just works when its needed, can do multiple jobs"},
+		{"id":"eeb16a496f0907ec","x":-20,"y":220,"width":250,"height":100,"color":"2","type":"text","text":"being a decent person with a sense of humor"},
+		{"id":"b2ecd33a39f0bd09","x":-20,"y":-260,"width":250,"height":420,"color":"2","type":"text","text":"Appreciation\nCaring\nEmpathy\nCalmness\nCompassion\nUnderstanding\nHumility\nHumor\nJoy\nHappiness\nTrustworthiness\nTeamwork\nThankfulness\nExpressiveness\n"},
+		{"id":"eaa59b73c7c7e4cb","x":260,"y":220,"width":280,"height":100,"color":"5","type":"text","text":"exploration of the world, being healthy and having freedom"},
+		{"id":"221ee068f11c1ca1","x":260,"y":-100,"width":280,"height":260,"color":"5","type":"text","text":"Adventure\nRelationships\nFriendships\nPassion\nFreedom\nGrowth\nHealth\nSafety"}
+	],
+	"edges":[
+		{"id":"ab56dae997681a26","fromNode":"f716a7c0e2747b5d","fromSide":"bottom","toNode":"d748e90827ce6b77","toSide":"top","color":"4"},
+		{"id":"7a5796b319f7d6dd","fromNode":"ed1937e8db0f860d","fromSide":"bottom","toNode":"286a93bd77be4df5","toSide":"top","color":"1"},
+		{"id":"52d08550bc021350","fromNode":"b2ecd33a39f0bd09","fromSide":"bottom","toNode":"eeb16a496f0907ec","toSide":"top","color":"2"},
+		{"id":"a252845bc1b8c57d","fromNode":"221ee068f11c1ca1","fromSide":"bottom","toNode":"eaa59b73c7c7e4cb","toSide":"top","color":"5"}
+	]
+}

@@ -1,7 +1,7 @@
 # Project Milestone Report - MAJTeQ
 ## Project Name: UltraSol Energy Solutions Merger
 **Assigned Members:** Aidan Cadieux, Jamie Lewis, Matthew Telford, Quinn Parent, Taqi Zaidi  
-**Date Last Modified:** January 29, 2024  
+**Date Last Modified:** Feb. 12, 2024  
 **Version:** 1.00  
 
 --- 
@@ -10,7 +10,7 @@
 
 |          Milestone           | Expected Completion Date | Actual Completion Date |   Status    | Notes |
 | :--------------------------: | :----------------------: | :--------------------: | :---------: | :---: |
-|    Planning Documentation    |      Feb. 09, 2024       |                        | In-Progress |       |
+|    Planning Documentation    |      Feb. 09, 2024       | Feb. 09, 2024                       | In-Progress |       |
 |       Network Diagram        |      Feb. 09, 2024       |     Feb. 01, 2024      |  Complete   |       |
 | Basic Network Infrastructure |      Feb. 09, 2024       |                        |    TO-DO    |       |
 | Basic Server Infrastructure  |      Feb. 09, 2024       |                        |    TO-DO    |       |

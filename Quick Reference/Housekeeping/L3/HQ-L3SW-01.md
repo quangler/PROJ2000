@@ -30,7 +30,7 @@ crypto key generate rsa modulus 1024
 ip ssh version 2
 !
 ip access-list standard ForSSH
- permit 10.100.50.0 255.255.255.0 ! CHANGE THIS FOR EACH SITE
+ permit 10.100.50.0 0.0.0.255 ! CHANGE THIS FOR EACH SITE
 !
 line vty 0 15
  login local
@@ -50,13 +50,14 @@ no ip routing
 !vlan 50
 ! name Management
 int vlan 50
- ip address 10.100.50.1 255.255.255.0 !PLACEHOLDER CHANGE IP
+ ip address 10.100.50.3 255.255.255.0 !PLACEHOLDER CHANGE IP
 ! ip helper-address 10.100.10.25 !PLACEHOLDER CHANGE IP
  no shut
 !
-!
 vlan 10
  name Servers
+vlan 15
+ name ServerManagement
 vlan 20
  name CORP-WIFI
 vlan 30
@@ -90,7 +91,7 @@ vlan 200
 vlan 400
  name CCTV
 vlan 666
- name BLACK HOLE
+ name BLACKHOLE
 vlan 999
  name NATIVE
 !

@@ -11,10 +11,14 @@
             "id": "e9bf1f6f062e7aad",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "canvas",
               "state": {
-                "file": ".gitignore",
-                "staged": false
+                "file": "Quick Reference/Housekeeping/Network Diagram and Cutsheet.canvas",
+                "viewState": {
+                  "x": -517.189206683338,
+                  "y": -663.9800227059658,
+                  "zoom": -1.6666666666666665
+                }
               }
             }
           }
@@ -108,6 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Quick Reference/Housekeeping/Network Diagram and Cutsheet.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,6 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Quick Reference/Housekeeping/Network Diagram and Cutsheet.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +151,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Quick Reference/Housekeeping/Network Diagram and Cutsheet.canvas"
+              }
             }
           }
         ],
@@ -169,16 +177,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e9bf1f6f062e7aad",
+  "active": "78f363064096bc02",
   "lastOpenFiles": [
+    "Quick Reference/Housekeeping/basicHousekeeping.md",
     "Quick Reference/Housekeeping/Network Diagram and Cutsheet.canvas",
+    "Quick Reference/Firewall Changes.md",
     "New Text Document.txt",
     "Quick Reference/Documentation Guides/Device Name Scheme - MAJTeQ.md",
     "Quick Reference/Documentation Guides/Documentation Scheme - MAJTeQ.md",
     "Lecture Notes/Ethics in IT.md",
     "Lecture Notes/My values!.canvas",
     "Lecture Notes/PROJ 2000 - Topic 1 Intro to Project Management.md",
-    "Quick Reference/Housekeeping/basicHousekeeping.md",
     "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-02.md",
     "Quick Reference/Housekeeping/L3/HQ-L3SW-02.md",
     "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-01.md",
@@ -187,7 +196,6 @@
     "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-02.txt",
     "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-01.txt",
     "Quick Reference/Housekeeping/L3/Configs",
-    "Quick Reference/Firewall Changes.md",
     "Excalidraw/Drawing 2024-02-10 11.35.15.excalidraw.md",
     "README.md",
     "Untitled.md",

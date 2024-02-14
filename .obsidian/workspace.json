@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c95f98b9ac1ae24a",
+        "id": "0b9a6f868f6b9e33",
         "type": "tabs",
         "children": [
           {
-            "id": "e019c0a4ddd60399",
+            "id": "e486361511b0eee4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reports/Milestone Report Feb 12 - MAJTeQ.md",
+                "file": "Cluster Checklist.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reports/Milestone Report Feb 12 - MAJTeQ.md",
+                "file": "Cluster Checklist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reports/Milestone Report Feb 12 - MAJTeQ.md",
+                "file": "Cluster Checklist.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reports/Milestone Report Feb 12 - MAJTeQ.md"
+                "file": "Cluster Checklist.md"
               }
             }
           }
@@ -174,10 +174,15 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "e019c0a4ddd60399",
+  "active": "e486361511b0eee4",
   "lastOpenFiles": [
-    "Reports/Milestone Report Jan 31 - MAJTeQ.md",
+    "Quick Reference/Housekeeping/Network Diagram and Cutsheet.canvas",
+    "Cluster Checklist.md",
+    "Quick Reference/Housekeeping/L3/HQ-L3SW-02.md",
+    "Quick Reference/Housekeeping/L3/HQ-L3SW-01.md",
+    "Quick Reference/Housekeeping/basicHousekeeping.md",
     "Reports/Milestone Report Feb 12 - MAJTeQ.md",
+    "Reports/Milestone Report Jan 31 - MAJTeQ.md",
     "Reports",
     "Meeting Notes/January Meeting Notes/Jan 31 Meeting Notes.md",
     "Meeting Notes/January Meeting Notes/Jan 29 Meeting Notes.md",
@@ -190,10 +195,8 @@
     "Meeting Notes/January Meeting Notes/Jan 15 Meeting Notes.pdf",
     "Meeting Notes/February Meeting Notes/Feb 7 Meeting Notes.md",
     "Excalidraw/VPN_Proposal.md",
-    "Untitled.md",
     "README.md",
     "Documentation/Completed Documents/1 Business Case - MAJTeQ.md",
-    "Quick Reference/Housekeeping/Network Diagram and Cutsheet.canvas",
     "Quick Reference/TicketSystemDocs.md",
     "Quick Reference/Firewall Changes.md",
     "Quick Reference/Documentation Guides/Documentation Scheme - MAJTeQ.md",
@@ -203,11 +206,7 @@
     "Lecture Notes/Ethics in IT.md",
     "Lecture Notes/My values!.canvas",
     "Lecture Notes/PROJ 2000 - Topic 1 Intro to Project Management.md",
-    "Quick Reference/Housekeeping/basicHousekeeping.md",
     "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-02.md",
-    "Quick Reference/Housekeeping/L3/HQ-L3SW-02.md",
-    "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-01.md",
-    "Quick Reference/Housekeeping/L3/HQ-L3SW-01.md",
     "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-02.txt",
     "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-01.txt",
     "Quick Reference/Housekeeping/L3/Configs",

@@ -103,14 +103,14 @@ int range g1/0/1-24
 int range g1/1/1-24
  shut
 !
-int g1/0/1
+int g1/0/3
  description HQ-L3SW-01 / G1/0/1 to HQ-FW-01 / Int1 - Routing
  switchport mode trunk
  switchport trunk encapsulation dot1q
  switchport trunk native vlan 200
  no shut
 !
-int g1/0/2
+int g1/0/4
  description HQ-L3SW-01 / G1/0/2 to HQ-FW-02 / Int1 - Routing
  switchport mode trunk
  switchport trunk  encapsulation dot1q

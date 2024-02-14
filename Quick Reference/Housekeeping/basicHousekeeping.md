@@ -5,17 +5,17 @@
 
 # Housekeeping
 
-## L2
+## L2/L3
 
 ```
-hostname Sw1
+hostname XXXXXX
 !
-enable secret cisco
-username admin password cisco
+enable secret majteq
+username admin password majteq
 service password-encryption
 spanning-tree mode rapid-pvst
 !
-ip domain-name NETW1100.local
+ip domain-name team5.ca
 !
 line console 0
  logging synchronous
@@ -24,7 +24,7 @@ crypto key generate rsa modulus 1024
 ip ssh version 2
 !
 ip access-list standard ForSSH
- permit 172.16.6.0 255.255.255.0
+ permit 10.100.50.0 0.0.0.255
 !
 line vty 0 15
  login local
@@ -36,85 +36,56 @@ interface vlan 1
  shutdown
 !
 vlan 10
- name DataCenter
+ name Servers
+vlan 15
+ name ServerManagement
 vlan 20
- name Engineering
+ name CORP-WIFI
 vlan 30
- name Finance
+ name GUEST-WIFI
 vlan 40
- name Health&HR
+ name VoIP
 vlan 50
- name ITServices
-vlan 60
  name NetworkManagement
+vlan 60
+ name Accounting
 vlan 70
- name Wireless
+ name Engineering
 vlan 80
- name Research&Development
+ name IT
 vlan 90
- name Sales&Marketing
+ name Logistics
 vlan 100
- name Voice
+ name ManagementTeam
 vlan 110
- name Native
+ name MANUSecure
 vlan 120
- name BlackHole
+ name Operations
+vlan 130
+ name QA
+vlan 140
+ name Sales
+vlan 150
+ name Students
+vlan 200
+ name Routing
+vlan 400
+ name CCTV
+vlan 666
+ name BLACKHOLE
+vlan 999
+ name NATIVE
 !
-
-interface range f0/22-24
- switchport mode trunk
- switchport trunk native vlan 110
-!
-
-interface range f0/1-21
- switchport mode access
- switchport access vlan 10
- switchport voice vlan 60
- spanning-tree portfast
- spanning-tree bpduguard enable
-!
-
 interface vlan 50
- ip address 192.168.50.202 255.255.255.0
+ ip address 192.168.50.xx 255.255.255.0
  no shut
 !
-
-ip default-gateway 192.168.50.254
+ip default-gateway 10.100.50.1
 !
 end
 write
 ```
 
-## L3
-
-```
-!
-ip routing
-!
-interface range f0/1-4
- switchport trunk  encapsulation dot1q
- switchport mode trunk
- switchport trunk native vlan 40
-!
-interface range f0/13
- switchport mode access
- switchport access vlan 50
- spanning-tree portfast
- spanning-tree bpduguard enable
-!
-int vlan 10
- ip address 192.168.10.254 255.255.255.0
- ip helper-address 192.168.50.250
- no shut
-int vlan 20
- ip address 192.168.20.254 255.255.255.0
- ip helper-address 192.168.50.250
- no shut
-!
-interface vlan 50
- ip address 192.168.50.254 255.255.255.0
- no shut
-!
 ```
 
 ## Router

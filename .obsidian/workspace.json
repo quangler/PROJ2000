@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2b59a87b0e2f3921",
+        "id": "a44d7866a6648039",
         "type": "tabs",
         "children": [
           {
-            "id": "fef1193d531a3951",
+            "id": "962da4a7d40783a5",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,8 +166,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "78f363064096bc02",
+  "active": "8ce7ea8abb47c70e",
   "lastOpenFiles": [
+    "Quick Reference/Housekeeping/Network Diagram and Cutsheet.canvas",
+    "conflict-files-obsidian-git.md",
     "Cluster Checklist.md",
     "Quick Reference/Cluster Checklist.md",
     "README.md",
@@ -176,7 +178,6 @@
     "Quick Reference/Housekeeping/L3/HQ-L3SW-02.md",
     "Quick Reference/Housekeeping/L3/HQ-L3SW-01.md",
     "Quick Reference/Housekeeping/basicHousekeeping.md",
-    "Quick Reference/Housekeeping/Network Diagram and Cutsheet.canvas",
     "Reports/Milestone Report Feb 12 - MAJTeQ.md",
     "Reports/Milestone Report Jan 31 - MAJTeQ.md",
     "Reports",
@@ -198,9 +199,7 @@
     "Quick Reference/Documentation Guides/Device Name Scheme - MAJTeQ.md",
     "-WB216-20.gitignore",
     "New folder",
-    "Lecture Notes/Ethics in IT.md",
     "Lecture Notes/My values!.canvas",
-    "Lecture Notes/PROJ 2000 - Topic 1 Intro to Project Management.md",
     "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-02.txt",
     "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-01.txt",
     "Quick Reference/Housekeeping/L3/Configs",

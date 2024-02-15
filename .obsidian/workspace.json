@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "b63aaa1f78fa2c08",
+        "id": "2b59a87b0e2f3921",
         "type": "tabs",
         "children": [
           {
-            "id": "9e9a8ce7c6c0a9f1",
+            "id": "fef1193d531a3951",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Quick Reference/Housekeeping/L3/L3 - Switch Config.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -109,7 +105,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Quick Reference/Housekeeping/L3/L3 - Switch Config.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +121,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Quick Reference/Housekeeping/L3/L3 - Switch Config.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,9 +142,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Quick Reference/Housekeeping/L3/L3 - Switch Config.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -174,14 +166,16 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "9e9a8ce7c6c0a9f1",
+  "active": "78f363064096bc02",
   "lastOpenFiles": [
+    "Cluster Checklist.md",
+    "Quick Reference/Cluster Checklist.md",
+    "README.md",
+    "docs/pdfs/Team_5_-_Network_Diagram.pdf",
+    "Quick Reference/Housekeeping/L3/L3 - Switch Config.md",
     "Quick Reference/Housekeeping/L3/HQ-L3SW-02.md",
     "Quick Reference/Housekeeping/L3/HQ-L3SW-01.md",
-    "Quick Reference/Housekeeping/L3/L3 - Switch Config.md",
     "Quick Reference/Housekeeping/basicHousekeeping.md",
-    "docs/pdfs/Team_5_-_Network_Diagram.pdf",
-    "Cluster Checklist.md",
     "Quick Reference/Housekeeping/Network Diagram and Cutsheet.canvas",
     "Reports/Milestone Report Feb 12 - MAJTeQ.md",
     "Reports/Milestone Report Jan 31 - MAJTeQ.md",
@@ -197,7 +191,6 @@
     "Meeting Notes/January Meeting Notes/Jan 15 Meeting Notes.pdf",
     "Meeting Notes/February Meeting Notes/Feb 7 Meeting Notes.md",
     "Excalidraw/VPN_Proposal.md",
-    "README.md",
     "Documentation/Completed Documents/1 Business Case - MAJTeQ.md",
     "Quick Reference/TicketSystemDocs.md",
     "Quick Reference/Firewall Changes.md",

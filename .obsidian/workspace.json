@@ -11,8 +11,15 @@
             "id": "0c09d87b28daa5b9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "canvas",
+              "state": {
+                "file": "Quick Reference/Housekeeping/Network Diagram and Cutsheet.canvas",
+                "viewState": {
+                  "x": -33.5503073033952,
+                  "y": -346.98505549656784,
+                  "zoom": -1.333333333333333
+                }
+              }
             }
           }
         ]
@@ -95,6 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Quick Reference/Housekeeping/Network Diagram and Cutsheet.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,6 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Quick Reference/Housekeeping/Network Diagram and Cutsheet.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +141,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Quick Reference/Housekeeping/Network Diagram and Cutsheet.canvas"
+              }
             }
           }
         ],
@@ -155,10 +166,15 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "5641285e8b63627b",
+  "active": "0c09d87b28daa5b9",
   "lastOpenFiles": [
-    "Excalidraw/ISP-planning (not complete).md",
+    "Quick Reference/Documentation Guides/Documentation Scheme - MAJTeQ.md",
+    "Documentation/WIP Documents/Server Quick Notes.md",
+    "Documentation/WIP Documents/ProjectPlanV2.md",
+    "Documentation/WIP Documents/ProjectPlanV1.md",
     "Cluster Checklist.md",
+    "Excalidraw/VPN_Proposal.md",
+    "Excalidraw/ISP-planning (not complete).md",
     "README.md",
     "Untitled.md",
     "Quick Reference/Housekeeping/L3/HQ-L3SW-02 Temp.md",

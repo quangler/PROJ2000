@@ -1,22 +1,18 @@
 {
   "main": {
-    "id": "df02485eac0428fb",
+    "id": "cc54516afdbd376d",
     "type": "split",
     "children": [
       {
-        "id": "e8832aea5ed73c3d",
+        "id": "4fe9ab55e845d144",
         "type": "tabs",
         "children": [
           {
-            "id": "e9bf1f6f062e7aad",
+            "id": "0c09d87b28daa5b9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Quick Reference/Housekeeping/FW/HQ-FW-01/HQ-FW-01.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -25,16 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "c69fb2023f2db222",
+    "id": "a0a61efcacb09940",
     "type": "split",
     "children": [
       {
-        "id": "892976138ac57259",
+        "id": "73b56cb8784616b5",
         "type": "tabs",
-        "dimension": 71.80232558139535,
         "children": [
           {
-            "id": "8ce7ea8abb47c70e",
+            "id": "1ff6496191c8d2e4",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,7 +39,7 @@
             }
           },
           {
-            "id": "7351c12c6684e532",
+            "id": "7f89daff32f678db",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -59,7 +54,7 @@
             }
           },
           {
-            "id": "212a41189e94f91a",
+            "id": "920230cb6795ba86",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -69,23 +64,14 @@
         ]
       },
       {
-        "id": "a947500a96bc7893",
+        "id": "e133e10e2cba531c",
         "type": "tabs",
-        "dimension": 28.197674418604652,
         "children": [
           {
-            "id": "78f363064096bc02",
+            "id": "5641285e8b63627b",
             "type": "leaf",
             "state": {
               "type": "git-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "59d31a3fcab194f1",
-            "type": "leaf",
-            "state": {
-              "type": "git-history-view",
               "state": {}
             }
           }
@@ -93,23 +79,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 309.5
+    "width": 300
   },
   "right": {
-    "id": "816d15f20edae7a5",
+    "id": "8efe767ec9796e5e",
     "type": "split",
     "children": [
       {
-        "id": "b30df8f6dcee3c69",
+        "id": "fad9d0ff304057d2",
         "type": "tabs",
         "children": [
           {
-            "id": "f092d76de68e6759",
+            "id": "7d7a04216d59b50f",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Quick Reference/Housekeeping/FW/HQ-FW-01/HQ-FW-01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,19 +106,18 @@
             }
           },
           {
-            "id": "977edaad185d4590",
+            "id": "68f9afc095079583",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Quick Reference/Housekeeping/FW/HQ-FW-01/HQ-FW-01.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "6a3aa11f5b4cd5ef",
+            "id": "f115a2e9c9459482",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -144,13 +128,11 @@
             }
           },
           {
-            "id": "50e4554ff941437f",
+            "id": "b97b879457a14e5b",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Quick Reference/Housekeeping/FW/HQ-FW-01/HQ-FW-01.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -158,72 +140,36 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "omnisearch:Omnisearch": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "e9bf1f6f062e7aad",
+  "active": "5641285e8b63627b",
   "lastOpenFiles": [
-    "Quick Reference/Housekeeping/FW/HQ-FW-01/root VDOM.md",
-    "Quick Reference/Housekeeping/FW/HQ-FW-01/HQ-FW-01.md",
-    "Quick Reference/Housekeeping/FW/HQ-FW-01/HQ_VDOM.md",
-    "Quick Reference/Housekeeping/FW/HQ-FW-01/Global VDOM.md",
-    "Quick Reference/Housekeeping/Network Diagram and Cutsheet.canvas",
-    "Quick Reference/Housekeeping/FW/HQ-FW-01",
-    "Quick Reference/Housekeeping/FW/Untitled.md",
-    "Quick Reference/Housekeeping/FW/HQ-FW-02.md",
-    "Quick Reference/Housekeeping/FW",
-    "Quick Reference/Housekeeping/Untitled.md",
-    "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-02.md",
-    "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-01.md",
+    "Excalidraw/ISP-planning (not complete).md",
+    "Cluster Checklist.md",
+    "README.md",
+    "Untitled.md",
     "Quick Reference/Housekeeping/L3/HQ-L3SW-02 Temp.md",
     "Quick Reference/Housekeeping/L3/HQ-L3SW-01 Temp.md",
-    "Quick Reference/Housekeeping/basicHousekeeping.md",
-    "Quick Reference/Housekeeping/L3/L3 - Switch Config.md",
     "Quick Reference/Housekeeping/L2/HQ-L2SW-02.md",
     "Quick Reference/Housekeeping/L2/HQ-L2SW-01.md",
-    "Quick Reference/Housekeeping/L3/Configs/Drawing 2024-02-15 13.47.06.excalidraw.md",
-    "Quick Reference/Housekeeping/L2/L2 - Switch Config.md",
-    "conflict-files-obsidian-git.md",
-    "Quick Reference/Cluster Checklist.md",
-    "Untitled.md",
-    "Cluster Checklist.md",
-    "Reports/Milestone Report Jan 31 - MAJTeQ.md",
-    "Reports/Milestone Report Feb 12 - MAJTeQ.md",
-    "Reports",
-    "Quick Reference/TicketSystemDocs.md",
-    "Excalidraw/VPN_Proposal.md",
-    "New Text Document.txt",
-    "Lecture Notes/My values!.canvas",
-    "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-02.txt",
-    "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-01.txt",
-    "Quick Reference/Housekeeping/L3/Configs",
-    "Excalidraw",
-    "docs/pdfs/Team_5_-_Network_Diagram.pdf",
-    "docs/pdfs",
-    "!Images/LOGO.png",
-    "Quick Reference/Housekeeping/L3/Untitled.canvas",
-    "docs/!Images/pdf-icon.png",
-    "!Images/test files-20240118152956006.webp",
-    "!Images/test files-20240118155947413.webp",
-    "!Images/test files-20240118155935972.webp",
-    "!Images/test files-20240118155039084.webp",
-    "!Images/test files-20240118154646722.webp",
-    "!Images/test files-20240118154547255.webp",
-    "!Images/HQ-FW-02 - Management.png",
-    "!Images/HQ-FW-02 - Servers.png",
-    "Documentation/Completed Documents/Untitled.canvas"
+    "Quick Reference/Housekeeping/FW/HQ-FW-01/root VDOM.md",
+    "Quick Reference/Housekeeping/FW/HQ-FW-01/HQ_VDOM.md",
+    "Quick Reference/Housekeeping/FW/HQ-FW-01/HQ-FW-01.md",
+    "Quick Reference/Housekeeping/FW/HQ-FW-01/Global VDOM.md",
+    "Quick Reference/Housekeeping/FW/HQ-FW-01",
+    "Quick Reference/Housekeeping/FW"
   ]
 }

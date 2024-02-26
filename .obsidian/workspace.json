@@ -4,20 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "4fe9ab55e845d144",
+        "id": "2df8d83d33255852",
         "type": "tabs",
         "children": [
           {
-            "id": "0c09d87b28daa5b9",
+            "id": "1f98d1601411ebf6",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "Quick Reference/Housekeeping/Network Diagram and Cutsheet.canvas",
                 "viewState": {
-                  "x": -33.5503073033952,
-                  "y": -346.98505549656784,
-                  "zoom": -1.333333333333333
+                  "x": 1056.495228844634,
+                  "y": 927.3971026306981,
+                  "zoom": -1.6666666666666665
                 }
               }
             }
@@ -166,8 +166,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "0c09d87b28daa5b9",
+  "active": "1f98d1601411ebf6",
   "lastOpenFiles": [
+    "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-02.md",
+    "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-01.md",
+    "Quick Reference/Housekeeping/basicHousekeeping.md",
+    "Quick Reference/Housekeeping/Network Diagram and Cutsheet.canvas",
     "Quick Reference/Documentation Guides/Documentation Scheme - MAJTeQ.md",
     "Documentation/WIP Documents/Server Quick Notes.md",
     "Documentation/WIP Documents/ProjectPlanV2.md",

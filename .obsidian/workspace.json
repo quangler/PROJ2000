@@ -4,21 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "2df8d83d33255852",
+        "id": "c040b4b44da533ae",
         "type": "tabs",
         "children": [
           {
-            "id": "1f98d1601411ebf6",
+            "id": "73e8c4c94a2eb94f",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Quick Reference/Housekeeping/Network Diagram and Cutsheet.canvas",
-                "viewState": {
-                  "x": 1424.0678181248318,
-                  "y": 1049.4298607728415,
-                  "zoom": -1.9999999999999998
-                }
+                "file": "Quick Reference/Housekeeping/L2/HQ-L2SW-02.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -102,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Quick Reference/Housekeeping/Network Diagram and Cutsheet.canvas",
+                "file": "Quick Reference/Housekeeping/L2/HQ-L2SW-02.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Quick Reference/Housekeeping/Network Diagram and Cutsheet.canvas",
+                "file": "Quick Reference/Housekeeping/L2/HQ-L2SW-02.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Quick Reference/Housekeeping/Network Diagram and Cutsheet.canvas"
+                "file": "Quick Reference/Housekeeping/L2/HQ-L2SW-02.md"
               }
             }
           }
@@ -166,25 +163,28 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "1f98d1601411ebf6",
+  "active": "73e8c4c94a2eb94f",
   "lastOpenFiles": [
-    "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-02.md",
+    "Quick Reference/Housekeeping/L2/HQ-L2SW-01.md",
+    "Quick Reference/Housekeeping/L2/HQ-L2SW-02.md",
     "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-01.md",
-    "Quick Reference/Housekeeping/basicHousekeeping.md",
+    "Quick Reference/Housekeeping/L3/HQ-L3SW-01 Temp.md",
     "Quick Reference/Housekeeping/Network Diagram and Cutsheet.canvas",
+    "Quick Reference/Housekeeping/basicHousekeeping.md",
+    "Quick Reference/Housekeeping/L3/L3 - Switch Config.md",
+    "Quick Reference/Housekeeping/L3/Configs/Drawing 2024-02-15 13.47.06.excalidraw.md",
+    "Quick Reference/Housekeeping/L2/L2 - Switch Config.md",
+    "Cluster Checklist.md",
+    "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-02.md",
     "Quick Reference/Documentation Guides/Documentation Scheme - MAJTeQ.md",
     "Documentation/WIP Documents/Server Quick Notes.md",
     "Documentation/WIP Documents/ProjectPlanV2.md",
     "Documentation/WIP Documents/ProjectPlanV1.md",
-    "Cluster Checklist.md",
     "Excalidraw/VPN_Proposal.md",
     "Excalidraw/ISP-planning (not complete).md",
     "README.md",
     "Untitled.md",
     "Quick Reference/Housekeeping/L3/HQ-L3SW-02 Temp.md",
-    "Quick Reference/Housekeeping/L3/HQ-L3SW-01 Temp.md",
-    "Quick Reference/Housekeeping/L2/HQ-L2SW-02.md",
-    "Quick Reference/Housekeeping/L2/HQ-L2SW-01.md",
     "Quick Reference/Housekeeping/FW/HQ-FW-01/root VDOM.md",
     "Quick Reference/Housekeeping/FW/HQ-FW-01/HQ_VDOM.md",
     "Quick Reference/Housekeeping/FW/HQ-FW-01/HQ-FW-01.md",

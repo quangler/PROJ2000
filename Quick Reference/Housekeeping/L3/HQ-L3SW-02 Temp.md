@@ -13,6 +13,8 @@ enable secret majteq
 username admin password majteq !! this will be changed later with RADIUS
 service password-encryption
 spanning-tree mode rapid-pvst
+spanning-tree extend system-id
+spanning-tree vlan 10,12,20,30,40,50,60,70,80,90,100,110,120,130,140,150,400,666,999 root secondary
 !
 ip domain-name team5.ca
 !

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c040b4b44da533ae",
+        "id": "66e95b084da1cbb0",
         "type": "tabs",
         "children": [
           {
-            "id": "73e8c4c94a2eb94f",
+            "id": "f7cd1389e35bb99b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Quick Reference/Cluster Checklist.md",
+                "file": "Quick Reference/Housekeeping/L3/Configs/MP-L3SW-01.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Quick Reference/Cluster Checklist.md",
+                "file": "Quick Reference/Housekeeping/L3/Configs/MP-L3SW-01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Quick Reference/Cluster Checklist.md",
+                "file": "Quick Reference/Housekeeping/L3/Configs/MP-L3SW-01.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Quick Reference/Cluster Checklist.md"
+                "file": "Quick Reference/Housekeeping/L3/Configs/MP-L3SW-01.md"
               }
             }
           }
@@ -163,28 +163,29 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "73e8c4c94a2eb94f",
+  "active": "f7cd1389e35bb99b",
   "lastOpenFiles": [
-    "Cluster Checklist.md",
-    "Quick Reference/Cluster Checklist.md",
-    "Quick Reference/Housekeeping/L2/HQ-L2SW-02.md",
-    "Quick Reference/Housekeeping/L2/HQ-L2SW-01.md",
-    "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-01.md",
-    "Quick Reference/Housekeeping/L3/HQ-L3SW-01 Temp.md",
+    "Quick Reference/Housekeeping/L3/Configs/MP-L3SW-02.md",
+    "Quick Reference/Housekeeping/L3/Configs/MP-L3SW-01.md",
     "Quick Reference/Housekeeping/Network Diagram and Cutsheet.canvas",
     "Quick Reference/Housekeeping/basicHousekeeping.md",
-    "Quick Reference/Housekeeping/L3/L3 - Switch Config.md",
-    "Quick Reference/Housekeeping/L3/Configs/Drawing 2024-02-15 13.47.06.excalidraw.md",
-    "Quick Reference/Housekeeping/L2/L2 - Switch Config.md",
+    "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-01.md",
     "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-02.md",
+    "Quick Reference/Housekeeping/L3/HQ-L3SW-01 Temp.md",
+    "Quick Reference/Housekeeping/L2/HQ-L2SW-02.md",
+    "Quick Reference/Housekeeping/L3/Configs/Drawing 2024-02-15 13.47.06.excalidraw.md",
+    "Quick Reference/Housekeeping/L2/HQ-L2SW-01.md",
+    "Quick Reference/Housekeeping/L2/L2 - Switch Config.md",
+    "README.md",
+    "Quick Reference/Cluster Checklist.md",
+    "Cluster Checklist.md",
+    "Quick Reference/Housekeeping/L3/L3 - Switch Config.md",
     "Quick Reference/Documentation Guides/Documentation Scheme - MAJTeQ.md",
     "Documentation/WIP Documents/Server Quick Notes.md",
     "Documentation/WIP Documents/ProjectPlanV2.md",
     "Documentation/WIP Documents/ProjectPlanV1.md",
     "Excalidraw/VPN_Proposal.md",
     "Excalidraw/ISP-planning (not complete).md",
-    "README.md",
-    "Untitled.md",
     "Quick Reference/Housekeeping/L3/HQ-L3SW-02 Temp.md",
     "Quick Reference/Housekeeping/FW/HQ-FW-01/root VDOM.md",
     "Quick Reference/Housekeeping/FW/HQ-FW-01/HQ_VDOM.md",

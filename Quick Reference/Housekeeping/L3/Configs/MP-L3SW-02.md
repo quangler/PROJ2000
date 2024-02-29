@@ -101,32 +101,36 @@ int range g0/1-24
 !
 interface GigabitEthernet0/1
  description MP-L3SW-02 / G0/1 to  MP-L3SW-02 / G0/1 - LAGG
- switchport trunk native vlan 999
+ switchport trunk encapsulation dot1q
  switchport mode trunk
+ switchport trunk native vlan 999
  no shut
 !
 interface GigabitEthernet0/2
  description MP-L3SW-02 / G0/2 to  MP-L3SW-02 / G0/2 - LAGG
- switchport trunk native vlan 999
+ switchport trunk encapsulation dot1q
  switchport mode trunk
+ switchport trunk native vlan 999
  no shut
 !
 interface GigabitEthernet0/3
  description MP-L3SW-02 / G0/3 to MP-FW-01 / Int4 - VLANs
- switchport trunk native vlan 999
+ switchport trunk encapsulation dot1q
  switchport mode trunk
+ switchport trunk native vlan 999
  no shut
 !
 interface GigabitEthernet0/4
  description MP-L3SW-02 / G0/4 to MP-FW-02 / Int4 - VLANs
- switchport trunk native vlan 999
+ switchport trunk encapsulation dot1q
  switchport mode trunk
+ switchport trunk native vlan 999
  no shut
 !
 interface GigabitEthernet0/5
  description MP-L3SW-02 / G0/5 to MP-FW-02 / Int5 - Management
- switchport trunk allowed vlan 50
- switchport mode trunk
+ switchport mode access
+ switchport access vlan 50
  no shut
 !
 interface GigabitEthernet0/6
@@ -134,14 +138,16 @@ interface GigabitEthernet0/6
 !
 interface GigabitEthernet0/7
  description MP-L3SW-02 / G0/7 to  MP-L2SW-02 / G0/2 - L2 Access
- switchport trunk native vlan 999
+ switchport trunk encapsulation dot1q
  switchport mode trunk
+ switchport trunk native vlan 999
  no shut
 !
 interface GigabitEthernet0/8
  description MP-L3SW-02 / G0/8 to  MP-L2SW-01 / G0/1 - L2 Access
- switchport trunk native vlan 999
+ switchport trunk encapsulation dot1q
  switchport mode trunk
+ switchport trunk native vlan 999
  no shut
 !
 interface GigabitEthernet0/9

@@ -1,5 +1,5 @@
 ```L2-Switch-Config
-hostname HQ-L2SW-01 !!FILL IN HERE
+hostname MP-L2SW-01 !!FILL IN HERE
 !
 enable secret majteq
 username admin password majteq !! this will be changed later with RADIUS
@@ -12,7 +12,7 @@ ip domain-name team5.ca
 line console 0
  logging synchronous
 !
-banner motd @ Welcome to the HQ-L2SW-01, lets make the MAJTeQ happen! @
+banner motd @ Welcome to the MP-L2SW-01, lets make the MAJTeQ happen! @
 !
 banner login @ WARNING: Unauthorized access prohibited! @
 !
@@ -22,7 +22,7 @@ crypto key generate rsa modulus 1024
 ip ssh version 2
 !
 ip access-list standard ForSSH
- permit 10.100.50.0 0.0.0.255
+ permit 10.110.50.0 0.0.0.255
 !
 line vty 0 15
  login local
@@ -37,7 +37,7 @@ interface vlan 1
 !
 interface Vlan50
  description Network Management
- ip address 10.100.50.5 255.255.255.0
+ ip address 10.110.50.5 255.255.255.0
  no shut
 !
 ip forward-protocol nd
@@ -84,28 +84,20 @@ vlan 666
 vlan 999
  name NATIVE
 !
-int range f0/0-24
+int range f0/1-24
  shut
 !
 int g0/1
- description HQ-L2SW-01 / G0/1 to HQ-L3SW-02 / G1/0/8 - Client Trunk
+ description MP-L2SW-01 / G0/1 to MP-L3SW-02 / G1/0/8 - Client Trunk
+ switchport trunk encapsulation dot1q
  switchport mode trunk
- switchport trunk  encapsulation dot1q
  switchport trunk native vlan 999
 !
 int g0/2
- description HQ-L2SW-01 / G0/2 to HQ-L3SW-01 / G1/0/7 - Client Trunk
+ description MP-L2SW-01 / G0/2 to MP-L3SW-01 / G1/0/7 - Client Trunk
+ switchport trunk encapsulation dot1q
  switchport mode trunk
- switchport trunk  encapsulation dot1q
  switchport trunk native vlan 999
-! 
-!int g0/x
-! description <DEVICE FROM> / <PORT FROM> to <DEVICE TO> / <PORT TO> - <purpose for>
-! switchport mode <trunk>/<access>
-! switchport trunk  encapsulation dot1q
-! switchport trunk native vlan 999
-! switchport access <vlan #>
-! ip address 10.100.50.1 255.255.255.0 !PLACEHOLDER CHANGE IP
 !
 ```
 

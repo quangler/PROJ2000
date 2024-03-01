@@ -72,12 +72,13 @@ Static Routes have been used for multiple purposes, namely:
 SNMP, FortiGuard access to the internet, and Management network access for various VLANs.
 ### Root
 
-| Destination    | Gateway IP  | Interface    | Comments                                 |
-| -------------- | ----------- | ------------ | ---------------------------------------- |
-| 0.0.0.0/0      | 172.16.50.9 | Root to HQ0  | FortiGuard Access to WAN from Management |
-| 10.100.10.0/24 | 172.16.12.9 | root-srvman0 | SNMP Access to Server Management VLAN    |
-| 10.100.12.0/24 | 172.16.10.9 | root-to-srv0 | SNMP Access to Servers VLAN              |
-| 10.100.80.0/24 | 172.16.80.9 | root-to-IT0  | Management Subnet to IT VLAN             |
+| Destination    | Gateway IP  | Interface    | Comments                                              |
+| -------------- | ----------- | ------------ | ----------------------------------------------------- |
+| 0.0.0.0/0      | 172.16.50.9 | Root to HQ0  | FortiGuard Access to WAN from Management              |
+| 10.100.12.0/24 | 172.16.12.9 | root-srvman0 | SNMP Access to Server Management VLAN                 |
+| 10.100.10.0/24 | 172.16.10.9 | root-to-srv0 | SNMP Access to Servers VLAN                           |
+| 10.100.80.0/24 | 172.16.80.9 | root-to-IT0  | Management Subnet to IT VLAN                          |
+| 10.100.10.5/32 | 172.16.10.9 | root-to-srv0 | RADIUS Access from Management Subnet to RADIUS Server |
 
 ### HQ
 
@@ -87,7 +88,7 @@ SNMP, FortiGuard access to the internet, and Management network access for vario
 | 10.100.50.1/32  | 172.16.50.10 | Root to HQ1  | FortiGuard Access from Management to WAN               |
 | 10.100.50.50/32 | 172.16.12.10 | root-srvman1 | SNMP Access from SNMP Server to Server Management VLAN |
 | 10.100.50.50/32 | 172.16.10.10 | root-to-srv1 | SNMP Access from SNMP Server to Servers VLAN           |
-| 10.100.50.0/24  | 172.16.80.10 | root-to-IT1  | IT VLAN to Management Subnet                           |
+| 10.100.50.0/24  | 172.16.10.10 | root-to-srv1 | RADIUS Access from Servers to Management Subnet        |
 
 ## VDOM Links
 VDOM links are to connect the Root VDOM to the HQ_VDOM.
@@ -100,3 +101,9 @@ The VDOM links have the purpose of connecting various VLANs that are on the HQ_V
 | root-srvman | VDOM Link | root-srvman0 | 172.16.12.10/24 | root-srvman1 | 172.16.12.9/24 |
 | root-to-IT  | VDOM Link | root-to-IT0  | 172.16.80.10/24 | root-to-IT1  | 172.16.80.9/24 |
 | root-to-srv | VDOM Link | root-to-srv0 | 172.16.10.10/24 | root-to-srv1 | 172.16.10.9/24 |
+
+
+samba
+upd 443
+smb
+DNS

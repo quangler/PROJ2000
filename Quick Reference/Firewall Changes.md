@@ -50,4 +50,53 @@ session pickup - on
 heartbeat interfaces: `a` & `b`
 heartbeat interface priority - both set to 50
 
-# this has been replaced by a new thing. ignore.
+### SNMP Server Config
+SNMP Server is on VLAN50 (Management VLAN) which is in the Root VDOM.
+The services the SNMP Server monitor are on VLAN10 and VLAN12 (Servers VLAN and Cluster VLAN).
+To make this link happen, two VDOM Links were made:
+- root-srvman0/1 | `172.16.12.10 `(Root) & `172.16.12.9` (HQ)
+- root-to-srv0/1 | `172.16.10.10` (Root) & `172.16.10.9` (HQ)
+#### SNMP Policies
+Each of the VDOM Links needed a policy made in the HQ VDOM to ensure functionality.
+
+| Name                        | From         | To             | Source      | Destination            | Service                                  |
+| --------------------------- | ------------ | -------------- | ----------- | ---------------------- | ---------------------------------------- |
+| SNMP Server to Cluster VLAN | root-srvman1 | Cluster_VLAN12 | SNMP Server | Cluster_VLAN12 Address | SNMP, DCE-RPC, PING, SMTP, SMTPS, SYSLOG |
+| SNMP Server to Servers VLAN | root-to-srv1 | Servers_VLAN   | SNMP Server | Servers_VLAN Address   | SNMP, DCE-RPC, PING, SMTP, SMTPS, SYSLOG |
+Cluster_VLAN12 = `10.100.12.1/24` (VLAN Interface)
+Servers_VLAN = `10.100.10.1/24` (VLAN Interface)
+SNMP Server = `10.100.50.50/32`
+
+## Static Routes
+Static Routes have been used for multiple purposes, namely:
+SNMP, FortiGuard access to the internet, and Management network access for various VLANs.
+### Root
+
+| Destination    | Gateway IP  | Interface    | Comments                                 |
+| -------------- | ----------- | ------------ | ---------------------------------------- |
+| 0.0.0.0/0      | 172.16.50.9 | Root to HQ0  | FortiGuard Access to WAN from Management |
+| 10.100.10.0/24 | 172.16.12.9 | root-srvman0 | SNMP Access to Server Management VLAN    |
+| 10.100.12.0/24 | 172.16.10.9 | root-to-srv0 | SNMP Access to Servers VLAN              |
+| 10.100.80.0/24 | 172.16.80.9 | root-to-IT0  | Management Subnet to IT VLAN             |
+
+### HQ
+
+| Destination     | Gateway IP   | Interface    | Comments                                               |
+| --------------- | ------------ | ------------ | ------------------------------------------------------ |
+| 0.0.0.0/0       | 10.10.79.254 | wan1         | Internet                                               |
+| 10.100.50.1/32  | 172.16.50.10 | Root to HQ1  | FortiGuard Access from Management to WAN               |
+| 10.100.50.50/32 | 172.16.12.10 | root-srvman1 | SNMP Access from SNMP Server to Server Management VLAN |
+| 10.100.50.50/32 | 172.16.10.10 | root-to-srv1 | SNMP Access from SNMP Server to Servers VLAN           |
+| 10.100.50.0/24  | 172.16.80.10 | root-to-IT1  | IT VLAN to Management Subnet                           |
+
+## VDOM Links
+VDOM links are to connect the Root VDOM to the HQ_VDOM.
+Root VDOM contains the Management subnet, which is in the `10.100.50.0/24` range.
+The VDOM links have the purpose of connecting various VLANs that are on the HQ_VDOM to the Management subnet in the Root VDOM.
+
+| Name        | Type      | Int0 Name    | Int0 IP         | Int1 Name    | Int1 IP        |
+| ----------- | --------- | ------------ | --------------- | ------------ | -------------- |
+| Root To HQ  | VDOM Link | Root to HQ0  | 172.16.50.10/24 | Root to HQ1  | 172.16.50.9/24 |
+| root-srvman | VDOM Link | root-srvman0 | 172.16.12.10/24 | root-srvman1 | 172.16.12.9/24 |
+| root-to-IT  | VDOM Link | root-to-IT0  | 172.16.80.10/24 | root-to-IT1  | 172.16.80.9/24 |
+| root-to-srv | VDOM Link | root-to-srv0 | 172.16.10.10/24 | root-to-srv1 | 172.16.10.9/24 |

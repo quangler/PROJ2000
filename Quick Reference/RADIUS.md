@@ -2,6 +2,15 @@
 
 ## Configuration
 
+### Server Specification 
+Server: HQ-RD-01
+Role: NFS
+VLAN: 10
+RAM: 8 GB
+
+### Cisco Clients
+
+Shared key: majteq
 ## AD Authentication
 
 | **Organizational Unit** | **AD Security Group** | **User accounts members**                                                                         | **Group Purpose**                            |

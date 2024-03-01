@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "ccb474f886e1633a",
+        "id": "26d86bf5709860db",
         "type": "tabs",
         "children": [
           {
-            "id": "1461d690268a37ec",
+            "id": "d6d9c3583be43a7a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Quick Reference/RADIUS.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -99,7 +95,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Quick Reference/RADIUS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +111,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Quick Reference/RADIUS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,9 +132,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Quick Reference/RADIUS.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -163,11 +155,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "1461d690268a37ec",
+  "active": "d6d9c3583be43a7a",
   "lastOpenFiles": [
+    "Excalidraw/VPN_Proposal.md",
+    "Quick Reference/RADIUS.md",
     "Documentation/Completed Documents/1 Business Case - MAJTeQ.md",
     "Excalidraw/ISP-planning (not complete).md",
-    "Quick Reference/RADIUS.md",
     "Quick Reference/Firewall Changes.md",
     "Quick Reference/PRTG Information.md",
     "Quick Reference/TicketSystemDocs.md",
@@ -191,7 +184,6 @@
     "Cluster Checklist.md",
     "Quick Reference/Housekeeping/L3/L3 - Switch Config.md",
     "Quick Reference/Documentation Guides/Documentation Scheme - MAJTeQ.md",
-    "Documentation/WIP Documents/Server Quick Notes.md",
     "Quick Reference/Housekeeping/FW/HQ-FW-01",
     "Quick Reference/Housekeeping/FW"
   ]

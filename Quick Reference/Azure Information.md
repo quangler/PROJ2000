@@ -31,5 +31,12 @@ Info regarding the Azure Active Directory setup
 
 ## Deployment Notes
 
+**Accounts**
+- on-prem AD account for syncing
+  - **username:** azuresync
+  - **password:** M@jteqAzure#5
+- M365 account for Azure tenant setup
+  - **username:** majteqazure@outlook.com
+  - **password:** M@jteqAzure#5
 
 ## Post Deployment

@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "618d441953afad5c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -99,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Quick Reference/RADIUS.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Quick Reference/RADIUS.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Quick Reference/RADIUS.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -163,11 +176,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "d6d9c3583be43a7a",
+  "active": "618d441953afad5c",
   "lastOpenFiles": [
+    "Quick Reference/RADIUS.md",
+    "conflict-files-obsidian-git.md",
+    "Lecture Notes/Privacy Laws.md",
     "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-02.md",
     "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-01.md",
-    "Quick Reference/RADIUS.md",
     "Excalidraw/VPN_Proposal.md",
     "Documentation/Completed Documents/1 Business Case - MAJTeQ.md",
     "Excalidraw/ISP-planning (not complete).md",
@@ -190,8 +205,6 @@
     "Quick Reference/Housekeeping/L2/L2 - Switch Config.md",
     "README.md",
     "Cluster Checklist.md",
-    "Quick Reference/Housekeeping/L3/L3 - Switch Config.md",
-    "Quick Reference/Documentation Guides/Documentation Scheme - MAJTeQ.md",
     "Quick Reference/Housekeeping/FW/HQ-FW-01",
     "Quick Reference/Housekeeping/FW"
   ]

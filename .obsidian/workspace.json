@@ -11,8 +11,12 @@
             "id": "d6d9c3583be43a7a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Quick Reference/RADIUS.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -95,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Quick Reference/RADIUS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,6 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Quick Reference/RADIUS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +138,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Quick Reference/RADIUS.md"
+              }
             }
           }
         ],
@@ -157,8 +165,10 @@
   },
   "active": "d6d9c3583be43a7a",
   "lastOpenFiles": [
-    "Excalidraw/VPN_Proposal.md",
+    "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-02.md",
+    "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-01.md",
     "Quick Reference/RADIUS.md",
+    "Excalidraw/VPN_Proposal.md",
     "Documentation/Completed Documents/1 Business Case - MAJTeQ.md",
     "Excalidraw/ISP-planning (not complete).md",
     "Quick Reference/Firewall Changes.md",
@@ -173,11 +183,9 @@
     "Quick Reference/Housekeeping/L3/Configs/MP-L3SW-01.md",
     "Quick Reference/Housekeeping/L3/Configs/MP-L3SW-02.md",
     "Quick Reference/Housekeeping/Network Diagram and Cutsheet.canvas",
-    "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-01.md",
     "Quick Reference/Housekeeping/L3/HQ-L3SW-01 Temp.md",
     "Quick Reference/Housekeeping/L3/HQ-L3SW-02 Temp.md",
     "Quick Reference/Housekeeping/basicHousekeeping.md",
-    "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-02.md",
     "Quick Reference/Housekeeping/L3/Configs/Drawing 2024-02-15 13.47.06.excalidraw.md",
     "Quick Reference/Housekeeping/L2/L2 - Switch Config.md",
     "README.md",

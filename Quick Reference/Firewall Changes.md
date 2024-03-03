@@ -50,6 +50,39 @@ session pickup - on
 heartbeat interfaces: `a` & `b`
 heartbeat interface priority - both set to 50
 
+
+# ROUTING (update march 02)
+
+- Removed static routes
+- only one default root for each VDOM
+- Implemented OSPF with VDOM link root-to-HQ
+- Updated policies with only one VDOM link (root-to-HQ)
+
+| Name       | Type      | Int0 Name   | Int0 IP        | Int1 Name   | Int1 IP        |
+| ---------- | --------- | ----------- | -------------- | ----------- | -------------- |
+| Root To HQ | VDOM Link | Root to HQ0 | 172.16.50.8/30 | Root to HQ1 | 172.16.50.9/24 |
+#### SNMP + RADIUS Policies
+Each of the VDOM Links needed a policy made in the HQ VDOM to ensure functionality.
+
+| Name                        | From       | To             | Source      | Destination            | Service                                                |
+| --------------------------- | ---------- | -------------- | ----------- | ---------------------- | ------------------------------------------------------ |
+| SNMP Server to Cluster VLAN | Root to HQ | Cluster_VLAN12 | SNMP Server | Cluster_VLAN12 Address | SNMP, DCE-RPC, PING, SMTP, SMTPS, SYSLOG               |
+| SNMP Server to Servers VLAN | Root to HQ | Servers_VLAN   | SNMP Server | Servers_VLAN Address   | SNMP, DCE-RPC, PING, SMTP, SMTPS, SYSLOG, RADIUS, LDAP |
+Cluster_VLAN12 = `10.100.12.1/24` (VLAN Interface)
+Servers_VLAN = `10.100.10.1/24` (VLAN Interface)
+SNMP Server = `10.100.50.50/32`
+Radius Server = `10.100.10.5/32`
+DC = `10.100.10.10/32`
+
+### SSH 
+
+| Name                          | From       | To        | Source         | Destination    | Service |
+| ----------------------------- | ---------- | --------- | -------------- | -------------- | ------- |
+| Network Management to IT_VLAN | Root to HQ | IT_VLAN80 | 10.100.50.0/24 | 10.100.80.0/24 | SSH     |
+CISCO ACL = sshIN [10.100.80.0 0.0.0.255]
+
+---
+
 ### SNMP Server Config
 SNMP Server is on VLAN50 (Management VLAN) which is in the Root VDOM.
 The services the SNMP Server monitor are on VLAN10 and VLAN12 (Servers VLAN and Cluster VLAN).
@@ -103,7 +136,9 @@ The VDOM links have the purpose of connecting various VLANs that are on the HQ_V
 | root-to-srv | VDOM Link | root-to-srv0 | 172.16.10.10/24 | root-to-srv1 | 172.16.10.9/24 |
 
 
+
 samba
 upd 443
 smb
 DNS
+

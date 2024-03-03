@@ -1,11 +1,5 @@
 # RADIUS
 
-## Issues
-
-Testing L2 and L3
-- Gets the the server but fails to apply the policy
-- no leads at this time
-
 ## Configuration
 
 ### Server Specification 
@@ -17,6 +11,8 @@ RAM: 8 GB
 ### Cisco Clients
 
 Shared key: majteq
+
+
 #### Layer 2
 
 ```

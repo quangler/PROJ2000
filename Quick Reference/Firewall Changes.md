@@ -64,10 +64,10 @@ heartbeat interface priority - both set to 50
 #### SNMP + RADIUS Policies
 Each of the VDOM Links needed a policy made in the HQ VDOM to ensure functionality.
 
-| Name                        | From       | To             | Source      | Destination            | Service                                                |
-| --------------------------- | ---------- | -------------- | ----------- | ---------------------- | ------------------------------------------------------ |
-| SNMP Server to Cluster VLAN | Root to HQ | Cluster_VLAN12 | SNMP Server | Cluster_VLAN12 Address | SNMP, DCE-RPC, PING, SMTP, SMTPS, SYSLOG               |
-| SNMP Server to Servers VLAN | Root to HQ | Servers_VLAN   | SNMP Server | Servers_VLAN Address   | SNMP, DCE-RPC, PING, SMTP, SMTPS, SYSLOG, RADIUS, LDAP |
+| Name                               | From       | To             | Source            | Destination            | Service                                                |
+| ---------------------------------- | ---------- | -------------- | ----------------- | ---------------------- | ------------------------------------------------------ |
+| Network Management VLAN            | Root to HQ | Cluster_VLAN12 | NM_VLAN50 Address | Cluster_VLAN12 Address | SNMP, DCE-RPC, PING, SMTP, SMTPS, SYSLOG               |
+| Network Management to Servers VLAN | Root to HQ | Servers_VLAN   | NM_VLAN50 Address | Servers_VLAN Address   | SNMP, DCE-RPC, PING, SMTP, SMTPS, SYSLOG, RADIUS, LDAP |
 Cluster_VLAN12 = `10.100.12.1/24` (VLAN Interface)
 Servers_VLAN = `10.100.10.1/24` (VLAN Interface)
 SNMP Server = `10.100.50.50/32`

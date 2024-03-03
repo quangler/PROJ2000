@@ -50,7 +50,7 @@ session pickup - on
 heartbeat interfaces: `a` & `b`
 heartbeat interface priority - both set to 50
 
-
+---
 # ROUTING (update march 02)
 
 - Removed static routes

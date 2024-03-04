@@ -40,14 +40,28 @@ line vty 0 15
 #### Layer 3
 ```
 !
+aaa new-model
+!
 aaa group server radius NPS
   server name HQ-RD-01
+!
+aaa authentication login VTY_Authen group NPS local
+aaa authorization exec VTY_Author group NPS local
+aaa accounting exec default start-stop group NPS
+aaa session-id common
 !
 radius server HQ-RD-01
  address ipv4 10.100.10.5 auth-port 1645 acct-port 1646
  key 7 majteq
 !
 ip radius source-interface Vlan 50
+!
+privilege exec level 7 show running-config view full
+!
+line vty 0 15
+ authorization exec VTY_Author
+ login authentication VTY_Authen
+ transport input ssh
 !
 ```
 ## AD Authentication

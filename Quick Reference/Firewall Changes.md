@@ -62,7 +62,7 @@ heartbeat interface priority - both set to 50
 | ---------- | --------- | ----------- | -------------- | ----------- | -------------- |
 | Root To HQ | VDOM Link | Root to HQ0 | 172.16.50.8/30 | Root to HQ1 | 172.16.50.9/24 |
 #### SNMP + RADIUS Policies
-Each of the VDOM Links needed a policy made in the HQ VDOM to ensure functionality.
+Each of the VDOM Links needed a policy made in the ROOT VDOM to ensure functionality.
 
 | Name                               | From       | To             | Source            | Destination            | Service                                                |
 | ---------------------------------- | ---------- | -------------- | ----------------- | ---------------------- | ------------------------------------------------------ |

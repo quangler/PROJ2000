@@ -8,31 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e9bf1f6f062e7aad",
+            "id": "045d3f2c84701ac2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "Quick Reference/Firewall Changes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "485895a8afaaccb6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Quick Reference/Firewall Changes.md",
-                "mode": "source",
-                "source": false
+                "file": "Documentation/WIP Documents/ProjectPlanV2.md",
+                "staged": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +108,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Quick Reference/Firewall Changes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +124,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Quick Reference/Firewall Changes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,9 +145,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Quick Reference/Firewall Changes.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -187,37 +169,40 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "485895a8afaaccb6",
+  "active": "045d3f2c84701ac2",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "Quick Reference/Housekeeping/Network Diagram and Cutsheet.canvas",
+    "Documentation/Completed Documents/ProjectPlan.pdf",
+    "Documentation/Completed Documents/ProjectPlan.md",
+    "Documentation/WIP Documents/ProjectPlanV1.md",
+    "Documentation/WIP Documents/ProjectPlanV2.md",
+    "Documentation/WIP Documents/Server Quick Notes.md",
+    "SECR2100 Project 2/WireGuard Setup.md",
+    "SECR2100 Project 2",
+    "SECR2100 Project 2/Pasted image 20240303125651.png",
+    "SECR2100 Project 2/Pasted image 20240303125512.png",
     "Quick Reference/Firewall Changes.md",
     "Quick Reference/RADIUS.md",
     "Quick Reference/PRTG Information.md",
-    "Quick Reference/TicketSystemDocs.md",
+    "Quick Reference/Housekeeping/L3/Configs/MP-L3SW-02.md",
+    "Quick Reference/Housekeeping/L3/Configs/MP-L3SW-01.md",
+    "Quick Reference/Housekeeping/L2/MP-L2SW-02.md",
+    "Quick Reference/Housekeeping/L2/MP-L2SW-01.md",
     "Lecture Notes/Privacy Laws.md",
+    "Excalidraw/ISP-planning (not complete).md",
+    "conflict-files-obsidian-git.md",
+    "Quick Reference/TicketSystemDocs.md",
     "README.md",
     "Quick Reference/Cluster Checklist.md",
     "Quick Reference/Azure Information.md",
-    "Quick Reference/Housekeeping/Network Diagram and Cutsheet.canvas",
-    "Quick Reference/Housekeeping/L3/Configs/MP-L3SW-01.md",
-    "Quick Reference/Housekeeping/L3/Configs/MP-L3SW-02.md",
     "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-02.md",
     "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-01.md",
     "Quick Reference/Housekeeping/FW/HQ-FW-01/HQ-FW-01.md",
-    "Quick Reference/Housekeeping/L2/MP-L2SW-02.md",
-    "Quick Reference/Housekeeping/L2/MP-L2SW-01.md",
-    "Excalidraw/ISP-planning (not complete).md",
     "Quick Reference/Housekeeping/FW/HQ-FW-01/root VDOM.md",
     "Quick Reference/Housekeeping/FW/HQ-FW-01/HQ_VDOM.md",
     "Quick Reference/Housekeeping/FW/HQ-FW-01/Global VDOM.md",
     "Quick Reference/Housekeeping/FW/HQ-FW-01",
-    "Quick Reference/Housekeeping/FW/Untitled.md",
-    "Quick Reference/Housekeeping/FW/HQ-FW-02.md",
     "Quick Reference/Housekeeping/FW",
-    "Quick Reference/Housekeeping/Untitled.md",
-    "Quick Reference/Housekeeping/L3/HQ-L3SW-02 Temp.md",
-    "Quick Reference/Housekeeping/L3/HQ-L3SW-01 Temp.md",
-    "Quick Reference/Housekeeping/basicHousekeeping.md",
     "Reports",
     "New Text Document.txt",
     "Lecture Notes/My values!.canvas",
@@ -225,8 +210,6 @@
     "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-01.txt",
     "Quick Reference/Housekeeping/L3/Configs",
     "Excalidraw",
-    "docs/pdfs/Team_5_-_Network_Diagram.pdf",
-    "docs/pdfs",
     "!Images/LOGO.png",
     "Quick Reference/Housekeeping/L3/Untitled.canvas",
     "docs/!Images/pdf-icon.png",
@@ -236,8 +219,6 @@
     "!Images/test files-20240118155039084.webp",
     "!Images/test files-20240118154646722.webp",
     "!Images/test files-20240118154547255.webp",
-    "!Images/HQ-FW-02 - Management.png",
-    "!Images/HQ-FW-02 - Servers.png",
     "Documentation/Completed Documents/Untitled.canvas"
   ]
 }

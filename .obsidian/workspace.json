@@ -50,9 +50,21 @@
                 "staged": true
               }
             }
+          },
+          {
+            "id": "a9f0f7e871aa933c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tickets TO-DO.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -142,6 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Tickets TO-DO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,6 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Tickets TO-DO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +193,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Tickets TO-DO.md"
+              }
             }
           }
         ],
@@ -203,8 +219,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "61657b731a331f99",
+  "active": "a9f0f7e871aa933c",
   "lastOpenFiles": [
+    "Tickets TO-DO.md",
+    "Quick Reference/Azure Information.md",
     "Quick Reference/Firewall Changes.md",
     "conflict-files-obsidian-git.md",
     "Quick Reference/Housekeeping/Network Diagram and Cutsheet.canvas",
@@ -228,7 +246,6 @@
     "Quick Reference/TicketSystemDocs.md",
     "README.md",
     "Quick Reference/Cluster Checklist.md",
-    "Quick Reference/Azure Information.md",
     "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-02.md",
     "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-01.md",
     "Quick Reference/Housekeeping/FW/HQ-FW-01/HQ-FW-01.md",

@@ -262,6 +262,7 @@ ip ssh version 2
 !
 ip access-list standard ForSSH
  permit 10.100.50.0 0.0.0.255
+ permit 10.100.80.0 0.0.0.255
 !
 ip access-list extended AutoQos-4.0-wlan-Acl-Bulk-Data
  permit tcp any any eq 22

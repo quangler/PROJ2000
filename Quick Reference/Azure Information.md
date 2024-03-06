@@ -30,6 +30,16 @@ Info regarding the Azure Active Directory setup
 -
 
 ## Deployment Notes
+- **New Outlook Account**
+  - Name: proj2000team5@outlook.com
+  - Password: M@jteq5#Azure!
+- **M365 Account**
+  - Name: TeamFive@majteq5.onmicrosoft.com
+  - Password: M@jteq5#Azure!
+- **Team5.ca Domain**
+  - DNS hosted through CloudFlare
+  - TXT records added for verification
+  - DMARC records also added
 
 
 ## Post Deployment

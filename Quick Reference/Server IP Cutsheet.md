@@ -9,6 +9,8 @@
 | HQ-HV-02     | 10.100.12.10               | Second Hypervisor hosting all the servers - HQ Side          |
 | HQ-CLUSTER   | 10.100.12.12               | Cluster of both Hypervisors                                  |
 | MP-FS-01     | 10.100.10.14->10.110.10.14 | Secondary File Server on MP side (IP WILL BE UPDATED TO 110) |
+| HQ-NM-01     | 10.100.50.50               | Network Monitoring Server \| TFTP and PRTG                   |
+| HQ-PKI-01    | 10.100.10.19               | PKI Certificates - Enterprise Root CA                        |
 | AIDANADMINWS | 10.100.80.17               | Aidan's Admin workstation                                    |
 | JAMIEADMINWS | 10.100.80.11               | Jamie's Admin workstation                                    |
 | MATTADMINWS  | 10.100.80.20               | Matt's Admin workstation                                     |

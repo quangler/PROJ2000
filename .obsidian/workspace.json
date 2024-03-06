@@ -4,67 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "e8832aea5ed73c3d",
+        "id": "d4d341958db10701",
         "type": "tabs",
         "children": [
           {
-            "id": "045d3f2c84701ac2",
+            "id": "a387359b910e5778",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "canvas",
               "state": {
-                "file": "Quick Reference/Housekeeping/Network Diagram and Cutsheet.canvas",
-                "staged": false
-              }
-            }
-          },
-          {
-            "id": "c77ba2b675bfc30b",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
-              "state": {
-                "file": "Quick Reference/Firewall Changes.md",
-                "staged": true
-              }
-            }
-          },
-          {
-            "id": "564509b66b086138",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
-              "state": {
-                "file": "Quick Reference/Firewall Changes.md",
-                "staged": true
-              }
-            }
-          },
-          {
-            "id": "61657b731a331f99",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
-              "state": {
-                "file": "Quick Reference/Firewall Changes.md",
-                "staged": true
-              }
-            }
-          },
-          {
-            "id": "a9f0f7e871aa933c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tickets TO-DO.md",
-                "mode": "source",
-                "source": false
+                "file": "Quick Reference/Network Diagram and Cutsheet.canvas",
+                "viewState": {
+                  "x": 1051.8263396073412,
+                  "y": -576.4877759017338,
+                  "zoom": -1.2542298128555616
+                }
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -154,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tickets TO-DO.md",
+                "file": "Quick Reference/Network Diagram and Cutsheet.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tickets TO-DO.md",
+                "file": "Quick Reference/Network Diagram and Cutsheet.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tickets TO-DO.md"
+                "file": "Quick Reference/Network Diagram and Cutsheet.canvas"
               }
             }
           }
@@ -219,13 +177,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a9f0f7e871aa933c",
+  "active": "a387359b910e5778",
   "lastOpenFiles": [
+    "Quick Reference/Server IP Cutsheet.md",
+    "Meeting Notes/March Meeting Notes/March 6 Meeting Notes.md",
+    "Quick Reference/TicketSystemDocs.md",
+    "Meeting Notes/March Meeting Notes",
+    "Quick Reference/RADIUS.md",
     "Tickets TO-DO.md",
+    "Quick Reference/Network Diagram and Cutsheet.canvas",
     "Quick Reference/Azure Information.md",
     "Quick Reference/Firewall Changes.md",
+    "Quick Reference/Documentation Guides/Device Name Scheme - MAJTeQ.md",
+    "Quick Reference/Documentation Guides/Documentation Scheme - MAJTeQ.md",
     "conflict-files-obsidian-git.md",
-    "Quick Reference/Housekeeping/Network Diagram and Cutsheet.canvas",
     "Documentation/Completed Documents/ProjectPlan.pdf",
     "Documentation/Completed Documents/ProjectPlan.md",
     "Documentation/WIP Documents/ProjectPlanV1.md",
@@ -235,7 +200,6 @@
     "SECR2100 Project 2",
     "SECR2100 Project 2/Pasted image 20240303125651.png",
     "SECR2100 Project 2/Pasted image 20240303125512.png",
-    "Quick Reference/RADIUS.md",
     "Quick Reference/PRTG Information.md",
     "Quick Reference/Housekeeping/L3/Configs/MP-L3SW-02.md",
     "Quick Reference/Housekeeping/L3/Configs/MP-L3SW-01.md",
@@ -243,15 +207,10 @@
     "Quick Reference/Housekeeping/L2/MP-L2SW-01.md",
     "Lecture Notes/Privacy Laws.md",
     "Excalidraw/ISP-planning (not complete).md",
-    "Quick Reference/TicketSystemDocs.md",
     "README.md",
     "Quick Reference/Cluster Checklist.md",
     "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-02.md",
     "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-01.md",
-    "Quick Reference/Housekeeping/FW/HQ-FW-01/HQ-FW-01.md",
-    "Quick Reference/Housekeeping/FW/HQ-FW-01/root VDOM.md",
-    "Quick Reference/Housekeeping/FW/HQ-FW-01/HQ_VDOM.md",
-    "Quick Reference/Housekeeping/FW/HQ-FW-01/Global VDOM.md",
     "Quick Reference/Housekeeping/FW/HQ-FW-01",
     "Quick Reference/Housekeeping/FW",
     "Reports",
@@ -260,7 +219,6 @@
     "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-02.txt",
     "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-01.txt",
     "Quick Reference/Housekeeping/L3/Configs",
-    "Excalidraw",
     "!Images/LOGO.png",
     "Quick Reference/Housekeeping/L3/Untitled.canvas",
     "docs/!Images/pdf-icon.png",

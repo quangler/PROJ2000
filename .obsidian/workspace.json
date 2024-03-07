@@ -4,25 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "d4d341958db10701",
+        "id": "e8832aea5ed73c3d",
         "type": "tabs",
         "children": [
           {
-            "id": "a387359b910e5778",
+            "id": "c77ba2b675bfc30b",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "excalidraw",
               "state": {
-                "file": "Quick Reference/Network Diagram and Cutsheet.canvas",
-                "viewState": {
-                  "x": 1051.8263396073412,
-                  "y": -576.4877759017338,
-                  "zoom": -1.2542298128555616
-                }
+                "file": "Excalidraw/ISP-planning (not complete).md"
+              }
+            }
+          },
+          {
+            "id": "8b207b03cfc9d0f5",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-03-07 15.03.01.excalidraw.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -112,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Quick Reference/Network Diagram and Cutsheet.canvas",
+                "file": "Excalidraw/Drawing 2024-03-07 15.03.01.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Quick Reference/Network Diagram and Cutsheet.canvas",
+                "file": "Excalidraw/Drawing 2024-03-07 15.03.01.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Quick Reference/Network Diagram and Cutsheet.canvas"
+                "file": "Excalidraw/Drawing 2024-03-07 15.03.01.excalidraw.md"
               }
             }
           }
@@ -177,20 +183,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a387359b910e5778",
+  "active": "8b207b03cfc9d0f5",
   "lastOpenFiles": [
-    "Quick Reference/Server IP Cutsheet.md",
-    "Meeting Notes/March Meeting Notes/March 6 Meeting Notes.md",
+    "Excalidraw/ISP-planning (not complete).md",
+    "Excalidraw/Drawing 2024-03-07 15.03.01.excalidraw.md",
+    "Excalidraw/Untitled.canvas",
     "Quick Reference/TicketSystemDocs.md",
-    "Meeting Notes/March Meeting Notes",
-    "Quick Reference/RADIUS.md",
+    "README.md",
     "Tickets TO-DO.md",
+    "Quick Reference/Server IP Cutsheet.md",
     "Quick Reference/Network Diagram and Cutsheet.canvas",
+    "Meeting Notes/March Meeting Notes/March 6 Meeting Notes.md",
+    "Meeting Notes/March Meeting Notes",
     "Quick Reference/Azure Information.md",
     "Quick Reference/Firewall Changes.md",
-    "Quick Reference/Documentation Guides/Device Name Scheme - MAJTeQ.md",
-    "Quick Reference/Documentation Guides/Documentation Scheme - MAJTeQ.md",
     "conflict-files-obsidian-git.md",
+    "Quick Reference/Housekeeping/Network Diagram and Cutsheet.canvas",
     "Documentation/Completed Documents/ProjectPlan.pdf",
     "Documentation/Completed Documents/ProjectPlan.md",
     "Documentation/WIP Documents/ProjectPlanV1.md",
@@ -200,17 +208,17 @@
     "SECR2100 Project 2",
     "SECR2100 Project 2/Pasted image 20240303125651.png",
     "SECR2100 Project 2/Pasted image 20240303125512.png",
+    "Quick Reference/RADIUS.md",
     "Quick Reference/PRTG Information.md",
     "Quick Reference/Housekeeping/L3/Configs/MP-L3SW-02.md",
     "Quick Reference/Housekeeping/L3/Configs/MP-L3SW-01.md",
     "Quick Reference/Housekeeping/L2/MP-L2SW-02.md",
     "Quick Reference/Housekeeping/L2/MP-L2SW-01.md",
     "Lecture Notes/Privacy Laws.md",
-    "Excalidraw/ISP-planning (not complete).md",
-    "README.md",
     "Quick Reference/Cluster Checklist.md",
     "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-02.md",
     "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-01.md",
+    "Quick Reference/Housekeeping/FW/HQ-FW-01/HQ-FW-01.md",
     "Quick Reference/Housekeeping/FW/HQ-FW-01",
     "Quick Reference/Housekeeping/FW",
     "Reports",

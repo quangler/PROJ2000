@@ -11,14 +11,11 @@
             "id": "a387359b910e5778",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Quick Reference/Network Diagram and Cutsheet.canvas",
-                "viewState": {
-                  "x": 1357.740179231561,
-                  "y": -887.9218462756687,
-                  "zoom": -1.2542298128555616
-                }
+                "file": "Lecture Notes/Privacy Laws.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -112,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Quick Reference/Network Diagram and Cutsheet.canvas",
+                "file": "Lecture Notes/Privacy Laws.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Quick Reference/Network Diagram and Cutsheet.canvas",
+                "file": "Lecture Notes/Privacy Laws.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Quick Reference/Network Diagram and Cutsheet.canvas"
+                "file": "Lecture Notes/Privacy Laws.md"
               }
             }
           }
@@ -177,15 +174,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "78f363064096bc02",
+  "active": "a387359b910e5778",
   "lastOpenFiles": [
-    "Quick Reference/Server IP Cutsheet.md",
+    "Lecture Notes/Ethics in IT.md",
     "Meeting Notes/March Meeting Notes/March 6 Meeting Notes.md",
+    "Quick Reference/Network Diagram and Cutsheet.canvas",
+    "Quick Reference/Server IP Cutsheet.md",
     "Quick Reference/TicketSystemDocs.md",
     "Meeting Notes/March Meeting Notes",
     "Quick Reference/RADIUS.md",
     "Tickets TO-DO.md",
-    "Quick Reference/Network Diagram and Cutsheet.canvas",
     "Quick Reference/Azure Information.md",
     "Quick Reference/Firewall Changes.md",
     "Quick Reference/Documentation Guides/Device Name Scheme - MAJTeQ.md",
@@ -210,7 +208,6 @@
     "README.md",
     "Quick Reference/Cluster Checklist.md",
     "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-02.md",
-    "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-01.md",
     "Quick Reference/Housekeeping/FW/HQ-FW-01",
     "Quick Reference/Housekeeping/FW",
     "Reports",

@@ -52,7 +52,7 @@ aaa session-id common
 !
 radius server HQ-RD-01
  address ipv4 10.100.10.5 auth-port 1645 acct-port 1646
- key 7 majteq
+ key 0 majteq
 !
 ip radius source-interface Vlan 50
 !

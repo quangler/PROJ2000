@@ -109,7 +109,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lecture Notes/Privacy Laws.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +125,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lecture Notes/Privacy Laws.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lecture Notes/Privacy Laws.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -174,8 +172,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a387359b910e5778",
+  "active": "78f363064096bc02",
   "lastOpenFiles": [
+    "Lecture Notes/Privacy Laws.md",
+    "conflict-files-obsidian-git.md",
+    "Excalidraw/VDOM-Tunnel Diagram.md",
+    "Excalidraw/Drawing 2024-03-07 15.03.01.excalidraw",
     "Lecture Notes/Ethics in IT.md",
     "Meeting Notes/March Meeting Notes/March 6 Meeting Notes.md",
     "Quick Reference/Network Diagram and Cutsheet.canvas",
@@ -188,7 +190,6 @@
     "Quick Reference/Firewall Changes.md",
     "Quick Reference/Documentation Guides/Device Name Scheme - MAJTeQ.md",
     "Quick Reference/Documentation Guides/Documentation Scheme - MAJTeQ.md",
-    "conflict-files-obsidian-git.md",
     "Documentation/Completed Documents/ProjectPlan.pdf",
     "Documentation/Completed Documents/ProjectPlan.md",
     "Documentation/WIP Documents/ProjectPlanV1.md",
@@ -203,11 +204,9 @@
     "Quick Reference/Housekeeping/L3/Configs/MP-L3SW-01.md",
     "Quick Reference/Housekeeping/L2/MP-L2SW-02.md",
     "Quick Reference/Housekeeping/L2/MP-L2SW-01.md",
-    "Lecture Notes/Privacy Laws.md",
     "Excalidraw/ISP-planning (not complete).md",
     "README.md",
     "Quick Reference/Cluster Checklist.md",
-    "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-02.md",
     "Quick Reference/Housekeeping/FW/HQ-FW-01",
     "Quick Reference/Housekeeping/FW",
     "Reports",
@@ -215,7 +214,6 @@
     "Lecture Notes/My values!.canvas",
     "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-02.txt",
     "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-01.txt",
-    "Quick Reference/Housekeeping/L3/Configs",
     "!Images/LOGO.png",
     "Quick Reference/Housekeeping/L3/Untitled.canvas",
     "docs/!Images/pdf-icon.png",

@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "e8832aea5ed73c3d",
+        "id": "8024d921f66d6e8d",
         "type": "tabs",
         "children": [
           {
-            "id": "c77ba2b675bfc30b",
+            "id": "9bf0c52ffc4d4a41",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -105,6 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,6 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-03-07 15.03.01.excalidraw"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -168,11 +174,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8ce7ea8abb47c70e",
+  "active": "9bf0c52ffc4d4a41",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Excalidraw/Drawing 2024-03-07 15.03.01.excalidraw",
     "Quick Reference/Network Diagram and Cutsheet.canvas",
     "Excalidraw/VDOM-Tunnel Diagram.md",
-    "Excalidraw/Drawing 2024-03-07 15.03.01.excalidraw",
     "Excalidraw/VPN_Proposal.md",
     "Excalidraw/ISP-planning (not complete).md",
     "Quick Reference/RADIUS.md",
@@ -181,7 +188,6 @@
     "Quick Reference/Housekeeping/L3/Configs/MP-L3SW-01.md",
     "Quick Reference/Housekeeping/L2/HQ-L2SW-01.md",
     "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-01.md",
-    "conflict-files-obsidian-git.md",
     "Excalidraw/Untitled.canvas",
     "Quick Reference/TicketSystemDocs.md",
     "README.md",

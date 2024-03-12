@@ -11,10 +11,8 @@
             "id": "c77ba2b675bfc30b",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/VDOM-Tunnel Diagram.md"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -107,7 +105,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/VDOM-Tunnel Diagram.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +121,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/VDOM-Tunnel Diagram.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/VDOM-Tunnel Diagram.md"
+                "file": "Excalidraw/Drawing 2024-03-07 15.03.01.excalidraw"
               }
             }
           }
@@ -172,10 +168,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c77ba2b675bfc30b",
+  "active": "8ce7ea8abb47c70e",
   "lastOpenFiles": [
-    "Excalidraw/VPN_Proposal.md",
+    "Quick Reference/Network Diagram and Cutsheet.canvas",
     "Excalidraw/VDOM-Tunnel Diagram.md",
+    "Excalidraw/Drawing 2024-03-07 15.03.01.excalidraw",
+    "Excalidraw/VPN_Proposal.md",
     "Excalidraw/ISP-planning (not complete).md",
     "Quick Reference/RADIUS.md",
     "Quick Reference/Housekeeping/L3/Configs/MP-L3SW-02.md",
@@ -189,7 +187,6 @@
     "README.md",
     "Tickets TO-DO.md",
     "Quick Reference/Server IP Cutsheet.md",
-    "Quick Reference/Network Diagram and Cutsheet.canvas",
     "Meeting Notes/March Meeting Notes/March 6 Meeting Notes.md",
     "Meeting Notes/March Meeting Notes",
     "Quick Reference/Azure Information.md",
@@ -207,7 +204,6 @@
     "Quick Reference/PRTG Information.md",
     "Quick Reference/Housekeeping/L2/MP-L2SW-02.md",
     "Quick Reference/Housekeeping/L2/MP-L2SW-01.md",
-    "Lecture Notes/Privacy Laws.md",
     "Quick Reference/Housekeeping/FW/HQ-FW-01",
     "Quick Reference/Housekeeping/FW",
     "Reports",
@@ -215,7 +211,6 @@
     "Lecture Notes/My values!.canvas",
     "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-02.txt",
     "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-01.txt",
-    "Quick Reference/Housekeeping/L3/Configs",
     "!Images/LOGO.png",
     "Quick Reference/Housekeeping/L3/Untitled.canvas",
     "docs/!Images/pdf-icon.png",

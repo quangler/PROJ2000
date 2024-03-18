@@ -22,6 +22,7 @@ Path: /etc/postfix
 **WSGetMail App**
 Schedule: Every 10 Mins
 Path: /usr/local/bin
+
 ```
 {
 "client_id": "392133ee-b276-48c4-b080-a44b1cc9fa7b",

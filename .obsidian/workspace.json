@@ -4,20 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "4269c95d0d433781",
+        "id": "d4d341958db10701",
         "type": "tabs",
         "children": [
           {
-            "id": "b824041b4f2b7522",
+            "id": "a387359b910e5778",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Quick Reference/Network Diagram and Cutsheet.canvas",
+                "viewState": {
+                  "x": 330.7300757548669,
+                  "y": -907.2706839642478,
+                  "zoom": 1.1102230246251565e-16
+                }
+              }
+            }
+          },
+          {
+            "id": "ce036b7d89a1fd1a",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/VDOM-Tunnel Diagram.md"
+                "file": "Quick Reference/802.1x.excalidraw.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -107,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/VDOM-Tunnel Diagram.md",
+                "file": "Quick Reference/802.1x.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/VDOM-Tunnel Diagram.md",
+                "file": "Quick Reference/802.1x.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,12 +163,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/VDOM-Tunnel Diagram.md"
+                "file": "Quick Reference/802.1x.excalidraw.md"
               }
+            }
+          },
+          {
+            "id": "9a1d28d7474c1ee1",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -172,43 +196,42 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b824041b4f2b7522",
+  "active": "ce036b7d89a1fd1a",
   "lastOpenFiles": [
-    "Excalidraw/ISP-planning (not complete).md",
-    "Excalidraw/VDOM-Tunnel Diagram.md",
+    "Pasted Image 20240318093426_232.png",
+    "Quick Reference/Network Diagram and Cutsheet.canvas",
+    "Quick Reference/Server IP Cutsheet.md",
+    "Quick Reference/Firewall Changes.md",
+    "Quick Reference/802.1x.excalidraw.md",
+    "Quick Reference/Housekeeping/basicHousekeeping.md",
+    "Untitled.md",
+    "README.md",
+    "Lecture Notes/Intro to Research Poster.md",
+    "Lecture Notes/PROJ 2000 - Topic 10 Project Quality Management.md",
+    "Pasted image 20240314141945.png",
+    "Meeting Notes/March Meeting Notes/March 13.md",
+    "Quick Reference/RADIUS.md",
+    "Quick Reference/TicketSystemDocs.md",
+    "Quick Reference/Deployment Services Information.md",
+    "Lecture Notes/Privacy Laws.md",
     "Excalidraw/Drawing 2024-03-11 18.07.49.excalidraw.md",
     "conflict-files-obsidian-git.md",
+    "Excalidraw/VDOM-Tunnel Diagram.md",
     "Excalidraw/Drawing 2024-03-07 15.03.01.excalidraw",
-    "Quick Reference/Network Diagram and Cutsheet.canvas",
-    "Excalidraw/VPN_Proposal.md",
-    "Quick Reference/RADIUS.md",
-    "Quick Reference/Housekeeping/L3/Configs/MP-L3SW-02.md",
-    "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-02.md",
-    "Quick Reference/Housekeeping/L3/Configs/MP-L3SW-01.md",
-    "Quick Reference/Housekeeping/L2/HQ-L2SW-01.md",
-    "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-01.md",
-    "Excalidraw/Untitled.canvas",
-    "Quick Reference/TicketSystemDocs.md",
-    "README.md",
-    "Tickets TO-DO.md",
-    "Quick Reference/Server IP Cutsheet.md",
+    "Lecture Notes/Ethics in IT.md",
     "Meeting Notes/March Meeting Notes/March 6 Meeting Notes.md",
     "Meeting Notes/March Meeting Notes",
+    "Tickets TO-DO.md",
     "Quick Reference/Azure Information.md",
-    "Quick Reference/Firewall Changes.md",
-    "Quick Reference/Housekeeping/Network Diagram and Cutsheet.canvas",
+    "Quick Reference/Documentation Guides/Device Name Scheme - MAJTeQ.md",
+    "Quick Reference/Documentation Guides/Documentation Scheme - MAJTeQ.md",
     "Documentation/Completed Documents/ProjectPlan.pdf",
     "Documentation/Completed Documents/ProjectPlan.md",
     "Documentation/WIP Documents/ProjectPlanV1.md",
     "Documentation/WIP Documents/ProjectPlanV2.md",
-    "Documentation/WIP Documents/Server Quick Notes.md",
-    "SECR2100 Project 2/WireGuard Setup.md",
     "SECR2100 Project 2",
     "SECR2100 Project 2/Pasted image 20240303125651.png",
     "SECR2100 Project 2/Pasted image 20240303125512.png",
-    "Quick Reference/PRTG Information.md",
-    "Quick Reference/Housekeeping/L2/MP-L2SW-02.md",
-    "Quick Reference/Housekeeping/L2/MP-L2SW-01.md",
     "Quick Reference/Housekeeping/FW/HQ-FW-01",
     "Quick Reference/Housekeeping/FW",
     "Reports",
@@ -224,7 +247,6 @@
     "!Images/test files-20240118155935972.webp",
     "!Images/test files-20240118155039084.webp",
     "!Images/test files-20240118154646722.webp",
-    "!Images/test files-20240118154547255.webp",
     "Documentation/Completed Documents/Untitled.canvas"
   ]
 }

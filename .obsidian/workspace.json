@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4e164ed4cf4dec4e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Quick Reference/TicketSystemDocs.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Quick Reference/TicketSystemDocs.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Quick Reference/TicketSystemDocs.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -174,11 +187,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8b034735b2747bf8",
+  "active": "4e164ed4cf4dec4e",
   "lastOpenFiles": [
+    "Quick Reference/TicketSystemDocs.md",
+    "conflict-files-obsidian-git.md",
+    "Quick Reference/802.1x.excalidraw.md",
+    "Pasted image 20240314141945.png",
+    "Pasted Image 20240318093426_232.png",
+    "Meeting Notes/March Meeting Notes/March 13.md",
+    "Lecture Notes/Intro to Research Poster.md",
     "Quick Reference/RADIUS.md",
     "Quick Reference/Network Diagram and Cutsheet.canvas",
-    "Quick Reference/TicketSystemDocs.md",
     "Excalidraw/VDOM-Tunnel Diagram.md",
     "Quick Reference/Deployment Services Information.md",
     "Excalidraw/VPN_Proposal.md",
@@ -186,7 +205,6 @@
     "Excalidraw/ISP-planning (not complete).md",
     "Quick Reference/Documentation Guides/Documentation Scheme - MAJTeQ.md",
     "Quick Reference/Server IP Cutsheet.md",
-    "conflict-files-obsidian-git.md",
     "Excalidraw/Drawing 2024-03-07 15.03.01.excalidraw",
     "Quick Reference/Housekeeping/L3/Configs/MP-L3SW-02.md",
     "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-02.md",
@@ -205,8 +223,6 @@
     "Documentation/Completed Documents/ProjectPlan.md",
     "Documentation/WIP Documents/ProjectPlanV1.md",
     "Documentation/WIP Documents/ProjectPlanV2.md",
-    "Documentation/WIP Documents/Server Quick Notes.md",
-    "SECR2100 Project 2/WireGuard Setup.md",
     "SECR2100 Project 2",
     "SECR2100 Project 2/Pasted image 20240303125651.png",
     "SECR2100 Project 2/Pasted image 20240303125512.png",
@@ -224,8 +240,6 @@
     "!Images/test files-20240118155947413.webp",
     "!Images/test files-20240118155935972.webp",
     "!Images/test files-20240118155039084.webp",
-    "!Images/test files-20240118154646722.webp",
-    "!Images/test files-20240118154547255.webp",
     "Documentation/Completed Documents/Untitled.canvas"
   ]
 }

@@ -11,8 +11,6 @@ RAM: 8 GB
 ### Cisco Clients
 
 Shared key: majteq
-
-
 #### Layer 2
 
 ```

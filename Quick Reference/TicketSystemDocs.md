@@ -10,7 +10,33 @@
 - RT credentials> User: `Root` Pass: `Majteq5`
   - `Matt`:`Quinn`:`Jamie`:`Aidan`:`Taqi`::`P@ssw0rd`
  
+### Outgoing Mail Relay:
+**smtp2go.com**
+Credentials: mtelford@team5.ca::Waterpug66
+Postfix:
+Email: RT@team5.ca
+	- Exchange: SendAs : {all users}
+Path: /etc/postfix
 
+### Incoming Mail:
+**WSGetMail App**
+Schedule: Every 10 Mins
+Path: /usr/local/bin
+```
+{
+"client_id": "392133ee-b276-48c4-b080-a44b1cc9fa7b",
+"tenant_id": "bd4b36c7-583b-4665-94ed-03e40cbcad87",
+"secret": "hidden",
+"global_access": 1,
+"username": "RT@team5.ca",
+"folder": "Inbox",
+"stripcr": 1,
+"command": "/opt/rt5/bin/rt-mailgate",
+"command_args": "--url=http://tickets.team5.ca/ --queue=General --action=comment",
+"command_timeout": 30,
+"action_on_fetched": "mark_as_read"
+}
+```
 ### Trouble Shooting
 
 - Installed Perl and MariaDB per guide 
@@ -27,7 +53,7 @@
 - How to remove the “Possible cross-site request forgery” RT message when creating tickets or making changes via the WUI etc. 
   - Solution:
       ```
-      sudo nano /opt/rt5/etc/RT_SiteConfig.pm 
+      sudo 
 
       Set( $WebDomain, 'your-servers-ip' );
 
@@ -35,4 +61,3 @@
 
       sudo systemctl restart apache2
       ```
-  - **Remove this once we get actual IP** !!!!!!!! do it

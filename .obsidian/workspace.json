@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "4269c95d0d433781",
+        "id": "52b096671accfcab",
         "type": "tabs",
         "children": [
           {
-            "id": "b824041b4f2b7522",
+            "id": "8b034735b2747bf8",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/VDOM-Tunnel Diagram.md"
+                "file": "Quick Reference/TicketSystemDocs.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -107,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/VDOM-Tunnel Diagram.md",
+                "file": "Quick Reference/TicketSystemDocs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/VDOM-Tunnel Diagram.md",
+                "file": "Quick Reference/TicketSystemDocs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/VDOM-Tunnel Diagram.md"
+                "file": "Quick Reference/TicketSystemDocs.md"
               }
             }
           }
@@ -172,26 +174,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b824041b4f2b7522",
+  "active": "8b034735b2747bf8",
   "lastOpenFiles": [
-    "Excalidraw/ISP-planning (not complete).md",
+    "Quick Reference/RADIUS.md",
+    "Quick Reference/Network Diagram and Cutsheet.canvas",
+    "Quick Reference/TicketSystemDocs.md",
     "Excalidraw/VDOM-Tunnel Diagram.md",
+    "Quick Reference/Deployment Services Information.md",
+    "Excalidraw/VPN_Proposal.md",
     "Excalidraw/Drawing 2024-03-11 18.07.49.excalidraw.md",
+    "Excalidraw/ISP-planning (not complete).md",
+    "Quick Reference/Documentation Guides/Documentation Scheme - MAJTeQ.md",
+    "Quick Reference/Server IP Cutsheet.md",
     "conflict-files-obsidian-git.md",
     "Excalidraw/Drawing 2024-03-07 15.03.01.excalidraw",
-    "Quick Reference/Network Diagram and Cutsheet.canvas",
-    "Excalidraw/VPN_Proposal.md",
-    "Quick Reference/RADIUS.md",
     "Quick Reference/Housekeeping/L3/Configs/MP-L3SW-02.md",
     "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-02.md",
     "Quick Reference/Housekeeping/L3/Configs/MP-L3SW-01.md",
     "Quick Reference/Housekeeping/L2/HQ-L2SW-01.md",
     "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-01.md",
     "Excalidraw/Untitled.canvas",
-    "Quick Reference/TicketSystemDocs.md",
     "README.md",
     "Tickets TO-DO.md",
-    "Quick Reference/Server IP Cutsheet.md",
     "Meeting Notes/March Meeting Notes/March 6 Meeting Notes.md",
     "Meeting Notes/March Meeting Notes",
     "Quick Reference/Azure Information.md",
@@ -206,9 +210,6 @@
     "SECR2100 Project 2",
     "SECR2100 Project 2/Pasted image 20240303125651.png",
     "SECR2100 Project 2/Pasted image 20240303125512.png",
-    "Quick Reference/PRTG Information.md",
-    "Quick Reference/Housekeeping/L2/MP-L2SW-02.md",
-    "Quick Reference/Housekeeping/L2/MP-L2SW-01.md",
     "Quick Reference/Housekeeping/FW/HQ-FW-01",
     "Quick Reference/Housekeeping/FW",
     "Reports",

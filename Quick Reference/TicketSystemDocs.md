@@ -12,7 +12,7 @@
  
 ### Outgoing Mail Relay:
 **smtp2go.com**
-Credentials: mtelford@team5.ca::Waterpug66
+Credentials: mtelford@team5.ca::hidden
 Postfix:
 Email: RT@team5.ca
 	- Exchange: SendAs : {all users}

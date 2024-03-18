@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Quick Reference/TicketSystemDocs.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Quick Reference/TicketSystemDocs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Quick Reference/TicketSystemDocs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "Quick Reference/TicketSystemDocs.md"
               }
             }
           }
@@ -189,6 +189,8 @@
   },
   "active": "4e164ed4cf4dec4e",
   "lastOpenFiles": [
+    "Scripts/dhcpScript1.ps1",
+    "Scripts",
     "Quick Reference/TicketSystemDocs.md",
     "conflict-files-obsidian-git.md",
     "Quick Reference/802.1x.excalidraw.md",
@@ -222,7 +224,6 @@
     "Documentation/Completed Documents/ProjectPlan.pdf",
     "Documentation/Completed Documents/ProjectPlan.md",
     "Documentation/WIP Documents/ProjectPlanV1.md",
-    "Documentation/WIP Documents/ProjectPlanV2.md",
     "SECR2100 Project 2",
     "SECR2100 Project 2/Pasted image 20240303125651.png",
     "SECR2100 Project 2/Pasted image 20240303125512.png",
@@ -232,7 +233,6 @@
     "New Text Document.txt",
     "Lecture Notes/My values!.canvas",
     "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-02.txt",
-    "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-01.txt",
     "!Images/LOGO.png",
     "Quick Reference/Housekeeping/L3/Untitled.canvas",
     "docs/!Images/pdf-icon.png",

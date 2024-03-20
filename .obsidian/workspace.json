@@ -11,14 +11,11 @@
             "id": "a387359b910e5778",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Quick Reference/Network Diagram and Cutsheet.canvas",
-                "viewState": {
-                  "x": 246.61657508211954,
-                  "y": -952.4837780436767,
-                  "zoom": -1.1102230246251565e-16
-                }
+                "file": "Quick Reference/Deployment Services Information.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -112,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Quick Reference/Network Diagram and Cutsheet.canvas",
+                "file": "Quick Reference/Deployment Services Information.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Quick Reference/Network Diagram and Cutsheet.canvas",
+                "file": "Quick Reference/Deployment Services Information.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Quick Reference/Network Diagram and Cutsheet.canvas"
+                "file": "Quick Reference/Deployment Services Information.md"
               }
             }
           },
@@ -187,13 +184,20 @@
   },
   "active": "a387359b910e5778",
   "lastOpenFiles": [
-    "Quick Reference/802.1x.excalidraw.md",
+    "Quick Reference/Cluster Checklist.md",
+    "Quick Reference/Deployment Services Information.md",
+    "Quick Reference/Firewall Changes.md",
     "Quick Reference/Network Diagram and Cutsheet.canvas",
+    "Quick Reference/PRTG Information.md",
+    "Quick Reference/RADIUS.md",
+    "Quick Reference/Server IP Cutsheet.md",
+    "Quick Reference/802.1x.excalidraw.md",
+    "Scripts/MP-DHCPScript.ps1",
+    "Scripts/MP-DHCPScript.txt",
+    "Scripts/New Text Document.txt",
     "Scripts/dhcpScript1.ps1",
     "Scripts",
     "Pasted Image 20240318093426_232.png",
-    "Quick Reference/Server IP Cutsheet.md",
-    "Quick Reference/Firewall Changes.md",
     "Quick Reference/Housekeeping/basicHousekeeping.md",
     "Untitled.md",
     "README.md",
@@ -201,9 +205,7 @@
     "Lecture Notes/PROJ 2000 - Topic 10 Project Quality Management.md",
     "Pasted image 20240314141945.png",
     "Meeting Notes/March Meeting Notes/March 13.md",
-    "Quick Reference/RADIUS.md",
     "Quick Reference/TicketSystemDocs.md",
-    "Quick Reference/Deployment Services Information.md",
     "Lecture Notes/Privacy Laws.md",
     "Excalidraw/Drawing 2024-03-11 18.07.49.excalidraw.md",
     "conflict-files-obsidian-git.md",
@@ -219,14 +221,10 @@
     "Documentation/Completed Documents/ProjectPlan.pdf",
     "Documentation/Completed Documents/ProjectPlan.md",
     "Documentation/WIP Documents/ProjectPlanV1.md",
-    "Documentation/WIP Documents/ProjectPlanV2.md",
     "SECR2100 Project 2",
     "SECR2100 Project 2/Pasted image 20240303125651.png",
     "SECR2100 Project 2/Pasted image 20240303125512.png",
     "Quick Reference/Housekeeping/FW/HQ-FW-01",
-    "Quick Reference/Housekeeping/FW",
-    "Reports",
-    "New Text Document.txt",
     "Lecture Notes/My values!.canvas",
     "!Images/LOGO.png",
     "Quick Reference/Housekeeping/L3/Untitled.canvas",

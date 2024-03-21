@@ -37,12 +37,23 @@
 
 ### Headquarters Network
 
-|  Hostname  | Mgmt IP Address | Role                                       | Hardware Type       | Operating System  | Notes                     |
-| :--------: | :-------------: | :----------------------------------------- | :------------------ | :---------------- | :------------------------ |
-|  HQ-FW-01  |   10.100.50.1   | Primary Firewall / Distribution Router     | Fortigate 70F       | v7.0.14 build0601 | Active High Availability  |
-|  HQ-FW-02  |   10.100.50.2   | Secondary Firewall / Distribution Router   | Fortigate 70F       | v7.0.14 build0601 | Passive High Availability |
-| HQ-L3SW-01 |   10.100.50.3   | Core Layer 2 - Infrastructure Distribution | Cisco WS-C3650-24PS | IOS 16.3.5b       |                           |
-| HQ-L3SW-02 |   10.100.50.4   | Core Layer 2 - Infrastructure Distribution | Cisco WS-C3650-24PS | IOS 16.3.5b       |                           |
-| HQ-L2SW-01 |   10.100.50.5   | Layer 3 Switch                             | Cisco 3560-24ps     | IOS 12.2(46)SE    |                           |
-| HQ-L2SW-02 |   10.100.50.6   | Layer 3 Switch                             | Cisco Catalyst 3550 | IOS 12.2(44)SE3   |                           |
+|  Hostname  | Mgmt IP Address | Role                                              | Hardware Type         | System Version    | Notes                     |
+| :--------: | :-------------: | :------------------------------------------------ | :-------------------- | :---------------- | :------------------------ |
+|  HQ-FW-01  |   10.100.50.1   | Primary Firewall / Distribution Router            | Fortigate 70F         | v7.0.14 build0601 | Active High Availability  |
+|  HQ-FW-02  |   10.100.50.2   | Secondary Firewall / Distribution Router          | Fortigate 70F         | v7.0.14 build0601 | Passive High Availability |
+| HQ-L3SW-01 |   10.100.50.3   | Core Layer 2 Switch - Infrastructure Distribution | Cisco WS-C3650-24PS   | IOS 16.3.5b       |                           |
+| HQ-L3SW-02 |   10.100.50.4   | Core Layer 2 Switch - Infrastructure Distribution | Cisco WS-C3650-24PS   | IOS 16.3.5b       |                           |
+| HQ-L2SW-01 |   10.100.50.5   | Department Access Layer 2 Switch                  | Cisco WS-C2960-24TT-L | IOS 15.0(2)SE10a  |                           |
+| HQ-L2SW-02 |   10.100.50.6   | Department Access Layer 2 Switch                  | Cisco WS-C2960-24TT-L | IOS 15.0(2)SE10a  |                           |
+
+### Manufacturing Plant Network
+
+|  Hostname  | Mgmt IP Address | Role                                              | Hardware Type         | System Version    | Notes                     |
+| :--------: | :-------------: | :------------------------------------------------ | :-------------------- | :---------------- | :------------------------ |
+|  MP-FW-01  |   10.110.50.1   | Primary Firewall / Distribution Router            | Fortigate 100D        | v7.0.14 build0601 | Active High Availability  |
+|  MP-FW-02  |   10.110.50.2   | Secondary Firewall / Distribution Router          | Fortigate 100D        | v7.0.14 build0601 | Passive High Availability |
+| MP-L3SW-01 |   10.110.50.3   | Core Layer 2 Switch - Infrastructure Distribution | Cisco WS-C3560X-24    | IOS 15.2(4)E7     |                           |
+| MP-L3SW-02 |   10.110.50.4   | Core Layer 2 Switch - Infrastructure Distribution | Cisco WS-C3560X-24    | IOS 15.2(4)E7     |                           |
+| MP-L2SW-01 |   10.110.50.5   | Department Access Layer 2 Switch                  | Cisco WS-C2960-24TT-L | IOS 15.0(2)SE10a  |                           |
+| MP-L2SW-02 |   10.110.50.6   | Department Access Layer 2 Switch                  | Cisco WS-C2960-24TT-L | IOS 15.0(2)SE10a  |                           |
 

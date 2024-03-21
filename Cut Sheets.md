@@ -1,4 +1,9 @@
 # MAJTeQ Documentation
+  *Last updated March. 21
+  Todo:
+  - RT server
+  - stuff at quinns
+  
 - [MAJTeQ Documentation](#majteq-documentation)
   - [Cut Sheets](#cut-sheets)
     - [IPv4 Scheme](#ipv4-scheme)
@@ -33,6 +38,10 @@
     - [MP-DC-02](#mp-dc-02)
     - [MP-FS-01](#mp-fs-01)
   - [Inventory](#inventory)
+    - [Firewall](#firewall)
+    - [Layer 2/3 Switch](#layer-23-switch)
+    - [Server](#server)
+    - [Workstation](#workstation)
 
 ## Cut Sheets
 
@@ -92,14 +101,14 @@
 
 ### Manufacturing Plant Network
 
-|  Hostname  | Mgmt IP Address | Role                                              | Hardware Type         | System Version    | Notes                     |
-| :--------: | :-------------: | :------------------------------------------------ | :-------------------- | :---------------- | :------------------------ |
-|  MP-FW-01  |   10.110.50.1   | Primary Firewall / Distribution Router            | Fortigate 100D        | v7.0.14 build0601 | Active High Availability  |
-|  MP-FW-02  |   10.110.50.2   | Secondary Firewall / Distribution Router          | Fortigate 100D        | v7.0.14 build0601 | Passive High Availability |
-| MP-L3SW-01 |   10.110.50.3   | Core Layer 2 Switch - Infrastructure Distribution | Cisco WS-C3560X-24    | IOS 15.2(4)E7     |                           |
-| MP-L3SW-02 |   10.110.50.4   | Core Layer 2 Switch - Infrastructure Distribution | Cisco WS-C3560X-24    | IOS 15.2(4)E7     |                           |
-| MP-L2SW-01 |   10.110.50.5   | Department Access Layer 2 Switch                  | Cisco WS-C2960-24TT-L | IOS 15.0(2)SE10a  |                           |
-| MP-L2SW-02 |   10.110.50.6   | Department Access Layer 2 Switch                  | Cisco WS-C2960-24TT-L | IOS 15.0(2)SE10a  |                           |
+|  Hostname  | Mgmt IP Address | Role                                              | Hardware Type         | System Version   | Notes                     |
+| :--------: | :-------------: | :------------------------------------------------ | :-------------------- | :--------------- | :------------------------ |
+|  MP-FW-01  |   10.110.50.1   | Primary Firewall / Distribution Router            | Fortigate 100D        | v6.2.2 build1010 | Active High Availability  |
+|  MP-FW-02  |   10.110.50.2   | Secondary Firewall / Distribution Router          | Fortigate 100D        | v6.2.2 build1010 | Passive High Availability |
+| MP-L3SW-01 |   10.110.50.3   | Core Layer 2 Switch - Infrastructure Distribution | Cisco WS-C3560X-24    | IOS 15.2(4)E7    |                           |
+| MP-L3SW-02 |   10.110.50.4   | Core Layer 2 Switch - Infrastructure Distribution | Cisco WS-C3560X-24    | IOS 15.2(4)E7    |                           |
+| MP-L2SW-01 |   10.110.50.5   | Department Access Layer 2 Switch                  | Cisco WS-C2960-24TT-L | IOS 15.0(2)SE10a |                           |
+| MP-L2SW-02 |   10.110.50.6   | Department Access Layer 2 Switch                  | Cisco WS-C2960-24TT-L | IOS 15.0(2)SE10a |                           |
 
 ### HQ Firewall
 
@@ -544,9 +553,9 @@ The MP-DC-02 is Domain Controller 2 on the MP side, responsible for domain manag
 
 **Configuration**
 
-| VM Hostname | IP Address     | Subnet Network | VLAN | Role               | OS                 | Notes |
-| :---------: | :------------: | :------------: | :--: | :----------------: | :----------------: | :---: |
-| MP-DC-02    | 10.110.10.11   | 10.110.10.0/24 | 10   | Domain Controller  | Windows Server 2022|       |
+| VM Hostname |  IP Address  | Subnet Network | VLAN  |       Role        |         OS          | Notes |
+| :---------: | :----------: | :------------: | :---: | :---------------: | :-----------------: | :---: |
+|  MP-DC-02   | 10.110.10.11 | 10.110.10.0/24 |  10   | Domain Controller | Windows Server 2022 |       |
 
 |        HOST        |  RAM  |  CPU  | Storage |  NIC  |
 | :----------------: | :---: | :---: | :-----: | :---: |
@@ -571,9 +580,9 @@ The MP-FS-01 is the Secondary File Server on the MP side, providing additional f
 
 **Configuration**
 
-| VM Hostname | IP Address     | Subnet Network | VLAN | Role                  | OS                 | Notes |
-| :---------: | :------------: | :------------: | :--: | :-------------------: | :----------------: | :---: |
-| MP-FS-01    | 10.110.10.14   | 10.110.10.0/24 | 10   | Secondary File Server | Windows Server 2022|       |
+| VM Hostname |  IP Address  | Subnet Network | VLAN  |         Role          |         OS          | Notes |
+| :---------: | :----------: | :------------: | :---: | :-------------------: | :-----------------: | :---: |
+|  MP-FS-01   | 10.110.10.14 | 10.110.10.0/24 |  10   | Secondary File Server | Windows Server 2022 |       |
 
 |        HOST        |  RAM  |  CPU  | Storage |  NIC  |
 | :----------------: | :---: | :---: | :-----: | :---: |
@@ -581,3 +590,41 @@ The MP-FS-01 is the Secondary File Server on the MP side, providing additional f
 
 ## Inventory
 
+### Firewall
+
+| ID# | Hardware       | System Version    | MAC Address       | Serial Number     |
+| --- | :------------- | :---------------- | :---------------- | :---------------- |
+| F-1 | Fortigate 70F  | v7.0.14 build0601 | E0:23:FF:FC:A4:07 | FGT70FTK22011984  |
+| F-2 | Fortigate 70F  | v7.0.14 build0601 | E0:23:FF:FC:A4:07 | FGT70FTK22009666  |
+| F-3 | Fortigate 100D | v6.2.2 build1010  | 00:09:0F:09:45:08 | FG100D3G14810637  |
+| F-4 | Fortigate 100D | v6.2.2 build1010  | 00:09:0F:09:45:08 | FFG100D3G14810637 |
+
+### Layer 2/3 Switch
+
+| ID#  | Hardware              | System Version   | MAC Address       | Serial Number |
+| ---- | :-------------------- | :--------------- | :---------------- | :------------ |
+| SW-1 | Cisco WS-C3650-24PS   | IOS 16.3.5b      | 70:69:5A:43:C9:68 | FDO2202I1BQ   |
+| SW-2 | Cisco WS-C3650-24PS   | IOS 16.3.5b      | 00:5D:73:3C:3F:68 | FDO2142E1C7   |
+| SW-3 | Cisco WS-C2960-24TT-L | IOS 15.0(2)SE10a | 00:1C:B1:B5:42:C1 | FOC1127W21C   |
+| SW-4 | Cisco WS-C2960-24TT-L | IOS 15.0(2)SE10a | 00:1C:B1:B5:48:41 | FOC1127W21E   |
+| SW-5 | Cisco WS-C2960-24TT-L | IOS 15.0(2)SE10a | 00:1C:B1:B4:8D:80 | FOC1127W1UH   |
+| SW-6 | Cisco WS-C2960-24TT-L | IOS 15.0(2)SE10a | 00:21:1B:B6:03:80 | FOC1212ZBF8   |
+| SW-7 | Cisco WS-C3560X-24    | IOS 15.2(4)E7    | C4:64:13:D5:67:80 | FDO15511PX5   |
+| SW-8 | Cisco WS-C3560X-24    | IOS 15.2(4)E7    | C4:64:13:C7:BB:00 | FDO15510X7J   |
+
+### Server
+
+| ID# | Hardware            | Operating System               | MAC Address       | Serial Number                        |
+| --- | :------------------ | :----------------------------- | :---------------- | :----------------------------------- |
+| S-1 | Dell PowerEdge R730 | Windows Server 2022 Datacenter | B0-83-FE-E6-07-6B | 1D4DB0CE-7B40-489F-92E1-1FDED70C786D |
+| S-2 | Dell PowerEdge R730 | Windows Server 2022 Datacenter | 14-18-77-54-2A-4C | D6D76F80-759A-427F-9C87-C896FA7EAF48 |
+
+### Workstation
+
+| ID# | Hardware | Operating System | MAC Address | Serial Number |
+| --- | :------- | :--------------- | :---------- | :------------ |
+| W-1 | Dell     | Windows 11 Pro   |             |               |
+| W-2 | Dell     | Windows 11 Pro   |             |               |
+| W-3 | Dell     | Windows 11 Pro   |             |               |
+| W-4 | Dell     | Windows 11 Pro   |             |               |
+| W-5 | Dell     | Windows 11 Pro   |             |               |

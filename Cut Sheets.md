@@ -3,6 +3,7 @@
   Todo:
   - RT server
   - stuff at quinns
+  - HCI / Storage cutsheet #aidan
   
 - [MAJTeQ Documentation](#majteq-documentation)
   - [Cut Sheets](#cut-sheets)
@@ -592,39 +593,39 @@ The MP-FS-01 is the Secondary File Server on the MP side, providing additional f
 
 ### Firewall
 
-| ID# | Hardware       | System Version    | MAC Address       | Serial Number     |
-| --- | :------------- | :---------------- | :---------------- | :---------------- |
-| F-1 | Fortigate 70F  | v7.0.14 build0601 | E0:23:FF:FC:A4:07 | FGT70FTK22011984  |
-| F-2 | Fortigate 70F  | v7.0.14 build0601 | E0:23:FF:FC:A4:07 | FGT70FTK22009666  |
-| F-3 | Fortigate 100D | v6.2.2 build1010  | 00:09:0F:09:45:08 | FG100D3G14810637  |
-| F-4 | Fortigate 100D | v6.2.2 build1010  | 00:09:0F:09:45:08 | FFG100D3G14810637 |
+| ID# | Hardware Part No. | Location | System Version    | MAC Address       | Serial Number     | Active |
+| --- | :---------------- | -------- | :---------------- | :---------------- | :---------------- | :----: |
+| F-1 | Fortigate 70F     | Rack 9   | v7.0.14 build0601 | E0:23:FF:FC:A4:07 | FGT70FTK22011984  |   Y    |
+| F-2 | Fortigate 70F     | Rack 10  | v7.0.14 build0601 | E0:23:FF:FC:A4:07 | FGT70FTK22009666  |   Y    |
+| F-3 | Fortigate 100D    | Rack 9   | v6.2.2 build1010  | 00:09:0F:09:45:08 | FG100D3G14810637  |   Y    |
+| F-4 | Fortigate 100D    | Rack 10  | v6.2.2 build1010  | 00:09:0F:09:45:08 | FFG100D3G14810637 |   Y    |
 
 ### Layer 2/3 Switch
 
-| ID#  | Hardware              | System Version   | MAC Address       | Serial Number |
-| ---- | :-------------------- | :--------------- | :---------------- | :------------ |
-| SW-1 | Cisco WS-C3650-24PS   | IOS 16.3.5b      | 70:69:5A:43:C9:68 | FDO2202I1BQ   |
-| SW-2 | Cisco WS-C3650-24PS   | IOS 16.3.5b      | 00:5D:73:3C:3F:68 | FDO2142E1C7   |
-| SW-3 | Cisco WS-C2960-24TT-L | IOS 15.0(2)SE10a | 00:1C:B1:B5:42:C1 | FOC1127W21C   |
-| SW-4 | Cisco WS-C2960-24TT-L | IOS 15.0(2)SE10a | 00:1C:B1:B5:48:41 | FOC1127W21E   |
-| SW-5 | Cisco WS-C2960-24TT-L | IOS 15.0(2)SE10a | 00:1C:B1:B4:8D:80 | FOC1127W1UH   |
-| SW-6 | Cisco WS-C2960-24TT-L | IOS 15.0(2)SE10a | 00:21:1B:B6:03:80 | FOC1212ZBF8   |
-| SW-7 | Cisco WS-C3560X-24    | IOS 15.2(4)E7    | C4:64:13:D5:67:80 | FDO15511PX5   |
-| SW-8 | Cisco WS-C3560X-24    | IOS 15.2(4)E7    | C4:64:13:C7:BB:00 | FDO15510X7J   |
+| ID#  | Hardware Part No.     | Location | System Version   | MAC Address       | Serial Number | Active |
+| ---- | :-------------------- | -------- | :--------------- | :---------------- | :------------ | :----: |
+| SW-1 | Cisco WS-C3650-24PS   | Rack 9   | IOS 16.3.5b      | 70:69:5A:43:C9:68 | FDO2202I1BQ   |   Y    |
+| SW-2 | Cisco WS-C3650-24PS   | Rack 10  | IOS 16.3.5b      | 00:5D:73:3C:3F:68 | FDO2142E1C7   |   Y    |
+| SW-3 | Cisco WS-C2960-24TT-L | Rack 9   | IOS 15.0(2)SE10a | 00:1C:B1:B5:42:C1 | FOC1127W21C   |   Y    |
+| SW-4 | Cisco WS-C2960-24TT-L | Rack 10  | IOS 15.0(2)SE10a | 00:1C:B1:B5:48:41 | FOC1127W21E   |   Y    |
+| SW-5 | Cisco WS-C2960-24TT-L | Rack 9   | IOS 15.0(2)SE10a | 00:1C:B1:B4:8D:80 | FOC1127W1UH   |   Y    |
+| SW-6 | Cisco WS-C2960-24TT-L | Rack 10  | IOS 15.0(2)SE10a | 00:21:1B:B6:03:80 | FOC1212ZBF8   |   Y    |
+| SW-7 | Cisco WS-C3560X-24    | Rack 9   | IOS 15.2(4)E7    | C4:64:13:D5:67:80 | FDO15511PX5   |   Y    |
+| SW-8 | Cisco WS-C3560X-24    | Rack 10  | IOS 15.2(4)E7    | C4:64:13:C7:BB:00 | FDO15510X7J   |   Y    |
 
 ### Server
 
-| ID# | Hardware            | Operating System               | MAC Address       | Serial Number                        |
-| --- | :------------------ | :----------------------------- | :---------------- | :----------------------------------- |
-| S-1 | Dell PowerEdge R730 | Windows Server 2022 Datacenter | B0-83-FE-E6-07-6B | 1D4DB0CE-7B40-489F-92E1-1FDED70C786D |
-| S-2 | Dell PowerEdge R730 | Windows Server 2022 Datacenter | 14-18-77-54-2A-4C | D6D76F80-759A-427F-9C87-C896FA7EAF48 |
+| ID# | Hardware Part No.   | Location | Operating System               | MAC Address       | Serial Number                        | Active |
+| --- | :------------------ | -------- | :----------------------------- | :---------------- | :----------------------------------- | :----: |
+| S-1 | Dell PowerEdge R730 | Rack 9   | Windows Server 2022 Datacenter | B0-83-FE-E6-07-6B | 1D4DB0CE-7B40-489F-92E1-1FDED70C786D |   Y    |
+| S-2 | Dell PowerEdge R730 | Rack 10  | Windows Server 2022 Datacenter | 14-18-77-54-2A-4C | D6D76F80-759A-427F-9C87-C896FA7EAF48 |   Y    |
 
 ### Workstation
 
-| ID# | Hardware | Operating System | MAC Address | Serial Number |
-| --- | :------- | :--------------- | :---------- | :------------ |
-| W-1 | Dell     | Windows 11 Pro   |             |               |
-| W-2 | Dell     | Windows 11 Pro   |             |               |
-| W-3 | Dell     | Windows 11 Pro   |             |               |
-| W-4 | Dell     | Windows 11 Pro   |             |               |
-| W-5 | Dell     | Windows 11 Pro   |             |               |
+| ID# | Hardware Part No. | Operating System | MAC Address | Serial Number | Active |
+| --- | :---------------- | :--------------- | :---------- | :------------ | :----: |
+| W-1 | Dell              | Windows 11 Pro   |             |               |   Y    |
+| W-2 | Dell              | Windows 11 Pro   |             |               |   Y    |
+| W-3 | Dell              | Windows 11 Pro   |             |               |   Y    |
+| W-4 | Dell              | Windows 11 Pro   |             |               |   Y    |
+| W-5 | Dell              | Windows 11 Pro   |             |               |   Y    |

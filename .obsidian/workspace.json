@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "52b096671accfcab",
+        "id": "d4d341958db10701",
         "type": "tabs",
         "children": [
           {
-            "id": "8b034735b2747bf8",
+            "id": "a387359b910e5778",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Quick Reference/TicketSystemDocs.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4e164ed4cf4dec4e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Quick Reference/TicketSystemDocs.md",
+                "file": "Quick Reference/Deployment Services Information.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Quick Reference/TicketSystemDocs.md",
+                "file": "Quick Reference/Deployment Services Information.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Quick Reference/TicketSystemDocs.md",
+                "file": "Quick Reference/Deployment Services Information.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,12 +149,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Quick Reference/TicketSystemDocs.md"
+                "file": "Quick Reference/Deployment Services Information.md"
               }
+            }
+          },
+          {
+            "id": "9a1d28d7474c1ee1",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -187,40 +182,42 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4e164ed4cf4dec4e",
+  "active": "a387359b910e5778",
   "lastOpenFiles": [
+    "Quick Reference/Cluster Checklist.md",
+    "Quick Reference/Deployment Services Information.md",
+    "Quick Reference/Firewall Changes.md",
+    "Quick Reference/Network Diagram and Cutsheet.canvas",
+    "Quick Reference/PRTG Information.md",
+    "Quick Reference/RADIUS.md",
+    "Quick Reference/Server IP Cutsheet.md",
+    "Quick Reference/802.1x.excalidraw.md",
+    "Scripts/MP-DHCPScript.ps1",
+    "Scripts/MP-DHCPScript.txt",
+    "Scripts/New Text Document.txt",
     "Scripts/dhcpScript1.ps1",
     "Scripts",
-    "Quick Reference/TicketSystemDocs.md",
-    "conflict-files-obsidian-git.md",
-    "Quick Reference/802.1x.excalidraw.md",
-    "Pasted image 20240314141945.png",
     "Pasted Image 20240318093426_232.png",
-    "Meeting Notes/March Meeting Notes/March 13.md",
-    "Lecture Notes/Intro to Research Poster.md",
-    "Quick Reference/RADIUS.md",
-    "Quick Reference/Network Diagram and Cutsheet.canvas",
-    "Excalidraw/VDOM-Tunnel Diagram.md",
-    "Quick Reference/Deployment Services Information.md",
-    "Excalidraw/VPN_Proposal.md",
-    "Excalidraw/Drawing 2024-03-11 18.07.49.excalidraw.md",
-    "Excalidraw/ISP-planning (not complete).md",
-    "Quick Reference/Documentation Guides/Documentation Scheme - MAJTeQ.md",
-    "Quick Reference/Server IP Cutsheet.md",
-    "Excalidraw/Drawing 2024-03-07 15.03.01.excalidraw",
-    "Quick Reference/Housekeeping/L3/Configs/MP-L3SW-02.md",
-    "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-02.md",
-    "Quick Reference/Housekeeping/L3/Configs/MP-L3SW-01.md",
-    "Quick Reference/Housekeeping/L2/HQ-L2SW-01.md",
-    "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-01.md",
-    "Excalidraw/Untitled.canvas",
+    "Quick Reference/Housekeeping/basicHousekeeping.md",
+    "Untitled.md",
     "README.md",
-    "Tickets TO-DO.md",
+    "Lecture Notes/Intro to Research Poster.md",
+    "Lecture Notes/PROJ 2000 - Topic 10 Project Quality Management.md",
+    "Pasted image 20240314141945.png",
+    "Meeting Notes/March Meeting Notes/March 13.md",
+    "Quick Reference/TicketSystemDocs.md",
+    "Lecture Notes/Privacy Laws.md",
+    "Excalidraw/Drawing 2024-03-11 18.07.49.excalidraw.md",
+    "conflict-files-obsidian-git.md",
+    "Excalidraw/VDOM-Tunnel Diagram.md",
+    "Excalidraw/Drawing 2024-03-07 15.03.01.excalidraw",
+    "Lecture Notes/Ethics in IT.md",
     "Meeting Notes/March Meeting Notes/March 6 Meeting Notes.md",
     "Meeting Notes/March Meeting Notes",
+    "Tickets TO-DO.md",
     "Quick Reference/Azure Information.md",
-    "Quick Reference/Firewall Changes.md",
-    "Quick Reference/Housekeeping/Network Diagram and Cutsheet.canvas",
+    "Quick Reference/Documentation Guides/Device Name Scheme - MAJTeQ.md",
+    "Quick Reference/Documentation Guides/Documentation Scheme - MAJTeQ.md",
     "Documentation/Completed Documents/ProjectPlan.pdf",
     "Documentation/Completed Documents/ProjectPlan.md",
     "Documentation/WIP Documents/ProjectPlanV1.md",
@@ -228,11 +225,7 @@
     "SECR2100 Project 2/Pasted image 20240303125651.png",
     "SECR2100 Project 2/Pasted image 20240303125512.png",
     "Quick Reference/Housekeeping/FW/HQ-FW-01",
-    "Quick Reference/Housekeeping/FW",
-    "Reports",
-    "New Text Document.txt",
     "Lecture Notes/My values!.canvas",
-    "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-02.txt",
     "!Images/LOGO.png",
     "Quick Reference/Housekeeping/L3/Untitled.canvas",
     "docs/!Images/pdf-icon.png",

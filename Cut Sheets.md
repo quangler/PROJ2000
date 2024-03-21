@@ -21,45 +21,15 @@
     - [Servers](#servers)
   - [Virtual Machines](#virtual-machines)
     - [HQ-RD-01](#hq-rd-01)
-      - [Overview](#overview)
-      - [Credentials](#credentials)
-      - [Configuration](#configuration)
     - [HQ-ISCI-QUO](#hq-isci-quo)
-      - [Overview](#overview-1)
-      - [Credentials](#credentials-1)
-      - [Configuration](#configuration-1)
     - [HQ-DC-01](#hq-dc-01)
-      - [Overview](#overview-2)
-      - [Credentials](#credentials-2)
-      - [Configuration](#configuration-2)
     - [HQ-RMM-01](#hq-rmm-01)
-      - [Overview](#overview-3)
-      - [Credentials](#credentials-3)
-      - [Configuration](#configuration-3)
     - [HQ-BU-01](#hq-bu-01)
-      - [Overview](#overview-4)
-      - [Credentials](#credentials-4)
-      - [Configuration](#configuration-4)
     - [HQ-PKI-01](#hq-pki-01)
-      - [Overview](#overview-5)
-      - [Credentials](#credentials-5)
-      - [Configuration](#configuration-5)
     - [HQ-FS-01](#hq-fs-01)
-      - [Overview](#overview-6)
-      - [Credentials](#credentials-6)
-      - [Configuration](#configuration-6)
     - [HQ-DS-01](#hq-ds-01)
-      - [Overview](#overview-7)
-      - [Credentials](#credentials-7)
-      - [Configuration](#configuration-7)
     - [HQ-CLUSTER](#hq-cluster)
-      - [Overview](#overview-8)
-      - [Credentials](#credentials-8)
-      - [Configuration](#configuration-8)
     - [HQ-NM-01](#hq-nm-01)
-      - [Overview](#overview-9)
-      - [Credentials](#credentials-9)
-      - [Configuration](#configuration-9)
 
 ## Cut Sheets
 
@@ -275,7 +245,7 @@
 
 ### HQ-RD-01
 
-#### Overview
+**Overview**
 
 The HQ-RD-01 is the RADIUS Server responsible for managing network access authentication.
 
@@ -284,13 +254,13 @@ The HQ-RD-01 is the RADIUS Server responsible for managing network access authen
 - Ensures only authorized users can connect to the network.
 - Logs and tracks network access attempts for security purposes.
 
-#### Credentials
+**Credentials**
 
 |       Accounts        |      Password       | Permissions  |
 | :-------------------: | :-----------------: | :----------: |
-| team5\<AdminAccounts> | [<!-- P@ssw0rd -->] | DOMAIN ADMIN |
+| `team5\AdminAccounts` | [<!-- P@ssw0rd -->] | DOMAIN ADMIN |
 
-#### Configuration
+**Configuration**
 
 | VM Hostname | IP Address  | Subnet Network | VLAN  |     Role      |         OS          | Notes |
 | :---------: | :---------: | :------------: | :---: | :-----------: | :-----------------: | :---: |
@@ -303,7 +273,7 @@ The HQ-RD-01 is the RADIUS Server responsible for managing network access authen
 
 ### HQ-ISCI-QUO
 
-#### Overview
+**Overview**
 
 The HQ-ISCI-QUO is the Cluster Quorum Storage Server for high availability and fault tolerance.
 
@@ -312,13 +282,13 @@ The HQ-ISCI-QUO is the Cluster Quorum Storage Server for high availability and f
 - Ensures continuous operation in case of server failures.
 - Maintains data integrity and availability.
 
-#### Credentials
+**Credentials**
 
-|       Accounts        |      Password       | Permissions  |
-| :-------------------: | :-----------------: | :----------: |
-| team5\<AdminAccounts> | [<!-- P@ssw0rd -->] | DOMAIN ADMIN |
+|        Accounts         |      Password       | Permissions  |
+| :---------------------: | :-----------------: | :----------: |
+| `team5\AdminAccounts` | [<!-- P@ssw0rd -->] | DOMAIN ADMIN |
 
-#### Configuration
+**Configuration**
 
 | VM Hostname | IP Address  | Subnet Network | VLAN  |             Role              |         OS          | Notes |
 | :---------: | :---------: | :------------: | :---: | :---------------------------: | :-----------------: | :---: |
@@ -331,7 +301,7 @@ The HQ-ISCI-QUO is the Cluster Quorum Storage Server for high availability and f
 
 ### HQ-DC-01
 
-#### Overview
+**Overview**
 
 The HQ-DC-01 is the Domain Controller 1 on the HQ side, responsible for domain management and authentication.
 
@@ -340,13 +310,13 @@ The HQ-DC-01 is the Domain Controller 1 on the HQ side, responsible for domain m
 - Authenticates users and computers in the domain.
 - Manages group policies and security settings.
 
-#### Credentials
+**Credentials**
 
-|       Accounts        |      Password       | Permissions  |
-| :-------------------: | :-----------------: | :----------: |
-| team5\<AdminAccounts> | [<!-- P@ssw0rd -->] | DOMAIN ADMIN |
+|        Accounts        |      Password       | Permissions  |
+| :--------------------: | :-----------------: | :----------: |
+| `team5\AdminAccounts` | [<!-- P@ssw0rd -->] | DOMAIN ADMIN |
 
-#### Configuration
+**Configuration**
 
 | VM Hostname |  IP Address  | Subnet Network | VLAN  |       Role        |         OS          | Notes |
 | :---------: | :----------: | :------------: | :---: | :---------------: | :-----------------: | :---: |
@@ -359,7 +329,7 @@ The HQ-DC-01 is the Domain Controller 1 on the HQ side, responsible for domain m
 
 ### HQ-RMM-01
 
-#### Overview
+**Overview**
 
 The HQ-RMM-01 is for the RMM tool.
 
@@ -368,13 +338,13 @@ The HQ-RMM-01 is for the RMM tool.
 - Helps in troubleshooting and maintaining network performance.
 - Ensures network security and compliance.
 
-#### Credentials
+**Credentials**
 
 |   Accounts    |      Password       |  Permissions  |
 | :-----------: | :-----------------: | :-----------: |
 | tacticaladmin | [<!-- P@ssw0rd -->] | Administrator |
 
-#### Configuration
+**Configuration**
 
 | VM Hostname |  IP Address  | Subnet Network | VLAN  |   Role   |         OS          | Notes |
 | :---------: | :----------: | :------------: | :---: | :------: | :-----------------: | :---: |
@@ -387,7 +357,7 @@ The HQ-RMM-01 is for the RMM tool.
 
 ### HQ-BU-01
 
-#### Overview
+**Overview**
 
 The HQ-BU-01 is the Backup Server on the HQ side, responsible for data backup and recovery.
 
@@ -396,13 +366,13 @@ The HQ-BU-01 is the Backup Server on the HQ side, responsible for data backup an
 - Facilitates quick recovery in case of data loss or disaster.
 - Implements backup policies and procedures.
 
-#### Credentials
+**Credentials**
 
 |       Accounts        |      Password       | Permissions  |
 | :-------------------: | :-----------------: | :----------: |
-| team5\<AdminAccounts> | [<!-- P@ssw0rd -->] | DOMAIN ADMIN |
+| `team5\AdminAccounts` | [<!-- P@ssw0rd -->] | DOMAIN ADMIN |
 
-#### Configuration
+**Configuration**
 
 | VM Hostname |  IP Address  | Subnet Network | VLAN  |     Role      |         OS          | Notes |
 | :---------: | :----------: | :------------: | :---: | :-----------: | :-----------------: | :---: |
@@ -415,7 +385,7 @@ The HQ-BU-01 is the Backup Server on the HQ side, responsible for data backup an
 
 ### HQ-PKI-01
 
-#### Overview
+**Overview**
 
 The HQ-PKI-01 is the PKI Certificates - Enterprise Root CA server responsible for managing digital certificates for secure communication.
 
@@ -424,13 +394,13 @@ The HQ-PKI-01 is the PKI Certificates - Enterprise Root CA server responsible fo
 - Ensures trust and authenticity in digital transactions.
 - Manages digital certificates for encryption and authentication purposes.
 
-#### Credentials
+**Credentials**
 
 |       Accounts        |      Password       | Permissions  |
 | :-------------------: | :-----------------: | :----------: |
-| team5\<AdminAccounts> | [<!-- P@ssw0rd -->] | DOMAIN ADMIN |
+| `team5\AdminAccounts` | [<!-- P@ssw0rd -->] | DOMAIN ADMIN |
 
-#### Configuration
+**Configuration**
 
 | VM Hostname |  IP Address  | Subnet Network | VLAN  |            Role            |         OS          | Notes |
 | :---------: | :----------: | :------------: | :---: | :------------------------: | :-----------------: | :---: |
@@ -443,7 +413,7 @@ The HQ-PKI-01 is the PKI Certificates - Enterprise Root CA server responsible fo
 
 ### HQ-FS-01
 
-#### Overview
+**Overview**
 
 The HQ-FS-01 is the File Server on the HQ side, providing file storage and sharing services.
 
@@ -452,13 +422,13 @@ The HQ-FS-01 is the File Server on the HQ side, providing file storage and shari
 - Facilitates collaboration and file sharing among users.
 - Implements security measures to protect data integrity.
 
-#### Credentials
+**Credentials**
 
 |       Accounts        |      Password       | Permissions  |
 | :-------------------: | :-----------------: | :----------: |
-| team5\<AdminAccounts> | [<!-- P@ssw0rd -->] | DOMAIN ADMIN |
+| `team5\AdminAccounts` | [<!-- P@ssw0rd -->] | DOMAIN ADMIN |
 
-#### Configuration
+**Configuration**
 
 | VM Hostname |  IP Address  | Subnet Network | VLAN  |    Role     |         OS          | Notes |
 | :---------: | :----------: | :------------: | :---: | :---------: | :-----------------: | :---: |
@@ -471,7 +441,7 @@ The HQ-FS-01 is the File Server on the HQ side, providing file storage and shari
 
 ### HQ-DS-01
 
-#### Overview
+**Overview**
 
 The HQ-DS-01 is the Windows Deployment Server for deploying Windows operating systems over the network.
 
@@ -480,13 +450,13 @@ The HQ-DS-01 is the Windows Deployment Server for deploying Windows operating sy
 - Reduces deployment time and effort for IT administrators.
 - Supports network-based installations of Windows OS.
 
-#### Credentials
+**Credentials**
 
 |       Accounts        |      Password       | Permissions  |
 | :-------------------: | :-----------------: | :----------: |
-| team5\<AdminAccounts> | [<!-- P@ssw0rd -->] | DOMAIN ADMIN |
+| `team5\AdminAccounts` | [<!-- P@ssw0rd -->] | DOMAIN ADMIN |
 
-#### Configuration
+**Configuration**
 
 | VM Hostname |  IP Address   | Subnet Network | VLAN  |           Role            |         OS          | Notes |
 | :---------: | :-----------: | :------------: | :---: | :-----------------------: | :-----------------: | :---: |
@@ -499,7 +469,7 @@ The HQ-DS-01 is the Windows Deployment Server for deploying Windows operating sy
 
 ### HQ-CLUSTER
 
-#### Overview
+**Overview**
 
 The HQ-CLUSTER is a cluster of both Hypervisors for high availability and load balancing.
 
@@ -508,13 +478,13 @@ The HQ-CLUSTER is a cluster of both Hypervisors for high availability and load b
 - Ensures high availability of virtual machines.
 - Optimizes resource utilization and performance.
 
-#### Credentials
+**Credentials**
 
 |       Accounts        |      Password       | Permissions  |
 | :-------------------: | :-----------------: | :----------: |
-| team5\<AdminAccounts> | [<!-- P@ssw0rd -->] | DOMAIN ADMIN |
+| `team5\AdminAccounts` | [<!-- P@ssw0rd -->] | DOMAIN ADMIN |
 
-#### Configuration
+**Configuration**
 
 | VM Hostname |  IP Address  | Subnet Network | VLAN  |    Role    |         OS          | Notes |
 | :---------: | :----------: | :------------: | :---: | :--------: | :-----------------: | :---: |
@@ -526,7 +496,7 @@ The HQ-CLUSTER is a cluster of both Hypervisors for high availability and load b
 
 ### HQ-NM-01
 
-#### Overview
+**Overview**
 
 The HQ-NM-01 is the Network Monitoring Server responsible for monitoring network performance and managing network devices.
 
@@ -535,13 +505,13 @@ The HQ-NM-01 is the Network Monitoring Server responsible for monitoring network
 - Facilitates network troubleshooting and diagnostics.
 - Ensures network security and compliance.
 
-#### Credentials
+**Credentials**
 
 |       Accounts        |      Password       | Permissions  |
 | :-------------------: | :-----------------: | :----------: |
-| team5\<AdminAccounts> | [<!-- P@ssw0rd -->] | DOMAIN ADMIN |
+| `team5\AdminAccounts` | [<!-- P@ssw0rd -->] | DOMAIN ADMIN |
 
-#### Configuration
+**Configuration**
 
 | VM Hostname |  IP Address  | Subnet Network | VLAN  |           Role            |         OS          | Notes |
 | :---------: | :----------: | :------------: | :---: | :-----------------------: | :-----------------: | :---: |

@@ -77,30 +77,96 @@
 
 ##### HQ_VDOM
 
-| Name            |   Type    |    Members     |   IPv4 Address   | Admin Access |
-| :-------------- | :-------: | :------------: | :--------------: | :----------: |
-| Management      | Loopback  |    Internal    |   10.1.1.1/32    |     ALL      |
-| HQ-WAN          | VDOM Link |    Internal    | 172.16.100.10/30 |     PING     |
-| Man-HQ          | VDOM Link |    Internal    | 172.16.10.10/30  |     PING     |
-| Servers_VLAN    |   VLAN    | HQ VLAN Switch |  10.100.10.1/24  |     PING     |
-| Cluster_VLAN    |   VLAN    | HQ VLAN Switch |  10.100.12.1/24  |     PING     |
-| CORP-WIFI_VLAN  |   VLAN    | HQ VLAN Switch |  10.100.20.1/24  |     PING     |
-| VoIP_VLAN       |   VLAN    | HQ VLAN Switch |  10.100.40.1/24  |     PING     |
-| Accounting_VLAN |   VLAN    | HQ VLAN Switch |  10.100.60.1/24  |     PING     |
-| Engineer_VLAN   |   VLAN    | HQ VLAN Switch |  10.100.70.1/24  |     PING     |
-| IT_VLAN         |   VLAN    | HQ VLAN Switch |  10.100.80.1/24  |     PING     |
-| Logistics_VLAN  |   VLAN    | HQ VLAN Switch |  10.100.90.1/24  |     PING     |
-| MGMTeam_VLAN    |   VLAN    | HQ VLAN Switch | 10.100.100.1/24  |     PING     |
-| MANUSecure_VLAN |   VLAN    | HQ VLAN Switch | 10.100.110.1/24  |     PING     |
-| Operations_VLAN |   VLAN    | HQ VLAN Switch | 10.100.120.1/24  |     PING     |
-| QA_VLAN         |   VLAN    | HQ VLAN Switch | 10.100.130.1/24  |     PING     |
-| Sales_VLAN      |   VLAN    | HQ VLAN Switch | 10.100.140.1/24  |     PING     |
-| Students_VLAN   |   VLAN    | HQ VLAN Switch | 10.100.150.1/24  |     PING     |
+| Name            |   Type    | Members                  | IPv4 Address     | Admin Access |
+| :-------------- | :-------: | :----------------------- | :--------------- | :----------: |
+| Management      | Loopback  | Internal                 | 10.1.1.1/32      |     ALL      |
+| HQ-WAN          | VDOM Link | Internal                 | 172.16.100.10/30 |     PING     |
+| Man-HQ          | VDOM Link | Internal                 | 172.16.10.10/30  |     PING     |
+| Servers_VLAN    |   VLAN    | HQ VLAN Switch (INT 3-4) | 10.100.10.1/24   |     PING     |
+| Cluster_VLAN    |   VLAN    | HQ VLAN Switch (INT 3-4) | 10.100.12.1/24   |     PING     |
+| CORP-WIFI_VLAN  |   VLAN    | HQ VLAN Switch (INT 3-4) | 10.100.20.1/24   |     PING     |
+| VoIP_VLAN       |   VLAN    | HQ VLAN Switch (INT 3-4) | 10.100.40.1/24   |     PING     |
+| Accounting_VLAN |   VLAN    | HQ VLAN Switch (INT 3-4) | 10.100.60.1/24   |     PING     |
+| Engineer_VLAN   |   VLAN    | HQ VLAN Switch (INT 3-4) | 10.100.70.1/24   |     PING     |
+| IT_VLAN         |   VLAN    | HQ VLAN Switch (INT 3-4) | 10.100.80.1/24   |     PING     |
+| Logistics_VLAN  |   VLAN    | HQ VLAN Switch (INT 3-4) | 10.100.90.1/24   |     PING     |
+| MGMTeam_VLAN    |   VLAN    | HQ VLAN Switch (INT 3-4) | 10.100.100.1/24  |     PING     |
+| MANUSecure_VLAN |   VLAN    | HQ VLAN Switch (INT 3-4) | 10.100.110.1/24  |     PING     |
+| Operations_VLAN |   VLAN    | HQ VLAN Switch (INT 3-4) | 10.100.120.1/24  |     PING     |
+| QA_VLAN         |   VLAN    | HQ VLAN Switch (INT 3-4) | 10.100.130.1/24  |     PING     |
+| Sales_VLAN      |   VLAN    | HQ VLAN Switch (INT 3-4) | 10.100.140.1/24  |     PING     |
+| Students_VLAN   |   VLAN    | HQ VLAN Switch (INT 3-4) | 10.100.150.1/24  |     PING     |
 
 ##### Man_VDOM
 
-| Name      | Type               | IPv4 Address   | Admin Access           |
-| --------- | ------------------ | -------------- | ---------------------- |
-| internal5 | Physical Interface | 10.100.50.1/24 | PING, HTTPS, SSH, SNMP |
-| Man-WAN   | VDOM Link          | 172.16.5.10/30 | PING                   |
-| Man_VDOM  | VDOM Link          | 172.16.10.9/30 | PING                   |
+| Name      | Type               | Members  | IPv4 Address   | Admin Access           |
+| --------- | ------------------ | -------- | -------------- | ---------------------- |
+| internal5 | Physical Interface | INT 5    | 10.100.50.1/24 | PING, HTTPS, SSH, SNMP |
+| Man-WAN   | VDOM Link          | Internal | 172.16.5.10/30 | PING                   |
+| Man-HQ    | VDOM Link          | Internal | 172.16.10.9/30 | PING                   |
+
+##### WAN_VDOM
+
+| Name      | Type               | Members  | IPv4 Address    | Admin Access |
+| --------- | ------------------ | -------- | --------------- | ------------ |
+| wan1      | Physical Interface | WAN 1    | 10.10.76.0/20   | PING         |
+| wan2      | Physical Interface | WAN 2    | 0.0.0.0/0       | PING         |
+| Guest-WAN | VDOM Link          | Internal | 172.16.30.10/30 | PING         |
+| HQ-WAN    | VDOM Link          | Internal | 172.16.100.9/30 | PING         |
+| Man-WAN   | VDOM Link          | Internal | 172.16.5.9/30   | PING         |
+
+### MP Firewall
+
+#### VDOMs
+
+| Name       | Management |   NGFW Mode   | Operation Mode | Status  | Interfaces | Notes |
+| :--------- | :--------: | :-----------: | :------------: | :-----: | :--------- | :---- |
+| Guest_VDOM |     No     | Profile-based |      NAT       | Enabled | INT 2      |       |
+| MP_VDOM    |     No     | Profile-based |      NAT       | Enabled | INT 3-4    |       |
+| Man_VDOM   |    Yes     | Profile-based |      NAT       | Enabled | INT 5      |       |
+| WAN_VDOM   |     No     | Profile-based |      NAT       | Enabled | WAN 1-2    |       |
+| root       |     No     | Profile-based |      NAT       | Enabled | HA 1-2     |       |
+
+##### Guest_VDOM
+
+| Name | Type  | Members | IPv4 Address | Admin Access |
+| :--- | :---: | :-----: | :----------: | :----------: |
+| TBD  |       |         |              |              |
+
+##### MP_VDOM
+
+| Name            | Type                | Members                  | IPv4 Address     | Admin Access      |
+| :-------------- | :------------------ | :----------------------- | :--------------- | :---------------- |
+| MP-Man          | VDOM Link Interface | Internal                 | 172.16.10.14/30  | PING              |
+| MP-WAN_L0       | VDOM Link Interface | Internal                 | 172.16.100.14/30 | PING              |
+| Servers_VLAN    | VLAN                | MP VLAN Switch (INT 3-4) | 10.110.10.1/24   | PING              |
+| CORP-WIFI_VLAN  | VLAN                | MP VLAN Switch (INT 3-4) | 10.110.20.1/24   | PING              |
+| VoIP_VLAN       | VLAN                | MP VLAN Switch (INT 3-4) | 10.110.40.1/24   | PING              |
+| Accounting_VLAN | VLAN                | MP VLAN Switch (INT 3-4) | 10.110.60.1/24   | PING              |
+| Engineer_VLAN   | VLAN                | MP VLAN Switch (INT 3-4) | 10.110.70.1/24   | PING              |
+| IT_VLAN         | VLAN                | MP VLAN Switch (INT 3-4) | 10.110.80.1/24   | PING, HTTPS, HTTP |
+| Logistics_VLAN  | VLAN                | MP VLAN Switch (INT 3-4) | 10.110.90.1/24   | PING              |
+| MANUSecure_VLAN | VLAN                | MP VLAN Switch (INT 3-4) | 10.110.110.1/24  | PING              |
+| MGMTeam_VLAN    | VLAN                | MP VLAN Switch (INT 3-4) | 10.110.100.1/24  | PING              |
+| Operations_VLAN | VLAN                | MP VLAN Switch (INT 3-4) | 10.110.120.1/24  | PING              |
+| QA_VLAN         | VLAN                | MP VLAN Switch (INT 3-4) | 10.110.130.1/24  | PING              |
+| Sales_VLAN      | VLAN                | MP VLAN Switch (INT 3-4) | 10.110.140.1/24  | PING              |
+| Students_VLAN   | VLAN                | MP VLAN Switch (INT 3-4) | 10.110.150.1/24  | PING              |
+
+##### Man_VDOM
+
+| Name       | Type               | Members  | IPv4 Address    | Admin Access           |
+| ---------- | ------------------ | -------- | --------------- | ---------------------- |
+| Management | Physical Interface | INT 5    | 10.110.50.1/24  | PING, HTTPS, SSH, SNMP |
+| Man-WAN    | VDOM Link          | Internal | 172.16.5.14/30  | PING                   |
+| MP-Man     | VDOM Link          | Internal | 172.16.10.13/30 | PING                   |
+
+##### WAN_VDOM
+
+| Name      | Type               | Members  | IPv4 Address     | Admin Access |
+| --------- | ------------------ | -------- | ---------------- | ------------ |
+| wan1      | Physical Interface | WAN 1    | 10.10.77.0/20    | PING         |
+| wan2      | Physical Interface | WAN 2    | 0.0.0.0/0        | PING         |
+| Guest-WAN | VDOM Link          | Internal | 172.16.30.13/30  | PING         |
+| MP-WAN    | VDOM Link          | Internal | 172.16.100.13/30 | PING         |
+| Man-WAN   | VDOM Link          | Internal | 172.16.5.13/30   | PING         |

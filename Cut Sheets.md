@@ -19,6 +19,47 @@
         - [WAN\_VDOM](#wan_vdom-1)
     - [Hardware](#hardware)
     - [Servers](#servers)
+  - [Virtual Machines](#virtual-machines)
+    - [HQ-RD-01](#hq-rd-01)
+      - [Overview](#overview)
+      - [Credentials](#credentials)
+      - [Configuration](#configuration)
+    - [HQ-ISCI-QUO](#hq-isci-quo)
+      - [Overview](#overview-1)
+      - [Credentials](#credentials-1)
+      - [Configuration](#configuration-1)
+    - [HQ-DC-01](#hq-dc-01)
+      - [Overview](#overview-2)
+      - [Credentials](#credentials-2)
+      - [Configuration](#configuration-2)
+    - [HQ-RMM-01](#hq-rmm-01)
+      - [Overview](#overview-3)
+      - [Credentials](#credentials-3)
+      - [Configuration](#configuration-3)
+    - [HQ-BU-01](#hq-bu-01)
+      - [Overview](#overview-4)
+      - [Credentials](#credentials-4)
+      - [Configuration](#configuration-4)
+    - [HQ-PKI-01](#hq-pki-01)
+      - [Overview](#overview-5)
+      - [Credentials](#credentials-5)
+      - [Configuration](#configuration-5)
+    - [HQ-FS-01](#hq-fs-01)
+      - [Overview](#overview-6)
+      - [Credentials](#credentials-6)
+      - [Configuration](#configuration-6)
+    - [HQ-DS-01](#hq-ds-01)
+      - [Overview](#overview-7)
+      - [Credentials](#credentials-7)
+      - [Configuration](#configuration-7)
+    - [HQ-CLUSTER](#hq-cluster)
+      - [Overview](#overview-8)
+      - [Credentials](#credentials-8)
+      - [Configuration](#configuration-8)
+    - [HQ-NM-01](#hq-nm-01)
+      - [Overview](#overview-9)
+      - [Credentials](#credentials-9)
+      - [Configuration](#configuration-9)
 
 ## Cut Sheets
 
@@ -203,29 +244,309 @@
 
 ### Hardware
 
-|   Hostname   |   IP Address    | Role                      | Hardware Type       | Operating System               | Notes |
-| :----------: | :-------------: | :------------------------ | :------------------ | :----------------------------- | :---- |
-|   HQ-HV-01   | 10.100.12.9/30  | Server Node 1             | Dell PowerEdge R730 | Windows Server 2022 Datacenter |       |
-|   HQ-HV-02   | 10.100.12.10/30 | Server Node 2             | Dell PowerEdge R730 | Windows Server 2022 Datacenter |       |
-| AidanAdminWS | 10.100.80.17/24 | Aidan's Admin workstation | VMWare Workstation  | Windows 11 Pro                 |       |
-| JamieAdminWS | 10.100.80.18/24 | Jamie's Admin workstation | VMWare Workstation  | Windows 11 Pro                 |       |
-| QuinnAdminWS | 10.100.80.19/24 | Quinn's Admin workstation | VMWare Workstation  | Windows 11 Pro                 |       |
-| MattAdminWS  | 10.100.80.20/24 | Matt's Admin workstation  | VMWare Workstation  | Windows 11 Pro                 |       |
-| TaqiAdminWS  | 10.100.80.22/24 | Taqi's Admin workstation  | VMWare Workstation  | Windows 11 Pro                 |       |
+|   Hostname   | VLAN |   IP Address    | Role                      | Hardware Type       | Operating System               |
+| :----------: | ---- | :-------------: | :------------------------ | :------------------ | :----------------------------- |
+|   HQ-HV-01   | 12   | 10.100.12.9/30  | Server Node 1             | Dell PowerEdge R730 | Windows Server 2022 Datacenter |
+|   HQ-HV-02   | 12   | 10.100.12.10/30 | Server Node 2             | Dell PowerEdge R730 | Windows Server 2022 Datacenter |
+| AidanAdminWS | 80   | 10.100.80.17/24 | Aidan's Admin workstation | VMWare Workstation  | Windows 11 Pro                 |
+| JamieAdminWS | 80   | 10.100.80.18/24 | Jamie's Admin workstation | VMWare Workstation  | Windows 11 Pro                 |
+| QuinnAdminWS | 80   | 10.100.80.19/24 | Quinn's Admin workstation | VMWare Workstation  | Windows 11 Pro                 |
+| MattAdminWS  | 80   | 10.100.80.20/24 | Matt's Admin workstation  | VMWare Workstation  | Windows 11 Pro                 |
+| TaqiAdminWS  | 80   | 10.100.80.22/24 | Taqi's Admin workstation  | VMWare Workstation  | Windows 11 Pro                 |
 
 ### Servers
 
-| Hostname   | IP Address                 | Purpose                                                      |
-| ---------- | -------------------------- | ------------------------------------------------------------ |
-| HQ-DC-01   | 10.100.10.10               | Domain Controller on HQ side                                 |
-| MP-DC-02   | 10.110.10.11               | Domain Controller on MP side (IP WILL BE UPDATED TO 110)     |
-| HQ-FS-01   | 10.100.10.13               | File Server on HQ side                                       |
-| HQ-BU-01   | 10.100.10.15               | Backup Server on HQ Side                                     |
-| HQ-HV-01   | 10.100.12.9                | Hypervisor hosting all the servers - HQ Side                 |
-| HQ-HV-02   | 10.100.12.10               | Second Hypervisor hosting all the servers - HQ Side          |
-| HQ-CLUSTER | 10.100.12.12               | Cluster of both Hypervisors                                  |
-| MP-FS-01   | 10.100.10.14->10.110.10.14 | Secondary File Server on MP side (IP WILL BE UPDATED TO 110) |
-| HQ-NM-01   | 10.100.50.50               | Network Monitoring Server \| TFTP and PRTG                   |
-| HQ-PKI-01  | 10.100.10.19               | PKI Certificates - Enterprise Root CA                        |
-| HQ-RMM-01  | 10.100.10.16               | For RMM tool \| tacticaladmin \| P@ssw0rd                    |
-| HQ-RD-01   | 10.100.10.5                | RADIUS Server                                                |
+| Hostname    | VLAN  | IPv4 Address     | IPv6 Address | Description                                                  |
+| :---------- | :---: | :--------------- | ------------ | :----------------------------------------------------------- |
+| HQ-RD-01    |  10   | 10.100.10.5/24   |              | RADIUS Server                                                |
+| HQ-ISCI-QUO |  10   | 10.100.10.7/24   |              | Cluster Quorum Storage Server                                |
+| HQ-DC-01    |  10   | 10.100.10.10/24  |              | Domain Controller 1 on HQ side                               |
+| HQ-RMM-01   |  10   | 10.100.10.16/24  |              | For RMM tool                                                 |
+| HQ-BU-01    |  10   | 10.100.10.15/24  |              | Backup Server on HQ Side                                     |
+| HQ-PKI-01   |  10   | 10.100.10.19/24  |              | PKI Certificates - Enterprise Root CA                        |
+| HQ-FS-01    |  10   | 10.100.10.13/24  |              | File Server on HQ side                                       |
+| HQ-DS-01    |  10   | 10.100.10.150/24 |              | Windows Deployment Server                                    |
+| HQ-CLUSTER  |  12   | 10.100.12.12/24  |              | Cluster of both Hypervisors                                  |
+| HQ-NM-01    |  50   | 10.100.50.50/24  |              | Network Monitoring Server (TFTP and PRTG)                    |
+| MP-DC-02    |  10   | 10.110.10.11/24  |              | Domain Controller 2 on MP side                               |
+| MP-FS-01    |  10   | 10.110.10.14/24  |              | Secondary File Server on MP side (IP WILL BE UPDATED TO 110) |
+
+## Virtual Machines
+
+### HQ-RD-01
+
+#### Overview
+
+The HQ-RD-01 is the RADIUS Server responsible for managing network access authentication.
+
+**Notes**:
+- Provides secure access to the network.
+- Ensures only authorized users can connect to the network.
+- Logs and tracks network access attempts for security purposes.
+
+#### Credentials
+
+|       Accounts        |      Password       | Permissions  |
+| :-------------------: | :-----------------: | :----------: |
+| team5\<AdminAccounts> | [<!-- P@ssw0rd -->] | DOMAIN ADMIN |
+
+#### Configuration
+
+| VM Hostname | IP Address  | Subnet Network | VLAN  |     Role      |         OS          | Notes |
+| :---------: | :---------: | :------------: | :---: | :-----------: | :-----------------: | :---: |
+|  HQ-RD-01   | 10.100.10.5 | 10.100.10.0/24 |  10   | RADIUS Server | Windows Server 2022 |       |
+
+|        HOST        |  RAM  |  CPU  | Storage |  NIC  |
+| :----------------: | :---: | :---: | :-----: | :---: |
+| VMware Workstation | 8 GB  |   2   |  80 GB  |   1   |
+
+
+### HQ-ISCI-QUO
+
+#### Overview
+
+The HQ-ISCI-QUO is the Cluster Quorum Storage Server for high availability and fault tolerance.
+
+**Notes**:
+- Provides shared storage for clustered servers.
+- Ensures continuous operation in case of server failures.
+- Maintains data integrity and availability.
+
+#### Credentials
+
+|       Accounts        |      Password       | Permissions  |
+| :-------------------: | :-----------------: | :----------: |
+| team5\<AdminAccounts> | [<!-- P@ssw0rd -->] | DOMAIN ADMIN |
+
+#### Configuration
+
+| VM Hostname | IP Address  | Subnet Network | VLAN  |             Role              |         OS          | Notes |
+| :---------: | :---------: | :------------: | :---: | :---------------------------: | :-----------------: | :---: |
+| HQ-ISCI-QUO | 10.100.10.7 | 10.100.10.0/24 |  10   | Cluster Quorum Storage Server | Windows Server 2022 |       |
+
+|        HOST        |  RAM  |  CPU  | Storage |  NIC  |
+| :----------------: | :---: | :---: | :-----: | :---: |
+| VMware Workstation | 8 GB  |   2   |  80 GB  |   1   |
+
+
+### HQ-DC-01
+
+#### Overview
+
+The HQ-DC-01 is the Domain Controller 1 on the HQ side, responsible for domain management and authentication.
+
+**Notes**:
+- Centralizes user account management.
+- Authenticates users and computers in the domain.
+- Manages group policies and security settings.
+
+#### Credentials
+
+|       Accounts        |      Password       | Permissions  |
+| :-------------------: | :-----------------: | :----------: |
+| team5\<AdminAccounts> | [<!-- P@ssw0rd -->] | DOMAIN ADMIN |
+
+#### Configuration
+
+| VM Hostname |  IP Address  | Subnet Network | VLAN  |       Role        |         OS          | Notes |
+| :---------: | :----------: | :------------: | :---: | :---------------: | :-----------------: | :---: |
+|  HQ-DC-01   | 10.100.10.10 | 10.100.10.0/24 |  10   | Domain Controller | Windows Server 2022 |       |
+
+|        HOST        |  RAM  |  CPU  | Storage |  NIC  |
+| :----------------: | :---: | :---: | :-----: | :---: |
+| VMware Workstation | 8 GB  |   2   |  80 GB  |   1   |
+
+
+### HQ-RMM-01
+
+#### Overview
+
+The HQ-RMM-01 is for the RMM tool.
+
+**Notes**:
+- Provides remote monitoring and management of network devices.
+- Helps in troubleshooting and maintaining network performance.
+- Ensures network security and compliance.
+
+#### Credentials
+
+|   Accounts    |      Password       |  Permissions  |
+| :-----------: | :-----------------: | :-----------: |
+| tacticaladmin | [<!-- P@ssw0rd -->] | Administrator |
+
+#### Configuration
+
+| VM Hostname |  IP Address  | Subnet Network | VLAN  |   Role   |         OS          | Notes |
+| :---------: | :----------: | :------------: | :---: | :------: | :-----------------: | :---: |
+|  HQ-RMM-01  | 10.100.10.16 | 10.100.10.0/24 |  10   | RMM Tool | Windows Server 2022 |       |
+
+|        HOST        |  RAM  |  CPU  | Storage |  NIC  |
+| :----------------: | :---: | :---: | :-----: | :---: |
+| VMware Workstation | 8 GB  |   2   |  80 GB  |   1   |
+
+
+### HQ-BU-01
+
+#### Overview
+
+The HQ-BU-01 is the Backup Server on the HQ side, responsible for data backup and recovery.
+
+**Notes**:
+- Ensures data integrity and availability through regular backups.
+- Facilitates quick recovery in case of data loss or disaster.
+- Implements backup policies and procedures.
+
+#### Credentials
+
+|       Accounts        |      Password       | Permissions  |
+| :-------------------: | :-----------------: | :----------: |
+| team5\<AdminAccounts> | [<!-- P@ssw0rd -->] | DOMAIN ADMIN |
+
+#### Configuration
+
+| VM Hostname |  IP Address  | Subnet Network | VLAN  |     Role      |         OS          | Notes |
+| :---------: | :----------: | :------------: | :---: | :-----------: | :-----------------: | :---: |
+|  HQ-BU-01   | 10.100.10.15 | 10.100.10.0/24 |  10   | Backup Server | Windows Server 2022 |       |
+
+|        HOST        |  RAM  |  CPU  | Storage |  NIC  |
+| :----------------: | :---: | :---: | :-----: | :---: |
+| VMware Workstation | 8 GB  |   2   |  80 GB  |   1   |
+
+
+### HQ-PKI-01
+
+#### Overview
+
+The HQ-PKI-01 is the PKI Certificates - Enterprise Root CA server responsible for managing digital certificates for secure communication.
+
+**Notes**:
+- Provides secure access to network resources.
+- Ensures trust and authenticity in digital transactions.
+- Manages digital certificates for encryption and authentication purposes.
+
+#### Credentials
+
+|       Accounts        |      Password       | Permissions  |
+| :-------------------: | :-----------------: | :----------: |
+| team5\<AdminAccounts> | [<!-- P@ssw0rd -->] | DOMAIN ADMIN |
+
+#### Configuration
+
+| VM Hostname |  IP Address  | Subnet Network | VLAN  |            Role            |         OS          | Notes |
+| :---------: | :----------: | :------------: | :---: | :------------------------: | :-----------------: | :---: |
+|  HQ-PKI-01  | 10.100.10.19 | 10.100.10.0/24 |  10   | PKI Certificates - Root CA | Windows Server 2022 |       |
+
+|        HOST        |  RAM  |  CPU  | Storage |  NIC  |
+| :----------------: | :---: | :---: | :-----: | :---: |
+| VMware Workstation | 8 GB  |   2   |  80 GB  |   1   |
+
+
+### HQ-FS-01
+
+#### Overview
+
+The HQ-FS-01 is the File Server on the HQ side, providing file storage and sharing services.
+
+**Notes**:
+- Stores critical data and files for the organization.
+- Facilitates collaboration and file sharing among users.
+- Implements security measures to protect data integrity.
+
+#### Credentials
+
+|       Accounts        |      Password       | Permissions  |
+| :-------------------: | :-----------------: | :----------: |
+| team5\<AdminAccounts> | [<!-- P@ssw0rd -->] | DOMAIN ADMIN |
+
+#### Configuration
+
+| VM Hostname |  IP Address  | Subnet Network | VLAN  |    Role     |         OS          | Notes |
+| :---------: | :----------: | :------------: | :---: | :---------: | :-----------------: | :---: |
+|  HQ-FS-01   | 10.100.10.13 | 10.100.10.0/24 |  10   | File Server | Windows Server 2022 |       |
+
+|        HOST        |  RAM  |  CPU  | Storage |  NIC  |
+| :----------------: | :---: | :---: | :-----: | :---: |
+| VMware Workstation | 8 GB  |   2   |  80 GB  |   1   |
+
+
+### HQ-DS-01
+
+#### Overview
+
+The HQ-DS-01 is the Windows Deployment Server for deploying Windows operating systems over the network.
+
+**Notes**:
+- Automates the deployment of Windows OS to new devices.
+- Reduces deployment time and effort for IT administrators.
+- Supports network-based installations of Windows OS.
+
+#### Credentials
+
+|       Accounts        |      Password       | Permissions  |
+| :-------------------: | :-----------------: | :----------: |
+| team5\<AdminAccounts> | [<!-- P@ssw0rd -->] | DOMAIN ADMIN |
+
+#### Configuration
+
+| VM Hostname |  IP Address   | Subnet Network | VLAN  |           Role            |         OS          | Notes |
+| :---------: | :-----------: | :------------: | :---: | :-----------------------: | :-----------------: | :---: |
+|  HQ-DS-01   | 10.100.10.150 | 10.100.10.0/24 |  10   | Windows Deployment Server | Windows Server 2022 |       |
+
+|        HOST        |  RAM  |  CPU  | Storage |  NIC  |
+| :----------------: | :---: | :---: | :-----: | :---: |
+| VMware Workstation | 8 GB  |   2   |  80 GB  |   1   |
+
+
+### HQ-CLUSTER
+
+#### Overview
+
+The HQ-CLUSTER is a cluster of both Hypervisors for high availability and load balancing.
+
+**Notes**:
+- Provides virtualization capabilities for the organization.
+- Ensures high availability of virtual machines.
+- Optimizes resource utilization and performance.
+
+#### Credentials
+
+|       Accounts        |      Password       | Permissions  |
+| :-------------------: | :-----------------: | :----------: |
+| team5\<AdminAccounts> | [<!-- P@ssw0rd -->] | DOMAIN ADMIN |
+
+#### Configuration
+
+| VM Hostname |  IP Address  | Subnet Network | VLAN  |    Role    |         OS          | Notes |
+| :---------: | :----------: | :------------: | :---: | :--------: | :-----------------: | :---: |
+| HQ-CLUSTER  | 10.100.12.12 | 10.100.12.0/24 |  12   | Hypervisor | Windows Server 2022 |       |
+
+|        HOST        |  RAM  |  CPU  | Storage |  NIC  |
+| :----------------: | :---: | :---: | :-----: | :---: |
+| VMware Workstation | 8 GB  |   2   |  80 GB  |   1   |
+
+### HQ-NM-01
+
+#### Overview
+
+The HQ-NM-01 is the Network Monitoring Server responsible for monitoring network performance and managing network devices.
+
+**Notes**:
+- Provides TFTP and PRTG services for network monitoring.
+- Facilitates network troubleshooting and diagnostics.
+- Ensures network security and compliance.
+
+#### Credentials
+
+|       Accounts        |      Password       | Permissions  |
+| :-------------------: | :-----------------: | :----------: |
+| team5\<AdminAccounts> | [<!-- P@ssw0rd -->] | DOMAIN ADMIN |
+
+#### Configuration
+
+| VM Hostname |  IP Address  | Subnet Network | VLAN  |           Role            |         OS          | Notes |
+| :---------: | :----------: | :------------: | :---: | :-----------------------: | :-----------------: | :---: |
+|  HQ-NM-01   | 10.100.50.50 | 10.100.50.0/24 |  50   | Network Monitoring Server | Windows Server 2022 |       |
+
+|        HOST        |  RAM  |  CPU  | Storage |  NIC  |
+| :----------------: | :---: | :---: | :-----: | :---: |
+| VMware Workstation | 8 GB  |   2   |  80 GB  |   1   |

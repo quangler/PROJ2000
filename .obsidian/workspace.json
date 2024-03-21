@@ -4,22 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "d4d341958db10701",
+        "id": "f91f3b357b33f5f8",
         "type": "tabs",
         "children": [
           {
-            "id": "a387359b910e5778",
+            "id": "c82a75ee84b75e7d",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Quick Reference/Network Diagram and Cutsheet.canvas",
+                "viewState": {
+                  "x": 256.24428929664793,
+                  "y": 283.9849999460389,
+                  "zoom": -0.587563146188895
+                }
+              }
+            }
+          },
+          {
+            "id": "bb9d55be42263d07",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Quick Reference/Deployment Services Information.md",
+                "file": "Meeting Notes Mar 21.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Quick Reference/Deployment Services Information.md",
+                "file": "Meeting Notes Mar 21.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Quick Reference/Deployment Services Information.md",
+                "file": "Meeting Notes Mar 21.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Quick Reference/Deployment Services Information.md"
+                "file": "Meeting Notes Mar 21.md"
               }
             }
           },
@@ -182,12 +198,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a387359b910e5778",
+  "active": "bb9d55be42263d07",
   "lastOpenFiles": [
-    "Quick Reference/Cluster Checklist.md",
-    "Quick Reference/Deployment Services Information.md",
-    "Quick Reference/Firewall Changes.md",
     "Quick Reference/Network Diagram and Cutsheet.canvas",
+    "Meeting Notes Mar 21.md",
+    "Cut Sheets.md",
+    "Quick Reference/Housekeeping/L2/HQ-L2SW-02.md",
+    "Quick Reference/Housekeeping/L2/HQ-L2SW-01.md",
+    "Quick Reference/Deployment Services Information.md",
+    "Quick Reference/Cluster Checklist.md",
+    "Quick Reference/Firewall Changes.md",
     "Quick Reference/PRTG Information.md",
     "Quick Reference/RADIUS.md",
     "Quick Reference/Server IP Cutsheet.md",
@@ -199,7 +219,6 @@
     "Scripts",
     "Pasted Image 20240318093426_232.png",
     "Quick Reference/Housekeeping/basicHousekeeping.md",
-    "Untitled.md",
     "README.md",
     "Lecture Notes/Intro to Research Poster.md",
     "Lecture Notes/PROJ 2000 - Topic 10 Project Quality Management.md",
@@ -216,11 +235,7 @@
     "Meeting Notes/March Meeting Notes",
     "Tickets TO-DO.md",
     "Quick Reference/Azure Information.md",
-    "Quick Reference/Documentation Guides/Device Name Scheme - MAJTeQ.md",
-    "Quick Reference/Documentation Guides/Documentation Scheme - MAJTeQ.md",
     "Documentation/Completed Documents/ProjectPlan.pdf",
-    "Documentation/Completed Documents/ProjectPlan.md",
-    "Documentation/WIP Documents/ProjectPlanV1.md",
     "SECR2100 Project 2",
     "SECR2100 Project 2/Pasted image 20240303125651.png",
     "SECR2100 Project 2/Pasted image 20240303125512.png",

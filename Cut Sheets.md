@@ -6,23 +6,23 @@
 
 | VLAN # | VLAN Name          |   *IPv4 Scheme   | IPv6 Scheme | Purpose                                                     |
 | :----: | :----------------- | :--------------: | ----------- | :---------------------------------------------------------- |
-|   10   | Servers            | 10.site.10.X/24  |             | Virtualized Servers / Services (DC, FS, NMS)                |
-|   12   | Server Management  | 10.site.12.X/24  |             | Cluster / Physical Servers                                  |
-|   20   | CORP WIFI          | 10.site.20.X/24  |             | Employee WiFi - access to file server                       |
-|   30   | GUEST WIFI         | 10.site.30.X/24  |             | Guest WiFi - straight to internet, not touching our network |
-|   40   | VOIP               | 10.site.40.X/24  |             | CORP Phones - used with Physical phones                     |
-|   50   | Network Management | 10.site.50.X/24  |             | Physical network devices (Switches, Routers, Fortigate)     |
-|   60   | Accounting         | 10.site.60.X/24  |             | Department                                                  |
-|   70   | Engineering        | 10.site.70.X/24  |             | Department                                                  |
-|   80   | IT                 | 10.site.80.X/24  |             | MAJTeQ IT Team - Admin workstations                         |
-|   90   | Logistics          | 10.site.90.X/24  |             | Department                                                  |
-|  100   | Management Team    | 10.site.100.X/24 |             | Department                                                  |
-|  110   | MANUSecure (OT)    | 10.site.110.X/24 |             | "Private" OT clients - need to be segregated, VDI clients   |
-|  120   | Operations         | 10.site.120.X/24 |             | Department                                                  |
-|  130   | QA                 | 10.site.130.X/24 |             | Department                                                  |
-|  140   | Sales              | 10.site.140.X/24 |             | Department                                                  |
-|  150   | Students           | 10.site.150.X/24 |             | Department                                                  |
-|  400   | CCTV               | 10.site.200.X/24 |             | CCTV Network                                                |
+|   10   | Servers            | 10.site.10.0/24  |             | Virtualized Servers / Services (DC, FS, NMS)                |
+|   12   | Server Management  | 10.site.12.0/24  |             | Cluster / Physical Servers                                  |
+|   20   | CORP WIFI          | 10.site.20.0/24  |             | Employee WiFi - access to file server                       |
+|   30   | GUEST WIFI         | 10.site.30.0/24  |             | Guest WiFi - straight to internet, not touching our network |
+|   40   | VOIP               | 10.site.40.0/24  |             | CORP Phones - used with Physical phones                     |
+|   50   | Network Management | 10.site.50.0/24  |             | Physical network devices (Switches, Routers, Fortigate)     |
+|   60   | Accounting         | 10.site.60.0/24  |             | Department                                                  |
+|   70   | Engineering        | 10.site.70.0/24  |             | Department                                                  |
+|   80   | IT                 | 10.site.80.0/24  |             | MAJTeQ IT Team - Admin workstations                         |
+|   90   | Logistics          | 10.site.90.0/24  |             | Department                                                  |
+|  100   | Management Team    | 10.site.100.0/24 |             | Department                                                  |
+|  110   | MANUSecure (OT)    | 10.site.110.0/24 |             | "Private" OT clients - need to be segregated, VDI clients   |
+|  120   | Operations         | 10.site.120.0/24 |             | Department                                                  |
+|  130   | QA                 | 10.site.130.0/24 |             | Department                                                  |
+|  140   | Sales              | 10.site.140.0/24 |             | Department                                                  |
+|  150   | Students           | 10.site.150.0/24 |             | Department                                                  |
+|  400   | CCTV               | 10.site.200.0/24 |             | CCTV Network                                                |
 |  666   | Blackhole          |       N/A        |             | NULL                                                        |
 |  999   | Native             |       N/A        |             | Native VLAN for networking devices                          |
 
@@ -57,3 +57,50 @@
 | MP-L2SW-01 |   10.110.50.5   | Department Access Layer 2 Switch                  | Cisco WS-C2960-24TT-L | IOS 15.0(2)SE10a  |                           |
 | MP-L2SW-02 |   10.110.50.6   | Department Access Layer 2 Switch                  | Cisco WS-C2960-24TT-L | IOS 15.0(2)SE10a  |                           |
 
+### HQ Firewall
+
+#### VDOMs
+
+| Name       | Management |   NGFW Mode   | Operation Mode | Status  | Interfaces | Notes |
+| :--------- | :--------: | :-----------: | :------------: | :-----: | :--------- | :---- |
+| Guest_VDOM |     No     | Profile-based |      NAT       | Enabled | INT 2      |       |
+| HQ_VDOM    |     No     | Profile-based |      NAT       | Enabled | INT 3-4    |       |
+| Man_VDOM   |    Yes     | Profile-based |      NAT       | Enabled | INT 5      |       |
+| WAN_VDOM   |     No     | Profile-based |      NAT       | Enabled | WAN 1-2    |       |
+| root       |     No     | Profile-based |      NAT       | Enabled | HA A-B     |       |
+
+##### Guest_VDOM
+
+| Name | Type  | Members | IPv4 Address | Admin Access |
+| :--- | :---: | :-----: | :----------: | :----------: |
+| TBD  |       |         |              |              |
+
+##### HQ_VDOM
+
+| Name            |   Type    |    Members     |   IPv4 Address   | Admin Access |
+| :-------------- | :-------: | :------------: | :--------------: | :----------: |
+| Management      | Loopback  |    Internal    |   10.1.1.1/32    |     ALL      |
+| HQ-WAN          | VDOM Link |    Internal    | 172.16.100.10/30 |     PING     |
+| Man-HQ          | VDOM Link |    Internal    | 172.16.10.10/30  |     PING     |
+| Servers_VLAN    |   VLAN    | HQ VLAN Switch |  10.100.10.1/24  |     PING     |
+| Cluster_VLAN    |   VLAN    | HQ VLAN Switch |  10.100.12.1/24  |     PING     |
+| CORP-WIFI_VLAN  |   VLAN    | HQ VLAN Switch |  10.100.20.1/24  |     PING     |
+| VoIP_VLAN       |   VLAN    | HQ VLAN Switch |  10.100.40.1/24  |     PING     |
+| Accounting_VLAN |   VLAN    | HQ VLAN Switch |  10.100.60.1/24  |     PING     |
+| Engineer_VLAN   |   VLAN    | HQ VLAN Switch |  10.100.70.1/24  |     PING     |
+| IT_VLAN         |   VLAN    | HQ VLAN Switch |  10.100.80.1/24  |     PING     |
+| Logistics_VLAN  |   VLAN    | HQ VLAN Switch |  10.100.90.1/24  |     PING     |
+| MGMTeam_VLAN    |   VLAN    | HQ VLAN Switch | 10.100.100.1/24  |     PING     |
+| MANUSecure_VLAN |   VLAN    | HQ VLAN Switch | 10.100.110.1/24  |     PING     |
+| Operations_VLAN |   VLAN    | HQ VLAN Switch | 10.100.120.1/24  |     PING     |
+| QA_VLAN         |   VLAN    | HQ VLAN Switch | 10.100.130.1/24  |     PING     |
+| Sales_VLAN      |   VLAN    | HQ VLAN Switch | 10.100.140.1/24  |     PING     |
+| Students_VLAN   |   VLAN    | HQ VLAN Switch | 10.100.150.1/24  |     PING     |
+
+##### Man_VDOM
+
+| Name      | Type               | IPv4 Address   | Admin Access           |
+| --------- | ------------------ | -------------- | ---------------------- |
+| internal5 | Physical Interface | 10.100.50.1/24 | PING, HTTPS, SSH, SNMP |
+| Man-WAN   | VDOM Link          | 172.16.5.10/30 | PING                   |
+| Man_VDOM  | VDOM Link          | 172.16.10.9/30 | PING                   |

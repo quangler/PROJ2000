@@ -30,6 +30,9 @@
     - [HQ-DS-01](#hq-ds-01)
     - [HQ-CLUSTER](#hq-cluster)
     - [HQ-NM-01](#hq-nm-01)
+    - [MP-DC-02](#mp-dc-02)
+    - [MP-FS-01](#mp-fs-01)
+  - [Inventory](#inventory)
 
 ## Cut Sheets
 
@@ -284,8 +287,8 @@ The HQ-ISCI-QUO is the Cluster Quorum Storage Server for high availability and f
 
 **Credentials**
 
-|        Accounts         |      Password       | Permissions  |
-| :---------------------: | :-----------------: | :----------: |
+|       Accounts        |      Password       | Permissions  |
+| :-------------------: | :-----------------: | :----------: |
 | `team5\AdminAccounts` | [<!-- P@ssw0rd -->] | DOMAIN ADMIN |
 
 **Configuration**
@@ -312,15 +315,15 @@ The HQ-DC-01 is the Domain Controller 1 on the HQ side, responsible for domain m
 
 **Credentials**
 
-|        Accounts        |      Password       | Permissions  |
-| :--------------------: | :-----------------: | :----------: |
+|       Accounts        |      Password       | Permissions  |
+| :-------------------: | :-----------------: | :----------: |
 | `team5\AdminAccounts` | [<!-- P@ssw0rd -->] | DOMAIN ADMIN |
 
 **Configuration**
 
-| VM Hostname |  IP Address  | Subnet Network | VLAN  |       Role        |         OS          | Notes |
-| :---------: | :----------: | :------------: | :---: | :---------------: | :-----------------: | :---: |
-|  HQ-DC-01   | 10.100.10.10 | 10.100.10.0/24 |  10   | Domain Controller | Windows Server 2022 |       |
+| VM Hostname |  IP Address  | Subnet Network | VLAN  |       Role        |      OS      | Notes |
+| :---------: | :----------: | :------------: | :---: | :---------------: | :----------: | :---: |
+|  HQ-DC-01   | 10.100.10.10 | 10.100.10.0/24 |  10   | Domain Controller | Debian Linux |       |
 
 |        HOST        |  RAM  |  CPU  | Storage |  NIC  |
 | :----------------: | :---: | :---: | :-----: | :---: |
@@ -520,3 +523,61 @@ The HQ-NM-01 is the Network Monitoring Server responsible for monitoring network
 |        HOST        |  RAM  |  CPU  | Storage |  NIC  |
 | :----------------: | :---: | :---: | :-----: | :---: |
 | VMware Workstation | 8 GB  |   2   |  80 GB  |   1   |
+
+
+### MP-DC-02
+
+**Overview**
+
+The MP-DC-02 is Domain Controller 2 on the MP side, responsible for domain management and authentication.
+
+**Notes**:
+- Centralizes user account management.
+- Authenticates users and computers in the domain.
+- Manages group policies and security settings.
+
+**Credentials**
+
+|     Accounts      |      Password       | Permissions  |
+| :---------------: | :-----------------: | :----------: |
+| Brunsco\mattadmin | [<!-- P@ssw0rd -->] | DOMAIN ADMIN |
+
+**Configuration**
+
+| VM Hostname | IP Address     | Subnet Network | VLAN | Role               | OS                 | Notes |
+| :---------: | :------------: | :------------: | :--: | :----------------: | :----------------: | :---: |
+| MP-DC-02    | 10.110.10.11   | 10.110.10.0/24 | 10   | Domain Controller  | Windows Server 2022|       |
+
+|        HOST        |  RAM  |  CPU  | Storage |  NIC  |
+| :----------------: | :---: | :---: | :-----: | :---: |
+| VMware Workstation | 8 GB  |   2   |  80 GB  |   1   |
+
+### MP-FS-01
+
+**Overview**
+
+The MP-FS-01 is the Secondary File Server on the MP side, providing additional file storage and sharing services.
+
+**Notes**:
+- Stores critical data and files for the organization.
+- Facilitates collaboration and file sharing among users.
+- Implements security measures to protect data integrity.
+
+**Credentials**
+
+|     Accounts      |      Password       | Permissions  |
+| :---------------: | :-----------------: | :----------: |
+| Brunsco\mattadmin | [<!-- P@ssw0rd -->] | DOMAIN ADMIN |
+
+**Configuration**
+
+| VM Hostname | IP Address     | Subnet Network | VLAN | Role                  | OS                 | Notes |
+| :---------: | :------------: | :------------: | :--: | :-------------------: | :----------------: | :---: |
+| MP-FS-01    | 10.110.10.14   | 10.110.10.0/24 | 10   | Secondary File Server | Windows Server 2022|       |
+
+|        HOST        |  RAM  |  CPU  | Storage |  NIC  |
+| :----------------: | :---: | :---: | :-----: | :---: |
+| VMware Workstation | 8 GB  |   2   |  80 GB  |   1   |
+
+## Inventory
+

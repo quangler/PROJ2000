@@ -227,5 +227,5 @@
 | MP-FS-01   | 10.100.10.14->10.110.10.14 | Secondary File Server on MP side (IP WILL BE UPDATED TO 110) |
 | HQ-NM-01   | 10.100.50.50               | Network Monitoring Server \| TFTP and PRTG                   |
 | HQ-PKI-01  | 10.100.10.19               | PKI Certificates - Enterprise Root CA                        |
-| HQ-RMM-01  |                            | 10.100.10.16                                                 | For RMM tool \| tacticaladmin \| P@ssw0rd |
+| HQ-RMM-01  | 10.100.10.16               | For RMM tool \| tacticaladmin \| P@ssw0rd                    |
 | HQ-RD-01   | 10.100.10.5                | RADIUS Server                                                |

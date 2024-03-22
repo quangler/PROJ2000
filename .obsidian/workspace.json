@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "267798569447f135",
+        "id": "ef9cdfe313f89fd4",
         "type": "tabs",
         "children": [
           {
-            "id": "cc5ea3753a9ada44",
+            "id": "70517b066a79d1ce",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
@@ -16,21 +16,8 @@
                 "file": "Excalidraw/ipv6-planning.md"
               }
             }
-          },
-          {
-            "id": "b0f880178573e8e3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -120,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Excalidraw/ipv6-planning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Excalidraw/ipv6-planning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "Excalidraw/ipv6-planning.md"
               }
             }
           }
@@ -185,13 +172,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b0f880178573e8e3",
+  "active": "70517b066a79d1ce",
   "lastOpenFiles": [
-    "Excalidraw/ipv6-planning.md",
+    "Excalidraw/VDOM-Tunnel Diagram.md",
+    "Cut Sheets.md",
     "conflict-files-obsidian-git.md",
+    "Excalidraw/ipv6-planning.md",
     "Excalidraw/Drawing 2024-03-11 18.07.49.excalidraw.md",
     "Excalidraw/ISP-planning (not complete).md",
-    "Cut Sheets.md",
     "Meeting Notes/March Meeting Notes/Meeting Notes Mar 21.md",
     "Excalidraw/Untitled.canvas",
     "Meeting Notes Mar 21.md",
@@ -216,7 +204,6 @@
     "Scripts",
     "Meeting Notes/March Meeting Notes/March 13.md",
     "Lecture Notes/Intro to Research Poster.md",
-    "Excalidraw/VDOM-Tunnel Diagram.md",
     "Excalidraw/VPN_Proposal.md",
     "Excalidraw/Drawing 2024-03-07 15.03.01.excalidraw",
     "Quick Reference/Housekeeping/L3/Configs/MP-L3SW-02.md",

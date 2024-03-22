@@ -57,7 +57,7 @@
 
 ### IPv6 Scheme
 
-| Site | Assigned Internal IPv6 Network | External ISP Connected Global IPv6 Interface | Link-Local IPv6 Address |
+| VLAN | Assigned Internal IPv6 Network | External ISP Connected Global IPv6 Interface | Link-Local IPv6 Address |
 | ---- | ------------------------------ | -------------------------------------------- | ----------------------- |
 | HQ   | 2620:fc:0:d3e0::/64            | 2620:fc:0:d307::98/64                        | FE80::98                |
 | MP   | 2620:fc:0:d3e1::/64            | 2620:fc:0:d307::9C/64                        | FE80::9C                |

@@ -11,11 +11,9 @@
             "id": "cc5ea3753a9ada44",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Cut Sheets.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/ipv6-planning.md"
               }
             }
           }
@@ -109,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cut Sheets.md",
+                "file": "Excalidraw/ipv6-planning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cut Sheets.md",
+                "file": "Excalidraw/ipv6-planning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cut Sheets.md"
+                "file": "Excalidraw/ipv6-planning.md"
               }
             }
           }
@@ -176,14 +174,17 @@
   },
   "active": "cc5ea3753a9ada44",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2024-03-22 10.38.20.excalidraw.md",
+    "Excalidraw/Drawing 2024-03-11 18.07.49.excalidraw.md",
+    "Excalidraw/ipv6-planning.md",
+    "Excalidraw/ISP-planning (not complete).md",
     "Cut Sheets.md",
+    "conflict-files-obsidian-git.md",
+    "Meeting Notes/March Meeting Notes/Meeting Notes Mar 21.md",
     "Excalidraw/Untitled.canvas",
     "Meeting Notes Mar 21.md",
     "Pasted Image 20240318093426_232.png",
     "Pasted image 20240314141945.png",
     "Quick Reference/Server IP Cutsheet.md",
-    "conflict-files-obsidian-git.md",
     "Scripts/MP-DHCPScript.ps1",
     "Quick Reference/Network Diagram and Cutsheet.canvas",
     "Quick Reference/Deployment Services Information.md",
@@ -198,18 +199,15 @@
     "Quick Reference/Documentation Guides/Device Name Scheme - MAJTeQ.md",
     "README.md",
     "Tickets TO-DO.md",
-    "Excalidraw/Drawing 2024-03-11 18.07.49.excalidraw.md",
     "Scripts/dhcpScript1.ps1",
     "Scripts",
     "Meeting Notes/March Meeting Notes/March 13.md",
     "Lecture Notes/Intro to Research Poster.md",
     "Excalidraw/VDOM-Tunnel Diagram.md",
     "Excalidraw/VPN_Proposal.md",
-    "Excalidraw/ISP-planning (not complete).md",
     "Excalidraw/Drawing 2024-03-07 15.03.01.excalidraw",
     "Quick Reference/Housekeeping/L3/Configs/MP-L3SW-02.md",
     "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-02.md",
-    "Quick Reference/Housekeeping/L3/Configs/MP-L3SW-01.md",
     "Meeting Notes/March Meeting Notes",
     "Quick Reference/Housekeeping/Network Diagram and Cutsheet.canvas",
     "Documentation/Completed Documents/ProjectPlan.pdf",

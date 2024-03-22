@@ -240,6 +240,7 @@
 ### Servers
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 | Hostname   | IP Address                 | Purpose                                                      |
 | ---------- | -------------------------- | ------------------------------------------------------------ |
 | HQ-DC-01   | 10.100.10.10               | Domain Controller on HQ side                                 |
@@ -255,6 +256,8 @@
 | HQ-RMM-01  | 10.100.10.16               | For RMM tool \| tacticaladmin \| P@ssw0rd                    |
 | HQ-RD-01   | 10.100.10.5                | RADIUS Server                                                |
 =======
+=======
+>>>>>>> origin/main
 | Hostname    | VLAN  | IPv4 Address     | IPv6 Address | Description                                                  |
 | :---------- | :---: | :--------------- | ------------ | :----------------------------------------------------------- |
 | HQ-RD-01    |  10   | 10.100.10.5/24   |              | RADIUS Server                                                |
@@ -644,5 +647,9 @@ The MP-FS-01 is the Secondary File Server on the MP side, providing additional f
 | W-2 | Dell              | Windows 11 Pro   |             |               |   Y    |
 | W-3 | Dell              | Windows 11 Pro   |             |               |   Y    |
 | W-4 | Dell              | Windows 11 Pro   |             |               |   Y    |
+<<<<<<< HEAD
+| W-5 | Dell              | Windows 11 Pro   |             |               |   Y    |
+>>>>>>> origin/main
+=======
 | W-5 | Dell              | Windows 11 Pro   |             |               |   Y    |
 >>>>>>> origin/main

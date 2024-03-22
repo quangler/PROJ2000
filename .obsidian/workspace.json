@@ -16,8 +16,21 @@
                 "file": "Excalidraw/ipv6-planning.md"
               }
             }
+          },
+          {
+            "id": "b0f880178573e8e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -107,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/ipv6-planning.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/ipv6-planning.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/ipv6-planning.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -172,13 +185,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cc5ea3753a9ada44",
+  "active": "b0f880178573e8e3",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2024-03-11 18.07.49.excalidraw.md",
     "Excalidraw/ipv6-planning.md",
+    "conflict-files-obsidian-git.md",
+    "Excalidraw/Drawing 2024-03-11 18.07.49.excalidraw.md",
     "Excalidraw/ISP-planning (not complete).md",
     "Cut Sheets.md",
-    "conflict-files-obsidian-git.md",
     "Meeting Notes/March Meeting Notes/Meeting Notes Mar 21.md",
     "Excalidraw/Untitled.canvas",
     "Meeting Notes Mar 21.md",

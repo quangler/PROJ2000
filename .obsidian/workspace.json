@@ -1,0 +1,230 @@
+{
+  "main": {
+    "id": "df02485eac0428fb",
+    "type": "split",
+    "children": [
+      {
+        "id": "ef9cdfe313f89fd4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "70517b066a79d1ce",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/ipv6-planning.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c69fb2023f2db222",
+    "type": "split",
+    "children": [
+      {
+        "id": "892976138ac57259",
+        "type": "tabs",
+        "dimension": 71.80232558139535,
+        "children": [
+          {
+            "id": "8ce7ea8abb47c70e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7351c12c6684e532",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "212a41189e94f91a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "a947500a96bc7893",
+        "type": "tabs",
+        "dimension": 28.197674418604652,
+        "children": [
+          {
+            "id": "78f363064096bc02",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "59d31a3fcab194f1",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 395.5
+  },
+  "right": {
+    "id": "816d15f20edae7a5",
+    "type": "split",
+    "children": [
+      {
+        "id": "b30df8f6dcee3c69",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f092d76de68e6759",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Excalidraw/ipv6-planning.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "977edaad185d4590",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Excalidraw/ipv6-planning.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6a3aa11f5b4cd5ef",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "50e4554ff941437f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Excalidraw/ipv6-planning.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "omnisearch:Omnisearch": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "70517b066a79d1ce",
+  "lastOpenFiles": [
+    "Excalidraw/VDOM-Tunnel Diagram.md",
+    "Excalidraw/ipv6-planning.md",
+    "Cut Sheets.md",
+    "conflict-files-obsidian-git.md",
+    "Excalidraw/Drawing 2024-03-11 18.07.49.excalidraw.md",
+    "Excalidraw/ISP-planning (not complete).md",
+    "Meeting Notes/March Meeting Notes/Meeting Notes Mar 21.md",
+    "Excalidraw/Untitled.canvas",
+    "Meeting Notes Mar 21.md",
+    "Pasted Image 20240318093426_232.png",
+    "Pasted image 20240314141945.png",
+    "Quick Reference/Server IP Cutsheet.md",
+    "Scripts/MP-DHCPScript.ps1",
+    "Quick Reference/Network Diagram and Cutsheet.canvas",
+    "Quick Reference/Deployment Services Information.md",
+    "Quick Reference/RADIUS.md",
+    "Quick Reference/PRTG Information.md",
+    "Quick Reference/TicketSystemDocs.md",
+    "Quick Reference/Firewall Changes.md",
+    "Quick Reference/Cluster Checklist.md",
+    "Quick Reference/Azure Information.md",
+    "Quick Reference/802.1x.excalidraw.md",
+    "Quick Reference/Documentation Guides/Documentation Scheme - MAJTeQ.md",
+    "Quick Reference/Documentation Guides/Device Name Scheme - MAJTeQ.md",
+    "README.md",
+    "Tickets TO-DO.md",
+    "Scripts/dhcpScript1.ps1",
+    "Scripts",
+    "Meeting Notes/March Meeting Notes/March 13.md",
+    "Lecture Notes/Intro to Research Poster.md",
+    "Excalidraw/VPN_Proposal.md",
+    "Excalidraw/Drawing 2024-03-07 15.03.01.excalidraw",
+    "Quick Reference/Housekeeping/L3/Configs/MP-L3SW-02.md",
+    "Quick Reference/Housekeeping/L3/Configs/HQ-L3SW-02.md",
+    "Meeting Notes/March Meeting Notes",
+    "Quick Reference/Housekeeping/Network Diagram and Cutsheet.canvas",
+    "Documentation/Completed Documents/ProjectPlan.pdf",
+    "SECR2100 Project 2",
+    "SECR2100 Project 2/Pasted image 20240303125651.png",
+    "SECR2100 Project 2/Pasted image 20240303125512.png",
+    "Quick Reference/Housekeeping/FW/HQ-FW-01",
+    "Quick Reference/Housekeeping/FW",
+    "Reports",
+    "Lecture Notes/My values!.canvas",
+    "!Images/LOGO.png",
+    "Quick Reference/Housekeeping/L3/Untitled.canvas",
+    "docs/!Images/pdf-icon.png",
+    "!Images/test files-20240118152956006.webp",
+    "!Images/test files-20240118155947413.webp",
+    "!Images/test files-20240118155935972.webp",
+    "!Images/test files-20240118155039084.webp",
+    "Documentation/Completed Documents/Untitled.canvas"
+  ]
+}

@@ -131,6 +131,7 @@ HQ_VDOM ^HUPIhYcH
 
 config router ospf6
     set router-id 6.6.6.252
+    set default-originate always
     config area
         edit 0.0.0.0
         next
@@ -4160,8 +4161,8 @@ WAN_VDOM ^LGs27ASe
 		},
 		{
 			"type": "text",
-			"version": 790,
-			"versionNonce": 1285932470,
+			"version": 820,
+			"versionNonce": 426132982,
 			"isDeleted": false,
 			"id": "JRbneAh8",
 			"fillStyle": "solid",
@@ -4175,25 +4176,25 @@ WAN_VDOM ^LGs27ASe
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 320.234375,
-			"height": 437,
+			"height": 460,
 			"seed": 219585194,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1711158549167,
+			"updated": 1711159817086,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
 			"fontFamily": 2,
-			"text": "config router ospf6\n    set router-id 6.6.6.252\n    config area\n        edit 0.0.0.0\n        next\n    end\n    config ospf6-interface\n        edit HQ-WAN\n            set interface \"HQ-WAN_L0\"\n            set dead-interval 40\n            set hello-interval 10\n        next\n        edit \"Man-WAN\"\n            set interface \"Man-WAN_L0\"\n            set dead-interval 40\n            set hello-interval 10\n        next\n end\n",
-			"rawText": "config router ospf6\n    set router-id 6.6.6.252\n    config area\n        edit 0.0.0.0\n        next\n    end\n    config ospf6-interface\n        edit HQ-WAN\n            set interface \"HQ-WAN_L0\"\n            set dead-interval 40\n            set hello-interval 10\n        next\n        edit \"Man-WAN\"\n            set interface \"Man-WAN_L0\"\n            set dead-interval 40\n            set hello-interval 10\n        next\n end\n",
+			"text": "config router ospf6\n    set router-id 6.6.6.252\n    set default-originate always\n    config area\n        edit 0.0.0.0\n        next\n    end\n    config ospf6-interface\n        edit HQ-WAN\n            set interface \"HQ-WAN_L0\"\n            set dead-interval 40\n            set hello-interval 10\n        next\n        edit \"Man-WAN\"\n            set interface \"Man-WAN_L0\"\n            set dead-interval 40\n            set hello-interval 10\n        next\n end\n",
+			"rawText": "config router ospf6\n    set router-id 6.6.6.252\n    set default-originate always\n    config area\n        edit 0.0.0.0\n        next\n    end\n    config ospf6-interface\n        edit HQ-WAN\n            set interface \"HQ-WAN_L0\"\n            set dead-interval 40\n            set hello-interval 10\n        next\n        edit \"Man-WAN\"\n            set interface \"Man-WAN_L0\"\n            set dead-interval 40\n            set hello-interval 10\n        next\n end\n",
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "config router ospf6\n    set router-id 6.6.6.252\n    config area\n        edit 0.0.0.0\n        next\n    end\n    config ospf6-interface\n        edit HQ-WAN\n            set interface \"HQ-WAN_L0\"\n            set dead-interval 40\n            set hello-interval 10\n        next\n        edit \"Man-WAN\"\n            set interface \"Man-WAN_L0\"\n            set dead-interval 40\n            set hello-interval 10\n        next\n end\n",
+			"originalText": "config router ospf6\n    set router-id 6.6.6.252\n    set default-originate always\n    config area\n        edit 0.0.0.0\n        next\n    end\n    config ospf6-interface\n        edit HQ-WAN\n            set interface \"HQ-WAN_L0\"\n            set dead-interval 40\n            set hello-interval 10\n        next\n        edit \"Man-WAN\"\n            set interface \"Man-WAN_L0\"\n            set dead-interval 40\n            set hello-interval 10\n        next\n end\n",
 			"lineHeight": 1.15,
-			"baseline": 432
+			"baseline": 455
 		},
 		{
 			"type": "text",
@@ -4248,8 +4249,8 @@ WAN_VDOM ^LGs27ASe
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 1358.566476626333,
-		"scrollY": 887.7850270097374,
+		"scrollX": 2258.678384968287,
+		"scrollY": 765.3316401858317,
 		"zoom": {
 			"value": 0.6288107009300616
 		},

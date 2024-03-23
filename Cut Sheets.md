@@ -84,10 +84,9 @@
 | Site | Assigned Internal IPv6 Network | External ISP Connected Global IPv6 Interface | Link-Local IPv6 Address |
 | ---- | ------------------------------ | -------------------------------------------- | ----------------------- |
 | HQ   | 2620:fc:0:d3e0::/64            | 2620:fc:0:d307::98/64                        | FE80::98                |
-| MP   | 2620:fc:0:d3e1::/64            | 2620:fc:0:d307::9C/64                        | FE80::9C                |
-| MW   | 2620:fc:0:d3e2::/64            | 2620:fc:0:d307::A8/64                        | FE80::A8                |
-| OW   | 2620:fc:0:d3e3::/64            | 2620:fc:0:d307::AC/64                        | FE80::AC                |
-
+| 50   | 2620:fc:0:d3e1::/64            | 2620:fc:0:d307::9C/64                        | FE80::9C                |
+| 10   | 2620:fc:0:d3e2::/64            | 2620:fc:0:d307::A8/64                        | FE80::A8                |
+| 80   | 2620:fc:0:d3e3::/64            | 2620:fc:0:d307::AC/64                        | FE80::AC                |
 
 ### Headquarters Network
 

@@ -84,10 +84,9 @@
 | VLAN | Assigned Internal IPv6 Network | External ISP Connected Global IPv6 Interface | Link-Local IPv6 Address |
 | ---- | ------------------------------ | -------------------------------------------- | ----------------------- |
 | HQ   | 2620:fc:0:d3e0::/64            | 2620:fc:0:d307::98/64                        | FE80::98                |
-| MP   | 2620:fc:0:d3e1::/64            | 2620:fc:0:d307::9C/64                        | FE80::9C                |
-| MW   | 2620:fc:0:d3e2::/64            | 2620:fc:0:d307::A8/64                        | FE80::A8                |
-| OW   | 2620:fc:0:d3e3::/64            | 2620:fc:0:d307::AC/64                        | FE80::AC                |
-
+| 50   | 2620:fc:0:d3e1::/64            | 2620:fc:0:d307::9C/64                        | FE80::9C                |
+| 10   | 2620:fc:0:d3e2::/64            | 2620:fc:0:d307::A8/64                        | FE80::A8                |
+| 80   | 2620:fc:0:d3e3::/64            | 2620:fc:0:d307::AC/64                        | FE80::AC                |
 
 ### Headquarters Network
 
@@ -239,25 +238,6 @@
 
 ### Servers
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-| Hostname   | IP Address                 | Purpose                                                      |
-| ---------- | -------------------------- | ------------------------------------------------------------ |
-| HQ-DC-01   | 10.100.10.10               | Domain Controller on HQ side                                 |
-| MP-DC-02   | 10.110.10.11               | Domain Controller on MP side (IP WILL BE UPDATED TO 110)     |
-| HQ-FS-01   | 10.100.10.13               | File Server on HQ side                                       |
-| HQ-BU-01   | 10.100.10.15               | Backup Server on HQ Side                                     |
-| HQ-HV-01   | 10.100.12.9                | Hypervisor hosting all the servers - HQ Side                 |
-| HQ-HV-02   | 10.100.12.10               | Second Hypervisor hosting all the servers - HQ Side          |
-| HQ-CLUSTER | 10.100.12.12               | Cluster of both Hypervisors                                  |
-| MP-FS-01   | 10.100.10.14->10.110.10.14 | Secondary File Server on MP side (IP WILL BE UPDATED TO 110) |
-| HQ-NM-01   | 10.100.50.50               | Network Monitoring Server \| TFTP and PRTG                   |
-| HQ-PKI-01  | 10.100.10.19               | PKI Certificates - Enterprise Root CA                        |
-| HQ-RMM-01  | 10.100.10.16               | For RMM tool \| tacticaladmin \| P@ssw0rd                    |
-| HQ-RD-01   | 10.100.10.5                | RADIUS Server                                                |
-=======
-=======
->>>>>>> origin/main
 | Hostname    | VLAN  | IPv4 Address     | IPv6 Address | Description                                                  |
 | :---------- | :---: | :--------------- | ------------ | :----------------------------------------------------------- |
 | HQ-RD-01    |  10   | 10.100.10.5/24   |              | RADIUS Server                                                |
@@ -647,9 +627,4 @@ The MP-FS-01 is the Secondary File Server on the MP side, providing additional f
 | W-2 | Dell              | Windows 11 Pro   |             |               |   Y    |
 | W-3 | Dell              | Windows 11 Pro   |             |               |   Y    |
 | W-4 | Dell              | Windows 11 Pro   |             |               |   Y    |
-<<<<<<< HEAD
 | W-5 | Dell              | Windows 11 Pro   |             |               |   Y    |
->>>>>>> origin/main
-=======
-| W-5 | Dell              | Windows 11 Pro   |             |               |   Y    |
->>>>>>> origin/main

@@ -68,16 +68,17 @@
 |  150   | Students           | 10.site.150.0/24 | 10.site.150.1 | Department                                                  |
 |  400   | CCTV               | 10.site.200.0/24 | 10.site.200.1 | CCTV Network                                                |
 |  666   | Blackhole          |       ---        | ---           | NULL                                                        |
+|  777   | AuthGuest          |       ---        | ---           | For non authentication enabled 802.1x clients               |
 |  999   | Native             |       ---        | ---           | Native VLAN for networking devices                          |
 
 *Site refers to Site ID 
 
-| Site Name           | Code Name | Site ID |
-| ------------------- | --------- | ------- |
-| Headquarters        | HQ        | 100     |
-| Manufacturing Plant | MP        | 110     |
-| Materials Warehouse | MW        | 120     |
-| Outbound Warehouse  | OW        | 130     |
+| Site Name           | Code Name | Site ID       |
+| ------------------- | --------- | ------------- |
+| Headquarters        | HQ        | **100**       |
+| Manufacturing Plant | MP        |  **110**      |
+| Materials Warehouse | MW        |  **120**      |
+| Outbound Warehouse  | OW        |  **130**      |
 
 ### IPv6 Scheme
 

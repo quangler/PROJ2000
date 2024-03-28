@@ -1,6 +1,9 @@
 # RDS and VDI Information
 Info regarding the remote desktop services and virtual desktop infrastructure implementation
 
+**VDI Server IP** - 10.110.111.100 (give it DHCP, Quinn will assign it)
+**RDS Pool Server IP** - 10.110.111.101 (give it DHCP, Quinn will assign it)
+**RDS Priv Server IP** - 10.110.111.102 (give it DHCP, Quinn will assign it)
 ## VMs
 - **RDS1**
   - OS: Server 2022

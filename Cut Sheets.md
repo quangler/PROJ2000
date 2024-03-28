@@ -4,11 +4,14 @@
   - RT server
   - stuff at quinns
   - HCI / Storage cutsheet #aidan
-  
+
 - [MAJTeQ Documentation](#majteq-documentation)
   - [Cut Sheets](#cut-sheets)
     - [IPv4 Scheme](#ipv4-scheme)
     - [IPv6 Scheme](#ipv6-scheme)
+    - [Admin Workstations](#admin-workstations)
+    - [HyperVisors](#hypervisors)
+    - [Servers](#servers)
     - [Headquarters Network](#headquarters-network)
     - [Manufacturing Plant Network](#manufacturing-plant-network)
     - [HQ Firewall](#hq-firewall)
@@ -23,8 +26,14 @@
         - [MP\_VDOM](#mp_vdom)
         - [Man\_VDOM](#man_vdom-1)
         - [WAN\_VDOM](#wan_vdom-1)
-    - [Hardware](#hardware)
-    - [Servers](#servers)
+    - [OT Firewall (MP-FW-03)](#ot-firewall-mp-fw-03)
+      - [Interface Configuration](#interface-configuration)
+      - [Firewall Rules](#firewall-rules)
+        - [LAN](#lan)
+        - [WAN](#wan)
+        - [VLAN111Servers](#vlan111servers)
+        - [VLAN112NoInt](#vlan112noint)
+        - [VLAN113Int](#vlan113int)
   - [Virtual Machines](#virtual-machines)
     - [HQ-RD-01](#hq-rd-01)
     - [HQ-ISCI-QUO](#hq-isci-quo)
@@ -43,6 +52,7 @@
     - [Layer 2/3 Switch](#layer-23-switch)
     - [Server](#server)
     - [Workstation](#workstation)
+
 
 ## Cut Sheets
 
@@ -74,12 +84,12 @@
 
 *Site refers to Site ID 
 
-| Site Name           | Code Name | Site ID       |
-| ------------------- | --------- | ------------- |
-| Headquarters        | HQ        | **100**       |
-| Manufacturing Plant | MP        |  **110**      |
-| Materials Warehouse | MW        |  **120**      |
-| Outbound Warehouse  | OW        |  **130**      |
+| Site Name           | Code Name | Site ID |
+| ------------------- | --------- | ------- |
+| Headquarters        | HQ        | **100** |
+| Manufacturing Plant | MP        | **110** |
+| Materials Warehouse | MW        | **120** |
+| Outbound Warehouse  | OW        | **130** |
 
 ### IPv6 Scheme
 
@@ -124,6 +134,8 @@
 | MP-DC-02    |  10   | 10.110.10.11/24  | ---                                | Domain Controller 2 on MP side                               |
 | MP-FS-01    |  10   | 10.110.10.14/24  | 2620:fc:0:d3e2:50a4:ab8d:9e69:efc0 | Secondary File Server on MP side (IP WILL BE UPDATED TO 110) |
 
+---
+
 ### Headquarters Network
 
 |  Hostname  | Mgmt IP Address | Role                                              | Hardware Type         | System Version    | Notes                     |
@@ -147,6 +159,7 @@
 | MP-L2SW-02 |   10.110.50.6   | Department Access Layer 2 Switch                  | Cisco WS-C2960-24TT-L | IOS 15.0(2)SE10a |                           |
 
 ---
+
 ### HQ Firewall
 
 #### VDOMs
@@ -206,6 +219,7 @@
 | Man-WAN   | VDOM Link          | Internal | 172.16.5.9/30   | fdb8:58a6:d283::1/64  | FE80::3         | PING         |
 
 ---
+
 ### MP Firewall
 
 #### VDOMs
@@ -262,34 +276,55 @@
 | MP-WAN    | VDOM Link          | Internal | 172.16.100.13/30 | PING         |
 | Man-WAN   | VDOM Link          | Internal | 172.16.5.13/30   | PING         |
 
-### Hardware
+---
 
-|   Hostname   | VLAN |   IP Address    | Role                      | Hardware Type       | Operating System               |
-| :----------: | ---- | :-------------: | :------------------------ | :------------------ | :----------------------------- |
-|   HQ-HV-01   | 12   | 10.100.12.9/30  | Server Node 1             | Dell PowerEdge R730 | Windows Server 2022 Datacenter |
-|   HQ-HV-02   | 12   | 10.100.12.10/30 | Server Node 2             | Dell PowerEdge R730 | Windows Server 2022 Datacenter |
-| AidanAdminWS | 80   | 10.100.80.17/24 | Aidan's Admin workstation | VMWare Workstation  | Windows 11 Pro                 |
-| JamieAdminWS | 80   | 10.100.80.18/24 | Jamie's Admin workstation | VMWare Workstation  | Windows 11 Pro                 |
-| QuinnAdminWS | 80   | 10.100.80.19/24 | Quinn's Admin workstation | VMWare Workstation  | Windows 11 Pro                 |
-| MattAdminWS  | 80   | 10.100.80.20/24 | Matt's Admin workstation  | VMWare Workstation  | Windows 11 Pro                 |
-| TaqiAdminWS  | 80   | 10.100.80.22/24 | Taqi's Admin workstation  | VMWare Workstation  | Windows 11 Pro                 |
+### OT Firewall (MP-FW-03)
+#### Interface Configuration
 
-### Servers
+|      Int Name      | VMNET | VLAN  |   IP Address    |     DHCP Scope     |                                 Notes                                 |
+| :----------------: | :---: | :---: | :-------------: | :----------------: | :-------------------------------------------------------------------: |
+|        WAN         |   3   |  ---  | 10.110.50.7/24  |        ---         |                   used for admin access of web GUI                    |
+|        LAN         |   7   |  ---  | 172.16.107.2/24 |        ---         |           temporary, for ensuring web GUI stays accessible            |
+|   VMNET11Servers   |  11   |  ---  |       ---       |        ---         |                       VMNET that servers are on                       |
+| VMNET12ThinClients |  12   |  ---  |       ---       |        ---         |                    VMNET that thin clients are on                     |
+|   VLAN111Servers   |  ---  |  111  | 10.110.111.1/24 | 10.110.111.100-200 |                   VLAN used for VDI and RDS Servers                   |
+|    VLAN112NoInt    |  ---  |  112  | 10.110.112.1/24 | 10.110.112.100-200 | VLAN used for thin clients that **don't need** access to the internet |
+|     VLAN113Int     |  ---  |  113  | 10.110.113.1/24 | 10.110.113.100-200 |  VLAN used for thin clients that **do need** access to the internet   |
 
-| Hostname    | VLAN  | IPv4 Address     | IPv6 Address | Description                                                  |
-| :---------- | :---: | :--------------- | ------------ | :----------------------------------------------------------- |
-| HQ-RD-01    |  10   | 10.100.10.5/24   |              | RADIUS Server                                                |
-| HQ-ISCI-QUO |  10   | 10.100.10.7/24   |              | Cluster Quorum Storage Server                                |
-| HQ-DC-01    |  10   | 10.100.10.10/24  |              | Domain Controller 1 on HQ side                               |
-| HQ-RMM-01   |  10   | 10.100.10.16/24  |              | For RMM tool                                                 |
-| HQ-BU-01    |  10   | 10.100.10.15/24  |              | Backup Server on HQ Side                                     |
-| HQ-PKI-01   |  10   | 10.100.10.19/24  |              | PKI Certificates - Enterprise Root CA                        |
-| HQ-FS-01    |  10   | 10.100.10.13/24  |              | File Server on HQ side                                       |
-| HQ-DS-01    |  10   | 10.100.10.150/24 |              | Windows Deployment Server                                    |
-| HQ-CLUSTER  |  12   | 10.100.12.12/24  |              | Cluster of both Hypervisors                                  |
-| HQ-NM-01    |  50   | 10.100.50.50/24  |              | Network Monitoring Server (TFTP and PRTG)                    |
-| MP-DC-02    |  10   | 10.110.10.11/24  |              | Domain Controller 2 on MP side                               |
-| MP-FS-01    |  10   | 10.110.10.14/24  |              | Secondary File Server on MP side (IP WILL BE UPDATED TO 110) |
+#### Firewall Rules
+##### LAN
+
+| Status  | Direction | Protocol | Source  | Port  | Destination | Port  | Gateway | Schedule |            Description             |
+| :-----: | :-------: | :------: | :-----: | :---: | :---------: | :---: | :-----: | :------: | :--------------------------------: |
+| Enabled |    In     |  IPv4*   | LAN Net |   *   |      *      |   *   |    *    |    *     |   Default allow LAN to any rule    |
+| Enabled |    In     |  IPv6*   | LAN Net |   *   |      *      |   *   |    *    |    *     | Default allow LAN IPv6 to any rule |
+
+##### WAN
+
+| Status  | Direction |   Protocol   |     Source      | Port  | Destination |    Port     | Gateway | Schedule |   Description   |
+| :-----: | :-------: | :----------: | :-------------: | :---: | :---------: | :---------: | :-----: | :------: | :-------------: |
+| Enabled |    In     | IPv4 TCP/UDP | 10.100.80.16/29 |   *   | WAN Address | 443 (HTTPS) |    *    |    *     | Admin FW Access |
+
+##### VLAN111Servers
+
+| Status  | Direction | Protocol |      Source      | Port  |    Destination     |     Port      | Gateway | Schedule |   Description    |
+| :-----: | :-------: | :------: | :--------------: | :---: | :----------------: | :-----------: | :-----: | :------: | :--------------: |
+| Enabled |    In     | IPv4 TCP | VLAN112NoInt Net |   *   | VLAN111Servers Net | 3389 (MS RDP) |    *    |    *     | VLAN112 In - RDP |
+| Enabled |    In     | IPv4 TCP |  VLAN113Int Net  |   *   | VLAN111Servers Net | 3389 (MS RDP) |    *    |    *     | VLAN113 In - RDP |
+
+##### VLAN112NoInt
+
+| Status  | Direction | Protocol |       Source       | Port  | Destination | Port  | Gateway | Schedule |       Description       |
+| :-----: | :-------: | :------: | :----------------: | :---: | :---------: | :---: | :-----: | :------: | :---------------------: |
+| Enabled |    In     |  IPv4*   | VLAN111Servers Net |   *   |      *      |   *   |    *    |    *     | VLAN111Servers any - in |
+
+##### VLAN113Int
+
+| Status  | Direction | Protocol |       Source       | Port  | Destination | Port  | Gateway | Schedule |       Description       |
+| :-----: | :-------: | :------: | :----------------: | :---: | :---------: | :---: | :-----: | :------: | :---------------------: |
+| Enabled |    In     |  IPv4*   | VLAN111Servers Net |   *   |      *      |   *   |    *    |    *     | VLAN111Servers any - in |
+
+---
 
 ## Virtual Machines
 

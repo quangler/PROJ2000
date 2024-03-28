@@ -53,6 +53,7 @@
 |   10   | Servers            | 10.site.10.0/24  | 10.site.10.1  | Virtualized Servers / Services (DC, FS, NMS)                |
 |   12   | Server Management  | 10.site.12.0/24  | 10.site.12.1  | Cluster / Physical Servers                                  |
 |   20   | CORP WIFI          | 10.site.20.0/24  | 10.site.20.1  | Employee WiFi - access to file server                       |
+|   23   | WIFI Management    | 10.site.23.0/24  | 10.site.23.1  | WiFi Management                                             |
 |   30   | GUEST WIFI         | 10.site.30.0/24  | 10.site.30.1  | Guest WiFi - straight to internet, not touching our network |
 |   40   | VOIP               | 10.site.40.0/24  | 10.site.40.1  | CORP Phones - used with Physical phones                     |
 |   50   | Network Management | 10.site.50.0/24  | 10.site.50.1  | Physical network devices (Switches, Routers, Fortigate)     |
@@ -83,10 +84,44 @@
 
 | VLAN | Assigned Internal IPv6 Network | External ISP Connected Global IPv6 Interface | Link-Local IPv6 Address |
 | ---- | ------------------------------ | -------------------------------------------- | ----------------------- |
-| HQ   | 2620:fc:0:d3e0::/64            | 2620:fc:0:d307::98/64                        | FE80::98                |
+| WAN  | 2620:fc:0:d3e0::/64            | 2620:fc:0:d307::98/64                        | FE80::98                |
 | 50   | 2620:fc:0:d3e1::/64            | 2620:fc:0:d307::9C/64                        | FE80::9C                |
 | 10   | 2620:fc:0:d3e2::/64            | 2620:fc:0:d307::A8/64                        | FE80::A8                |
 | 80   | 2620:fc:0:d3e3::/64            | 2620:fc:0:d307::AC/64                        | FE80::AC                |
+
+### Admin Workstations
+
+|   Hostname   |  IPv4 Address   | IPv6 Address                       | Hardware Type      | System Version |
+| :----------: | :-------------: | :--------------------------------- | :----------------- | :------------- |
+| AidanAdminWS | 10.100.80.17/24 | 2620:fc:0:d3e3:8a88:fece:d25a:26c6 | VMWare Workstation | Windows 11 Pro |
+| JaimeAdminWS | 10.100.80.18/24 | 2620:fc:0:d3e3:75b:8401:7620:576b  | VMWare Workstation | Windows 11 Pro |
+| QuinnAdminWS | 10.100.80.19/24 | 2620:fc:0:d3e3:9075:d5a6:375d:876a | VMWare Workstation | Windows 11 Pro |
+| MattAdminWS  | 10.100.80.20/24 | 2620:fc:0:d3e3:a454:139f:3397:6b30 | VMWare Workstation | Windows 11 Pro |
+| TaqiAdminWS  | 10.100.80.22/24 | 2620:fc:0:d3e3:d66:5d9c:665:45b4   | VMWare Workstation | Windows 11 Pro |
+
+### HyperVisors
+
+| Hostname | VLAN |   IP Address    | Role          | Hardware Type       | Operating System               |
+| :------: | ---- | :-------------: | :------------ | :------------------ | :----------------------------- |
+| HQ-HV-01 | 12   | 10.100.12.9/30  | Server Node 1 | Dell PowerEdge R730 | Windows Server 2022 Datacenter |
+| HQ-HV-02 | 12   | 10.100.12.10/30 | Server Node 2 | Dell PowerEdge R730 | Windows Server 2022 Datacenter |
+
+### Servers
+
+| Hostname    | VLAN  | IPv4 Address     | IPv6 Address                       | Description                                                  |
+| :---------- | :---: | :--------------- | ---------------------------------- | :----------------------------------------------------------- |
+| HQ-RD-01    |  10   | 10.100.10.5/24   | 2620:fc:0:d3e2:6d71:245f:9613:7f52 | RADIUS Server                                                |
+| HQ-ISCI-QUO |  10   | 10.100.10.7/24   | ---                                | Cluster Quorum Storage Server                                |
+| HQ-DC-01    |  10   | 10.100.10.10/24  | 2620:fc:0:d3e2::10                 | Domain Controller 1 on HQ side                               |
+| HQ-RMM-01   |  10   | 10.100.10.16/24  | ---                                | For RMM tool                                                 |
+| HQ-BU-01    |  10   | 10.100.10.15/24  | 2620:fc:0:d3e2:d5cd:2e54:faa7:e416 | Backup Server on HQ Side                                     |
+| HQ-PKI-01   |  10   | 10.100.10.19/24  | 2620:fc:0:d3e2:2554:887b:6893:e1b4 | PKI Certificates - Enterprise Root CA                        |
+| HQ-FS-01    |  10   | 10.100.10.13/24  | 2620:fc:0:d3e2:b405:6398:d11c:a039 | File Server on HQ side                                       |
+| HQ-DS-01    |  10   | 10.100.10.150/24 | 2620:fc:0:d3e2:eaf3:e000:4696:b853 | Windows Deployment Server                                    |
+| HQ-CLUSTER  |  12   | 10.100.12.12/24  | ---                                | Cluster of both Hypervisors                                  |
+| HQ-NM-01    |  50   | 10.100.50.50/24  | 2620:fc:0:d3e1::A/64               | Network Monitoring Server (TFTP and PRTG)                    |
+| MP-DC-02    |  10   | 10.110.10.11/24  | ---                                | Domain Controller 2 on MP side                               |
+| MP-FS-01    |  10   | 10.110.10.14/24  | 2620:fc:0:d3e2:50a4:ab8d:9e69:efc0 | Secondary File Server on MP side (IP WILL BE UPDATED TO 110) |
 
 ### Headquarters Network
 
@@ -130,43 +165,43 @@
 
 ##### HQ_VDOM
 
-| Name            |   Type    | Members                  | IPv4 Address     | Admin Access |
-| :-------------- | :-------: | :----------------------- | :--------------- | :----------: |
-| Management      | Loopback  | Internal                 | 10.1.1.1/32      |     ALL      |
-| HQ-WAN          | VDOM Link | Internal                 | 172.16.100.10/30 |     PING     |
-| Man-HQ          | VDOM Link | Internal                 | 172.16.10.10/30  |     PING     |
-| Servers_VLAN    |   VLAN    | HQ VLAN Switch (INT 3-4) | 10.100.10.1/24   |     PING     |
-| Cluster_VLAN    |   VLAN    | HQ VLAN Switch (INT 3-4) | 10.100.12.1/24   |     PING     |
-| CORP-WIFI_VLAN  |   VLAN    | HQ VLAN Switch (INT 3-4) | 10.100.20.1/24   |     PING     |
-| VoIP_VLAN       |   VLAN    | HQ VLAN Switch (INT 3-4) | 10.100.40.1/24   |     PING     |
-| Accounting_VLAN |   VLAN    | HQ VLAN Switch (INT 3-4) | 10.100.60.1/24   |     PING     |
-| Engineer_VLAN   |   VLAN    | HQ VLAN Switch (INT 3-4) | 10.100.70.1/24   |     PING     |
-| IT_VLAN         |   VLAN    | HQ VLAN Switch (INT 3-4) | 10.100.80.1/24   |     PING     |
-| Logistics_VLAN  |   VLAN    | HQ VLAN Switch (INT 3-4) | 10.100.90.1/24   |     PING     |
-| MGMTeam_VLAN    |   VLAN    | HQ VLAN Switch (INT 3-4) | 10.100.100.1/24  |     PING     |
-| MANUSecure_VLAN |   VLAN    | HQ VLAN Switch (INT 3-4) | 10.100.110.1/24  |     PING     |
-| Operations_VLAN |   VLAN    | HQ VLAN Switch (INT 3-4) | 10.100.120.1/24  |     PING     |
-| QA_VLAN         |   VLAN    | HQ VLAN Switch (INT 3-4) | 10.100.130.1/24  |     PING     |
-| Sales_VLAN      |   VLAN    | HQ VLAN Switch (INT 3-4) | 10.100.140.1/24  |     PING     |
-| Students_VLAN   |   VLAN    | HQ VLAN Switch (INT 3-4) | 10.100.150.1/24  |     PING     |
+| Name            |   Type    | Members                  | IPv4 Address     | IPv6 Address         | IPv6 Link-Local           | Admin Access |
+| :-------------- | :-------: | :----------------------- | :--------------- | -------------------- | ------------------------- | :----------: |
+| Management      | Loopback  | Internal                 | 10.1.1.1/32      | ---                  | ---                       |     ALL      |
+| HQ-WAN          | VDOM Link | Internal                 | 172.16.100.10/30 | fdf4:2e23:224f::2/64 | FE80::1                   |     PING     |
+| Man-HQ          | VDOM Link | Internal                 | 172.16.10.10/30  | fdba:ddfb:f46b::1/64 | FE80::1                   |     PING     |
+| Servers_VLAN    |   VLAN    | HQ VLAN Switch (INT 3-4) | 10.100.10.1/24   | 2620:fc:0:d3e2::1/64 | fe80::e223:ffff:fefc:a403 |     PING     |
+| Cluster_VLAN    |   VLAN    | HQ VLAN Switch (INT 3-4) | 10.100.12.1/24   | ---                  | ---                       |     PING     |
+| CORP-WIFI_VLAN  |   VLAN    | HQ VLAN Switch (INT 3-4) | 10.100.20.1/24   | ---                  | ---                       |     PING     |
+| VoIP_VLAN       |   VLAN    | HQ VLAN Switch (INT 3-4) | 10.100.40.1/24   | ---                  | ---                       |     PING     |
+| Accounting_VLAN |   VLAN    | HQ VLAN Switch (INT 3-4) | 10.100.60.1/24   | ---                  | ---                       |     PING     |
+| Engineer_VLAN   |   VLAN    | HQ VLAN Switch (INT 3-4) | 10.100.70.1/24   | ---                  | ---                       |     PING     |
+| IT_VLAN         |   VLAN    | HQ VLAN Switch (INT 3-4) | 10.100.80.1/24   | 2620:fc:0:d3e3::1/64 | fe80::e223:ffff:fefc:a403 |     PING     |
+| Logistics_VLAN  |   VLAN    | HQ VLAN Switch (INT 3-4) | 10.100.90.1/24   | ---                  | ---                       |     PING     |
+| MGMTeam_VLAN    |   VLAN    | HQ VLAN Switch (INT 3-4) | 10.100.100.1/24  | ---                  | ---                       |     PING     |
+| MANUSecure_VLAN |   VLAN    | HQ VLAN Switch (INT 3-4) | 10.100.110.1/24  | ---                  | ---                       |     PING     |
+| Operations_VLAN |   VLAN    | HQ VLAN Switch (INT 3-4) | 10.100.120.1/24  | ---                  | ---                       |     PING     |
+| QA_VLAN         |   VLAN    | HQ VLAN Switch (INT 3-4) | 10.100.130.1/24  | ---                  | ---                       |     PING     |
+| Sales_VLAN      |   VLAN    | HQ VLAN Switch (INT 3-4) | 10.100.140.1/24  | ---                  | ---                       |     PING     |
+| Students_VLAN   |   VLAN    | HQ VLAN Switch (INT 3-4) | 10.100.150.1/24  | ---                  | ---                       |     PING     |
 
 ##### Man_VDOM
 
-| Name      | Type               | Members  | IPv4 Address   | Admin Access           |
-| --------- | ------------------ | -------- | -------------- | ---------------------- |
-| internal5 | Physical Interface | INT 5    | 10.100.50.1/24 | PING, HTTPS, SSH, SNMP |
-| Man-WAN   | VDOM Link          | Internal | 172.16.5.10/30 | PING                   |
-| Man-HQ    | VDOM Link          | Internal | 172.16.10.9/30 | PING                   |
+| Name      | Type               | Members  | IPv4 Address   | IPv6 Address         | IPv6 Link-Local           | Admin Access           |
+| --------- | ------------------ | -------- | -------------- | -------------------- | ------------------------- | ---------------------- |
+| internal5 | Physical Interface | INT 5    | 10.100.50.1/24 | 2620:fc:0:d3e1::1/64 | fe80::e223:ffff:fefc:a407 | PING, HTTPS, SSH, SNMP |
+| Man-WAN   | VDOM Link          | Internal | 172.16.5.10/30 | fdb8:58a6:d283::2/64 | FE80::2                   | PING                   |
+| Man-HQ    | VDOM Link          | Internal | 172.16.10.9/30 | fdba:ddfb:f46b::2/64 | FE80::2                   | PING                   |
 
 ##### WAN_VDOM
 
-| Name      | Type               | Members  | IPv4 Address    | Admin Access |
-| --------- | ------------------ | -------- | --------------- | ------------ |
-| wan1      | Physical Interface | WAN 1    | 10.10.76.0/20   | PING         |
-| wan2      | Physical Interface | WAN 2    | 0.0.0.0/0       | PING         |
-| Guest-WAN | VDOM Link          | Internal | 172.16.30.10/30 | PING         |
-| HQ-WAN    | VDOM Link          | Internal | 172.16.100.9/30 | PING         |
-| Man-WAN   | VDOM Link          | Internal | 172.16.5.9/30   | PING         |
+| Name      | Type               | Members  | IPv4 Address    | IPv6 Address          | IPv6 Link-Local | Admin Access |
+| --------- | ------------------ | -------- | --------------- | :-------------------- | --------------- | ------------ |
+| wan1      | Physical Interface | WAN 1    | 10.10.76.0/20   | 2620:fc:0:d307::98/64 | FE80::98        | PING         |
+| wan2      | Physical Interface | WAN 2    | 0.0.0.0/0       | ---                   | ---             | PING         |
+| Guest-WAN | VDOM Link          | Internal | 172.16.30.10/30 | ---                   | ---             | PING         |
+| HQ-WAN    | VDOM Link          | Internal | 172.16.100.9/30 | fdf4:2e23:224f::1/64  | FE80::3         | PING         |
+| Man-WAN   | VDOM Link          | Internal | 172.16.5.9/30   | fdb8:58a6:d283::1/64  | FE80::3         | PING         |
 
 ### MP Firewall
 
@@ -224,34 +259,6 @@
 | MP-WAN    | VDOM Link          | Internal | 172.16.100.13/30 | PING         |
 | Man-WAN   | VDOM Link          | Internal | 172.16.5.13/30   | PING         |
 
-### Hardware
-
-|   Hostname   | VLAN |   IP Address    | Role                      | Hardware Type       | Operating System               |
-| :----------: | ---- | :-------------: | :------------------------ | :------------------ | :----------------------------- |
-|   HQ-HV-01   | 12   | 10.100.12.9/30  | Server Node 1             | Dell PowerEdge R730 | Windows Server 2022 Datacenter |
-|   HQ-HV-02   | 12   | 10.100.12.10/30 | Server Node 2             | Dell PowerEdge R730 | Windows Server 2022 Datacenter |
-| AidanAdminWS | 80   | 10.100.80.17/24 | Aidan's Admin workstation | VMWare Workstation  | Windows 11 Pro                 |
-| JamieAdminWS | 80   | 10.100.80.18/24 | Jamie's Admin workstation | VMWare Workstation  | Windows 11 Pro                 |
-| QuinnAdminWS | 80   | 10.100.80.19/24 | Quinn's Admin workstation | VMWare Workstation  | Windows 11 Pro                 |
-| MattAdminWS  | 80   | 10.100.80.20/24 | Matt's Admin workstation  | VMWare Workstation  | Windows 11 Pro                 |
-| TaqiAdminWS  | 80   | 10.100.80.22/24 | Taqi's Admin workstation  | VMWare Workstation  | Windows 11 Pro                 |
-
-### Servers
-
-| Hostname    | VLAN  | IPv4 Address     | IPv6 Address | Description                                                  |
-| :---------- | :---: | :--------------- | ------------ | :----------------------------------------------------------- |
-| HQ-RD-01    |  10   | 10.100.10.5/24   |              | RADIUS Server                                                |
-| HQ-ISCI-QUO |  10   | 10.100.10.7/24   |              | Cluster Quorum Storage Server                                |
-| HQ-DC-01    |  10   | 10.100.10.10/24  |              | Domain Controller 1 on HQ side                               |
-| HQ-RMM-01   |  10   | 10.100.10.16/24  |              | For RMM tool                                                 |
-| HQ-BU-01    |  10   | 10.100.10.15/24  |              | Backup Server on HQ Side                                     |
-| HQ-PKI-01   |  10   | 10.100.10.19/24  |              | PKI Certificates - Enterprise Root CA                        |
-| HQ-FS-01    |  10   | 10.100.10.13/24  |              | File Server on HQ side                                       |
-| HQ-DS-01    |  10   | 10.100.10.150/24 |              | Windows Deployment Server                                    |
-| HQ-CLUSTER  |  12   | 10.100.12.12/24  |              | Cluster of both Hypervisors                                  |
-| HQ-NM-01    |  50   | 10.100.50.50/24  |              | Network Monitoring Server (TFTP and PRTG)                    |
-| MP-DC-02    |  10   | 10.110.10.11/24  |              | Domain Controller 2 on MP side                               |
-| MP-FS-01    |  10   | 10.110.10.14/24  |              | Secondary File Server on MP side (IP WILL BE UPDATED TO 110) |
 
 ## Virtual Machines
 
@@ -282,6 +289,7 @@ The HQ-RD-01 is the RADIUS Server responsible for managing network access authen
 | :----------------: | :---: | :---: | :-----: | :---: |
 | VMware Workstation | 8 GB  |   2   |  80 GB  |   1   |
 
+---
 
 ### HQ-ISCI-QUO
 
@@ -310,6 +318,7 @@ The HQ-ISCI-QUO is the Cluster Quorum Storage Server for high availability and f
 | :----------------: | :---: | :---: | :-----: | :---: |
 | VMware Workstation | 8 GB  |   2   |  80 GB  |   1   |
 
+---
 
 ### HQ-DC-01
 
@@ -338,6 +347,7 @@ The HQ-DC-01 is the Domain Controller 1 on the HQ side, responsible for domain m
 | :----------------: | :---: | :---: | :-----: | :---: |
 | VMware Workstation | 8 GB  |   2   |  80 GB  |   1   |
 
+---
 
 ### HQ-RMM-01
 
@@ -366,6 +376,7 @@ The HQ-RMM-01 is for the RMM tool.
 | :----------------: | :---: | :---: | :-----: | :---: |
 | VMware Workstation | 8 GB  |   2   |  80 GB  |   1   |
 
+---
 
 ### HQ-BU-01
 
@@ -394,6 +405,7 @@ The HQ-BU-01 is the Backup Server on the HQ side, responsible for data backup an
 | :----------------: | :---: | :---: | :-----: | :---: |
 | VMware Workstation | 8 GB  |   2   |  80 GB  |   1   |
 
+---
 
 ### HQ-PKI-01
 
@@ -422,6 +434,7 @@ The HQ-PKI-01 is the PKI Certificates - Enterprise Root CA server responsible fo
 | :----------------: | :---: | :---: | :-----: | :---: |
 | VMware Workstation | 8 GB  |   2   |  80 GB  |   1   |
 
+---
 
 ### HQ-FS-01
 
@@ -450,6 +463,7 @@ The HQ-FS-01 is the File Server on the HQ side, providing file storage and shari
 | :----------------: | :---: | :---: | :-----: | :---: |
 | VMware Workstation | 8 GB  |   2   |  80 GB  |   1   |
 
+---
 
 ### HQ-DS-01
 
@@ -478,6 +492,7 @@ The HQ-DS-01 is the Windows Deployment Server for deploying Windows operating sy
 | :----------------: | :---: | :---: | :-----: | :---: |
 | VMware Workstation | 8 GB  |   2   |  80 GB  |   1   |
 
+---
 
 ### HQ-CLUSTER
 
@@ -506,6 +521,8 @@ The HQ-CLUSTER is a cluster of both Hypervisors for high availability and load b
 | :----------------: | :---: | :---: | :-----: | :---: |
 | VMware Workstation | 8 GB  |   2   |  80 GB  |   1   |
 
+---
+
 ### HQ-NM-01
 
 **Overview**
@@ -533,6 +550,7 @@ The HQ-NM-01 is the Network Monitoring Server responsible for monitoring network
 | :----------------: | :---: | :---: | :-----: | :---: |
 | VMware Workstation | 8 GB  |   2   |  80 GB  |   1   |
 
+---
 
 ### MP-DC-02
 
@@ -561,6 +579,8 @@ The MP-DC-02 is Domain Controller 2 on the MP side, responsible for domain manag
 | :----------------: | :---: | :---: | :-----: | :---: |
 | VMware Workstation | 8 GB  |   2   |  80 GB  |   1   |
 
+---
+
 ### MP-FS-01
 
 **Overview**
@@ -587,6 +607,8 @@ The MP-FS-01 is the Secondary File Server on the MP side, providing additional f
 |        HOST        |  RAM  |  CPU  | Storage |  NIC  |
 | :----------------: | :---: | :---: | :-----: | :---: |
 | VMware Workstation | 8 GB  |   2   |  80 GB  |   1   |
+
+---
 
 ## Inventory
 

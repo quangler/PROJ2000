@@ -11,7 +11,6 @@ The purpose of this firewall is to contain the OT network securely within the gr
 |   VLAN111Servers   |  ---  | 111  | 10.110.111.1/24 | 10.110.111.100-200 |                   VLAN used for VDI and RDS Servers                   |
 |    VLAN112NoInt    |  ---  | 112  | 10.110.112.1/24 | 10.110.112.100-200 | VLAN used for thin clients that **don't need** access to the internet |
 |     VLAN113Int     |  ---  | 113  | 10.110.113.1/24 | 10.110.113.100-200 |  VLAN used for thin clients that **do need** access to the internet   |
-
 #### Firewall Rules
 ##### LAN
 | Status  | Direction | Protocol | Source  | Port | Destination | Port | Gateway | Schedule |            Description             |
@@ -35,3 +34,5 @@ The purpose of this firewall is to contain the OT network securely within the gr
 | Status  | Direction | Protocol |       Source       | Port | Destination | Port | Gateway | Schedule |       Description       |
 | :-----: | :-------: | :------: | :----------------: | :--: | :---------: | :--: | :-----: | :------: | :---------------------: |
 | Enabled |    In     |  IPv4*   | VLAN111Servers Net |  *   |      *      |  *   |    *    |    *     | VLAN111Servers any - in |
+
+look into DNSMASQ for OT client name resolution to VDI/RDS servers

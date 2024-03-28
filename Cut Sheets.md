@@ -69,16 +69,17 @@
 |  150   | Students           | 10.site.150.0/24 | 10.site.150.1 | Department                                                  |
 |  400   | CCTV               | 10.site.200.0/24 | 10.site.200.1 | CCTV Network                                                |
 |  666   | Blackhole          |       ---        | ---           | NULL                                                        |
+|  777   | AuthGuest          |       ---        | ---           | For non authentication enabled 802.1x clients               |
 |  999   | Native             |       ---        | ---           | Native VLAN for networking devices                          |
 
 *Site refers to Site ID 
 
-| Site Name           | Code Name | Site ID |
-| ------------------- | --------- | ------- |
-| Headquarters        | HQ        | 100     |
-| Manufacturing Plant | MP        | 110     |
-| Materials Warehouse | MW        | 120     |
-| Outbound Warehouse  | OW        | 130     |
+| Site Name           | Code Name | Site ID       |
+| ------------------- | --------- | ------------- |
+| Headquarters        | HQ        | **100**       |
+| Manufacturing Plant | MP        |  **110**      |
+| Materials Warehouse | MW        |  **120**      |
+| Outbound Warehouse  | OW        |  **130**      |
 
 ### IPv6 Scheme
 
@@ -145,6 +146,7 @@
 | MP-L2SW-01 |   10.110.50.5   | Department Access Layer 2 Switch                  | Cisco WS-C2960-24TT-L | IOS 15.0(2)SE10a |                           |
 | MP-L2SW-02 |   10.110.50.6   | Department Access Layer 2 Switch                  | Cisco WS-C2960-24TT-L | IOS 15.0(2)SE10a |                           |
 
+---
 ### HQ Firewall
 
 #### VDOMs
@@ -203,6 +205,7 @@
 | HQ-WAN    | VDOM Link          | Internal | 172.16.100.9/30 | fdf4:2e23:224f::1/64  | FE80::3         | PING         |
 | Man-WAN   | VDOM Link          | Internal | 172.16.5.9/30   | fdb8:58a6:d283::1/64  | FE80::3         | PING         |
 
+---
 ### MP Firewall
 
 #### VDOMs
@@ -259,6 +262,34 @@
 | MP-WAN    | VDOM Link          | Internal | 172.16.100.13/30 | PING         |
 | Man-WAN   | VDOM Link          | Internal | 172.16.5.13/30   | PING         |
 
+### Hardware
+
+|   Hostname   | VLAN |   IP Address    | Role                      | Hardware Type       | Operating System               |
+| :----------: | ---- | :-------------: | :------------------------ | :------------------ | :----------------------------- |
+|   HQ-HV-01   | 12   | 10.100.12.9/30  | Server Node 1             | Dell PowerEdge R730 | Windows Server 2022 Datacenter |
+|   HQ-HV-02   | 12   | 10.100.12.10/30 | Server Node 2             | Dell PowerEdge R730 | Windows Server 2022 Datacenter |
+| AidanAdminWS | 80   | 10.100.80.17/24 | Aidan's Admin workstation | VMWare Workstation  | Windows 11 Pro                 |
+| JamieAdminWS | 80   | 10.100.80.18/24 | Jamie's Admin workstation | VMWare Workstation  | Windows 11 Pro                 |
+| QuinnAdminWS | 80   | 10.100.80.19/24 | Quinn's Admin workstation | VMWare Workstation  | Windows 11 Pro                 |
+| MattAdminWS  | 80   | 10.100.80.20/24 | Matt's Admin workstation  | VMWare Workstation  | Windows 11 Pro                 |
+| TaqiAdminWS  | 80   | 10.100.80.22/24 | Taqi's Admin workstation  | VMWare Workstation  | Windows 11 Pro                 |
+
+### Servers
+
+| Hostname    | VLAN  | IPv4 Address     | IPv6 Address | Description                                                  |
+| :---------- | :---: | :--------------- | ------------ | :----------------------------------------------------------- |
+| HQ-RD-01    |  10   | 10.100.10.5/24   |              | RADIUS Server                                                |
+| HQ-ISCI-QUO |  10   | 10.100.10.7/24   |              | Cluster Quorum Storage Server                                |
+| HQ-DC-01    |  10   | 10.100.10.10/24  |              | Domain Controller 1 on HQ side                               |
+| HQ-RMM-01   |  10   | 10.100.10.16/24  |              | For RMM tool                                                 |
+| HQ-BU-01    |  10   | 10.100.10.15/24  |              | Backup Server on HQ Side                                     |
+| HQ-PKI-01   |  10   | 10.100.10.19/24  |              | PKI Certificates - Enterprise Root CA                        |
+| HQ-FS-01    |  10   | 10.100.10.13/24  |              | File Server on HQ side                                       |
+| HQ-DS-01    |  10   | 10.100.10.150/24 |              | Windows Deployment Server                                    |
+| HQ-CLUSTER  |  12   | 10.100.12.12/24  |              | Cluster of both Hypervisors                                  |
+| HQ-NM-01    |  50   | 10.100.50.50/24  |              | Network Monitoring Server (TFTP and PRTG)                    |
+| MP-DC-02    |  10   | 10.110.10.11/24  |              | Domain Controller 2 on MP side                               |
+| MP-FS-01    |  10   | 10.110.10.14/24  |              | Secondary File Server on MP side (IP WILL BE UPDATED TO 110) |
 
 ## Virtual Machines
 

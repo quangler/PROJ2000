@@ -2732,8 +2732,8 @@ WAN_VDOM ^LGs27ASe
 		},
 		{
 			"type": "text",
-			"version": 70,
-			"versionNonce": 1518618538,
+			"version": 71,
+			"versionNonce": 647068168,
 			"isDeleted": false,
 			"id": "KZbR6u73",
 			"fillStyle": "solid",
@@ -2742,7 +2742,7 @@ WAN_VDOM ^LGs27ASe
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -29.667992869919885,
+			"x": -28.615361290972487,
 			"y": 26.265277765148994,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
@@ -2753,7 +2753,7 @@ WAN_VDOM ^LGs27ASe
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1711157108276,
+			"updated": 1711591773393,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -4249,10 +4249,10 @@ WAN_VDOM ^LGs27ASe
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 2364.1753479343106,
-		"scrollY": 633.9950034296114,
+		"scrollX": 854.8557198499776,
+		"scrollY": 283.7539906691494,
 		"zoom": {
-			"value": 0.7
+			"value": 0.9500000000000004
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,

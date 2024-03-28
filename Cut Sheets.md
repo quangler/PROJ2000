@@ -709,10 +709,10 @@ The MP-FS-01 is the Secondary File Server on the MP side, providing additional f
 
 ### Workstation
 
-| ID# | Hardware Part No. | Operating System | MAC Address | Serial Number | Active |
-| --- | :---------------- | :--------------- | :---------- | :------------ | :----: |
-| W-1 | Dell              | Windows 11 Pro   |             |               |   Y    |
-| W-2 | Dell              | Windows 11 Pro   |             |               |   Y    |
-| W-3 | Dell              | Windows 11 Pro   |             |               |   Y    |
-| W-4 | Dell              | Windows 11 Pro   |             |               |   Y    |
-| W-5 | Dell              | Windows 11 Pro   |             |               |   Y    |
+| ID# | Hardware Part No. | Operating System | MAC Address       | Serial Number                        | Active |
+| --- | :---------------- | :--------------- | :---------------- | :----------------------------------- | :----: |
+| W-1 | Dell              | Windows 11 Pro   |                   |                                      |   Y    |
+| W-2 | Dell              | Windows 11 Pro   |                   |                                      |   Y    |
+| W-3 | Dell              | Windows 11 Pro   | 04-7C-16-99-28-97 | E5404E30-F3EA-4D64-8717-8BDC5FE1AF1E |   Y    |
+| W-4 | Dell              | Windows 11 Pro   |                   |                                      |   Y    |
+| W-5 | Dell              | Windows 11 Pro   |                   |                                      |   Y    |

@@ -110,12 +110,12 @@
 | MattAdminWS  | 10.100.80.20/24 | 2620:fc:0:d3e3:a454:139f:3397:6b30 | VMWare Workstation | Windows 11 Pro |
 | TaqiAdminWS  | 10.100.80.22/24 | 2620:fc:0:d3e3:d66:5d9c:665:45b4   | VMWare Workstation | Windows 11 Pro |
 
-### HyperVisors
+### Hypervisors
 
 | Hostname | VLAN |   IP Address    | Role          | Hardware Type       | Operating System               |
 | :------: | ---- | :-------------: | :------------ | :------------------ | :----------------------------- |
-| HQ-HV-01 | 12   | 10.100.12.9/30  | Server Node 1 | Dell PowerEdge R730 | Windows Server 2022 Datacenter |
-| HQ-HV-02 | 12   | 10.100.12.10/30 | Server Node 2 | Dell PowerEdge R730 | Windows Server 2022 Datacenter |
+| HQ-HV-01 | 12   | 10.100.12.9/24  | Server Node 1 | Dell PowerEdge R730 | Windows Server 2022 Datacenter |
+| HQ-HV-02 | 12   | 10.100.12.10/24 | Server Node 2 | Dell PowerEdge R730 | Windows Server 2022 Datacenter |
 
 ### Servers
 

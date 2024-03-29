@@ -119,20 +119,20 @@
 
 ### Servers
 
-| Hostname    | VLAN  | IPv4 Address     | IPv6 Address                       | Description                                                  |
-| :---------- | :---: | :--------------- | ---------------------------------- | :----------------------------------------------------------- |
-| HQ-RD-01    |  10   | 10.100.10.5/24   | 2620:fc:0:d3e2:6d71:245f:9613:7f52 | RADIUS Server                                                |
-| HQ-ISCI-QUO |  10   | 10.100.10.7/24   | ---                                | Cluster Quorum Storage Server                                |
-| HQ-DC-01    |  10   | 10.100.10.10/24  | 2620:fc:0:d3e2::10                 | Domain Controller 1 on HQ side                               |
-| HQ-RMM-01   |  10   | 10.100.10.16/24  | ---                                | For RMM tool                                                 |
-| HQ-BU-01    |  10   | 10.100.10.15/24  | 2620:fc:0:d3e2:d5cd:2e54:faa7:e416 | Backup Server on HQ Side                                     |
-| HQ-PKI-01   |  10   | 10.100.10.19/24  | 2620:fc:0:d3e2:2554:887b:6893:e1b4 | PKI Certificates - Enterprise Root CA                        |
-| HQ-FS-01    |  10   | 10.100.10.13/24  | 2620:fc:0:d3e2:b405:6398:d11c:a039 | File Server on HQ side                                       |
-| HQ-DS-01    |  10   | 10.100.10.150/24 | 2620:fc:0:d3e2:eaf3:e000:4696:b853 | Windows Deployment Server                                    |
-| HQ-CLUSTER  |  12   | 10.100.12.12/24  | ---                                | Cluster of both Hypervisors                                  |
-| HQ-NM-01    |  50   | 10.100.50.50/24  | 2620:fc:0:d3e1::A/64               | Network Monitoring Server (TFTP and PRTG)                    |
-| MP-DC-02    |  10   | 10.110.10.11/24  | ---                                | Domain Controller 2 on MP side                               |
-| MP-FS-01    |  10   | 10.110.10.14/24  | 2620:fc:0:d3e2:50a4:ab8d:9e69:efc0 | Secondary File Server on MP side (IP WILL BE UPDATED TO 110) |
+| Hostname    | VLAN | IPv4 Address     | IPv6 Address                       | Description                                                  |
+| :---------- | :--: | :--------------- | ---------------------------------- | :----------------------------------------------------------- |
+| HQ-RD-01    |  10  | 10.100.10.5/24   | 2620:fc:0:d3e2:6d71:245f:9613:7f52 | RADIUS Server                                                |
+| HQ-ISCI-QUO |  10  | 10.100.10.7/24   | ---                                | Cluster Quorum Storage Server                                |
+| HQ-DC-01    |  10  | 10.100.10.10/24  | 2620:fc:0:d3e2::10                 | Domain Controller 1 on HQ side                               |
+| HQ-RMM-01   |  10  | 10.100.10.16/24  | ---                                | For RMM tool                                                 |
+| HQ-BU-01    |  10  | 10.100.10.15/24  | 2620:fc:0:d3e2:d5cd:2e54:faa7:e416 | Backup Server on HQ Side                                     |
+| HQ-PKI-01   |  10  | 10.100.10.19/24  | 2620:fc:0:d3e2:2554:887b:6893:e1b4 | PKI Certificates - Enterprise Root CA                        |
+| HQ-FS-01    |  10  | 10.100.10.13/24  | 2620:fc:0:d3e2:b405:6398:d11c:a039 | File Server on HQ side                                       |
+| HQ-DS-01    |  10  | 10.100.10.150/24 | 2620:fc:0:d3e2:eaf3:e000:4696:b853 | Windows Deployment Server                                    |
+| HQ-CLUSTER  |  12  | 10.100.12.12/24  | ---                                | Cluster of both Hypervisors                                  |
+| HQ-NM-01    |  50  | 10.100.50.50/24  | 2620:fc:0:d3e1::A/64               | Network Monitoring Server (TFTP and PRTG)                    |
+| MP-DC-02    |  10  | 10.110.10.11/24  | ---                                | Domain Controller 2 on MP side                               |
+| MP-FS-01    |  10  | 10.110.10.14/24  | 2620:fc:0:d3e2:50a4:ab8d:9e69:efc0 | Secondary File Server on MP side (IP WILL BE UPDATED TO 110) |
 
 ---
 
@@ -174,9 +174,9 @@
 
 ##### Guest_VDOM
 
-| Name | Type  | Members | IPv4 Address | Admin Access |
-| :--- | :---: | :-----: | :----------: | :----------: |
-| TBD  |       |         |              |              |
+| Name | Type | Members | IPv4 Address | Admin Access |
+| :--- | :--: | :-----: | :----------: | :----------: |
+| TBD  |      |         |              |              |
 
 ##### HQ_VDOM
 
@@ -234,9 +234,9 @@
 
 ##### Guest_VDOM
 
-| Name | Type  | Members | IPv4 Address | Admin Access |
-| :--- | :---: | :-----: | :----------: | :----------: |
-| TBD  |       |         |              |              |
+| Name | Type | Members | IPv4 Address | Admin Access |
+| :--- | :--: | :-----: | :----------: | :----------: |
+| TBD  |      |         |              |              |
 
 ##### MP_VDOM
 

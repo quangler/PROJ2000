@@ -26,3 +26,10 @@ https://www.cryingcloud.com/blog/2021/6/18/deploying-azure-stack-hci-20h2-r630
 - made vlan 15 - ServerManagement
 	- The servers will need to vlan tag 15??
 - Vlan10 - AD service (Servers)
+
+### vSwitch Configuration
+
+```
+New-VMSwitch -Name "SRV-vSWITCH" -NetAdapterName "NIC1","NIC2"
+Set-VMSwitchTeam -Name "SRV-vSWITCH" -LoadBalancingAlgorithm Dynamic
+```

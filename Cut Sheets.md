@@ -281,15 +281,15 @@
 ### OT Firewall (MP-FW-03)
 #### Interface Configuration
 
-|      Int Name      | VMNET | VLAN  |   IP Address    |     DHCP Scope     |                                 Notes                                 |
-| :----------------: | :---: | :---: | :-------------: | :----------------: | :-------------------------------------------------------------------: |
-|        WAN         |   3   |  ---  | 10.110.50.7/24  |        ---         |                   used for admin access of web GUI                    |
-|        LAN         |   7   |  ---  | 172.16.107.2/24 |        ---         |           temporary, for ensuring web GUI stays accessible            |
-|   VMNET11Servers   |  11   |  ---  |       ---       |        ---         |                       VMNET that servers are on                       |
-| VMNET12ThinClients |  12   |  ---  |       ---       |        ---         |                    VMNET that thin clients are on                     |
-|   VLAN111Servers   |  ---  |  111  | 10.110.111.1/24 | 10.110.111.100-200 |                   VLAN used for VDI and RDS Servers                   |
-|    VLAN112NoInt    |  ---  |  112  | 10.110.112.1/24 | 10.110.112.100-200 | VLAN used for thin clients that **don't need** access to the internet |
-|     VLAN113Int     |  ---  |  113  | 10.110.113.1/24 | 10.110.113.100-200 |  VLAN used for thin clients that **do need** access to the internet   |
+|      Int Name      | VMNET | VLAN |   IP Address    |     DHCP Scope     |                                 Notes                                 |
+| :----------------: | :---: | :--: | :-------------: | :----------------: | :-------------------------------------------------------------------: |
+|        WAN         |   3   | ---  | 10.110.50.7/24  |        ---         |                   used for admin access of web GUI                    |
+|        LAN         |   7   | ---  | 172.16.107.2/24 |        ---         |           temporary, for ensuring web GUI stays accessible            |
+|   VMNET11Servers   |  11   | ---  |       ---       |        ---         |                       VMNET that servers are on                       |
+| VMNET12ThinClients |  12   | ---  |       ---       |        ---         |                    VMNET that thin clients are on                     |
+|   VLAN111Servers   |  ---  | 111  | 10.110.111.1/24 | 10.110.111.100-200 |                   VLAN used for VDI and RDS Servers                   |
+|    VLAN112NoInt    |  ---  | 112  | 10.110.112.1/24 | 10.110.112.100-200 | VLAN used for thin clients that **don't need** access to the internet |
+|     VLAN113Int     |  ---  | 113  | 10.110.113.1/24 | 10.110.113.100-200 |  VLAN used for thin clients that **do need** access to the internet   |
 
 #### Firewall Rules
 ##### LAN

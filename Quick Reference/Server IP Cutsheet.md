@@ -18,3 +18,4 @@
 | TAQIADMINWS  | 10.100.80.75               | Taqi's Admin workstation                                     |
 | HQ-RMM-01    | 10.100.10.16               | For RMM tool \| tacticaladmin \| P@ssw0rd                    |
 | HQ-RD-01     | 10.100.10.5                | RADIUS Server                                                |
+| HQ-LAN-01    | 10.100.10.55               | NetCrunch NMS                                                |

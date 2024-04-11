@@ -41,5 +41,4 @@ Info regarding the Azure Active Directory setup
   - TXT records added for verification
   - DMARC records also added
 
-
 ## Post Deployment

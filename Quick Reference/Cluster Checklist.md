@@ -33,3 +33,6 @@ https://www.cryingcloud.com/blog/2021/6/18/deploying-azure-stack-hci-20h2-r630
 New-VMSwitch -Name "SRV-vSWITCH" -NetAdapterName "NIC1","NIC2"
 Set-VMSwitchTeam -Name "SRV-vSWITCH" -LoadBalancingAlgorithm Dynamic
 ```
+
+
+![[Pasted image 20240418131443.png]]

@@ -14,20 +14,22 @@ introductions
 planning - documentation - taqi
 - papers and whiteboarding, iteration of diagrams - hard to find what is happening at start (in over our heads!)
 - github & markdown - good looking and helpful documentation - team environment - acts as knowledge base, available anywhere (github, show website?)
+- obsidian cutsheet - diagram on what we have physically | maintaining
 - DIAGRAM - we figured it out :) | diagram is nice, but you need to configure things too
 ### Section 4 
 network explanation - matt
-- obsidian cutsheet - diagram on what we have physically | maintaining
-- housekeeping / implementation
-- automation with MTPuTTY
+ - Collapsed core
+		 - redun
+		 - no fails
+ - east-west firewalls
 - break into HA / VDOMs - transition into quinn firewall
 
 ### Section 5 
 firewall - quinn
 - firewall had been rebuilt - realizing the scope had expanded - can't plan for everything gotta be adaptable (LESSON LEARNED.)
-- east-west firewalls - all good but what about physical access??!
+-  - all good but what about physical access??!
 - 802.1x - lots of problems, security
-- RADIUS
+- RADIUS - clustered
 - wifi - uses 802.1x, website 
 - OT - virtual firewall for server protection | taqi did thin clients - they work. one set has internet, the other doesnt
 - story time - sync thing is peer to peer (not good for enterprises) - being blocked! (and encrypted)
@@ -36,6 +38,7 @@ firewall - quinn
 aidan[^buzzwords!] - interrupt quinn - wheres all the servers??? (where's aidan???)
 - physical build - hyper V - why (uncertain futures, learning experience) / failover cluster
 - HCI - storage pool, software RAID - RAID limitation: get an NVME card for OS - split brain, quorum offline D:
+	- HyperV vSwitch
 - backups - sending them off to the quinn server, sync thing, revision
 - story time: we nuked a hypervisor - and it was fine (because we configured it good the first time)
 

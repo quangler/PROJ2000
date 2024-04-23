@@ -3716,7 +3716,7 @@
             "containerId": null,
             "originalText": "VPN",
             "lineHeight": 1.2483992393150807,
-            "baseline": 16
+            "baseline": 17
           }
         ],
         "id": "Ljp0lYo0daI313HM5Lb0e",
@@ -6900,7 +6900,7 @@
   "mdBorderColor": "Black",
   "mdCSS": "",
   "scriptEngineSettings": {},
-  "defaultTrayMode": true,
+  "defaultTrayMode": false,
   "previousRelease": "2.0.20",
   "showReleaseNotes": true,
   "showNewVersionNotification": true,
